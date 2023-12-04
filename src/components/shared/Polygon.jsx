@@ -1,0 +1,100 @@
+import React from 'react'
+
+function Polygon() {
+    return (
+        <section style={{ padding: 0, background: "#f2f2f2" }}>
+            <ul className="client-list">
+                <li>
+                    <img
+                        className="lazy"
+                        data-src="./assets/images/polygon-title.webp"
+                        alt=""
+                        title=""
+                        width="100%"
+                        height="100%"
+                        src="./assets/images/polygon-title.webp"
+                    />
+                </li>
+                <li>
+                    <img
+                        className="lazy"
+                        data-src="./assets/images/shell.webp"
+                        alt=""
+                        title=""
+                        width="100%"
+                        height="100%"
+                        src="./assets/images/shell.webp"
+                    />
+                </li>
+                <li>
+                    <img
+                        className="lazy"
+                        data-src="./assets/images/radioshack.webp"
+                        alt=""
+                        title=""
+                        width="100%"
+                        height="100%"
+                        src="./assets/images/radioshack.webp"
+                    />
+                </li>
+                <li>
+                    <img
+                        className="lazy"
+                        data-src="./assets/images/mcdonald.webp"
+                        alt=""
+                        title=""
+                        width="100%"
+                        height="100%"
+                        src="./assets/images/mcdonald.webp"
+                    />
+                </li>
+                <li>
+                    <img
+                        className="lazy"
+                        data-src="./assets/images/econet.webp"
+                        alt=""
+                        title=""
+                        width="100%"
+                        height="100%"
+                        src="./assets/images/econet.webp"
+                    />
+                </li>
+                <li>
+                    <img
+                        className="lazy"
+                        data-src="./assets/images/li-fung.webp"
+                        alt=""
+                        title=""
+                        width="100%"
+                        height="100%"
+                        src="./assets/images/li-fung.webp"
+                    />
+                </li>
+                <li>
+                    <img
+                        className="lazy"
+                        data-src="./assets/images/globant.webp"
+                        alt=""
+                        title=""
+                        width="100%"
+                        height="100%"
+                        src="./assets/images/globant.webp"
+                    />
+                </li>
+                <li>
+                    <img
+                        className="lazy"
+                        data-src="./assets/images/brevan-howard.webp"
+                        alt=""
+                        title=""
+                        width="100%"
+                        height="100%"
+                        src="./assets/images/brevan-howard.webp"
+                    />
+                </li>
+            </ul>
+        </section>
+    )
+}
+
+export default Polygon

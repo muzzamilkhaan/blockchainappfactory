@@ -1,0 +1,1876 @@
+#cryptocurrency-exchange-software .lc-1ip30wz {
+    height: 30px !important
+}
+
+@-webkit-keyframes breathing {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+#cryptocurrency-exchange-software .guardian-p {
+    text-align: center;
+    font-size: 12px;
+}
+
+#cryptocurrency-exchange-software .teck .category-grid-style-01 .category-item {
+    padding: 10px !important;
+}
+
+#cryptocurrency-exchange-software .category-item.aos-item .text-center {
+    font-size: 12px !important;
+    margin-bottom: 0px !important;
+}
+
+#cryptocurrency-exchange-software .teck .category-grid-style-01 .category-item .category-icon {
+    margin-bottom: 0 !important;
+}
+
+#cryptocurrency-exchange-software .teck .category-icon img {
+    height: 80px !important;
+}
+
+@media (max-width: 500px) {
+    #cryptocurrency-exchange-software .cta_mine {
+        width: 85% !important;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+#cryptocurrency-exchange-software .form-right input.submit_send {
+    width: 100% !important;
+    margin: 0 !important;
+    display: inline-block !important;
+    background: #47b475 !important;
+    color: #fff !important;
+    border: 0 !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    padding: 10px 0 !important
+}
+
+#cryptocurrency-exchange-software #pricing-section {
+    padding: 60px 0
+}
+
+#cryptocurrency-exchange-software .pricing-box h1 {
+    font-size: 60px
+}
+
+.pricing-foot a {
+    border-radius: 0
+}
+
+#cryptocurrency-exchange-software .pricing-box .pricing-body {
+    height: 500px;
+    overflow-y: auto
+}
+
+#cryptocurrency-exchange-software .demo-details a {
+    text-align: center;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    color: #47b475;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px
+}
+
+#cryptocurrency-exchange-software .demo-details a:hover {
+    color: #47b475 !important
+}
+
+#cryptocurrency-exchange-software .demo-details {
+    background: #47b475;
+    padding: 20px;
+}
+
+#cryptocurrency-exchange-software .demo-details h4 {
+    color: #fff
+}
+
+#cryptocurrency-exchange-software .demo-details p {
+    color: #f9fff7;
+    margin-bottom: 10px
+}
+
+#cryptocurrency-exchange-software .section-top {
+    display: inline-block;
+    width: 100%;
+}
+
+#cryptocurrency-exchange-software .coinexchange-section {
+    display: inline-block;
+    width: 100%;
+    background: #f4f7fa
+}
+
+#cryptocurrency-exchange-software svg path {
+    fill: #47b475
+}
+
+#cryptocurrency-exchange-software p strong {
+    color: #000
+}
+
+#cryptocurrency-exchange-software .padding-10 {
+    background: 0 0
+}
+
+#cryptocurrency-exchange-software .timeline-center::before {
+    background: #47b475 !important
+}
+
+#cryptocurrency-exchange-software .flip-box {
+    padding: 15px 10px;
+    min-height: auto;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    border-bottom: 2px solid #47b47566
+}
+
+#cryptocurrency-exchange-software .flip-tit {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #000000;
+}
+
+#cryptocurrency-exchange-software .flip-icon-outer {
+    padding: 0;
+    width: 70px;
+    height: 70px
+}
+
+@media (max-width:1199px) {
+    #cryptocurrency-exchange-software .pricing-box h4 {
+        font-size: 14px
+    }
+
+    #cryptocurrency-exchange-software .pricing-box .pricing-head h1 {
+        font-size: 35px
+    }
+}
+
+@media (max-width:991px) {
+    #cryptocurrency-exchange-software .pricing-box .pricing-head h1 {
+        font-size: 28px
+    }
+}
+
+@media (max-width:767px) {
+    #cryptocurrency-exchange-software .pricing-foot a {
+        background: #47b475;
+        color: #fff
+    }
+
+    #cryptocurrency-exchange-software .explanation-section .left {
+        width: 25%;
+        padding: 0
+    }
+
+    #cryptocurrency-exchange-software .explanation-section .right {
+        width: 70%
+    }
+
+    #cryptocurrency-exchange-software .pricing-box .pricing-body {
+        height: auto;
+        overflow: unset !important;
+        position: initial !important
+    }
+
+    #cryptocurrency-exchange-software .main {
+        overflow-x: hidden
+    }
+
+    #cryptocurrency-exchange-software .timeline-center::before {
+        height: 100%
+    }
+}
+
+@media (max-width:767px) {
+    #cryptocurrency-exchange-software .flip-tit {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: bolder !important;
+    }
+
+    #cryptocurrency-exchange-software .flip-box {
+        padding: 30px 10px 0;
+        min-height: 200px
+    }
+
+    #cryptocurrency-exchange-software .tm-detail.tm-det.tm-det-left,
+    #cryptocurrency-exchange-software .tm-detail.tm-det.tm-det-right {
+        max-width: 450px;
+        margin: 0 auto 20px !important;
+        width: 100%
+    }
+}
+
+#cryptocurrency-exchange-software .flip-box i {
+    color: #47b474;
+    font-size: 45px;
+    line-height: 50px
+}
+
+#cryptocurrency-exchange-software .flip-box i {
+    color: #47b474;
+    font-size: 35px;
+    line-height: 70px
+}
+
+#cryptocurrency-exchange-software .sec-tit h2 {
+    display: inline-block;
+}
+
+#cryptocurrency-exchange-software .sec-tit {
+    font-weight: 700;
+    color: #000000;
+}
+
+#cryptocurrency-exchange-software .contentall a:hover {
+    background: #47b475 !important;
+}
+
+#cryptocurrency-exchange-software .common_h3.sec-tit {
+    color: #2b2c2d;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 27.46px;
+}
+
+#cryptocurrency-exchange-software .contentall h1 {
+    margin-bottom: 25px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#cryptocurrency-exchange-software .contentall p {
+    font-weight: 200;
+    color: #ffffff;
+}
+
+#cryptocurrency-exchange-software .contentall p {
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 19px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+#cryptocurrency-exchange-software .contentall a {
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    text-transform: capitalize !important;
+}
+
+#cryptocurrency-exchange-software .banner {
+    height: auto;
+    background-image: url(/public/assets/images/exchange-banner.webp);
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 0px
+}
+
+#cryptocurrency-exchange-software  .banner_content {
+    text-align: left;
+    position: relative;
+    top: 0;
+    transform: none
+}
+
+#cryptocurrency-exchange-software .ban_form {
+    background: #292929;
+    box-shadow: 0 0 10px #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 30px 10px;
+    border-radius: 5px
+}
+
+#cryptocurrency-exchange-software .ban_form input#phone_banner {
+    color: #000;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+#cryptocurrency-exchange-software .ban_form .form-group {
+    margin-bottom: 20px
+}
+
+#cryptocurrency-exchange-software .ban_form label {
+    display: none;
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding-left: 0 !important
+}
+
+#cryptocurrency-exchange-software .submit_btn_b button.common_send_btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #000;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0
+}
+
+#cryptocurrency-exchange-software .banner_content ul i {
+    color: #16ce90;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 8px
+}
+
+#cryptocurrency-exchange-software .banner_content .contentall {
+    margin-top: 110px;
+    padding: 0;
+}
+
+#cryptocurrency-exchange-software .banner_content h4 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#cryptocurrency-exchange-software h4.sec_sub {
+    font-size: 20px;
+    font-weight: 700;
+    color: #029870;
+    margin-bottom: 7px;
+    text-transform: uppercase
+}
+
+#cryptocurrency-exchange-software .uniq_features ul {
+    padding-left: 15px
+}
+
+#cryptocurrency-exchange-software .uniq_features ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 29px
+}
+
+#cryptocurrency-exchange-software .uniq_features ul li:after {
+    font-family: FontAwesome;
+    top: 3px;
+    right: 0;
+    padding-right: 10px;
+    content: "\f0a9";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #03b787
+}
+
+#cryptocurrency-exchange-software .uniq_features p b {
+    font-size: 18px;
+}
+
+#cryptocurrency-exchange-software .contentall ul li img {
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 20px
+}
+
+#cryptocurrency-exchange-software .contentall ul {
+    padding-left: 0;
+    margin-bottom: 40px;
+    margin-top: 0;
+    max-width: 510px
+}
+
+#cryptocurrency-exchange-software .contentall ul li {
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 1px solid #666
+}
+
+#cryptocurrency-exchange-software .contentall ul li a {
+    background: 0 0;
+    padding: 0;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: block;
+    cursor: pointer
+}
+
+#cryptocurrency-exchange-software .contentall ul i.hv {
+    float: right;
+    vertical-align: middle;
+    font-size: 17px;
+    position: relative;
+    top: 8px;
+    opacity: 0;
+    transition: .5s
+}
+
+#cryptocurrency-exchange-software .explanation-section {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+    background: #fff;
+    border: 2px solid #00ca996b;
+    padding: 20px 20px 10px 20px
+}
+
+#cryptocurrency-exchange-software .explanation-section h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+#cryptocurrency-exchange-software .contentall ul li a:hover i.hv {
+    opacity: 1
+}
+
+#cryptocurrency-exchange-software .serv_box {
+    background: #fff;
+    padding: 15px 10px 0 10px;
+    text-align: center;
+    border: 3px solid #eee;
+    min-height: 375px;
+    margin-bottom: 20px;
+}
+
+#cryptocurrency-exchange-software .pricing-box .pricing-foot a {
+    display: block;
+    padding: 10px 0;
+    background: #47b475;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all .4s ease-in-out;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 2px
+}
+
+#cryptocurrency-exchange-software .pricing-foot {
+    background: #eee;
+    padding: 10px 0
+}
+
+#cryptocurrency-exchange-software .serv_box_ic {
+    margin: 10px auto 10px;
+    border-radius: 50%;
+    background: #f5f5f5;
+    height: 80px;
+    width: 80px;
+}
+
+#cryptocurrency-exchange-software .serv_box_ic img {
+    filter: brightness(0);
+    height: 50px;
+    margin-top: 12px;
+}
+
+#cryptocurrency-exchange-software .serv_box_cnt h3 {
+    font-weight: 700;
+    font-size: 18px
+}
+
+#cryptocurrency-exchange-software .serv_box_cnt:hover h3 {
+    color: #ffffff !important;
+}
+
+#cryptocurrency-exchange-software .pricing-box .pricing-head {
+    padding: 10px 10px 15px 10px
+}
+
+#cryptocurrency-exchange-software .pr_ccc {
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    padding-top: 7px;
+    display: inline-block;
+    padding: 0 55px 0;
+    border-left: none;
+    border-right: none
+}
+
+#cryptocurrency-exchange-software .pr_ccc h5 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0;
+    line-height: 1.1;
+    color: #00c0b0
+}
+
+#cryptocurrency-exchange-software .pr_ccc h6 {
+    font-size: 14px;
+    line-height: 1;
+    padding-bottom: 10px
+}
+
+#cryptocurrency-exchange-software p.count-text {
+    font-weight: 700;
+    color: #000;
+    font-size: 18px
+}
+
+#cryptocurrency-exchange-software .pr_ccc.pr_ccc_l {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+#cryptocurrency-exchange-software .pricing-box .pricing-head .bg-icon {
+    opacity: .1
+}
+
+#cryptocurrency-exchange-software .intl-tel-input .country-list .country {
+    padding: 5px 10px;
+    background: 0 0;
+    border: none;
+    text-align: left;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400
+}
+
+#cryptocurrency-exchange-software .contentall ul li span {
+    float: right;
+    background: #47b475;
+    padding: 3px 10px 3px 15px;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-top: -3px
+}
+
+#cryptocurrency-exchange-software .contentall ul li span i {
+    margin: 0;
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    top: 0;
+    margin-left: 5px
+}
+
+@media only screen and (max-width:992px) {
+    #cryptocurrency-exchange-software .contentall ul li span {
+        background: #47b475;
+        padding: 3px 10px 3px 15px;
+        font-size: 14px;
+        border-radius: 2px;
+        display: block;
+        width: 125px;
+        margin: 8px auto 10px;
+        float: right
+    }
+
+    #cryptocurrency-exchange-software .contentall ul li {
+        overflow: hidden;
+        line-height: 1.9
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #cryptocurrency-exchange-software .banner {
+        padding-top: 30px
+    }
+
+    #cryptocurrency-exchange-software .pricing-box {
+        margin-bottom: 30px
+    }
+
+    #cryptocurrency-exchange-software .banner_content h4 {
+        font-size: 20px
+    }
+
+    #cryptocurrency-exchange-software .serv_box {
+        padding: 20px 15px 21px 15px;
+        min-height: auto
+    }
+
+    #cryptocurrency-exchange-software .ban_form {
+        margin-top: 30px
+    }
+
+    #cryptocurrency-exchange-software .demo-details {
+        background: #47b475;
+        padding: 32px 0 30px;
+        min-height: auto
+    }
+}
+
+@media only screen and (max-width:1400px) and (min-width:993px) {
+    #cryptocurrency-exchange-software .exchange-section-new .flip-box {
+        min-height: 190px
+    }
+}
+
+#cryptocurrency-exchange-software .pricing-head h4 {
+    font-weight: 700;
+    line-height: 1.3
+}
+
+#cryptocurrency-exchange-software .view_demo_sec .text-bold {
+    font-weight: 700;
+    background: #2a2a2a;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #fff;
+    line-height: 1.3
+}
+
+#cryptocurrency-exchange-software .banner_form h2 {
+    color: #fff;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 700;
+    font-size: 20px;
+    background: #47b475;
+    border-radius: 4px;
+    padding: 7px 10px
+}
+
+#cryptocurrency-exchange-software .lev_se .why-blockchain-sec {
+    position: relative;
+    z-index: 1
+}
+
+#cryptocurrency-exchange-software .pr_box {
+    padding: 20%;
+    position: relative;
+    min-height: 178px;
+    background: #47b475;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px 3px #47b47575;
+    text-align: center;
+    justify-content: center;
+}
+
+#cryptocurrency-exchange-software .pr_box_ic h4 {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 1;
+    color: #47b474
+}
+
+#cryptocurrency-exchange-software .pr_box_ic {
+    position: absolute
+}
+
+#cryptocurrency-exchange-software .pr_box_cnt p {
+    margin-bottom: 0;
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 800
+}
+
+#cryptocurrency-exchange-software .pr_box_cnt {
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6
+}
+
+#cryptocurrency-exchange-software .prom-icon {
+    color: #47b475;
+    font-size: 35px;
+    padding: 15px 0;
+}
+
+@media only screen and (max-width:768px) {
+    #cryptocurrency-exchange-software .contentall h1 {
+        margin-bottom: 10px;
+        font-size: 30px;
+        padding-top: 94px;
+    }
+
+    #cryptocurrency-exchange-software .row.pr_prr {
+        max-width: 285px;
+        width: 100%;
+        margin: 0 auto
+    }
+}
+
+#cryptocurrency-exchange-software .box_img {
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px
+}
+
+#cryptocurrency-exchange-software ul.list-ico {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#cryptocurrency-exchange-software .row.why_chose {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#cryptocurrency-exchange-software .list-ico li {
+    background: url(images/ico/big-tick.webp);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    background-size: 20px;
+    background-position: 0 4px;
+}
+
+#cryptocurrency-exchange-software .whitelable-section h2.common_h3 {
+    font-size: 21px;
+}
+
+#cryptocurrency-exchange-software .serv_box_cnt h3 {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+@media only screen and (min-width:993px) {
+    #cryptocurrency-exchange-software .bti_exc li {
+        width: 33%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #cryptocurrency-exchange-software .common_h3.sec-tit {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    #cryptocurrency-exchange-software .serv_box {
+        min-height: 563px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #cryptocurrency-exchange-software .serv_box {
+        min-height: 500px;
+    }
+}
+
+@media only screen and (max-width:766px) {
+
+    #cryptocurrency-exchange-software .serv_box,
+    #cryptocurrency-exchange-software .services-block-three>.services-content {
+        min-height: auto !important;
+    }
+}
+
+
+#cryptocurrency-exchange-software .serv_box:hover {
+    background: #47b475 !important;
+    color: #fff;
+}
+
+#cryptocurrency-exchange-software .serv_box:hover h4 {
+    color: #fff;
+}
+
+#cryptocurrency-exchange-software .flip-box:hover {
+    transition: 0.5s all ease-in-out;
+    background: #47b475;
+    color: #fff;
+}
+
+#cryptocurrency-exchange-software .flip-box:hover h4 {
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    #cryptocurrency-exchange-software a.nectar-button {
+        display: inline-block;
+        width: 100% !important;
+        margin-top: 10px;
+    }
+}
+
+#cryptocurrency-exchange-software .exchange a:hover {
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+    #cryptocurrency-exchange-software .cls {
+        text-align: center !important;
+        margin: 10px auto !important;
+    }
+
+    #cryptocurrency-exchange-software .cls-1 {
+        margin: 0 auto !important;
+        text-align: center;
+        width: 80%;
+    }
+
+    #cryptocurrency-exchange-software .cls-1 a.cls {
+        display: block;
+    }
+
+}
+
+/* #cryptocurrency-exchange-software #accordion .panel {
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
+#cryptocurrency-exchange-software #accordion .panel-heading {
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+}
+
+#cryptocurrency-exchange-software #accordion .panel-title a {
+    display: block;
+    padding: 5px 15px 5px 50px;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+}
+
+#cryptocurrency-exchange-software #accordion .panel-title a:before {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background: #47b475;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fdfbfb;
+    text-align: center;
+    text-shadow: none;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+#cryptocurrency-exchange-software #accordion .panel-title a.collapsed:before {
+    content: "\f067";
+    background: #333;
+    color: #fdfbfb;
+}
+
+#cryptocurrency-exchange-software #accordion .panel-body {
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #222;
+    line-height: 27px;
+    border: 2px solid #ddd;
+} */
+
+#cryptocurrency-exchange-software .services-block-three {
+    margin-bottom: 30px;
+}
+
+#cryptocurrency-exchange-software .services-block-three>.services-content {
+    display: block;
+    border: 2px solid #d5d5d5;
+    border-radius: 4px;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    min-height: 335px;
+    box-shadow: 0 0 15px rgb(68 75 109 / 30%);
+}
+
+#cryptocurrency-exchange-software .services-block-three>.services-content:before {
+    display: block;
+    content: "";
+    width: 9%;
+    height: 17%;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    border-bottom: 2px solid #df7444;
+    border-right: 2px solid #df054496;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+
+#cryptocurrency-exchange-software .padding-15px-bottom {
+    padding-bottom: 15px;
+}
+
+#cryptocurrency-exchange-software .services-block-three i {
+    font-size: 32px;
+}
+
+#cryptocurrency-exchange-software .services-block-three h4 {
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#cryptocurrency-exchange-software .services-block-three p {
+    margin-bottom: 0;
+    color: #757575;
+}
+
+#cryptocurrency-exchange-software .services-block-three>.services-content:before {
+    display: block;
+    content: "";
+    width: 9%;
+    height: 17%;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    border-bottom: 2px solid #4caf50;
+    border-right: 2px solid #009688;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+
+#cryptocurrency-exchange-software .services-block-three>.services-content:after {
+    display: block;
+    content: "";
+    width: 9%;
+    height: 17%;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    border-top: 2px solid #4caf50;
+    border-left: 2px solid #009688;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+
+#cryptocurrency-exchange-software .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+    margin: 0 15px;
+}
+
+#cryptocurrency-exchange-software .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important;
+}
+
+#cryptocurrency-exchange-software a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px !important;
+    display: inline-block;
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+}
+
+#cryptocurrency-exchange-software .bt-wid {
+    width: 95% !important;
+}
+
+#cryptocurrency-exchange-software .contentall a,
+#cryptocurrency-exchange-software a.home-talk-experts {
+    padding: 10px 20px !important;
+}
+
+#cryptocurrency-exchange-software .pro_line {
+    position: relative;
+}
+
+#cryptocurrency-exchange-software .pro_line:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#cryptocurrency-exchange-software .pro_line:before {
+    content: '';
+    height: 95%;
+    width: 2px;
+    border: 2px dashed #a3a3ad;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 30px;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro {
+    width: 50%;
+    padding: 0 35px 0 27px;
+    margin: 0 10px 20px 0;
+    float: left;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro-content {
+    background: #fff;
+    text-align: center;
+    padding: 15px 115px 15px 40px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    display: block;
+    position: relative;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro-content:hover {
+    text-decoration: none;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro-content:before,
+#cryptocurrency-exchange-software .pro_line .feature_pro-content:after {
+    content: "";
+    background: linear-gradient(to bottom, #8de591, #81ddc7);
+    width: 45px;
+    height: 45px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 13px;
+    right: -58px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro-content:after {
+    background: #fff;
+    transform: rotate(-45deg) scale(0.6);
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro-icon {
+    font-size: 23px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    transform: translateY(-50%) rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: -20px;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro-icon i {
+    transform: rotate(45deg);
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro-year {
+    color: #fff;
+    background: #47b475;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 60px;
+    height: 100%;
+    width: 100px;
+    border-radius: 0 0 5px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro-year:after {
+    content: '';
+    background: linear-gradient(to right bottom, #47b475 49%, transparent 50%);
+    height: 33px;
+    width: 33px;
+    position: absolute;
+    right: -33px;
+    top: 0;
+}
+
+#cryptocurrency-exchange-software .pro_line .title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 0 0 7px 0;
+}
+
+#cryptocurrency-exchange-software .pro_line .description {
+    color: #333;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) {
+    padding: 0 27px 0 35px;
+    margin: 0 0 20px 10px;
+    float: right;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-content {
+    padding: 15px 40px 15px 115px;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-content:before,
+#cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-content:after {
+    right: auto;
+    left: -58px;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-icon {
+    left: auto;
+    right: -20px;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-year {
+    right: auto;
+    left: 0;
+    border-radius: 0 0 0 5px;
+}
+
+#cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-year:after {
+    transform: rotateY(180deg);
+    right: auto;
+    left: -33px;
+}
+
+#cryptocurrency-exchange-software .mt-40 {
+    margin-top: 40px;
+}
+
+@media screen and (max-width:767px) {
+    #cryptocurrency-exchange-software .pro_line:before {
+        left: 17px;
+        transform: translateX(0);
+    }
+
+    #cryptocurrency-exchange-software .pro_line .feature_pro,
+    #cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) {
+        width: 100%;
+        padding: 0 0 27px 40px;
+        margin: 0 0 30px 0;
+    }
+
+    #cryptocurrency-exchange-software .pro_line .feature_pro-content,
+    #cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-content {
+        padding: 70px 15px 35px 15px;
+    }
+
+    #cryptocurrency-exchange-software .pro_line .feature_pro-content:before,
+    #cryptocurrency-exchange-software .pro_line .feature_pro-content:after,
+    #cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-content:before,
+    #cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-content:after {
+        height: 25px;
+        width: 25px;
+        top: 10px;
+        right: auto;
+        left: -34px;
+    }
+
+    #cryptocurrency-exchange-software .pro_line .feature_pro-icon,
+    #cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-icon {
+        transform: translateY(0) translateX(50%) rotate(-45deg);
+        left: auto;
+        right: 50%;
+        top: auto;
+        bottom: -20px;
+    }
+
+    #cryptocurrency-exchange-software .pro_line .feature_pro-year,
+    #cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-year {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 0 5px 5px 5px;
+        right: auto;
+        left: 0;
+    }
+
+    #cryptocurrency-exchange-software .pro_line .feature_pro-year:after,
+    #cryptocurrency-exchange-software .pro_line .feature_pro:nth-child(even) .feature_pro-year:after {
+        height: 20px;
+        width: 20px;
+        transform: rotateY(180deg);
+        right: auto;
+        left: -20px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #cryptocurrency-exchange-software .pro_line .title {
+        font-size: 18px;
+    }
+}
+
+#cryptocurrency-exchange-software .txt_content {
+    text-align: center !important;
+    margin: 0 auto !important;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+#cryptocurrency-exchange-software .testimonial {
+    margin: 0 20px 40px;
+}
+
+#cryptocurrency-exchange-software .testimonial .testimonial-content {
+    padding: 35px 25px 35px 50px;
+    margin-bottom: 35px;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    position: relative;
+}
+
+#cryptocurrency-exchange-software .testimonial .testimonial-icon {
+    width: 50px;
+    height: 45px;
+    background: #47b475;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    top: 37px;
+    left: -19px;
+}
+
+#cryptocurrency-exchange-software .testimonial .testimonial-icon:before {
+    content: "";
+    border-bottom: 16px solid #47b475;
+    border-left: 18px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 1px;
+}
+
+#cryptocurrency-exchange-software .testimonial .description {
+    font-size: 16px;
+    color: #000000;
+    line-height: 23px;
+    margin: 0;
+    text-align: center;
+}
+
+#cryptocurrency-exchange-software .testimonial {
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+}
+
+#cryptocurrency-exchange-software .rounded-border {
+    border-radius: 10px;
+}
+
+
+#cryptocurrency-exchange-software .cta-rewamped.ctaRewamped .container {
+    background-image: linear-gradient(311deg, #00acdc 0%, #47b475);
+    border-radius: 14px;
+}
+
+#cryptocurrency-exchange-software .cta-rewamped-texter h4 {
+    font-size: 26px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin: 0px;
+}
+
+#cryptocurrency-exchange-software .cta-sec {
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+    color: #2ab19e;
+    background: #fff !important;
+    font-weight: bold;
+    transition: all 0.3s ease-out 0s !important;
+}
+
+#cryptocurrency-exchange-software .nectar-button:hover {
+    color: #2ab19e !important;
+}
+
+#cryptocurrency-exchange-software .row-flexible-center {
+    padding: 3%;
+}
+
+#cryptocurrency-exchange-software .popup-ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 7px;
+    justify-content: center;
+}
+
+#cryptocurrency-exchange-software .popup-ul li {
+    width: 26%;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+}
+
+#cryptocurrency-exchange-software .popup-ul li p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#cryptocurrency-exchange-software .popup-ul li img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    background: #fff;
+    padding: 5px
+}
+
+
+#cryptocurrency-exchange-software .social {
+    margin-top: 25px;
+}
+
+#cryptocurrency-exchange-software .social a {
+    color: #fff;
+}
+
+#cryptocurrency-exchange-software .social .fa {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    color: #fff;
+    background: #2db942;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    padding: 2px;
+}
+
+#cryptocurrency-exchange-software .social .fa.fa-envelope {
+    background: #0195d5 !important;
+}
+
+@media screen and (min-width:768px) and (max-width:900px) {
+    #cryptocurrency-exchange-software .login-popup .box-1 {
+        min-width: 90% !important;
+    }
+}
+
+
+#cryptocurrency-exchange-software .projectFactsWrap {
+    display: flex;
+    margin-top: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#cryptocurrency-exchange-software #projectFacts .fullWidth {
+    padding: 0;
+}
+
+#cryptocurrency-exchange-software .projectFactsWrap .item {
+    width: 33.3%;
+    height: 100%;
+    padding: 18px 0px;
+    text-align: center;
+}
+
+#cryptocurrency-exchange-software .projectFactsWrap .item:nth-child(1) {
+    background: #47b475;
+}
+
+#cryptocurrency-exchange-software .projectFactsWrap .item:nth-child(2) {
+    background: #3a9d64;
+}
+
+#cryptocurrency-exchange-software .projectFactsWrap .item:nth-child(3) {
+    background: #478f65;
+}
+
+#cryptocurrency-exchange-software .projectFactsWrap .item:nth-child(4) {
+    background: rgb(23, 44, 66);
+}
+
+#cryptocurrency-exchange-software .projectFactsWrap .item p.number {
+    font-size: 40px;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#cryptocurrency-exchange-software .projectFactsWrap .item p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Open Sans';
+}
+
+
+#cryptocurrency-exchange-software .projectFactsWrap .item span {
+    width: 60px;
+    background: rgba(255, 255, 255, 0.8);
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#cryptocurrency-exchange-software .projectFactsWrap .item i {
+    vertical-align: middle;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+#cryptocurrency-exchange-software .projectFactsWrap .item:hover i,
+#cryptocurrency-exchange-software .projectFactsWrap .item:hover p {
+    color: white;
+}
+
+#cryptocurrency-exchange-software .projectFactsWrap .item:hover span {
+    background: white;
+}
+
+@media (max-width: 786px) {
+    #cryptocurrency-exchange-software .projectFactsWrap .item {
+        flex: 0 0 50%;
+    }
+}
+
+#cryptocurrency-exchange-software section#counter-stats {
+    justify-content: center;
+    margin-top: 0;
+    background: rgb(26 26 26);
+    color: #fff;
+}
+
+#cryptocurrency-exchange-software .stats {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 1rem 0;
+
+}
+
+#cryptocurrency-exchange-software .stats .fa {
+    color: #008080;
+    font-size: 60px;
+}
+
+#cryptocurrency-exchange-software .stats p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#cryptocurrency-exchange-software #counter-stats .stats:nth-child(1) {
+    background: #00cbd7;
+}
+
+#cryptocurrency-exchange-software #counter-stats .stats:nth-child(2) {
+    background: #14e5f1;
+}
+
+#cryptocurrency-exchange-software #counter-stats .stats:nth-child(3) {
+    background: #00cbd7;
+}
+
+#cryptocurrency-exchange-software #counter-stats .stats:nth-child(4) {
+    background: #14e5f1;
+}
+
+
+
+
+#cryptocurrency-exchange-software .client-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#cryptocurrency-exchange-software .client-list li {
+    width: 10%;
+    margin: 25px 1%;
+    padding: 0 10px;
+}
+
+#cryptocurrency-exchange-software .client-list li img {
+    filter: grayscale(1);
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    #cryptocurrency-exchange-software .client-list li {
+        width: 31%;
+        margin: 15px 1%;
+    }
+}
+
+#cryptocurrency-exchange-software #newsletter-form-sec .form-group {
+    margin-bottom: 7px;
+}
+
+#cryptocurrency-exchange-software #mailForm_common .form-group label {
+    color: #fff;
+}
+
+#cryptocurrency-exchange-software .contact-content {
+    padding-top: 40px;
+    padding: 30px;
+    margin-top: -40px;
+    margin-left: -40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, .22);
+    border-radius: 7px;
+}
+
+#cryptocurrency-exchange-software .contact-content p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#cryptocurrency-exchange-software .contact-content a {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#cryptocurrency-exchange-software .contact-content a i {
+    color: #47b475;
+    font-size: 24px;
+}
+
+#cryptocurrency-exchange-software .form-control {
+    background: #fff;
+}
+
+#cryptocurrency-exchange-software .pad-40-20 {
+    padding: 25px 25px 0 25px;
+}
+
+#cryptocurrency-exchange-software input#phone_common {
+    background: #fff;
+}
+
+#cryptocurrency-exchange-software #mailForm_common .form-group label {
+    color: #fff;
+}
+
+#cryptocurrency-exchange-software a.home-talk-experts {
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #cryptocurrency-exchange-software .contact-content {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 20px !important;
+    }
+
+    #cryptocurrency-exchange-software .pad-40-20 {
+        padding: 20px;
+    }
+
+    #cryptocurrency-exchange-software .contact-content a {
+        font-size: 14px;
+    }
+
+    #cryptocurrency-exchange-software .sticky-form {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+    #cryptocurrency-exchange-software .contact-content {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+#cryptocurrency-exchange-software .newsletter_videos h5 {
+    color: #fff;
+    font-size: 25px !important;
+}
+
+#cryptocurrency-exchange-software h5.section-title {
+    font-size: 27.46px;
+}
+
+#cryptocurrency-exchange-software .client h5 {
+    color: #444 !important;
+}
+
+#cryptocurrency-exchange-software h5.common_h3 {
+    font-size: 25px !important;
+}
+
+#cryptocurrency-exchange-software .formdiv .form-left .form-group:last-child {
+    margin-bottom: 0
+}
+
+#cryptocurrency-exchange-software .common_newsletter .form-right textarea {
+    height: 240px
+}
+
+#cryptocurrency-exchange-software .form-right input.common_send_btn {
+    width: 100% !important;
+    margin: 0 !important;
+    display: inline-block !important;
+    background: #47b475 !important;
+    color: #fff !important;
+    border: 0 !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    padding: 10px 0 !important
+}
+
+body input.common_send_btn.my_send {
+    margin-top: 41px !important
+}
+
+#cryptocurrency-exchange-software .timeline-center::before {
+    background: #f2f2f2
+}
+
+#cryptocurrency-exchange-software .thumb {
+    position: relative
+}
+
+#cryptocurrency-exchange-software .photo,
+#cryptocurrency-exchange-software .play {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: 45%;
+    top: 40%
+}
+
+#cryptocurrency-exchange-software .thumb:hover .photo,
+#cryptocurrency-exchange-software .thumb:hover .play {
+    background-position: 0 -252px
+}
+
+#cryptocurrency-exchange-software .play {
+    -webkit-animation: 1s ease-in-out infinite breathing;
+    animation: 1s ease-in-out infinite breathing;
+    -webkit-font-smoothing: antialiased;
+    background: url(images/play.webp) 0 -252px no-repeat
+}
+
+#cryptocurrency-exchange-software .contact-inner-1 {
+    padding-top: 70px;
+    padding-bottom: 100px
+}
+
+@-webkit-keyframes breathing {
+
+    0%,
+    60% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5)
+    }
+
+    25% {
+        -webkit-transform: scale(2);
+        transform: scale(2)
+    }
+
+    100% {
+        -webkit-transform: scale(1.45);
+        transform: scale(1.45)
+    }
+}
+
+@keyframes breathing {
+
+    0%,
+    60% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5)
+    }
+
+    25% {
+        -webkit-transform: scale(2);
+        transform: scale(2)
+    }
+
+    100% {
+        -webkit-transform: scale(1.45);
+        transform: scale(1.45)
+    }
+}
+
+@media (max-width:991px) {
+    #cryptocurrency-exchange-software .height_row {
+        margin-top: 10px
+    }
+}
+
+@media (max-width:767px) {
+    #cryptocurrency-exchange-software .formdiv .form-left .form-group:last-child {
+        margin-bottom: 15px
+    }
+
+    #cryptocurrency-exchange-software .stats {
+        min-height: 140px
+    }
+}
+
+#cryptocurrency-exchange-software .pull-right-tow {
+    background-color: #ba3c0d;
+    padding: 3px 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 125px;
+    position: absolute;
+    right: 0;
+    bottom: -35px;
+}
+
+#cryptocurrency-exchange-software .pull-right-tow a {
+    font-size: 12px;
+}
+
+
+@media (max-width: 320px) {
+
+    #cryptocurrency-exchange-software .header-nabar-icon .pull-right,
+    #cryptocurrency-exchange-software .pull-right-tow {
+        display: none;
+        border-radius: 0px;
+        position: relative;
+        width: 255px;
+
+        text-align: center;
+        margin: 0 15px;
+        float: left !important;
+        padding: 9px 2px;
+    }
+
+    #cryptocurrency-exchange-software .sidenav a {
+        font-size: 14px;
+        padding: 4px 4px 8px 8px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #cryptocurrency-exchange-software .header-nabar-icon .pull-right,
+    #cryptocurrency-exchange-software .pull-right-tow {
+        display: none;
+        border-radius: 0px;
+        position: relative;
+        width: 255px;
+
+        text-align: center;
+        margin: 0 15px;
+        float: left !important;
+        padding: 9px 2px;
+    }
+
+    #cryptocurrency-exchange-software .sidenav a {
+        font-size: 14px;
+        padding: 4px 4px 8px 8px;
+    }
+}
+
+#cryptocurrency-exchange-software .color-btn {
+    background-color: #1fd1f9 !important;
+    background-image: -o-linear-gradient(135deg, #b621fe 0, #1fd1f9 74%) !important;
+    background-image: linear-gradient(315deg, #b621fe 0, #1fd1f9 74%) !important;
+    border-radius: 7px;
+    color: #fff;
+}
+
+
+@media (min-width:320px) and (max-width:643px) {
+    #cryptocurrency-exchange-software .color-btn1 {
+        padding: 9px 16px !important;
+    }
+}
+
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(0.8, 0.8);
+    }
+
+    50% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(0.8, 0.8);
+    }
+}

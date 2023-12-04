@@ -1,0 +1,337 @@
+@media screen and (max-width: 360px) {
+    #stable-coin-development .contentall h1 {
+        font-size: 20px !important;
+        line-height: 24px !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+    }
+
+    #stable-coin-development .bg-img {
+        height: 450px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #stable-coin-development .nec-btn {
+        width: 80% !important;
+    }
+}
+
+#stable-coin-development .list-img-inline li:last-child {
+    margin-right: 0;
+}
+
+#stable-coin-development .list-img-inline {
+    text-align: center;
+}
+
+#stable-coin-development .list-img-inline li span {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border: 1px solid #45b676;
+    border-radius: 50%;
+    line-height: 80px;
+    margin-bottom: 5px;
+}
+
+#stable-coin-development .list-img-inline li img {
+    width: 40px;
+}
+
+#stable-coin-development .list-img-inline h3 {
+    font-size: 16px;
+}
+
+#stable-coin-development .list-img-inline li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    max-width: 235px;
+    width: 100%;
+}
+
+#stable-coin-development .box-layout-1 .info-box {
+    background: #fff;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border-left: 1px solid #47b475;
+    border-right: 1px solid #47b475;
+    min-height: 190px !important;
+}
+
+#stable-coin-development .box-layout-1 .bg2 {
+    background: #e1e0e0;
+}
+
+#stable-coin-development .box-layout-1 .info-box h4 {
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+#stable-coin-development .box-layout-1 .info-box p {
+    margin: 0;
+    font-weight: bolder;
+}
+
+#stable-coin-development .service-row p,
+.service-row h4 {
+    padding-left: 75px;
+    clear: none;
+}
+
+#stable-coin-development .service-row p {
+    margin-bottom: 0;
+}
+
+#stable-coin-development .service-row:last-child {
+    border: none;
+}
+
+#stable-coin-development .service-row img {
+    float: left;
+    margin-top: 10px;
+}
+
+#stable-coin-development .service-row {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#stable-coin-development .technology-type h5 {
+    line-height: 21px;
+    margin-top: 20px;
+    color: #47b475;
+}
+
+@media (max-width: 767px) {
+    #stable-coin-development .stable-process .mobile-img {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin-bottom: 30px;
+    }
+}
+
+#stable-coin-development .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+
+#stable-coin-development .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+}
+
+#stable-coin-development .img-1 {
+    box-shadow: 0 25px 98px rgb(0 0 0 / 17%);
+    border-radius: 70% 30% 30% 70%/70% 70% 30% 30%;
+    transition: .5s all ease-in-out;
+}
+
+#stable-coin-development #ret-inv {
+    background: linear-gradient(45deg, #90595973, #0000009c), url(../../../../public/assets/images/feature-01.webp);
+}
+
+#stable-coin-development .stable:hover>.big {
+    color: white;
+}
+
+#stable-coin-development .stable:hover {
+    background: #0f1f57b8;
+}
+
+#stable-coin-development .white_bg {
+    background: white;
+}
+
+@media screen and (max-width: 799px) {
+    #stable-coin-development .bg-img {
+        background: #01bafb;
+        background-size: cover;
+        padding-top: 138px;
+        padding-bottom: 50px;
+        height: 500px;
+    }
+
+    #stable-coin-development .banner-overlay {
+        background-color: rgb(0 0 0 / 0.18);
+    }
+
+    #stable-coin-development .contentall {
+        text-align: center;
+    }
+}
+
+#stable-coin-development .bg-img {
+    background-image: linear-gradient(45deg, #3872ac, #132a41);
+    background-size: cover;
+    padding-top: 138px;
+    padding-bottom: 50px;
+    height: 650px;
+}
+
+#stable-coin-development .banner-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0 0 0 / 0%);
+}
+
+#stable-coin-development .contentall h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 5px;
+    line-height: 60px;
+    margin-top: 0px;
+    /*    margin-left: -36px;
+        text-align: center;*/
+}
+
+#stable-coin-development .contentall {
+    /*text-align: center;*/
+    /* display: flex;
+    justify-content: center;
+    gap: 10px; */
+}
+
+#stable-coin-development .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+
+#stable-coin-development .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important;
+}
+
+a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px !important;
+    display: inline-block;
+    margin-right: 26px !important;
+}
+
+#stable-coin-development .contentall a,
+a.home-talk-experts {
+    padding: 10px 20px !important;
+    margin: 10px;
+}
+
+#stable-coin-development .bnr-bt {
+    border-radius: 30px !important;
+}
+
+#stable-coin-development .bnr-bt:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important;
+    border-radius: 30px !important;
+}
+
+#stable-coin-development a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+/* #stable-coin-development #accordion .panel {
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
+#stable-coin-development #accordion .panel-heading {
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+}
+
+#stable-coin-development #accordion .panel-title a {
+    display: block;
+    padding: 12px 15px 12px 50px;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #161515;
+    position: relative;
+}
+
+#stable-coin-development #accordion .panel-title a:before {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background: #929191;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fdfbfb;
+    text-align: center;
+    text-shadow: none;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+#stable-coin-development #accordion .panel-title a.collapsed:before {
+    content: "\f067";
+}
+
+#stable-coin-development #accordion .panel-body {
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #222;
+    line-height: 27px;
+    border: 2px solid #ddd;
+} */
+
+#stable-coin-development #stable-coin-development .bread_wrap {
+    padding: 10px;
+}
+
+#stable-coin-development span.rig_arw {
+    color: #47b475;
+    font-size: 20px;
+    vertical-align: bottom;
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+/* #stable-coin-development .faq-content #accordion .panel-title>a.accordion-toggle::before, #stable-coin-development .faq-content #accordion a[data-toggle=collapse]::before {
+    content: "−";
+    float: left;
+    font-family: 'Glyphicons Halflings';
+    margin-right: 1em;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    background: #47b475;
+} */

@@ -1,0 +1,230 @@
+#art-tokenization .contentall h1 {
+    margin-bottom: 25px;
+    line-height: 1.3;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+#art-tokenization .sec_tit,
+#art-tokenization  .sec_tit h2 {
+    font-size: 25px!important;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.4;
+}
+
+#art-tokenization  #our_services .feature-box-3 {
+    min-height: 250px;
+}
+
+#art-tokenization .feature-box-4 p.feature-desc {
+    margin-bottom: 0;
+}
+
+#art-tokenization #our_services {
+    display: inline-block;
+    width: 100%;
+}
+
+#art-tokenization .feature-box-3 .icon {
+    background: #f2f2f2;
+}
+
+#art-tokenization #ret-inv .feature-box-3 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+
+    #art-tokenization .feature-box-3 .feature-desc {
+        font-size: 12px;
+    }
+    #art-tokenization .banner {
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    #art-tokenization .feature-box-4 .feature-title {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #art-tokenization .contentall {
+        padding: 15px;
+        text-align: center;
+    }
+    #art-tokenization .banner_content p {
+        margin: 0px;
+    }
+}
+
+#art-tokenization .grids .feature-box-3:hover {
+    background: #47b475!important;
+}
+
+#art-tokenization .grids .feature-box-3:hover .feature-title {
+    color: #ffffff;
+}
+
+#art-tokenization .grids .feature-box-3:hover .feature-desc {
+    color: #ffffff;
+}
+
+#art-tokenization .font-wei {
+    color: #000000;
+    font-weight: 700;
+}
+
+#art-tokenization .feature-title {
+    color: #000000;
+    font-weight: 700;
+}
+
+#art-tokenization .real-estate-list .feature-box-4 .feature-title{
+    color: #000000;
+    font-weight: 700;
+}
+
+#art-tokenization .common_h3 {
+    font-size: 25px;
+}
+
+#art-tokenization .faq-content h4.panel-title {
+    text-align: left;
+}
+
+#art-tokenization .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    text-align: left;
+}
+
+#art-tokenization .list {
+    margin-top: 0rem;
+    margin-bottom: 0rem!important;
+    font-size: 17px;
+    line-height: 35px;
+    text-indent: -17px;
+    list-style: none;
+}
+
+#art-tokenization .list li {
+    word-break: break-word;
+    font-size: 14px;
+}
+
+#art-tokenization .list li:before {
+    content: " \f0da ";
+    font-family: FontAwesome;
+    color: #47b475;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+/* #art-tokenization  #accordion .panel {
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
+#art-tokenization  #accordion .panel-heading {
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+}
+
+#art-tokenization  #accordion .panel-title a {
+    display: block;
+    padding: 12px 15px 12px 50px;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+}
+
+#art-tokenization  #accordion .panel-title a:before {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    width: 20px;
+    height: 20px;
+    line-height: 21px;
+    border-radius: 50%;
+    background: #929191;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fdfbfb;
+    text-align: center;
+    text-shadow: none;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background: #47b475;
+}
+#art-tokenization .faq-content #accor dion .panel-title>a.accordion-toggle.collapsed::before, 
+#art-tokenization .faq-content #accordion a.collapsed[data-toggle=collapse]::before {
+    content: "+";
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    background: #333;
+    padding-left: 1px;
+} */
+/* #art-tokenization  #accordion .panel-title a:before {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background: #929191;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fdfbfb;
+    text-align: center;
+    text-shadow: none;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background: #47b475;
+} */
+
+/* #art-tokenization .faq-content #accordion .panel-title>a.accordion-toggle::before, 
+#art-tokenization .faq-content #accordion a[data-toggle=collapse]::before {
+    content: "−";
+    float: left;
+    font-family: 'Glyphicons Halflings';
+    margin-right: 1em;
+    margin-left: 12px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 7px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    background: #47b475;
+}
+
+#art-tokenization  #accordion .panel-title a.collapsed:before {
+    content: "\f067";
+}
+
+#art-tokenization  #accordion .panel-body {
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #222;
+    line-height: 27px;
+    border: 2px solid #ddd;
+} */

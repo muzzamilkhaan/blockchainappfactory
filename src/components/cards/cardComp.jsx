@@ -1,0 +1,51 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
+  /* display: flex; */
+  padding-inline: 6vw;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+`;
+export const CardContainer = styled.div`
+  display: flex;
+  width: 33%;
+  min-height: 345px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border-bottom: 2px solid #47b47566;
+  padding: 35px 10px;
+`;
+
+export const CardContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: 700;
+  }
+  .p {
+    font-size: 14px;
+    line-height: 1.7;
+    max-width: 280px;
+  }
+`;
+export const ImageContainer = styled.div`
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  /* padding: 0; */
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 15px;
+  .img {
+    height: 60px;
+    position: relative;
+    top: 18px;
+    left: 18px;
+  }
+`;

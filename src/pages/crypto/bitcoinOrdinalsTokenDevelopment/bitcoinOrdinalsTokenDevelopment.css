@@ -1,0 +1,1079 @@
+#bitcoin-ordinals-token-development .timeline-center .tm-icon {
+    font-size: 30px;
+    color: #47b475;
+}
+
+@media screen and (max-width: 767px) {
+    #bitcoin-ordinals-token-development table.visible-xs {
+        display: table !important;
+    }
+}
+
+#bitcoin-ordinals-token-development .banner_content {
+    text-align: left;
+}
+
+#bitcoin-ordinals-token-development .contentall a {
+    margin-top: 20px;
+}
+
+#bitcoin-ordinals-token-development .banner {
+    background: #0d159b;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    height: auto;
+    background-position: center;
+}
+
+#bitcoin-ordinals-token-development h3.common_h3 {
+    font-size: 30px !important;
+}
+
+#bitcoin-ordinals-token-development .para {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#bitcoin-ordinals-token-development .bg-2 {
+    background-image: linear-gradient(45deg, black, #00000052), url(images/ido/bg-3.webp);
+    background-size: cover;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+#bitcoin-ordinals-token-development .banner-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.95;
+    background-color: rgb(0 0 0 / 70%);
+}
+
+#bitcoin-ordinals-token-development  .banner_content {
+    text-align: left;
+    position: relative;
+    top: 0;
+    transform: none;
+}
+
+#bitcoin-ordinals-token-development .banner_content .contentall {
+    margin-top: 120px;
+    padding: 0;
+}
+
+#bitcoin-ordinals-token-development .contentall h1 {
+    color: #fff !important;
+}
+
+#bitcoin-ordinals-token-development .contentall p {
+    color: #fff !important;
+}
+
+#bitcoin-ordinals-token-development .contentall h1,
+#bitcoin-ordinals-token-development .ban_tirt {
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#bitcoin-ordinals-token-development .contentall p {
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 21px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+#bitcoin-ordinals-token-development .contentall a {
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#bitcoin-ordinals-token-development .sec_tit,
+#bitcoin-ordinals-token-development .sec_tit h2 {
+    font-size: 25px !important;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.4;
+}
+
+#bitcoin-ordinals-token-development .cta_mine {
+    margin-top: 0;
+}
+
+#bitcoin-ordinals-token-development .wrapper {
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0 10px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+@media (max-width: 1199px) {
+
+    #bitcoin-ordinals-token-development .contentall h1,
+    #bitcoin-ordinals-token-development .ban_tirt {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    #bitcoin-ordinals-token-development .banner {
+        height: auto !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #bitcoin-ordinals-token-development .banner {
+        padding-top: 85px;
+    }
+
+    #bitcoin-ordinals-token-development .banner_content .contentall {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    body,
+    html {
+        font-size: calc(15px + (14 - 12) * ((100vw - 600px)/ (1140 - 600)));
+    }
+
+    #bitcoin-ordinals-token-development .banner {
+        /*height: 591px !important;*/
+    }
+
+    #bitcoin-ordinals-token-development .banner-overlay {
+        background: #000000ba;
+    }
+
+    #bitcoin-ordinals-token-development .banner_content p {
+        font-size: 14px !important;
+    }
+
+    #bitcoin-ordinals-token-development .contentall h1,
+    #bitcoin-ordinals-token-development .ban_tirt {
+        font-size: 25px;
+    }
+
+    /*.sec_tit,
+            #bitcoin-ordinals-token-development .sec_tit h2 {
+                font-size: 20px!important;
+            }*/
+    #bitcoin-ordinals-token-development .counters,
+    #bitcoin-ordinals-token-development .adv_fet,
+    #bitcoin-ordinals-token-development .flip-box {
+        margin: 0 auto 30px;
+    }
+
+    #bitcoin-ordinals-token-development .pull-left img {
+        margin-top: 30px;
+    }
+
+    #bitcoin-ordinals-token-development .sto-flip .flip-box {
+        min-height: auto;
+    }
+
+    #bitcoin-ordinals-token-development .eto-exchange-flip .flip-box {
+        min-height: auto;
+    }
+
+    #bitcoin-ordinals-token-development .pr_arr:after,
+    #bitcoin-ordinals-token-development .pr_arr:before,
+    #bitcoin-ordinals-token-development .banner_content p br,
+    #bitcoin-ordinals-token-development .sec_tit br {
+        display: none !important;
+    }
+
+}
+
+#bitcoin-ordinals-token-development h3.section-title {
+    font-size: 25px !important;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#bitcoin-ordinals-token-development .sto-flip .flip-box {
+    min-height: 300px;
+}
+
+#bitcoin-ordinals-token-development .img-text-box h5 {
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#bitcoin-ordinals-token-development .img-text-box p.feature-desc {
+    line-height: 1.7;
+}
+
+#bitcoin-ordinals-token-development .img-text-box {
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+#bitcoin-ordinals-token-development div#assis_t .flip-box {
+    padding: 30px 15px 20px;
+    min-height: 280px;
+}
+
+#bitcoin-ordinals-token-development .intro_cnt img {
+    border-radius: 10px;
+}
+
+#bitcoin-ordinals-token-development div#assis_t .flip-box img {
+    width: 54px;
+    margin-top: 7px;
+}
+
+#bitcoin-ordinals-token-development .flip-box-row {
+    margin-bottom: 0;
+}
+
+#bitcoin-ordinals-token-development .flip-box {
+    margin-bottom: 30px;
+    padding: 30px 14px;
+}
+
+#bitcoin-ordinals-token-development a.home-talk-experts.w_bt {
+    background: no-repeat;
+    color: #47b475;
+    border: 2px solid #47b475;
+    padding: 8px 25px;
+}
+
+#bitcoin-ordinals-token-development a.home-talk-experts.w_bt:hover {
+    color: #000 !important;
+}
+
+#bitcoin-ordinals-token-development .sec_tit h2 {
+    display: inline;
+}
+
+#bitcoin-ordinals-token-development .text-white {
+    color: #fff;
+}
+
+#bitcoin-ordinals-token-development .strategies {
+    padding: 50px 0px;
+    color: #000;
+    background: #f1f1f1;
+}
+
+#bitcoin-ordinals-token-development .strategies-items,
+#bitcoin-ordinals-token-development .strategies-items1 {
+    background: linear-gradient(90deg, #fff, #f1f1f1);
+    padding: 15px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+#bitcoin-ordinals-token-development .strategies-items .icons,
+#bitcoin-ordinals-token-development .strategies-items1 .icons {
+    border: 1px solid #eee;
+}
+
+#bitcoin-ordinals-token-development .strategies-items p,
+#bitcoin-ordinals-token-development .strategies-items1 p {
+    text-align: justify;
+    padding: 15px;
+}
+
+#bitcoin-ordinals-token-development .popular-text {
+    padding: 15px;
+}
+
+#bitcoin-ordinals-token-development .popular-text h3 {
+    padding-bottom: 10px;
+}
+
+#bitcoin-ordinals-token-development .icons img {
+    border-radius: 15px;
+}
+
+#bitcoin-ordinals-token-development .strategies-items p strong,
+#bitcoin-ordinals-token-development .strategies-items1 p strong {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #eee;
+    background: linear-gradient(#47b475, #47b475);
+}
+
+#bitcoin-ordinals-token-development .strategies-items1 {
+    background: linear-gradient(90deg, #f1f1f1, #fff);
+}
+
+#bitcoin-ordinals-token-development .strategies-items1 .icons {
+    order: 2;
+    margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+
+    #bitcoin-ordinals-token-development .strategies-items,
+    #bitcoin-ordinals-token-development .strategies-items1 {
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #bitcoin-ordinals-token-development .magic {
+        display: none;
+    }
+}
+
+#bitcoin-ordinals-token-development .flip-tit {
+    font-weight: 700;
+    color: #000000;
+}
+
+@media screen and (min-width: 500px) {
+    #bitcoin-ordinals-token-development #cyz {
+        margin-right: 26px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #bitcoin-ordinals-token-development #cyz {
+        /*display: block !important;*/
+        padding: 10px 25px !important;
+    }
+
+    #bitcoin-ordinals-token-development .txt {
+        padding: 5px 20px;
+    }
+
+    #bitcoin-ordinals-token-development .awesome-features-wrapper {
+        min-height: auto !important;
+    }
+}
+
+#bitcoin-ordinals-token-development .tik {
+    background-color: #ffffff;
+    padding: 30px 0px;
+}
+
+#bitcoin-ordinals-token-development .tik1 {
+    color: black;
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 900px;
+    font-style: italic;
+}
+
+#bitcoin-ordinals-token-development .magic {
+    height: auto;
+    /*width: 100%;*/
+    margin-top: 30px;
+}
+
+#bitcoin-ordinals-token-development .title-th {
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+    #bitcoin-ordinals-token-development .team {
+        margin-top: 30px !important;
+    }
+
+    #bitcoin-ordinals-token-development .perfect-script-items1 {
+        min-height: 240px !important;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    #bitcoin-ordinals-token-development .cyz {
+        width: 100%;
+    }
+}
+
+#bitcoin-ordinals-token-development .choose-wrapper {
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    min-height: 440px !important;
+}
+
+#bitcoin-ordinals-token-development .choose-wrapper:hover {
+    background: #47b775;
+    color: #fff;
+}
+
+#bitcoin-ordinals-token-development .choose-wrapper:hover p strong,
+#bitcoin-ordinals-token-development .choose-wrapper:hover h3 {
+    color: #fff;
+}
+
+#bitcoin-ordinals-token-development .wrappwer-icon {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    box-shadow: 2px 4px #47b475;
+    border: 3px solid #47b475;
+}
+
+#bitcoin-ordinals-token-development .wrappwer-icon img {
+    width: 65px;
+    margin-top: 15px;
+}
+
+#bitcoin-ordinals-token-development .choose-para h3 {
+    font-weight: 700 !important;
+    margin: 20px 0 5px 0;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+#bitcoin-ordinals-token-development .choose-para p {
+    font-size: 14px;
+}
+
+#bitcoin-ordinals-token-development .p-60 {
+    padding: 60px 0;
+}
+
+#bitcoin-ordinals-token-development .main-sections {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#bitcoin-ordinals-token-development .pre-ico-sec-1 .card-big-shadow {
+    position: relative;
+}
+
+#bitcoin-ordinals-token-development .card-big-shadow:before {
+    background-image: url(images/ibm/shadow.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: -12%;
+    content: "";
+    display: block;
+    left: -12%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    opacity: .5;
+}
+
+#bitcoin-ordinals-token-development .pre-ico-sec-1 .why-adit-list {
+    width: 100%;
+    background: #ddf3e6;
+    border: 1px solid #eee;
+    position: relative;
+    padding: 7%;
+    margin-bottom: 49px;
+    min-height: 340px !important;
+    text-align: justify;
+}
+
+#bitcoin-ordinals-token-development .pre-ico-sec-1 .why-adit-list .icon {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#bitcoin-ordinals-token-development .pre-ico-sec-1 .why-adit-list .icon img {
+    width: 55px;
+}
+
+#bitcoin-ordinals-token-development .pre-ico-sec-1 .why-adit-list .content {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+#bitcoin-ordinals-token-development .pre-ico-sec-1 .why-adit-list .content h3 {
+    color: #000000;
+    font-weight: 700;
+}
+
+#bitcoin-ordinals-token-development .content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 0px !important;
+    /*margin-top: 10px;*/
+}
+
+#bitcoin-ordinals-token-development .service-section {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+#bitcoin-ordinals-token-development .service-section:before {
+    content: "";
+    background: url(images/lab/dot-shape.webp) #368b5acf;
+    position: absolute;
+    height: 400px;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+#bitcoin-ordinals-token-development .service-section .box4 {
+    background: url(images/lab/shape-7.svg) #fff;
+    background-size: 180px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#bitcoin-ordinals-token-development .service_style_one {
+    background: #ffffff;
+    border-radius: 10px;
+    min-height: 260px;
+    padding: 40px 40px 10px;
+    transition: 0.5s all ease-in-out;
+    margin-bottom: 24px;
+}
+
+#bitcoin-ordinals-token-development .service_style_one:hover {
+    background-color: #47b475f5;
+    color: white !important;
+}
+
+#bitcoin-ordinals-token-development .style_one_title:hover {
+    color: #fff !important;
+}
+
+#bitcoin-ordinals-token-development .service_style_one_icon {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    background: #e8ecfc;
+    color: #0C5ADB;
+    display: inline-block;
+    border-radius: 33% 66% 70% 30%/49% 62% 38% 51%;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    text-align: center;
+    font-size: 35px;
+}
+
+#bitcoin-ordinals-token-development .service_style_one_icon img {
+    width: 50px;
+    height: auto;
+}
+
+#bitcoin-ordinals-token-development .service_style_one_title h4 {
+    font-weight: 700;
+    color: #000000;
+    position: relative;
+    margin-top: 10px;
+}
+
+#bitcoin-ordinals-token-development .service_style_one_title h4:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 37px;
+    height: 1px;
+    width: 75px;
+    background: #47b475;
+    margin: 0 auto;
+    right: 0;
+}
+
+#bitcoin-ordinals-token-development .service_style_one:hover .service_style_one_title h4 {
+    color: #fff !important;
+}
+
+#bitcoin-ordinals-token-development .service_style_one:hover {
+    transform: translateY(10px);
+    transition: 0.5s all ease-in-out;
+}
+
+#bitcoin-ordinals-token-development .service_style_one_text {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#bitcoin-ordinals-token-development .pad-tb {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#bitcoin-ordinals-token-development .box4 p {
+    margin-top: 20px;
+}
+
+#bitcoin-ordinals-token-development .box4 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #47b475;
+}
+
+#bitcoin-ordinals-token-development .box4 {
+    background: #fff;
+    text-align: center;
+    background-size: 200%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 40px 10px 10px;
+    margin: 0;
+    /*min-height: 320px;*/
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid #91d2ac;
+    border-radius: 8px;
+    box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%), 0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+}
+
+#bitcoin-ordinals-token-development .s-card-icon {
+    width: 60px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #47b475;
+}
+
+#bitcoin-ordinals-token-development .img-size {
+    height: 430px;
+    width: 450px;
+}
+
+@media screen and (max-width:426px) {
+    #bitcoin-ordinals-token-development .img-size {
+        height: auto !important;
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width:426px) {
+    #bitcoin-ordinals-token-development .img-size {
+        height: 430px;
+        width: auto !important;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1025px) {
+    #bitcoin-ordinals-token-development .img-size {
+        height: 485px;
+        width: auto;
+    }
+}
+
+#bitcoin-ordinals-token-development .package_includes {
+    color: #fff;
+}
+
+#bitcoin-ordinals-token-development .package_includes {
+    background: url(../images/products/package_banner.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bitcoin-ordinals-token-development section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+#bitcoin-ordinals-token-development .Package_list {
+    display: inline-block;
+    background: rgba(0, 0, 0, .6);
+    padding: 30px 10px;
+    /*max-width: 280px;*/
+    width: 13%;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#bitcoin-ordinals-token-development .Package_list img {
+    height: 55px;
+}
+
+#bitcoin-ordinals-token-development .Package_list span {
+    display: block;
+    font-size: 15px;
+    margin-top: 12px;
+    color: #fff;
+}
+
+#bitcoin-ordinals-token-development .product-features {
+    background: linear-gradient(rgb(37 38 37 / 48%), rgb(10 10 10 / 57%)), transparent url(images/nftm/bg-image.webp) top left/cover no-repeat scroll;
+}
+
+#bitcoin-ordinals-token-development .bg-w {
+    background: #fff;
+}
+
+#bitcoin-ordinals-token-development .bg-w1 {
+    background: #fff;
+}
+
+#bitcoin-ordinals-token-development .bg-w2 {
+    background: #e0dddd;
+    font-weight: 600;
+}
+
+#bitcoin-ordinals-token-development .btc {
+    color: #fff !important;
+}
+
+@media (max-width: 767px) {
+    #bitcoin-ordinals-token-development .data table th:last-child {
+        margin: 10px 0 0;
+        display: table-cell;
+        width: 100%;
+    }
+
+    #bitcoin-ordinals-token-development .data table tbody tr:first-child th:last-child {
+        transform: scale(1);
+        box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    }
+}
+
+#bitcoin-ordinals-token-development .buy {
+    padding: 7px 10px;
+    font-size: 12px;
+}
+
+#bitcoin-ordinals-token-development .btc {
+    color: #000000 !important;
+    font-weight: 700;
+}
+
+#bitcoin-ordinals-token-development .pdg {
+    padding: 10px 70px !important;
+}
+
+#bitcoin-ordinals-token-development .font-wei {
+    font-weight: 700;
+}
+
+#bitcoin-ordinals-token-development #base1 {
+    padding: 50px 100px;
+}
+
+#bitcoin-ordinals-token-development #base {
+    padding: 50px;
+}
+
+#bitcoin-ordinals-token-development .cor {
+    background: #f9f9f9;
+}
+
+#bitcoin-ordinals-token-development .bdr {
+    border-top: none !important;
+}
+
+@media screen and (max-width: 500px) {
+    #bitcoin-ordinals-token-development a.nectar-button {
+        display: block;
+        width: 230px;
+    }
+
+    #bitcoin-ordinals-token-development .perfect-script-items1 {
+        min-height: auto !important;
+    }
+}
+
+@media (max-width: 500px) {
+    #bitcoin-ordinals-token-development .cta_mine {
+        width: 80%;
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+#bitcoin-ordinals-token-development .buy {
+    border-radius: 30px;
+    padding: 10px 25px;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+}
+
+#bitcoin-ordinals-token-development .buy:hover {
+    background: skyblue;
+    transform: scale(1, 1) !important;
+}
+
+#bitcoin-ordinals-token-development .feature-box-3 .feature-desc {
+    color: #000000;
+}
+
+#bitcoin-ordinals-token-development .feature-box-3 {
+    display: inline-block;
+    width: 100%;
+    min-height: 285px;
+}
+
+@media screen and (min-width: 980px) and (max-width: 1100px) {
+    #bitcoin-ordinals-token-development .feature-box-3 {
+        min-height: 353px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #bitcoin-ordinals-token-development .feature-box-3 {
+        min-height: auto;
+    }
+}
+
+#bitcoin-ordinals-token-development h4.common_h4 {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: #47b475;
+}
+
+#bitcoin-ordinals-token-development .bgg {
+    background-image: linear-gradient(179deg, #47b475 0%, #19aec5 74%);
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (min-width: 500px) {
+    #bitcoin-ordinals-token-development a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+        margin-top: 15px !important;
+        display: inline-block;
+        margin-right: 26px !important;
+        border-radius: 30px;
+    }
+}
+
+#bitcoin-ordinals-token-development .font_wei {
+    font-weight: 700;
+    color: #fff;
+}
+
+#bitcoin-ordinals-token-development .pre-ico-sec-1 .why-adit-list:hover {
+    background: #fff;
+}
+
+
+#bitcoin-ordinals-token-development .pricing-table {
+    padding: 0px 0;
+    width: 100%;
+}
+
+#bitcoin-ordinals-token-development .bg-w {
+    background: #fff;
+}
+
+#bitcoin-ordinals-token-development .bg-w1 {
+    background: #fff;
+}
+
+#bitcoin-ordinals-token-development .bg-w2 {
+    background: #e0dddd;
+    font-weight: 600;
+}
+
+#bitcoin-ordinals-token-development .btc {
+    color: #fff !important;
+}
+
+@media (max-width: 767px) {
+    #bitcoin-ordinals-token-development .data table th:last-child {
+        margin: 10px 0 0;
+        display: table-cell;
+        width: 100%;
+    }
+
+    #bitcoin-ordinals-token-development .data table tbody tr:first-child th:last-child {
+        transform: scale(1);
+        box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    }
+}
+
+#bitcoin-ordinals-token-development .btc {
+    color: #000000 !important;
+    font-weight: 700;
+}
+
+#bitcoin-ordinals-token-development .pdg {
+    padding: 10px 70px !important;
+}
+
+#bitcoin-ordinals-token-development .font-wei {
+    font-weight: 700;
+}
+
+#bitcoin-ordinals-token-development .cor {
+    background-color: #f9f9f9;
+}
+
+#bitcoin-ordinals-token-development .bdr {
+    border-top: none !important;
+}
+
+#bitcoin-ordinals-token-development .bg_color {
+    background: #ffffff;
+}
+
+#bitcoin-ordinals-token-development .font_sze_algn {
+    font-size: 20px !important;
+}
+
+#bitcoin-ordinals-token-development .solution_calltoaction {
+    margin: 0 auto;
+    display: inherit;
+    text-align: center;
+    max-width: max-content !important;
+    border: 1px solid #d7d7d7;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 20px 42px;
+    padding-bottom: 10px;
+}
+
+#bitcoin-ordinals-token-development .solution_calltoaction span {
+    font-size: 24px;
+    display: inline-block;
+    color: #000000;
+    padding-right: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#bitcoin-ordinals-token-development .solution_calltoaction .new_lanbtn {
+    margin: 0;
+    float: right;
+}
+
+#bitcoin-ordinals-token-development a.new_lanbtn {
+    background: #47b475;
+    display: inline-block;
+    color: #fff;
+    border-radius: 30px;
+    padding: 12px 50px;
+    font-size: 18px;
+    transition: all .6s ease 0s;
+    text-transform: capitalize;
+    line-height: normal;
+    font-weight: bold;
+}
+
+#bitcoin-ordinals-token-development a.new_lanbtn:hover {
+    color: #ffffff !important;
+}
+
+@media (max-width: 576px) {
+    #bitcoin-ordinals-token-development  #solution_div {
+        padding: 10px 20px !important;
+    }
+
+    #bitcoin-ordinals-token-development .solution_calltoaction span {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 992px) {
+    #bitcoin-ordinals-token-development .solution_calltoaction span {
+        display: block;
+        padding: 1px 18px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1400px) {
+    #bitcoin-ordinals-token-development .solution_calltoaction .new_lanbtn {
+        margin: 0;
+        float: none;
+        padding: 12px 20px;
+    }
+
+    #bitcoin-ordinals-token-development .res_btn_new_lan {
+        padding: 12px 50px !important;
+    }
+}
+
+#bitcoin-ordinals-token-development .solution_calltoaction {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    max-width: max-content !important;
+    border: 1px solid #d7d7d7;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 10px 42px;
+    padding-bottom: 10px;
+}
+
+#bitcoin-ordinals-token-development .solution_calltoaction:hover {
+    background: #47b475;
+}
+
+#bitcoin-ordinals-token-development .solution_calltoaction:hover .content_solution {
+    color: #ffffff !important;
+}
+
+#bitcoin-ordinals-token-development .expert_space {
+    padding: 10px 15px;
+}
+
+@media (max-width: 1199px) {
+    #bitcoin-ordinals-token-development a.new_lanbtn {
+        padding: 12px 42px;
+        font-size: 16px;
+    }
+
+    #bitcoin-ordinals-token-development .solution_calltoaction {
+        margin: 0 auto;
+        display: inherit;
+        text-align: center;
+        max-width: max-content !important;
+        border: 1px solid #d7d7d7;
+        border-radius: 100px;
+        background-color: #fff;
+        padding: 10px 0px;
+        padding-bottom: 4px;
+    }
+}
+
+#bitcoin-ordinals-token-development .lyst li {
+    list-style-type: disc;
+}
+
+#bitcoin-ordinals-token-development .strategy_dev {
+    z-index: 1;
+    position: relative;
+}
+
+#bitcoin-ordinals-token-development .internal_link {
+    color: #47b475;
+    font-weight: 700;
+}
+
+#bitcoin-ordinals-token-development  a.internal_link:hover {
+    color: #47b475 !important;
+    font-weight: 700;
+}
+

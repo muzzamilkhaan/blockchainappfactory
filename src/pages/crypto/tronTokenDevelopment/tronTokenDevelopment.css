@@ -1,0 +1,1276 @@
+#tron-token-development .banner {
+    height: auto;
+    background-image: url(../public/assets/images/exchange-banner.webp);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+#tron-token-development .banner_content {
+    text-align: left;
+    position: relative;
+    top: 0;
+    transform: none;
+    padding: 20px;
+}
+
+#tron-token-development #banner-text {
+    padding: 10px;
+}
+
+#tron-token-development .form-right input.submit_send {
+    width: 100% !important;
+    margin: 0 !important;
+    display: inline-block !important;
+    background: #47b475 !important;
+    color: #fff !important;
+    border: 0 !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    padding: 10px 0 !important
+}
+
+#tron-token-development #our_services .grids .grid .feature-box-3 {
+    min-height: 345px !important
+}
+
+#tron-token-development .feature-box-3 .icon {
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#tron-token-development #pricing-section {
+    padding: 60px 0
+}
+
+#tron-token-development .pricing-box h1 {
+    font-size: 60px
+}
+
+#tron-token-development .pricing-foot a {
+    border-radius: 0
+}
+
+#tron-token-development .pricing-box .pricing-body {
+    height: 500px;
+    overflow-y: auto
+}
+
+#tron-token-development .explanation-section .left {
+    float: left;
+    display: inline-block;
+    width: 15%;
+    padding: 20px 25px;
+    text-align: center
+}
+
+#tron-token-development .explanation-section .left i {
+    font-size: 50px
+}
+
+#tron-token-development .explanation-section .right {
+    float: left;
+    display: inline-block;
+    width: 80%
+}
+
+#tron-token-development .explanation-section .right h4 {
+    margin-bottom: 0
+}
+
+#tron-token-development .explanation-section {
+    display: inline-block;
+    width: 100%
+}
+
+#tron-token-development .demo-details a {
+    text-align: center;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    color: #47b475;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px
+}
+
+#tron-token-development .demo-details a:hover {
+    color: #47b475 !important
+}
+
+#tron-token-development .demo-details {
+    background: #47b475;
+    padding: 32px 0 0;
+    min-height: 260px
+}
+
+#tron-token-development .demo-details h4 {
+    color: #fff
+}
+
+#tron-token-development .demo-details p {
+    color: #f9fff7;
+    margin-bottom: 10px
+}
+
+#tron-token-development .our_live_client {
+    display: inline-block;
+    width: 100%;
+    background: #292929
+}
+
+#tron-token-development .our_live_client h4 {
+    color: #fff
+}
+
+#tron-token-development .our_live_client h1 {
+    margin-bottom: 10px
+}
+
+#tron-token-development .our_live_client a img {
+    width: 150px
+}
+
+#tron-token-development .section-top {
+    display: inline-block;
+    width: 100%;
+}
+
+#tron-token-development .our_live_client a {
+    margin-top: 30px;
+    display: inline-block
+}
+
+#tron-token-development .coinexchange-section {
+    display: inline-block;
+    width: 100%;
+    background: #f4f7fa
+}
+
+#tron-token-development .grids .grid .feature-box-3 .icon i {
+    padding: 10px
+}
+
+#tron-token-development svg path {
+    fill: #47b475
+}
+
+#tron-token-development p strong {
+    color: #000
+}
+
+#tron-token-development .padding-10 {
+    background: 0 0
+}
+
+#tron-token-development .timeline-center::before {
+    background: #47b475 !important
+}
+
+#tron-token-development .flip-box {
+    padding: 15px 10px;
+    min-height: auto;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    border-bottom: 2px solid #47b47566
+}
+
+#tron-token-development .flip-tit {
+    font-size: 15px;
+    margin-bottom: 0
+}
+
+#tron-token-development .flip-icon-outer {
+    padding: 0;
+    width: 70px;
+    height: 70px
+}
+
+#tron-token-development .order-type-box {
+    min-height: auto;
+    margin-bottom: 65px;
+    padding-bottom: 40px
+}
+
+@media (max-width:1199px) {
+    #tron-token-development .pricing-box h4 {
+        font-size: 14px
+    }
+
+    #tron-token-development .pricing-box .pricing-head h1 {
+        font-size: 35px
+    }
+
+    #tron-token-development #our_services .grids .grid .feature-box-3 {
+        min-height: 380px !important
+    }
+}
+
+@media (max-width:991px) {
+    #tron-token-development .pricing-box .pricing-head h1 {
+        font-size: 28px
+    }
+
+    #tron-token-development #our_services .grids .grid .feature-box-3 {
+        min-height: auto !important
+    }
+}
+
+@media (max-width:767px) {
+    #tron-token-development .pricing-foot a {
+        background: #47b475;
+        color: #fff
+    }
+
+    #tron-token-development .explanation-section .left {
+        width: 25%;
+        padding: 0
+    }
+
+    #tron-token-development .explanation-section .right {
+        width: 70%
+    }
+
+    #tron-token-development .pricing-box .pricing-body {
+        height: auto;
+        overflow: unset !important;
+        position: initial !important
+    }
+
+    #tron-token-development .mCustomScrollBox {
+        overflow: unset;
+        height: unset !important;
+        max-width: 100% !important
+    }
+
+    #tron-token-development .mCSB_container {
+        width: auto;
+        height: auto;
+        position: initial !important
+    }
+
+    #tron-token-development .main {
+        overflow-x: hidden
+    }
+
+    #tron-token-development .timeline-center::before {
+        height: 100%
+    }
+}
+
+@media (max-width:767px) {
+    #tron-token-development .flip-tit {
+        font-size: 14px;
+        line-height: 21px
+    }
+
+    #tron-token-development .flip-box {
+        padding: 30px 10px 0;
+        min-height: 200px
+    }
+
+    #tron-token-development .tm-detail.tm-det.tm-det-left,
+    #tron-token-development .tm-detail.tm-det.tm-det-right {
+        max-width: 450px;
+        margin: 0 auto 20px !important;
+        width: 100%
+    }
+}
+
+#tron-token-development #related_blogs .attachment-post-thumbnail {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 10px
+}
+
+#tron-token-development .blog_info h3 {
+    margin: 0 10px 10px 10px;
+    font-size: 17px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left
+}
+
+#tron-token-development .blog_info {
+    border: 1px solid #eee;
+    background: #f5f5f5;
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px #888;
+    min-height: 445px;
+    margin-bottom: 30px
+}
+
+#tron-token-development .blog_info .except {
+    margin: 0 10px 10px 10px;
+    text-align: left
+}
+
+#tron-token-development .pre_data {
+    margin: 0 10px 10px 10px;
+    overflow: hidden;
+    font-weight: 700
+}
+
+#tron-token-development .pre_data .date_dt {
+    float: left;
+    color: #000
+}
+
+#tron-token-development .pre_data .read_mr {
+    float: right
+}
+
+#tron-token-development .pre_data .read_mr a {
+    border-bottom: 2px solid;
+    padding-bottom: 1px
+}
+
+#tron-token-development #related_blogs h2 {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+#tron-token-development #related_blogs .row {
+    text-align: center
+}
+
+#tron-token-development #related_blogs .col-lg-4 {
+    display: inline-block;
+    float: none;
+    width: 33%
+}
+
+@media (max-width:768px) {
+    #tron-token-development .blog_info {
+        min-height: auto
+    }
+}
+
+#tron-token-development .ieoBox {
+    min-height: 210px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 30px
+}
+
+#tron-token-development .ieoBox h4 {
+    position: relative
+}
+
+#tron-token-development .ieoBox h4:before {
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 50px;
+    background-color: #47b475;
+    left: -15px
+}
+
+#tron-token-development .ce-feature-box-23.service-sec i,
+#tron-token-development .flip-box i {
+    color: #47b474;
+    font-size: 45px;
+    line-height: 50px
+}
+
+#tron-token-development .flip-box i {
+    color: #47b474;
+    font-size: 35px;
+    line-height: 70px
+}
+
+#tron-token-development.timeline-row i {
+    color: #47b474;
+    font-size: 30px;
+    line-height: 1
+}
+
+#tron-token-development .font-wei {
+    font-weight: 700;
+    color: #161515;
+}
+
+@media screen and (max-width: 767px) {
+    #tron-token-development .banner_content p {
+        margin: 0px !important;
+    }
+}
+
+#tron-token-development .sec-tit h2 {
+    display: inline-block;
+}
+
+#tron-token-development .common_h3.sec-tit {
+    color: #161515;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 27.46px;
+}
+
+#tron-token-development #ico .banner_content {
+    text-align: left
+}
+
+#tron-token-development .contentall h1 {
+    margin-bottom: 25px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#tron-token-development .contentall p {
+    font-weight: 700;
+    color: #ccc;
+    font-size: 20px;
+}
+
+#tron-token-development .banner {
+    height: auto;
+    background-image: url(../public/assets/images/exchange-banner.webp);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 60px
+}
+
+#tron-token-development #ico .banner_content {
+    text-align: left;
+    position: relative;
+    top: 0;
+    transform: none;
+    padding: 20px;
+}
+
+#tron-token-development .ban_form {
+    background: #292929;
+    box-shadow: 0 0 10px #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 30px 10px;
+    border-radius: 5px
+}
+
+#tron-token-development .ban_form input#phone_banner {
+    color: #000;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+#tron-token-development .ban_form .form-group {
+    margin-bottom: 20px
+}
+
+#tron-token-development .ban_form label {
+    display: none;
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding-left: 0 !important
+}
+
+#tron-token-development .submit_btn_b button.common_send_btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #000;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0
+}
+
+#tron-token-development .banner_content ul i {
+    color: #16ce90;
+    font-size: 24px;
+    vertical-align: middle;
+    margin-left: -40px;
+    position: absolute;
+}
+
+#tron-token-development .banner_content .contentall {
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+#tron-token-development .banner_content h4 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#tron-token-development h4.sec_sub {
+    font-size: 20px;
+    font-weight: 700;
+    color: #029870;
+    margin-bottom: 7px
+}
+
+#tron-token-development h4.sec_sub {
+    font-size: 20px;
+    font-weight: 700;
+    color: #029870;
+    margin-bottom: 7px;
+    text-transform: uppercase
+}
+
+#tron-token-development .uniq_features ul {
+    padding-left: 15px
+}
+
+#tron-token-development .uniq_features ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 29px
+}
+
+#tron-token-development .uniq_features ul li:after {
+    font-family: FontAwesome;
+    top: 3px;
+    right: 0;
+    padding-right: 10px;
+    content: "\f0a9";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #03b787
+}
+
+#tron-token-development .feat_un li:after {
+    display: none
+}
+
+#tron-token-development ul.feat_un li {
+    padding-left: 0;
+    font-size: 15px;
+    font-weight: 700
+}
+
+#tron-token-development ul.feat_un.feat_un_tw li {
+    width: 49%;
+    float: left
+}
+
+#tron-token-development ul.feat_un i {
+    width: 40px;
+    height: 40px;
+    background: #01b787;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 4px
+}
+
+#tron-token-development .uniq_features p b {
+    font-size: 18px;
+}
+
+#tron-token-development .contentall ul li img {
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 20px
+}
+
+#tron-token-development .contentall ul {
+    padding-left: 0;
+    margin-bottom: 40px;
+    margin-top: 0;
+    max-width: 510px
+}
+
+#tron-token-development .contentall ul li {
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    border-bottom: 1px solid #666;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+#tron-token-development .contentall ul li a {
+    background: 0 0;
+    padding: 0;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: block;
+    cursor: pointer
+}
+
+#tron-token-development .contentall ul i.hv {
+    float: right;
+    vertical-align: middle;
+    font-size: 17px;
+    position: relative;
+    top: 8px;
+    opacity: 0;
+    transition: .5s
+}
+
+#tron-token-development .levtrade_feat ul {
+    padding-left: 15px
+}
+
+#tron-token-development .levtrade_feat ul li {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 29px
+}
+
+#tron-token-development .levtrade_feat ul li:after {
+    font-family: FontAwesome;
+    top: 4px;
+    right: 0;
+    padding-right: 10px;
+    content: "\f0a9";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #03b787
+}
+
+#tron-token-development .explanation-section {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+    background: #fff;
+    border: 2px solid #00ca996b;
+    padding: 20px 20px 10px 20px
+}
+
+#tron-token-development .explanation-section h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+#tron-token-development .contentall ul li a:hover i.hv {
+    opacity: 1
+}
+
+#tron-token-development .serv_box {
+    background: #fff;
+    padding: 15px 15px 0 15px;
+    text-align: center;
+    border: 4px solid #eee;
+    min-height: 295px;
+    margin-bottom: 20px
+}
+
+#tron-token-development .pricing-box .pricing-foot a {
+    display: block;
+    padding: 10px 0;
+    background: #47b475;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all .4s ease-in-out;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 2px
+}
+
+#tron-token-development .pricing-foot {
+    background: #eee;
+    padding: 10px 0
+}
+
+#tron-token-development .serv_box_ic {
+    margin: 10px auto 10px
+}
+
+#tron-token-development .serv_box_ic img {
+    height: 70px
+}
+
+#tron-token-development .serv_box_cnt h4 {
+    font-weight: 700;
+    font-size: 18px
+}
+
+#tron-token-development .pr_wrp {
+    max-width: 730px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 3px solid #eee;
+    background: #f5f5f5;
+    margin-bottom: 30px
+}
+
+#tron-token-development .pr_wrp p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.6
+}
+
+#tron-token-development .pricing-box .pricing-head {
+    padding: 10px 10px 15px 10px
+}
+
+#tron-token-development .row.lv_flow {
+    position: relative
+}
+
+#tron-token-development .row.lv_flow .pr_c {
+    position: absolute;
+    right: -61px;
+    top: 68px
+}
+
+#tron-token-development .lv_flow h4 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700
+}
+
+#tron-token-development .pr_ccc {
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    padding-top: 7px;
+    display: inline-block;
+    padding: 0 55px 0;
+    border-left: none;
+    border-right: none
+}
+
+#tron-token-development .pr_ccc h5 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0;
+    line-height: 1.1;
+    color: #00c0b0
+}
+
+#tron-token-development .pr_ccc h6 {
+    font-size: 14px;
+    line-height: 1;
+    padding-bottom: 10px
+}
+
+#tron-token-development .col_half {
+    width: 49%
+}
+
+#tron-token-development .col_third {
+    width: 32%
+}
+
+#tron-token-development .col_fourth {
+    width: 23.5%
+}
+
+#tron-token-development .col_fifth {
+    width: 18.4%
+}
+
+#tron-token-development .col_sixth {
+    width: 15%
+}
+
+#tron-token-development .col_three_fourth {
+    width: 74.5%
+}
+
+#tron-token-development .col_twothird {
+    width: 66%
+}
+
+#tron-token-development .col_fifth,
+#tron-token-development .col_fourth,
+#tron-token-development .col_half,
+#tron-token-development .col_third,
+#tron-token-development .col_three_fourth,
+#tron-token-development .col_twothird {
+    position: relative;
+    display: inline;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 20px
+}
+
+#tron-token-development .end {
+    margin-right: 0 !important
+}
+
+#tron-token-development .counters {
+    background-color: #fff;
+    padding: 20px 0;
+    border-radius: 5px
+}
+
+#tron-token-development .fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5
+}
+
+#tron-token-development .counters h5 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #00c7a0
+}
+
+#tron-token-development p.count-text {
+    font-weight: 700;
+    color: #000;
+    font-size: 18px
+}
+
+#tron-token-development .counters {
+    background-color: #fff;
+    padding: 20px 0;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center
+}
+
+#tron-token-development .pr_ccc.pr_ccc_l {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+#tron-token-development .pricing-box .pricing-head .bg-icon {
+    opacity: .1
+}
+
+#tron-token-development .intl-tel-input .country-list .country {
+    padding: 5px 10px;
+    background: 0 0;
+    border: none;
+    text-align: left;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400
+}
+
+#tron-token-development .contentall ul li span {
+    float: right;
+    background: #47b475;
+    padding: 3px 10px 3px 15px;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-top: -3px
+}
+
+#tron-token-development .contentall ul li span i {
+    margin: 0;
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    top: 0;
+    margin-left: 5px
+}
+
+#tron-token-development .faq-content .panel-heading {
+    background: #fff !important;
+    color: #161515;
+}
+
+#tron-token-development .feat_box {
+    text-align: center;
+    background: #fff;
+    padding: 34px 15px 10px;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    min-height: 340px
+}
+
+#tron-token-development .feat_box_ic {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    line-height: 80px
+}
+
+#tron-token-development .feat_box:hover {
+    background-image: linear-gradient(to bottom right, #07c891, #00a9e4);
+    color: #fff
+}
+
+#tron-token-development .feat_box:hover h4 {
+    color: #fff
+}
+
+#tron-token-development .feat_box p {
+    margin-bottom: 0;
+    line-height: 1.6
+}
+
+#tron-token-development .feat_box_cnt h4 {
+    line-height: 1.3;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 10px
+}
+
+@media only screen and (max-width:992px) {
+    #tron-token-development .contentall ul li span {
+        background: #47b475;
+        padding: 3px 10px 3px 15px;
+        font-size: 14px;
+        border-radius: 2px;
+        display: block;
+        width: 125px;
+        margin: 8px auto 10px;
+        float: right
+    }
+
+    #tron-token-development .feat_box {
+        min-height: 256px
+    }
+
+    #tron-token-development .contentall ul li {
+        overflow: hidden;
+        line-height: 1.9
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #tron-token-development .banner {
+        padding-top: 30px
+    }
+
+    #tron-token-development .pricing-box {
+        margin-bottom: 30px
+    }
+
+    #tron-token-development .banner_content h4 {
+        font-size: 20px
+    }
+
+    #tron-token-development ul.feat_un.feat_un_tw li {
+        width: 100%;
+        float: none
+    }
+
+    #tron-token-development .serv_box {
+        padding: 20px 15px 21px 15px;
+        min-height: auto
+    }
+
+    #tron-token-development .ban_form {
+        margin-top: 30px
+    }
+
+    #tron-token-development .counters {
+        padding: 0 0
+    }
+
+    #tron-token-development .levtrade_feat .col-md-6.col-sm-6.mt40 {
+        margin-top: 0 !important
+    }
+
+    #tron-token-development .pr_wrp br {
+        display: none
+    }
+
+    #tron-token-development .demo-details {
+        background: #47b475;
+        padding: 32px 0 30px;
+        min-height: auto
+    }
+}
+
+@media only screen and (max-width:1400px) and (min-width:993px) {
+    #tron-token-development .exchange-section-new .flip-box {
+        min-height: 190px
+    }
+}
+
+#tron-token-development .lev_sec {
+    position: relative;
+    overflow: hidden
+}
+
+#tron-token-development .pricing-head h4 {
+    font-weight: 700;
+    line-height: 1.3
+}
+
+#tron-token-development .view_demo_sec .text-bold {
+    font-weight: 700;
+    background: #2a2a2a;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #fff;
+    line-height: 1.3
+}
+
+#tron-token-development .banner_form h3 {
+    color: #fff;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 700;
+    font-size: 20px;
+    background: #47b475;
+    border-radius: 4px;
+    padding: 7px 10px
+}
+
+#tron-token-development .lev_se .why-blockchain-sec {
+    position: relative;
+    z-index: 1
+}
+
+#tron-token-development .pr_box {
+    position: relative;
+    min-height: 80px
+}
+
+#tron-token-development .pr_box_ic h4 {
+    font-family: arial;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 1;
+    color: #47b474
+}
+
+#tron-token-development .pr_box_ic {
+    position: absolute
+}
+
+#tron-token-development .pr_box_cnt p {
+    margin-bottom: 0;
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 800
+}
+
+#tron-token-development .pr_box_cnt {
+    padding-left: 69px;
+    font-weight: 700;
+    line-height: 1.6
+}
+
+@media only screen and (max-width:768px) {
+    #tron-token-development .contentall h1 {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    #tron-token-development .row.pr_prr {
+        max-width: 285px;
+        width: 100%;
+        margin: 0 auto
+    }
+
+    #tron-token-development .feat_box {
+        min-height: auto;
+        padding-bottom: 35px;
+        max-width: 500px;
+        margin: 0 auto 30px
+    }
+}
+
+#tron-token-development .box_img {
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px
+}
+
+#tron-token-development p.les_mr {
+    margin-bottom: 10px
+}
+
+#tron-token-development ul.list-ico {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#tron-token-development .row.why_chose {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#tron-token-development .list-ico li {
+    background: url(../public/assets/images/big-tick.webp);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    background-size: 20px;
+    background-position: 0 4px;
+}
+
+#tron-token-development .whitelable-section h2.common_h3 {
+    font-size: 21px;
+}
+
+@media only screen and (min-width:993px) {
+    #tron-token-development .bti_exc li {
+        width: 33%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #tron-token-development .common_h3.sec-tit {
+        font-size: 23px;
+    }
+}
+
+#tron-token-development .banner_content p {
+    font-size: 15px !important;
+}
+
+@media screen and (max-width: 1000px) {
+    #tron-token-development #bg-sec {
+        background: linear-gradient(45deg, #0a0505ad, #0e0000), url(../public/assets/images/tron-bg.webp);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    #tron-token-development #bg-sec {
+        background: #101819 url(../public/assets/images/tron-bg.webp);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}
+
+#tron-token-development #bg-sec h3,
+#tron-token-development #bg-sec p {
+    color: #fff;
+}
+
+#tron-token-development h1,
+#tron-token-development h2,
+#tron-token-development h3,
+#tron-token-development h4,
+#tron-token-development h5,
+#tron-token-development h6 {
+    font-weight: 600;
+}
+
+#tron-token-development .md-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tron-token-development .br-5 {
+    border-radius: 5px;
+}
+
+#tron-token-development .section-2 {
+    background: #000 url(../public/assets/images/bg1.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#tron-token-development .section-2 h2 {
+    color: #fff;
+}
+
+#tron-token-development .section-2 p {
+    color: #fff;
+}
+
+#tron-token-development .token {
+    color: #ffffff !important;
+    font-size: 15px !important;
+}
+
+@media only screen and (max-width: 767px) {
+    #tron-token-development .banner_content .contentall {
+        margin-top: 30px;
+    }
+
+    #tron-token-development .abt-img {
+        margin-bottom: 20px;
+    }
+
+    #tron-token-development .md-flex {
+        display: block;
+    }
+
+    #tron-token-development .ct_warp p {
+        font-size: 24px;
+    }
+
+    #tron-token-development .section-2 {
+        background-position: inherit;
+    }
+}
+
+#tron-token-development .token {
+    color: #ffffff !important;
+    font-size: 15px !important;
+}
+
+#tron-token-development .tnt {
+    margin-left: 40px;
+}
+
+#tron-token-development #banner-text {
+    padding: 10px;
+}
+
+#tron-token-development .font-wei {
+    font-weight: 700 !important;
+    color: #161515 !important;
+}
+
+@media screen and (max-width: 500px) {
+    #tron-token-development .txt {
+        padding: 10px 20px;
+    }
+}
+
+#tron-token-development .nectar-button {
+    padding: 10px 15px !important;
+}
+
+#tron-token-development .contentall a,
+#tron-token-development a.home-talk-experts {
+    padding: 10px 15px !important;
+}

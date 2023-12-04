@@ -1,0 +1,738 @@
+#asset-tokenization .banner_content .contentall {
+    margin-top: 140px !important;
+    padding: 0;
+}
+
+#asset-tokenization .banner-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.95;
+    background-color: rgb(0 0 0 / 62%);
+}
+
+
+#asset-tokenization .banner_content .contentall {
+    margin-top: 85px;
+    max-width: 1000px;
+    margin: 81px auto 40px;
+}
+
+#asset-tokenization .contentall p {
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 19px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+#asset-tokenization .contentall a {
+    color: #fff;
+    cursor: pointer;
+    margin: 15px 0px;
+}
+
+#asset-tokenization .mb30 {
+    margin-bottom: 30px !important;
+}
+
+#asset-tokenization .banner-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.95;
+    background-color: rgb(0 0 0 / 62%)
+}
+
+#asset-tokenization .banner-overlay {
+    background: #431b79;
+}
+
+@media (max-width: 768px) {
+    #asset-tokenization .banner_img img {
+        max-width: 100%;
+        margin-top: 0%;
+    }
+
+    #asset-tokenization .banner {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+}
+
+#asset-tokenization .contentall h1,
+#asset-tokenization .ban_tirt {
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+#asset-tokenization .contentall p {
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 19px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+#asset-tokenization .contentall a {
+    color: #fff;
+    cursor: pointer;
+    margin: 15px 0px;
+}
+
+@media (max-width: 768px) {
+
+    #asset-tokenization .contentall h1,
+    #asset-tokenization .ban_tirt {
+        font-size: 25px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    #asset-tokenization .contentall h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+#asset-tokenization .card-desc p {
+    min-height: auto !important;
+}
+
+#asset-tokenization .btn-card {
+    position: relative !important;
+    bottom: 0 !important;
+    left: auto !important;
+    right: auto !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+    display: block !important;
+    max-width: 200px !important;
+}
+
+#asset-tokenization .banner_content .contentall {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    #asset-tokenization .main {
+        margin-top: 130px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #asset-tokenization .banner-btn {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto !important;
+    }
+
+    #asset-tokenization .btn1 {
+        margin-left: 3px !important;
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #asset-tokenization .btn1 {
+        margin-left: 20px !important;
+    }
+}
+
+#asset-tokenization .banner {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#asset-tokenization .ct_box {
+    margin-top: 30px;
+}
+
+#asset-tokenization .banner_content p {
+    font-size: 14px !important;
+}
+
+#asset-tokenization .contentall h1,
+#asset-tokenization .ban_tirt {
+    font-size: 25px;
+}
+
+#asset-tokenization .sec_tit,
+#asset-tokenization .sec_tit h2 {
+    font-size: 20px !important;
+}
+
+#asset-tokenization .col-md-3.col-sm-6.col-xs-12.adv_lr {
+    margin-left: 0%;
+}
+
+#asset-tokenization .counters,
+#asset-tokenization .adv_fet,
+#asset-tokenization .flip-box {
+    max-width: 450px;
+    margin: 0 auto 30px;
+}
+
+#asset-tokenization .pull-left img {
+    margin-top: 30px;
+}
+
+#asset-tokenization .sto-flip .flip-box {
+    min-height: auto;
+}
+
+#asset-tokenization .cnt_box h4.sec_tit {
+    font-size: 25px !important;
+}
+
+#asset-tokenization .cnt_box p {
+    font-size: 17px;
+    max-width: 800px;
+    margin: 20px auto 20px;
+    line-height: 1.6;
+}
+
+#asset-tokenization .eto-exchange-flip .flip-box {
+    min-height: auto;
+}
+
+#asset-tokenization .pr_arr:after,
+#asset-tokenization .pr_arr:before,
+#asset-tokenization .banner_content p br,
+#asset-tokenization .sec_tit br {
+    display: none !important;
+}
+
+#asset-tokenization .feal_cnt h5 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+#asset-tokenization h3.section-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#asset-tokenization .ban_form {
+    background: #29292999;
+    box-shadow: 0 0 10px #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 30px 10px;
+    border-radius: 5px;
+}
+
+#asset-tokenization .ban_form .form-group {
+    margin-bottom: 20px;
+}
+
+#asset-tokenization .banner_content h4 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#asset-tokenization .ban_form label {
+    display: none;
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding-left: 0 !important;
+}
+
+#asset-tokenization .ban_form input#phone_banner {
+    color: #000;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#asset-tokenization .submit_btn_b button.common_send_btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #000;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#asset-tokenization .sto-flip .flip-box {
+    min-height: 300px;
+}
+
+#asset-tokenization .img-text-box h5 {
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#asset-tokenization .img-text-box p.feature-desc {
+    line-height: 1.7;
+}
+
+#asset-tokenization .img-text-box {
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+
+    #asset-tokenization .contentall h1,
+    #asset-tokenization .ban_tirt {
+        font-size: 30px;
+    }
+}
+
+#asset-tokenization .contentall h1,
+#asset-tokenization .ban_tirt {
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+#asset-tokenization .contentall p {
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 19px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+#asset-tokenization .form-right input.submit_send {
+    width: 100% !important;
+    margin: 0 !important;
+    display: inline-block !important;
+    background: #47b475 !important;
+    color: #fff !important;
+    border: 0 !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    padding: 10px 0 !important
+}
+
+#asset-tokenization .token-list {
+    max-width: 935px;
+    margin: 0 auto
+}
+
+#asset-tokenization .token-list li {
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 3px 10px 4px 25px;
+    border-left: 2px solid #999;
+    background-image: url(/public/assets/images/check-mark.svg);
+    background-position: 5px 8px;
+    background-size: 14px;
+    background-repeat: no-repeat;
+    color: #555
+}
+
+#asset-tokenization .types-sto.types-token h4 {
+    font-size: 18px
+}
+
+#asset-tokenization .token-issuance-platform p {
+    margin-bottom: 10px
+}
+
+#asset-tokenization .token-issuance-platform ul li {
+    width: auto;
+    float: none
+}
+
+#asset-tokenization .token-issuance-platform ul li i {
+    color: #47b475;
+    font-size: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px
+}
+
+#asset-tokenization .token-tech .flex-sec>div,
+#asset-tokenization .types-sto.types-token>div {
+    border-bottom: 2px solid #00cd95;
+    transition: .5s;
+    box-shadow: 0 0 20px 0 rgba(116, 116, 116, .1)
+}
+
+#asset-tokenization .token-tech .flex-sec>div:hover,
+#asset-tokenization .types-sto.types-token>div:hover {
+    box-shadow: 0 0 20px 0 rgba(116, 116, 116, .2);
+    -webkit-box-shadow: 0 0 20px 0 rgba(116, 116, 116, .2);
+    -moz-box-shadow: 0 0 20px 0 rgba(116, 116, 116, .2)
+}
+
+@media (min-width:992px) {
+    #asset-tokenization .token-list li {
+        width: 48%;
+        float: left
+    }
+}
+
+@media (max-width:767px) {
+    #asset-tokenization .token-list {
+        margin-top: 20px
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    #asset-tokenization .banner {
+        background: #1da591;
+        background-size: cover;
+        position: relative;
+        height: 500px;
+        overflow: hidden
+    }
+
+    #asset-tokenization .local_bitcoins {
+        display: none !important
+    }
+
+    #asset-tokenization .large-header {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+        background-color: transparent
+    }
+}
+
+@media only screen and (max-width:479px) {
+    #asset-tokenization .banner {
+        background: #1da591;
+        background-size: cover;
+        position: relative;
+        height: 500px;
+        overflow: hidden
+    }
+
+    #asset-tokenization .mt60 {
+        margin-top: 0 !important
+    }
+
+    #asset-tokenization .large-header {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+        background-color: transparent
+    }
+
+    #asset-tokenization .local_bitcoins {
+        display: none !important
+    }
+}
+
+#asset-tokenization .sub_head {
+    max-width: 900px;
+    margin: 0 auto 30px
+}
+
+#asset-tokenization .asset-token:hover {
+    background: #009688
+}
+
+@media (max-width:767px) {
+    #asset-tokenization .data table tbody tr:first-child th:last-child {
+        transform: none !important;
+        box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%)
+    }
+}
+
+#asset-tokenization .tokenize {
+    background: #fff
+}
+
+#asset-tokenization .features-tech:hover {
+    background: #8bc34a;
+    transition: all .5s ease-out
+}
+
+#asset-tokenization .features-tech h4 {
+    font-weight: 700
+}
+
+#asset-tokenization .features-tech:hover h4 {
+    color: #fff;
+    font-weight: 700
+}
+
+#asset-tokenization .features-tech:hover p {
+    color: #fff;
+    font-weight: 700
+}
+
+@media screen and (max-width:500px) {
+    #asset-tokenization .nec-btn {
+        width: auto !important;
+        padding: 10px 12px !important
+    }
+
+    #asset-tokenization .cta_mine {
+        width: auto !important
+    }
+}
+
+@media screen and (min-width:768px) {
+    #asset-tokenization .investor-prospectus ul li {
+        width: 25%
+    }
+}
+
+#asset-tokenization .font_wei {
+    font-weight: 700
+}
+
+#asset-tokenization .asset-token h3 {
+    font-weight: 700
+}
+
+#asset-tokenization .asset-token:hover p {
+    color: #fff
+}
+
+#asset-tokenization .asset-token:hover h3 {
+    color: #fff
+}
+
+#asset-tokenization .asset-token:hover img {
+    filter: brightness(0) invert(1)
+}
+
+@media screen and (max-width:360px) {
+    #asset-tokenization .contentall h1 {
+        font-size: 21px;
+        line-height: 30px
+    }
+}
+
+#asset-tokenization .spc li p i::before {
+    margin-right: 10px !important
+}
+
+#asset-tokenization .spc li p {
+    text-indent: -9px
+}
+
+@media only screen and (max-width:760px) {
+    #asset-tokenization #one {
+        order: 2
+    }
+
+    #asset-tokenization #two {
+        order: 1
+    }
+}
+
+#asset-tokenization .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all .3s ease-out 0s !important;
+    background: #47b475 !important
+}
+
+#asset-tokenization .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important
+}
+
+#asset-tokenization .contentall a,
+#asset-tokenization a.home-talk-experts {
+    padding: 10px 20px !important
+}
+
+#asset-tokenization a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px !important;
+    display: inline-block
+}
+
+@media screen and (min-width:500px) {
+    #asset-tokenization a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+        margin-right: 26px !important
+    }
+}
+
+#asset-tokenization .banner_content p {
+    margin: 0 auto !important;
+    padding-bottom: 10px
+}
+
+#asset-tokenization .perfect-script-items1 {
+    -webkit-box-shadow: 0px 5px 15px 0px rgb(21 10 82 / 20%);
+    box-shadow: 0px 5px 15px 0px rgb(21 10 82 / 20%);
+    padding: 25px 15px 10px;
+    border-radius: 16px;
+    background-color: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    min-height: 250px;
+    margin-bottom: 20px;
+}
+
+#asset-tokenization .perfect-script-items1 .icon {
+    width: 70px;
+    height: 70px;
+    /* margin: 20px auto 50px; */
+    line-height: 75px;
+    position: relative;
+    border-radius: 0px 50% 50% 0px;
+    /* background-image: linear-gradient( 
+293deg
+ , #fba214 0%, #f7cb22 100%); */
+    /* background-color: #f03858; */
+    color: #fff;
+    font-size: 40px;
+    box-shadow: 3px 14px 13px 0px #0000003b;
+    z-index: 9;
+    float: left;
+    background: #47b475;
+    /* border: 3px solid #292c97; */
+    margin-left: -15px;
+    text-align: center;
+}
+
+#asset-tokenization .perfect-script-items1 .icon img {
+    width: 45px;
+    margin-top: -8px;
+}
+
+#asset-tokenization .perfect-script-items1 .content {
+    display: block;
+    float: left;
+    width: 80%;
+    padding-left: 30px;
+}
+
+#asset-tokenization .perfect-script-items1 strong {
+    color: #47b475;
+    font-size: 18px;
+}
+
+#asset-tokenization .perfect-script-items1 p {
+    text-align: left;
+}
+
+#asset-tokenization .perfect-script-items1:hover {
+    transform: translateY(-10px);
+}
+
+#asset-tokenization .font-wei {
+    font-weight: 700;
+}
+
+/*equalize start*/
+#asset-tokenization .container-center {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+}
+
+#asset-tokenization .equalize {
+    display: flex;
+}
+
+/*equalize end */
+
+#asset-tokenization .awesome-features-wrapper {
+    border: 1px solid #cdcdcd;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    transition: .3s;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#asset-tokenization .awesome-features-wrapper::before {
+    background: #47b475;
+    height: 20px;
+    width: 3px;
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: 65px;
+}
+
+#asset-tokenization .awesome-features-wrapper::after {
+    background: #47b475;
+    height: 50px;
+    width: 3px;
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: 94px;
+}
+
+#asset-tokenization .awesome-features-icon-img {
+    margin-bottom: 22px;
+    font-size: 36px;
+    color: #4db679;
+}
+
+#asset-tokenization .awesome-features-icon-img img {
+    width: 60px;
+    height: 60px;
+}
+
+#asset-tokenization .awesome-features-text h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 18px;
+}
+
+#asset-tokenization .awesome-features-text p {
+    margin-bottom: 0;
+    padding: 0 41px;
+}

@@ -1,0 +1,789 @@
+
+
+#ico-community-marketing .guardian-p {
+    text-align: center;
+    font-size: 12px;
+}
+
+/*-- Client section --*/
+#ico-community-marketing .teck .category-grid-style-01 .category-item {
+    padding: 10px !important;
+}
+
+.category-item.aos-item .text-center {
+    font-size: 12px !important;
+    margin-bottom: 0px !important;
+}
+
+#ico-community-marketing .teck .category-grid-style-01 .category-item .category-icon {
+    margin-bottom: 0 !important;
+}
+
+#ico-community-marketing .teck .category-icon img {
+    height: 80px !important;
+}
+
+/*-- Client section --*/
+
+#ico-community-marketing .form-right input.submit_send {
+    width: 100% !important;
+    margin: 0 !important;
+    display: inline-block !important;
+    background: #47b475 !important;
+    color: #fff !important;
+    border: 0 !important;
+    text-transform: capitalize;
+    font-weight: 700 !important;
+    padding: 10px 0 !important
+}
+
+
+#ico-community-marketing .font-wei {
+    color: #000;
+    font-weight: 700
+}
+
+#ico-community-marketing #pricing-section {
+    padding: 60px 0
+}
+
+#ico-community-marketing svg path {
+    fill: #47b475
+}
+
+#ico-community-marketing p strong {
+    color: #000
+}
+
+#ico-community-marketing .flip-box {
+    padding: 35px 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-bottom: 2px solid #47b475;
+    min-height: 356px;
+}
+
+#ico-community-marketing .flip-tit {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000
+}
+
+#ico-community-marketing .flip-icon-outer {
+    padding: 0;
+    width: 100px;
+    height: 100px
+}
+
+#ico-community-marketing .main {
+    overflow-x: hidden
+}
+
+@media (max-width:767px) {
+    #ico-community-marketing .flip-tit {
+        font-size: 14px;
+        line-height: 21px
+    }
+
+    #ico-community-marketing .flip-box {
+        padding: 30px 10px 0;
+        min-height: 200px
+    }
+}
+
+#ico-community-marketing .banner_content {
+    text-align: left !important;
+    position: relative !important;
+    top: 0;
+    transform: none;
+    padding-top: 0px !important;
+}
+
+#ico-community-marketing .banner_content ul {
+    padding-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    max-width: 490px
+}
+
+#ico-community-marketing .banner_content .contentall {
+    margin-top: 30px;
+    padding: 0;
+}
+
+#ico-community-marketing .banner_content h4 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid
+}
+
+#ico-community-marketing .uniq_features ul {
+    padding-left: 15px
+}
+
+#ico-community-marketing .uniq_features ul li {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 29px
+}
+
+#ico-community-marketing .uniq_features ul li:after {
+    font-family: FontAwesome;
+    top: 4px;
+    right: 0;
+    padding-right: 10px;
+    content: "\f0a9";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #03b787
+}
+
+#ico-community-marketing .uniq_features p b {
+    font-size: 18px
+}
+
+#ico-community-marketing .banner {
+    height: 650px !important;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 120px !important;
+    height: 600px;
+    position: relative
+}
+
+#ico-community-marketing .contentall h1 {
+    margin-bottom: 25px;
+    line-height: 1.3;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 28px
+}
+
+#ico-community-marketing .banner:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #23b0a3, #09766c)
+}
+
+#ico-community-marketing .contentall p {
+    margin-bottom: 40px;
+    text-align: justify
+}
+
+#ico-community-marketing .flip-icon-outer img {
+    height: 60px;
+    position: relative;
+    top: 19px
+}
+
+#ico-community-marketing .work_pr {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    min-height: 294px;
+    padding: 10px 5px;
+}
+
+#ico-community-marketing .lt_row {
+    position: relative;
+    margin-left: 13%
+}
+
+#ico-community-marketing .flip-txt {
+    font-size: 14px
+}
+
+#ico-community-marketing .work_pr p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    font-weight: 400
+}
+
+#ico-community-marketing .work_ic img {
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px
+}
+
+#ico-community-marketing .work_ic {
+    background: #fff;
+    width: 100px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    height: 100px;
+    box-shadow: 0 0 10px #ccc
+}
+
+#ico-community-marketing img.arrr {
+    width: 30px;
+    position: absolute;
+    right: -5%;
+    top: 40px
+}
+
+#ico-community-marketing .ben_sec li {
+    background: #04bdb70d;
+    margin-bottom: 21px;
+    border-left: 4px solid #17b5587a;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+#ico-community-marketing .ben_sec li i {
+    color: #17b559;
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 17px;
+    width: 50px;
+    text-align: center;
+    height: 100%;
+    background: #f5f5f5;
+    padding: 10px;
+    line-height: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 1px solid #17b5587a;
+    border-bottom: 1px solid #17b5587a
+}
+
+#ico-community-marketing .ben_sec ul {
+    padding-left: 0
+}
+
+#ico-community-marketing img.be_sc {
+    margin-top: 20px
+}
+
+#ico-community-marketing .tm-det {
+    width: 100%
+}
+
+#ico-community-marketing h2.common_h3 {
+    font-size: 25px
+}
+
+#ico-community-marketing p.sub_text {
+    max-width: 800px;
+    margin: 0 auto
+}
+
+#ico-community-marketing .c_m h4 {
+    font-weight: 700
+}
+
+#ico-community-marketing .comm_buil.comm_buil_ben:after {
+    width: 42%;
+    content: '';
+    height: 100%;
+    background: url(/public/assets/images/benefits.webp);
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+#ico-community-marketing .comm_buil {
+    position: relative;
+    z-index: 1
+}
+
+#ico-community-marketing .ben_s {
+    position: relative;
+    padding-left: 85px;
+    margin-bottom: 20px;
+    min-height: 76px
+}
+
+#ico-community-marketing .ben_s .ben_img {
+    width: 70px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    background: #47b475;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 70px
+}
+
+#ico-community-marketing .ben_cnt p {
+    margin-bottom: 0;
+    line-height: 1.5
+}
+
+#ico-community-marketing .ben_cnt h4 {
+    font-size: 17px;
+    font-weight: 700
+}
+
+#ico-community-marketing .ben_s .ben_img img {
+    width: 40px
+}
+
+#ico-community-marketing .comm_buil.comm_buil_ben {
+    padding-bottom: 40px
+}
+
+#ico-community-marketing .ben_sec .re_box li {
+    background: #fff;
+    border: none;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-left: 40px;
+    max-width: 43%;
+    width: 100%;
+    float: left;
+    margin-right: 30px
+}
+
+#ico-community-marketing .ben_sec .re_box li i {
+    border: none;
+    line-height: initial;
+    background: 0 0;
+    width: auto;
+    padding: 0;
+    left: -38px;
+    font-size: 35px
+}
+
+#ico-community-marketing .technicalbox {
+    background: #f2f2f2 !important;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 30px !important;
+    padding: 40px 30px 20px;
+    position: relative;
+    min-height: 350px
+}
+
+@media only screen and (max-width:992px) {
+    #ico-community-marketing img.arrr {
+        width: 64px;
+        position: absolute;
+        right: -8%;
+        top: 40px;
+        height: 19px
+    }
+
+    #ico-community-marketing .comm_buil:after {
+        display: none
+    }
+
+    #ico-community-marketing .lt_row {
+        position: relative;
+        margin-left: 0
+    }
+
+    #ico-community-marketing .banner {
+        height: auto;
+        padding-bottom: 40px
+    }
+
+    #ico-community-marketing .banner_content .contentall {
+        margin-top: 60px;
+        max-width: 600px;
+        margin-left: auto;
+        text-align: center;
+        margin-right: auto
+    }
+
+    #ico-community-marketing .p2b_ban img {
+        max-width: 80%;
+        margin-top: 20px
+    }
+
+    #ico-community-marketing .contentall h1 {
+        margin-bottom: 15px;
+        line-height: 1.3;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    #ico-community-marketing .contentall p {
+        margin-bottom: 20px
+    }
+
+    #ico-community-marketing img.be_sc,
+    #ico-community-marketing img.sm_img {
+        max-width: 80%
+    }
+
+    #ico-community-marketing .work_pr_10 img.arrr,
+    #ico-community-marketing .work_pr_2 img.arrr,
+    #ico-community-marketing .work_pr_4 img.arrr,
+    #ico-community-marketing .work_pr_6 img.arrr {
+        display: none
+    }
+
+    #ico-community-marketing .work_pr {
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 40px;
+        max-width: 450px;
+        margin: 0 auto 40px;
+        min-height: auto;
+    }
+
+    #ico-community-marketing h2.common_h2,
+    #ico-community-marketing h3.common_h3 {
+        font-size: 25px !important
+    }
+
+    #ico-community-marketing .ben_sec .re_box li {
+        margin-left: 40px;
+        max-width: 40%
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #ico-community-marketing .banner {
+        padding-top: 30px
+    }
+
+    #ico-community-marketing .ben_sec .re_box li {
+        margin-left: 0;
+        max-width: 100%
+    }
+
+    #ico-community-marketing .ben_sec ul.re_box {
+        padding-left: 0;
+        margin-left: 45px
+    }
+
+    #ico-community-marketing h2.common_h3 br {
+        display: none
+    }
+
+    #ico-community-marketing .flip-box {
+        padding: 30px 10px 0;
+        min-height: 200px;
+        max-width: 450px;
+        margin: 0 auto 30px;
+        padding-bottom: 30px
+    }
+
+    #ico-community-marketing img.arrr {
+        display: none
+    }
+
+    #ico-community-marketing .flip-tit {
+        font-size: 18px;
+        line-height: 21px
+    }
+
+    #ico-community-marketing .work_pr p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 0
+    }
+
+    #ico-community-marketing h2.common_h2,
+    #ico-community-marketing h3.common_h3 {
+        font-size: 25px !important;
+        line-height: 1.5;
+        margin-bottom: 30px
+    }
+
+    #ico-community-marketing .contentall p {
+        text-align: center
+    }
+
+    #ico-community-marketing .main {
+        font-size: 14px;
+        line-height: 1.6
+    }
+}
+
+#ico-community-marketing .ben_cnt h3 {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 1024px) {
+    #ico-community-marketing .contentall {
+        padding-top: 50px;
+    }
+}
+
+#ico-community-marketing .font-wei {
+    color: #000000;
+    font-weight: 700;
+}
+
+#ico-community-marketing .flip-tit {
+    font-weight: 700;
+}
+
+#ico-community-marketing .ben_cnt h3 {
+    font-weight: 700;
+}
+
+#ico-community-marketing .rounded-corners {
+    border-radius: 10px;
+}
+
+#ico-community-marketing .flip-box:hover {
+    background: #47b475;
+}
+
+#ico-community-marketing .flip-box:hover .flip-tit {
+    color: #fff;
+}
+
+#ico-community-marketing .flip-box:hover .flip-txt {
+    color: #fff;
+}
+
+#ico-community-marketing .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+
+#ico-community-marketing .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important;
+}
+
+#ico-community-marketing a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px !important;
+    display: inline-block;
+    margin-right: 26px !important;
+}
+
+#ico-community-marketing .contentall a,
+#ico-community-marketing a.home-talk-experts {
+    padding: 10px 20px !important;
+}
+
+#ico-community-marketing .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+
+#ico-community-marketing .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important;
+}
+
+#ico-community-marketing a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px !important;
+    display: inline-block;
+    margin-right: 26px !important;
+}
+
+#ico-community-marketing .contentall a,
+#ico-community-marketing a.home-talk-experts {
+    padding: 10px 20px !important;
+}
+
+#ico-community-marketing .Package_list img {
+    /*border:1px solid #fff;
+                border-radius: 150px;*/
+}
+
+#ico-community-marketing .Package_list {
+    display: inline-block;
+    background: rgba(0, 0, 0, .6);
+    padding: 30px 10px;
+    /* max-width: 280px; */
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-inline: 2px;
+}
+
+#ico-community-marketing .Package_list img {
+    height: 55px;
+}
+
+@media screen and (max-width:320px) {
+    #ico-community-marketing .Package_list {
+        width: 100%;
+    }
+}
+
+
+#ico-community-marketing .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+
+#ico-community-marketing .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important;
+}
+
+#ico-community-marketing a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px !important;
+    display: inline-block;
+    margin-right: 26px !important;
+}
+
+#ico-community-marketing .contentall a,
+#ico-community-marketing a.home-talk-experts {
+    padding: 10px 20px !important;
+}
+
+#ico-community-marketing .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+
+#ico-community-marketing .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important;
+}
+
+#ico-community-marketing a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px !important;
+    display: inline-block;
+    margin-right: 26px !important;
+}
+
+#ico-community-marketing .contentall a,
+#ico-community-marketing a.home-talk-experts {
+    padding: 10px 20px !important;
+}
+
+#ico-community-marketing #newsletter-form-sec .form-group {
+    margin-bottom: 7px;
+}
+
+#ico-community-marketing #mailForm_common .form-group label {
+    color: #fff;
+}
+
+#ico-community-marketing .contact-content {
+    padding-top: 40px;
+    padding: 30px;
+    margin-top: -40px;
+    margin-left: -40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, .22);
+    border-radius: 7px;
+}
+
+#ico-community-marketing .contact-content p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#ico-community-marketing .contact-content a {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#ico-community-marketing .contact-content a i {
+    color: #47b475;
+    font-size: 24px;
+}
+
+#ico-community-marketing .form-control {
+    background: #fff;
+}
+
+#ico-community-marketing .pad-40-20 {
+    padding: 25px 25px 0 25px;
+}
+
+#ico-community-marketing input#phone_common {
+    background: #fff;
+}
+
+#ico-community-marketing #mailForm_common .form-group label {
+    color: #fff;
+}
+
+#ico-community-marketing a.home-talk-experts {
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #ico-community-marketing .contact-content {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 20px !important;
+    }
+
+    #ico-community-marketing .pad-40-20 {
+        padding: 20px;
+    }
+
+    #ico-community-marketing .contact-content a {
+        font-size: 14px;
+    }
+
+    #ico-community-marketing .sticky-form {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+    #ico-community-marketing .contact-content {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+#ico-community-marketing .newsletter_videos h5 {
+    color: #fff;
+    font-size: 25px !important;
+}
+
+#ico-community-marketing h5.section-title {
+    font-size: 27.46px;
+}
+
+#ico-community-marketing .client h5 {
+    color: #444 !important;
+}
+
+#ico-community-marketing h5.common_h3 {
+    font-size: 25px !important;
+}

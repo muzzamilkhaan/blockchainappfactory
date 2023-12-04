@@ -1,0 +1,1809 @@
+#real-estate-tokenization-essential-guide .banner_content {
+    text-align: left;
+}
+
+#real-estate-tokenization-essential-guide .banner {
+    padding-top: 165px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+#real-estate-tokenization-essential-guide h3.common_h3 {
+    font-size: 30px !important;
+}
+
+#real-estate-tokenization-essential-guide .para {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#real-estate-tokenization-essential-guide .bg-2 {
+    background-image: linear-gradient(45deg, black, #00000052), url(images/ido/bg-3.webp);
+    background-size: cover;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+#real-estate-tokenization-essential-guide .banner-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.95;
+    background-color: rgb(0 0 0 / 70%);
+}
+
+#real-estate-tokenization-essential-guide .banner_content {
+    text-align: left;
+    position: relative;
+    top: 0;
+    transform: none;
+}
+
+#real-estate-tokenization-essential-guide .banner_content .contentall {
+    margin-top: 30px;
+    padding: 0;
+}
+
+#real-estate-tokenization-essential-guide .contentall h1 {
+    color: #000 !important;
+}
+
+#real-estate-tokenization-essential-guide .contentall p {
+    color: #000 !important;
+}
+
+#real-estate-tokenization-essential-guide .contentall h1,
+#real-estate-tokenization-essential-guide .ban_tirt {
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#real-estate-tokenization-essential-guide .contentall p {
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 21px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+#real-estate-tokenization-essential-guide .contentall a {
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#real-estate-tokenization-essential-guide .sec_tit,
+#real-estate-tokenization-essential-guide .sec_tit h2 {
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.4;
+}
+
+#real-estate-tokenization-essential-guide .cta_mine {
+    margin-top: 0;
+}
+
+#real-estate-tokenization-essential-guide .wrapper {
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0 10px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+@media (max-width: 1199px) {
+
+    #real-estate-tokenization-essential-guide .contentall h1,
+    #real-estate-tokenization-essential-guide .ban_tirt {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    #real-estate-tokenization-essential-guide .banner {
+        height: auto !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #real-estate-tokenization-essential-guide .banner {
+        padding-top: 85px;
+    }
+
+    #real-estate-tokenization-essential-guide .banner_content .contentall {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    body,
+    html {
+        font-size: calc(15px + (14 - 12) * ((100vw - 600px)/ (1140 - 600)));
+    }
+
+    #real-estate-tokenization-essential-guide .banner-overlay {
+        background: #000000ba;
+    }
+
+    #real-estate-tokenization-essential-guide .banner_content p {
+        font-size: 14px !important;
+    }
+
+    #real-estate-tokenization-essential-guide .contentall h1,
+    #real-estate-tokenization-essential-guide .ban_tirt {
+        font-size: 25px;
+    }
+    #real-estate-tokenization-essential-guide .counters,
+    #real-estate-tokenization-essential-guide .adv_fet,
+    #real-estate-tokenization-essential-guide .flip-box {
+        margin: 0 auto 30px;
+    }
+
+    #real-estate-tokenization-essential-guide .pull-left img {
+        margin-top: 30px;
+    }
+
+    #real-estate-tokenization-essential-guide .sto-flip .flip-box {
+        min-height: auto;
+    }
+
+    #real-estate-tokenization-essential-guide .eto-exchange-flip .flip-box {
+        min-height: auto;
+    }
+
+    #real-estate-tokenization-essential-guide .pr_arr:after,
+    #real-estate-tokenization-essential-guide .pr_arr:before,
+    #real-estate-tokenization-essential-guide .banner_content p br,
+    #real-estate-tokenization-essential-guide .sec_tit br {
+        display: none !important;
+    }
+
+}
+
+#real-estate-tokenization-essential-guide h3.section-title {
+    font-size: 25px !important;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#real-estate-tokenization-essential-guide .sto-flip .flip-box {
+    min-height: 300px;
+}
+
+#real-estate-tokenization-essential-guide .img-text-box h5 {
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#real-estate-tokenization-essential-guide .img-text-box p.feature-desc {
+    line-height: 1.7;
+}
+
+#real-estate-tokenization-essential-guide .img-text-box {
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+#real-estate-tokenization-essential-guide div#assis_t .flip-box {
+    padding: 30px 15px 20px;
+    min-height: 280px;
+}
+
+#real-estate-tokenization-essential-guide .intro_cnt img {
+    border-radius: 10px;
+}
+
+#real-estate-tokenization-essential-guide div#assis_t .flip-box img {
+    width: 54px;
+    margin-top: 7px;
+}
+
+#real-estate-tokenization-essential-guide .flip-box-row {
+    margin-bottom: 0;
+}
+
+#real-estate-tokenization-essential-guide .flip-box {
+    margin-bottom: 30px;
+    padding: 30px 14px;
+}
+
+#real-estate-tokenization-essential-guide a.home-talk-experts.w_bt {
+    background: no-repeat;
+    color: #47b475;
+    border: 2px solid #47b475;
+    padding: 8px 25px;
+}
+
+#real-estate-tokenization-essential-guide a.home-talk-experts.w_bt:hover {
+    color: #000 !important;
+}
+
+#real-estate-tokenization-essential-guide .sec_tit h2 {
+    display: inline;
+}
+
+#real-estate-tokenization-essential-guide .text-white {
+    color: #fff;
+}
+
+#real-estate-tokenization-essential-guide .strategies {
+    padding: 50px 0px;
+    color: #000;
+    background: #f1f1f1;
+}
+
+#real-estate-tokenization-essential-guide .strategies-items,
+#real-estate-tokenization-essential-guide .strategies-items1 {
+    background: linear-gradient(90deg, #fff, #f1f1f1);
+    padding: 15px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+#real-estate-tokenization-essential-guide .strategies-items .icons,
+#real-estate-tokenization-essential-guide .strategies-items1 .icons {
+    border: 1px solid #eee;
+}
+
+#real-estate-tokenization-essential-guide .strategies-items p,
+#real-estate-tokenization-essential-guide .strategies-items1 p {
+    text-align: justify;
+    padding: 15px;
+}
+
+#real-estate-tokenization-essential-guide .popular-text {
+    padding: 15px;
+}
+
+#real-estate-tokenization-essential-guide .popular-text h3 {
+    padding-bottom: 10px;
+}
+
+#real-estate-tokenization-essential-guide .icons img {
+    border-radius: 15px;
+}
+
+#real-estate-tokenization-essential-guide .strategies-items p strong,
+#real-estate-tokenization-essential-guide .strategies-items1 p strong {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #eee;
+    background: linear-gradient(#47b475, #47b475);
+}
+
+#real-estate-tokenization-essential-guide .strategies-items1 {
+    background: linear-gradient(90deg, #f1f1f1, #fff);
+}
+
+#real-estate-tokenization-essential-guide .strategies-items1 .icons {
+    order: 2;
+    margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+
+    #real-estate-tokenization-essential-guide .strategies-items,
+    #real-estate-tokenization-essential-guide .strategies-items1 {
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #real-estate-tokenization-essential-guide .magic {
+        display: none;
+    }
+}
+
+#real-estate-tokenization-essential-guide .flip-tit {
+    font-weight: 700;
+    color: #000000;
+}
+
+@media screen and (min-width: 500px) {
+    #real-estate-tokenization-essential-guide #cyz {
+        margin-right: 26px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #real-estate-tokenization-essential-guide #cyz {
+        padding: 10px 25px !important;
+    }
+
+    #real-estate-tokenization-essential-guide .txt {
+        padding: 5px 20px;
+    }
+
+    #real-estate-tokenization-essential-guide .awesome-features-wrapper {
+        min-height: auto !important;
+    }
+}
+
+#real-estate-tokenization-essential-guide .tik {
+    background-color: #ffffff;
+    padding: 30px 0px;
+}
+
+#real-estate-tokenization-essential-guide .tik1 {
+    color: black;
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 900px;
+    font-style: italic;
+}
+
+#real-estate-tokenization-essential-guide .magic {
+    height: auto;
+}
+
+#real-estate-tokenization-essential-guide .title-th {
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+    #real-estate-tokenization-essential-guide .team {
+        margin-top: 30px !important;
+    }
+
+    #real-estate-tokenization-essential-guide .perfect-script-items1 {
+        min-height: 240px !important;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    #real-estate-tokenization-essential-guide .cyz {
+        width: 100%;
+    }
+}
+
+#real-estate-tokenization-essential-guide .choose-wrapper {
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    min-height: 320px !important;
+}
+
+#real-estate-tokenization-essential-guide .choose-wrapper:hover {
+    background: #47b775;
+    color: #fff;
+}
+
+#real-estate-tokenization-essential-guide .choose-wrapper:hover p strong,
+#real-estate-tokenization-essential-guide .choose-wrapper:hover h3 {
+    color: #fff;
+}
+
+#real-estate-tokenization-essential-guide .wrappwer-icon {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    box-shadow: 2px 4px #47b475;
+    border: 3px solid #47b475;
+}
+
+#real-estate-tokenization-essential-guide .wrappwer-icon img {
+    width: 65px;
+    margin-top: 15px;
+}
+
+#real-estate-tokenization-essential-guide .choose-para h3 {
+    font-weight: 700 !important;
+    margin: 20px 0 5px 0;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+#real-estate-tokenization-essential-guide .choose-para p {
+    font-size: 14px;
+}
+
+#real-estate-tokenization-essential-guide .p-60 {
+    padding: 60px 0;
+}
+
+#real-estate-tokenization-essential-guide .main-sections {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#real-estate-tokenization-essential-guide .pre-ico-sec-1 .card-big-shadow {
+    position: relative;
+}
+
+#real-estate-tokenization-essential-guide .card-big-shadow:before {
+    background-image: url(images/ibm/shadow.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: -12%;
+    content: "";
+    display: block;
+    left: -12%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    opacity: .5;
+}
+
+#real-estate-tokenization-essential-guide .pre-ico-sec-1 .why-adit-list {
+    width: 100%;
+    background: #ddf3e6;
+    border: 1px solid #eee;
+    position: relative;
+    padding: 7%;
+    margin-bottom: 49px;
+    min-height: 340px !important;
+    text-align: justify;
+}
+
+#real-estate-tokenization-essential-guide .pre-ico-sec-1 .why-adit-list .icon {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#real-estate-tokenization-essential-guide .pre-ico-sec-1 .why-adit-list .icon img {
+    width: 55px;
+}
+
+#real-estate-tokenization-essential-guide .pre-ico-sec-1 .why-adit-list .content {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+#real-estate-tokenization-essential-guide .pre-ico-sec-1 .why-adit-list .content h3 {
+    color: #000000;
+    font-weight: 700;
+}
+
+#real-estate-tokenization-essential-guide .content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 0px !important;
+}
+
+#real-estate-tokenization-essential-guide .service-section {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+#real-estate-tokenization-essential-guide .service-section:before {
+    content: "";
+    background: url(images/lab/dot-shape.webp) #47b47599;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+#real-estate-tokenization-essential-guide .service-section .box4 {
+    background: url(images/lab/shape-7.svg) #fff;
+    background-size: 180px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#real-estate-tokenization-essential-guide .service_style_one {
+    background: #ffffff;
+    border-radius: 10px;
+    min-height: 260px;
+    padding: 40px 40px 10px;
+    transition: 0.5s all ease-in-out;
+    margin-bottom: 24px;
+}
+
+#real-estate-tokenization-essential-guide .service_style_one:hover {
+    background-color: #47b475f5;
+    color: white !important;
+}
+
+#real-estate-tokenization-essential-guide .style_one_title:hover {
+    color: #fff !important;
+}
+
+#real-estate-tokenization-essential-guide .service_style_one_icon {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    background: #e8ecfc;
+    color: #0C5ADB;
+    display: inline-block;
+    border-radius: 33% 66% 70% 30%/49% 62% 38% 51%;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    text-align: center;
+    font-size: 35px;
+}
+
+#real-estate-tokenization-essential-guide .service_style_one_icon img {
+    width: 50px;
+    height: auto;
+}
+
+#real-estate-tokenization-essential-guide .service_style_one_title h4 {
+    font-weight: 700;
+    color: #000000;
+    position: relative;
+    margin-top: 10px;
+}
+
+#real-estate-tokenization-essential-guide .service_style_one_title h4:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 37px;
+    height: 1px;
+    width: 75px;
+    background: #47b475;
+    margin: 0 auto;
+    right: 0;
+}
+
+#real-estate-tokenization-essential-guide .service_style_one:hover .service_style_one_title h4 {
+    color: #fff !important;
+}
+
+#real-estate-tokenization-essential-guide .service_style_one:hover {
+    transform: translateY(10px);
+    transition: 0.5s all ease-in-out;
+}
+
+#real-estate-tokenization-essential-guide .service_style_one_text {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#real-estate-tokenization-essential-guide .pad-tb {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#real-estate-tokenization-essential-guide .box4 p {
+    margin-top: 20px;
+}
+
+#real-estate-tokenization-essential-guide .box4 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #47b475;
+}
+
+#real-estate-tokenization-essential-guide .box4 {
+    background: #fff;
+    text-align: center;
+    background-size: 200%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 40px 10px 10px;
+    margin: 0;
+    min-height: 270px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid #91d2ac;
+    border-radius: 8px;
+    box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%), 0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+}
+
+#real-estate-tokenization-essential-guide .s-card-icon {
+    width: 80px;
+    margin: 0 auto;
+}
+
+#real-estate-tokenization-essential-guide .img-size {
+    height: 430px;
+    width: 450px;
+}
+
+@media screen and (max-width:426px) {
+    #real-estate-tokenization-essential-guide .img-size {
+        height: auto !important;
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width:426px) {
+    #real-estate-tokenization-essential-guide .img-size {
+        height: 430px;
+        width: auto !important;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1025px) {
+    #real-estate-tokenization-essential-guide .img-size {
+        height: 485px;
+        width: auto;
+    }
+}
+
+#real-estate-tokenization-essential-guide .package_includes {
+    color: #fff;
+}
+
+#real-estate-tokenization-essential-guide .package_includes {
+    background: url(../images/products/package_banner.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#real-estate-tokenization-essential-guide section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+#real-estate-tokenization-essential-guide .Package_list {
+    display: inline-block;
+    background: rgba(0, 0, 0, .6);
+    padding: 30px 10px;
+    width: 13%;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#real-estate-tokenization-essential-guide .Package_list img {
+    height: 55px;
+}
+
+#real-estate-tokenization-essential-guide .Package_list span {
+    display: block;
+    font-size: 15px;
+    margin-top: 12px;
+    color: #fff;
+}
+
+#real-estate-tokenization-essential-guide .product-features {
+    background: linear-gradient(rgb(37 38 37 / 48%), rgb(10 10 10 / 57%)), transparent url(images/nftm/bg-image.webp) top left/cover no-repeat scroll;
+}
+
+#real-estate-tokenization-essential-guide .bg-w {
+    background: #fff;
+}
+
+#real-estate-tokenization-essential-guide .bg-w1 {
+    background: #fff;
+}
+
+#real-estate-tokenization-essential-guide .bg-w2 {
+    background: #e0dddd;
+    font-weight: 600;
+}
+
+#real-estate-tokenization-essential-guide .btc {
+    color: #fff !important;
+}
+
+@media (max-width: 767px) {
+    #real-estate-tokenization-essential-guide .data table th:last-child {
+        margin: 10px 0 0;
+        display: table-cell;
+        width: 100%;
+    }
+
+    #real-estate-tokenization-essential-guide .data table tbody tr:first-child th:last-child {
+        transform: scale(1);
+        box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    }
+}
+
+#real-estate-tokenization-essential-guide .buy {
+    padding: 7px 10px;
+    font-size: 12px;
+}
+
+#real-estate-tokenization-essential-guide .btc {
+    color: #000000 !important;
+    font-weight: 700;
+}
+
+#real-estate-tokenization-essential-guide .pdg {
+    padding: 10px 70px !important;
+}
+
+#real-estate-tokenization-essential-guide .font-wei {
+    font-weight: 700;
+}
+
+#real-estate-tokenization-essential-guide #base1 {
+    padding: 50px 100px;
+}
+
+#real-estate-tokenization-essential-guide #base {
+    padding: 50px;
+}
+
+#real-estate-tokenization-essential-guide .cor {
+    background: #f9f9f9;
+}
+
+#real-estate-tokenization-essential-guide .bdr {
+    border-top: none !important;
+}
+
+@media screen and (max-width: 500px) {
+    #real-estate-tokenization-essential-guide a.nectar-button {
+        display: block;
+        width: 230px;
+    }
+
+    #real-estate-tokenization-essential-guide .perfect-script-items1 {
+        min-height: auto !important;
+    }
+}
+
+@media (max-width: 500px) {
+    #real-estate-tokenization-essential-guide .cta_mine {
+        width: 80%;
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+#real-estate-tokenization-essential-guide .buy {
+    border-radius: 30px;
+    padding: 10px 25px;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+}
+
+#real-estate-tokenization-essential-guide .buy:hover {
+    background: skyblue;
+    transform: scale(1, 1) !important;
+}
+
+#real-estate-tokenization-essential-guide .feature-box-3 .feature-desc {
+    color: #000000;
+}
+
+#real-estate-tokenization-essential-guide .feature-box-3 {
+    display: inline-block;
+    width: 100%;
+    min-height: 285px;
+}
+
+@media screen and (min-width: 980px) and (max-width: 1100px) {
+    #real-estate-tokenization-essential-guide .feature-box-3 {
+        min-height: 353px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #real-estate-tokenization-essential-guide .feature-box-3 {
+        min-height: auto;
+    }
+}
+
+#real-estate-tokenization-essential-guide h4.common_h4 {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: #47b475;
+}
+
+#real-estate-tokenization-essential-guide .bgg {
+    background-image: linear-gradient(179deg, #47b475 0%, #19aec5 74%);
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider {
+    width: 95%;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 25px;
+    border-radius: 25px;
+    height: 400px;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 992px) {
+    #real-estate-tokenization-essential-guide .blog-slider {
+        max-width: 680px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #real-estate-tokenization-essential-guide .blog-slider {
+        min-height: 500px;
+        height: auto;
+        margin-top: 130px;
+    }
+}
+
+@media screen and (max-height: 500px) and (min-width: 992px) {
+    #real-estate-tokenization-essential-guide .blog-slider {
+        height: 350px;
+    }
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    #real-estate-tokenization-essential-guide .blog-slider__item {
+        flex-direction: column;
+    }
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__img img {
+    opacity: 1;
+    transition-delay: 0.3s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>* {
+    opacity: 1;
+    transform: none;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(1) {
+    transition-delay: 0.3s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(2) {
+    transition-delay: 0.4s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(3) {
+    transition-delay: 0.5s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(4) {
+    transition-delay: 0.6s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(5) {
+    transition-delay: 0.7s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(6) {
+    transition-delay: 0.8s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(7) {
+    transition-delay: 0.9s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(8) {
+    transition-delay: 1s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(9) {
+    transition-delay: 1.1s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(10) {
+    transition-delay: 1.2s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(11) {
+    transition-delay: 1.3s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(12) {
+    transition-delay: 1.4s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(13) {
+    transition-delay: 1.5s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(14) {
+    transition-delay: 1.6s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(15) {
+    transition-delay: 1.7s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__img {
+    width: 300px;
+    flex-shrink: 0;
+    height: 300px;
+    border-radius: 20px;
+    transform: translateX(-80px);
+    overflow: hidden;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(147deg, #fe8a3900 0%, #fd383800 74%);
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    #real-estate-tokenization-essential-guide .blog-slider__img {
+        transform: translateY(-50%);
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #real-estate-tokenization-essential-guide .blog-slider__img {
+        width: 95%;
+    }
+}
+
+@media screen and (max-height: 500px) and (min-width: 992px) {
+    #real-estate-tokenization-essential-guide .blog-slider__img {
+        height: 270px;
+    }
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__content {
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    #real-estate-tokenization-essential-guide .blog-slider__content {
+        margin-top: -80px;
+        text-align: center;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #real-estate-tokenization-essential-guide .blog-slider__content {
+        padding: 0;
+    }
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__content>* {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: all 0.4s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__code {
+    color: #7b7992;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 500;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__text {
+    color: #000000;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__button {
+    display: inline-flex;
+    background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0px 14px 80px #47b4756b;
+    text-decoration: none;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 576px) {
+    #real-estate-tokenization-essential-guide .blog-slider__button {
+        width: 100%;
+    }
+}
+
+#real-estate-tokenization-essential-guide .blog-slider .swiper-container-horizontal>.swiper-pagination-bullets,
+#real-estate-tokenization-essential-guide .blog-slider .swiper-pagination-custom,
+#real-estate-tokenization-essential-guide .blog-slider .swiper-pagination-fraction {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__pagination {
+    position: absolute;
+    z-index: 21;
+    right: 20px;
+    width: 11px !important;
+    text-align: center;
+    left: auto !important;
+    top: 50%;
+    bottom: auto !important;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 768px) {
+    #real-estate-tokenization-essential-guide .blog-slider__pagination {
+        transform: translateX(-50%);
+        left: 50% !important;
+        top: 205px;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 8px 0;
+}
+
+@media screen and (max-width: 768px) {
+    #real-estate-tokenization-essential-guide .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 5px;
+    }
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__pagination .swiper-pagination-bullet {
+    width: 11px;
+    height: 11px;
+    display: block;
+    border-radius: 10px;
+    background: #062744;
+    opacity: 0.2;
+    transition: all 0.3s;
+}
+
+#real-estate-tokenization-essential-guide .blog-slider__pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #47b475;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    #real-estate-tokenization-essential-guide .blog-slider__pagination .swiper-pagination-bullet-active {
+        height: 11px;
+        width: 30px;
+    }
+}
+
+#real-estate-tokenization-essential-guide .uniq_features ul {
+    padding-left: 15px;
+}
+
+#real-estate-tokenization-essential-guide .uniq_features ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 29px;
+}
+
+#real-estate-tokenization-essential-guide .uniq_features ul li:after {
+    top: 3px;
+    right: 0;
+    padding-right: 10px;
+    content: "\f0a9";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #03b787;
+}
+
+#real-estate-tokenization-essential-guide .flip-box:hover {
+    background: #47b775;
+    color: #fff;
+}
+
+#real-estate-tokenization-essential-guide .flip-box:hover h3 {
+    color: #fff;
+}
+
+#real-estate-tokenization-essential-guide .flip-box:hover .flip-icon-outer {
+    background: #f2f2f2;
+    transform: translateY(-10px);
+}
+
+@media screen and (min-width: 500px) {
+    #real-estate-tokenization-essential-guide a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+        display: inline-block;
+        margin-right: 5px !important;
+        margin-bottom: 10px !important;
+    }
+}
+
+#real-estate-tokenization-essential-guide .font_wei {
+    font-weight: 700;
+    color: #fff;
+}
+
+#real-estate-tokenization-essential-guide .pre-ico-sec-1 .why-adit-list:hover {
+    background: #fff;
+}
+
+/* #real-estate-tokenization-essential-guide #accordion .panel {
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
+#real-estate-tokenization-essential-guide #accordion .panel-heading {
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+}
+
+#real-estate-tokenization-essential-guide #accordion .panel-title a {
+    display: block;
+    padding: 12px 15px 12px 50px;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+}
+
+#real-estate-tokenization-essential-guide #accordion .panel-title a:before {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background: #929191;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fdfbfb;
+    text-align: center;
+    text-shadow: none;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+#real-estate-tokenization-essential-guide #accordion .panel-title a.collapsed:before {
+    content: "\f067";
+}
+
+#real-estate-tokenization-essential-guide #accordion .panel-body {
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #222;
+    line-height: 27px;
+    border: 2px solid #ddd;
+} */
+
+#real-estate-tokenization-essential-guide .pricing-table {
+    padding: 0px 0;
+    width: 100%;
+}
+
+#real-estate-tokenization-essential-guide .bg-w {
+    background: #fff;
+}
+
+#real-estate-tokenization-essential-guide .bg-w1 {
+    background: #fff;
+}
+
+#real-estate-tokenization-essential-guide .bg-w2 {
+    background: #e0dddd;
+    font-weight: 600;
+}
+
+#real-estate-tokenization-essential-guide .btc {
+    color: #fff !important;
+}
+
+@media (max-width: 767px) {
+    #real-estate-tokenization-essential-guide .data table th:last-child {
+        margin: 10px 0 0;
+        display: table-cell;
+        width: 100%;
+    }
+
+    #real-estate-tokenization-essential-guide .data table tbody tr:first-child th:last-child {
+        transform: scale(1);
+        box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    }
+}
+
+#real-estate-tokenization-essential-guide .btc {
+    color: #000000 !important;
+    font-weight: 700;
+}
+
+#real-estate-tokenization-essential-guide .pdg {
+    padding: 10px 70px !important;
+}
+
+#real-estate-tokenization-essential-guide .font-wei {
+    font-weight: 700;
+}
+
+#real-estate-tokenization-essential-guide .cor {
+    background-color: #f9f9f9;
+}
+
+#real-estate-tokenization-essential-guide .bdr {
+    border-top: none !important;
+}
+
+#real-estate-tokenization-essential-guide .bg_color {
+    background: #ffffff;
+}
+
+#real-estate-tokenization-essential-guide .font_sze_algn {
+    font-size: 20px !important;
+}
+
+#real-estate-tokenization-essential-guide .solution_calltoaction {
+    margin: 0 auto;
+    display: inherit;
+    text-align: center;
+    max-width: max-content !important;
+    border: 1px solid #d7d7d7;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 20px 42px;
+    padding-bottom: 10px;
+}
+
+#real-estate-tokenization-essential-guide .solution_calltoaction span {
+    font-size: 24px;
+    display: inline-block;
+    color: #000000;
+    padding-right: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#real-estate-tokenization-essential-guide .solution_calltoaction .new_lanbtn {
+    margin: 0;
+    float: right;
+}
+
+#real-estate-tokenization-essential-guide a.new_lanbtn {
+    background: #47b475;
+    display: inline-block;
+    color: #fff;
+    border-radius: 30px;
+    padding: 12px 50px;
+    font-size: 18px;
+    transition: all .6s ease 0s;
+    text-transform: capitalize;
+    line-height: normal;
+    font-weight: bold;
+}
+
+#real-estate-tokenization-essential-guide a.new_lanbtn:hover {
+    color: #ffffff !important;
+}
+
+@media (max-width: 576px) {
+    #real-estate-tokenization-essential-guide #solution_div {
+        padding: 10px 20px !important;
+    }
+
+    #real-estate-tokenization-essential-guide .solution_calltoaction span {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 992px) {
+    #real-estate-tokenization-essential-guide .solution_calltoaction span {
+        display: block;
+        padding: 1px 18px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1400px) {
+    #real-estate-tokenization-essential-guide .solution_calltoaction .new_lanbtn {
+        margin: 0;
+        float: none;
+        padding: 12px 20px;
+    }
+
+    #real-estate-tokenization-essential-guide .res_btn_new_lan {
+        padding: 12px 50px !important;
+    }
+}
+
+#real-estate-tokenization-essential-guide .solution_calltoaction {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    max-width: max-content !important;
+    border: 1px solid #d7d7d7;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 10px 42px;
+    padding-bottom: 10px;
+}
+
+#real-estate-tokenization-essential-guide .solution_calltoaction:hover {
+    background: #47b475;
+}
+
+#real-estate-tokenization-essential-guide .solution_calltoaction:hover .content_solution {
+    color: #ffffff !important;
+}
+
+#real-estate-tokenization-essential-guide .expert_space {
+    padding: 10px 15px;
+}
+
+@media (max-width: 1199px) {
+    #real-estate-tokenization-essential-guide a.new_lanbtn {
+        padding: 12px 42px;
+        font-size: 16px;
+    }
+
+    #real-estate-tokenization-essential-guide .solution_calltoaction {
+        margin: 0 auto;
+        display: inherit;
+        text-align: center;
+        max-width: max-content !important;
+        border: 1px solid #d7d7d7;
+        border-radius: 100px;
+        background-color: #fff;
+        padding: 10px 0px;
+        padding-bottom: 4px;
+    }
+}
+
+#real-estate-tokenization-essential-guide .lyst li {
+    list-style-type: disc;
+}
+
+#real-estate-tokenization-essential-guide .strategy_dev {
+    z-index: 1;
+    position: relative;
+}
+
+#real-estate-tokenization-essential-guide .internal_link {
+    color: #47b475;
+    font-weight: 700;
+}
+
+#real-estate-tokenization-essential-guide a.internal_link:hover {
+    color: #47b475 !important;
+    font-weight: 700;
+}
+
+#real-estate-tokenization-essential-guide .support .icon {
+    width: 80px;
+    height: 80px;
+    padding: 13px;
+    border-radius: 50%;
+    background: linear-gradient(140deg, #04d788, #009ef5);
+    float: left;
+    position: relative;
+    z-index: 2;
+    margin-top: 5px;
+}
+
+#real-estate-tokenization-essential-guide .support p {
+    background: #eee;
+    padding: 20px 20px 20px 40px;
+    margin-top: 8px !important;
+    margin-left: 55px !important;
+    border-radius: 0px 15px 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    left: -30px;
+}
+
+
+#real-estate-tokenization-essential-guide .center-align {
+    padding: 0px;
+}
+
+#real-estate-tokenization-essential-guide .center-align ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 50px 0;
+    padding: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 10%);
+    background: #e0edf5;
+}
+
+#real-estate-tokenization-essential-guide .center-align ul li {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#real-estate-tokenization-essential-guide .center-align ul li {
+    padding: 0px 3%;
+}
+
+#real-estate-tokenization-essential-guide .center-align ul li h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #350068;
+}
+
+#real-estate-tokenization-essential-guide .center-align ul li span {
+    font-size: 90px;
+    opacity: 0.1;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+#real-estate-tokenization-essential-guide .center-align ul li p span {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(#e88817, #350068);
+    opacity: 1;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 2.1em;
+    margin-left: -70px;
+    margin-right: 25px;
+}
+
+#real-estate-tokenization-essential-guide .reverse {
+    flex-direction: row-reverse;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #real-estate-tokenization-essential-guide .separate ol {
+        border: none !important;
+    }
+
+    #real-estate-tokenization-essential-guide .separate ol li {
+        width: 49% !important;
+        border: 1px solid #eee !important;
+    }
+
+    #real-estate-tokenization-essential-guide #sidebar {
+        margin-bottom: 50px;
+    }
+
+    #real-estate-tokenization-essential-guide code {
+        word-break: break-all;
+    }
+
+    #real-estate-tokenization-essential-guide .inner-wrapper-sticky {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        margin-bottom: 50px;
+    }
+
+    #real-estate-tokenization-essential-guide .support .icon {
+        float: none;
+        margin: 0 auto;
+    }
+
+    #real-estate-tokenization-essential-guide .support p {
+        margin-left: 0px !important;
+        float: none;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        left: auto;
+    }
+
+    #real-estate-tokenization-essential-guide .Package_list {
+        width: 49%;
+    }
+
+    #real-estate-tokenization-essential-guide .box4 {
+        min-height: auto;
+    }
+
+    #real-estate-tokenization-essential-guide .center-align {
+        padding: 10px 0px;
+    }
+
+    #real-estate-tokenization-essential-guide .center-align ul li {
+        width: 100%;
+        margin: 5px 0px;
+        padding: 15px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+    #real-estate-tokenization-essential-guide .support .icon {
+        float: none;
+        margin: 0 auto;
+    }
+
+    #real-estate-tokenization-essential-guide .support p {
+        margin-left: 0px !important;
+        float: none;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #real-estate-tokenization-essential-guide .Package_list {
+        width: 24%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+    #real-estate-tokenization-essential-guide .support .icon {
+        float: none;
+        margin: 0 auto;
+    }
+
+    #real-estate-tokenization-essential-guide .support p {
+        margin-left: 0px !important;
+        border-radius: 15px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    #real-estate-tokenization-essential-guide .awesome-features-wrapper {
+        min-height: 350px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+    #real-estate-tokenization-essential-guide .perfect-script-items1 {
+        min-height: 220px !important;
+    }
+
+    #real-estate-tokenization-essential-guide .box4 {
+        min-height: 250px;
+    }
+
+    #real-estate-tokenization-essential-guide .awesome-features-wrapper {
+        min-height: 350px !important;
+    }
+}
+
+#real-estate-tokenization-essential-guide .separate {
+    padding: 5px 0;
+}
+
+#real-estate-tokenization-essential-guide .separate ul {
+    margin-bottom: 0;
+}
+
+#real-estate-tokenization-essential-guide .separate ul li {
+    list-style: disc;
+}
+
+#real-estate-tokenization-essential-guide .separate ol {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #eee;
+    margin: 15px 0;
+    padding: 0;
+}
+
+#real-estate-tokenization-essential-guide .separate ol li {
+    list-style: none;
+    width: 14.2%;
+    border-right: 1px solid #eee;
+    padding: 10px 5px 0;
+}
+
+#real-estate-tokenization-essential-guide .separate ol li img {
+    height: 60px;
+}
+
+#real-estate-tokenization-essential-guide h1 {
+    font-size: 30px !important;
+    margin-top: 15px;
+}
+
+#real-estate-tokenization-essential-guide h2 {
+    font-size: 25px !important;
+    margin-top: 15px;
+}
+
+#real-estate-tokenization-essential-guide h3 {
+    font-size: 18px !important;
+    margin-top: 15px;
+}
+
+#real-estate-tokenization-essential-guide h4 {
+    font-size: 17px !important;
+    margin-top: 15px;
+}
+
+#real-estate-tokenization-essential-guide h5 {
+    font-size: 18px !important;
+    margin-top: 15px;
+}
+
+#real-estate-tokenization-essential-guide p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#real-estate-tokenization-essential-guide p strong {
+    color: #000;
+}
+
+#real-estate-tokenization-essential-guide .cta1 {
+    background: #001c48;
+    padding: 20px;
+    display: block;
+    clear: both;
+}
+
+#real-estate-tokenization-essential-guide .cta1 h2 {
+    font-size: 16px !important;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#real-estate-tokenization-essential-guide .cta1 p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#real-estate-tokenization-essential-guide .code {
+    background: #333;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+#real-estate-tokenization-essential-guide code {
+    background: none;
+    color: #fff;
+}
+
+
+#real-estate-tokenization-essential-guide .popup-ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 7px;
+    justify-content: center;
+}
+
+#real-estate-tokenization-essential-guide .popup-ul li {
+    width: 26%;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+}
+
+#real-estate-tokenization-essential-guide .popup-ul li p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#real-estate-tokenization-essential-guide .popup-ul li img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    background: #fff;
+    padding: 5px
+}
+
+
+@media screen and (min-width:768px) and (max-width:900px) {
+    #real-estate-tokenization-essential-guide .login-popup .box-1 {
+        min-width: 90% !important;
+    }
+}
+
+
+#real-estate-tokenization-essential-guide .uniq_features ul {
+    padding-left: 15px;
+}
+
+#real-estate-tokenization-essential-guide .uniq_features ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 29px;
+}
+
+#real-estate-tokenization-essential-guide .uniq_features ul li:after {
+    font-family: FontAwesome;
+    top: 3px;
+    right: 0;
+    padding-right: 10px;
+    content: "\f0a9";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #03b787;
+}
+
+#real-estate-tokenization-essential-guide .flip-box .flip-tit {
+    color: #161515;
+    font-weight: 700;
+}
+
+#real-estate-tokenization-essential-guide .flip-box:hover {
+    background: #47b475;
+}
+
+#real-estate-tokenization-essential-guide .flip-box:hover .flip-tit {
+    color: #ffffff;
+}
+
+#real-estate-tokenization-essential-guide .flip-box:hover .flip-txt {
+    color: #ffffff;
+}
+
+
+#real-estate-tokenization-essential-guide .side-content {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+}

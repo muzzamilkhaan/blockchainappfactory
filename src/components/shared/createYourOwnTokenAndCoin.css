@@ -1,0 +1,593 @@
+
+
+#create-your-own-token-and-coin .banner-list {
+    padding: 0;
+    margin: 10px 0 25px 0;
+    color: #000;
+}
+
+#create-your-own-token-and-coin .banner-list li {
+    font-size: 16px;
+    padding: 10px 15px;
+    list-style: disc;
+    list-style-position: inside;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#create-your-own-token-and-coin .free-consult {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: 1px solid #47b475;
+    /*margin-top: 80px;*/
+    display: block;
+    min-height: 730px;
+    position: relative;
+}
+
+#create-your-own-token-and-coin .free-consult form label {
+    display: none;
+}
+
+#create-your-own-token-and-coin .free-consult form input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #47b475;
+    border-radius: 0;
+    outline: none;
+    color: #000;
+}
+
+#create-your-own-token-and-coin .free-consult select {
+    padding: 10px 30px !important;
+    outline: none;
+    border-bottom: 1px solid #47b475;
+    color: #000;
+}
+
+#create-your-own-token-and-coin .free-consult select,
+#create-your-own-token-and-coin .free-consult textarea {
+    background: transparent;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #47b475;
+    border-radius: 0;
+}
+
+#create-your-own-token-and-coin .free-consult .intl-tel-input.allow-dropdown input {
+    width: 100%;
+}
+
+#create-your-own-token-and-coin .free-consult .iti-mobile .intl-tel-input .country-list {
+    max-height: auto;
+    width: auto;
+    color: #000;
+}
+
+#create-your-own-token-and-coin .free-consult .select-opt {
+    background: #fff;
+}
+
+#create-your-own-token-and-coin .free-consult .intl-tel-input .country-list .country-name {
+    color: #333;
+}
+
+
+@media screen and (max-width: 767px) {
+    #create-your-own-token-and-coin table.visible-xs {
+        display: table !important;
+    }
+}
+
+#create-your-own-token-and-coin .banner_content {
+    text-align: left;
+}
+
+#create-your-own-token-and-coin .contentall a {
+    margin-top: 20px;
+}
+
+#create-your-own-token-and-coin .banner {
+    background-image: url(/public/assets/images/form-bg.png);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height: auto;
+    background-position: center;
+}
+
+#create-your-own-token-and-coin h3.common_h3 {
+    font-size: 30px !important;
+}
+
+#create-your-own-token-and-coin .para {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#create-your-own-token-and-coin .bg-2 {
+    background-image: linear-gradient(45deg, black, #00000052), url(images/ido/bg-3.webp);
+    background-size: cover;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+#create-your-own-token-and-coin .banner-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.95;
+    background-color: rgb(0 0 0 / 70%);
+}
+
+#create-your-own-token-and-coin  .banner_content {
+    text-align: left;
+    position: relative;
+    top: 0;
+    transform: none;
+}
+
+#create-your-own-token-and-coin .banner_content .contentall {
+    margin-top: 90px;
+    padding: 0;
+}
+
+#create-your-own-token-and-coin .contentall h1 {
+    color: #47b475 !important;
+}
+
+#create-your-own-token-and-coin .contentall p {
+    color: #000 !important;
+}
+
+#create-your-own-token-and-coin .contentall h1,
+#create-your-own-token-and-coin .ban_tirt {
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#create-your-own-token-and-coin .contentall p {
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+#create-your-own-token-and-coin .contentall a {
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#create-your-own-token-and-coin .sec_tit,
+#create-your-own-token-and-coin .sec_tit h2 {
+    font-size: 25px !important;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.4;
+}
+
+#create-your-own-token-and-coin .cta_mine {
+    margin-top: 0;
+}
+
+
+#create-your-own-token-and-coin .bg-dark-half-md {
+    background: #368b5a;
+    width: 100%;
+    display: inline-block;
+    padding: 100px 0;
+}
+
+#create-your-own-token-and-coin .category-grid-style-01 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #fff;
+    -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+    box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+    border-radius: 5px;
+}
+
+#create-your-own-token-and-coin .teck .category-grid-style-01 .category-item {
+    padding: 30px;
+    text-align: center;
+    width: 25%;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-top: 0px solid #eee;
+    border-left: 0px solid #eee;
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+}
+
+#create-your-own-token-and-coin .teck .category-grid-style-01 .category-item:before {
+    content: "";
+    background: #fff;
+    width: 110%;
+    height: 110%;
+    display: inline-block;
+    position: absolute;
+    left: -5%;
+    top: -5%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transform: scale(.96);
+    transform: scale(.96);
+    transition: all .3s ease-in-out;
+}
+
+#create-your-own-token-and-coin .teck .category-grid-style-01 .category-item .category-icon {
+    color: #333;
+    font-size: 44px;
+    line-height: 1;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+#create-your-own-token-and-coin .category-grid-style-01 .category-item:hover:before {
+    -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+    box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+}
+
+
+#create-your-own-token-and-coin .bg-dark-half-md {
+    background: #368b5a;
+    width: 100%;
+    display: inline-block;
+    padding: 60px 0;
+}
+
+#create-your-own-token-and-coin .category-item.aos-item:hover .text-center {
+    position: relative;
+    z-index: 99;
+    color: #000 !important;
+}
+
+
+
+
+/*-- Steps Form --*/
+#create-your-own-token-and-coin #msform .action-button,
+#create-your-own-token-and-coin #msform .action-button-previous {
+    width: 100px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px 5px;
+    float: right;
+    color: #fff
+}
+
+#create-your-own-token-and-coin .form-card,
+#create-your-own-token-and-coin .fs-title {
+    text-align: left
+}
+
+#create-your-own-token-and-coin .fs-title,
+#create-your-own-token-and-coin .steps {
+    font-size: 25px;
+    font-weight: 400
+}
+
+#create-your-own-token-and-coin #progressbar li,
+#create-your-own-token-and-coin .fs-title,
+#create-your-own-token-and-coin .purple-text,
+#create-your-own-token-and-coin .steps {
+    font-weight: 400
+}
+
+#create-your-own-token-and-coin .tabs {
+    position: relative;
+    display: flex;
+    border-radius: 8px 8px 0 0
+}
+
+#create-your-own-token-and-coin .tabby-tab {
+    flex: 1
+}
+
+#create-your-own-token-and-coin .tabby-tab label {
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background: #9768d1;
+    cursor: pointer;
+    transition: background .5s;
+    border-radius: 20px 20px 0 0;
+    margin: 10px;
+    font-size: 18px
+}
+
+#create-your-own-token-and-coin .tabby-tab label:hover {
+    background: #7b52ab
+}
+
+#create-your-own-token-and-coin .tabby-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #faf6ff;
+    transition: opacity .8s, transform .8s;
+    opacity: 0;
+    transform: scale(.1);
+    transform-origin: top left
+}
+
+#create-your-own-token-and-coin #msform,
+#create-your-own-token-and-coin #msform fieldset,
+#create-your-own-token-and-coin #progressbar li,
+#create-your-own-token-and-coin .card {
+    position: relative
+}
+
+#create-your-own-token-and-coin .tabby-content img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 8px
+}
+
+#create-your-own-token-and-coin #msform fieldset:not(:first-of-type),
+#create-your-own-token-and-coin .tabby-tab [type=radio] {
+    display: none
+}
+
+#create-your-own-token-and-coin [type=radio]:checked~label {
+    background: #553285;
+    z-index: 2
+}
+
+#create-your-own-token-and-coin [type=radio]:checked~label~.tabby-content {
+    z-index: 1;
+    opacity: 1;
+    transform: scale(1)
+}
+
+@media screen and (max-width:480px) {
+    #create-your-own-token-and-coin .tabby-tab label {
+        height: 60px
+    }
+
+    #create-your-own-token-and-coin .tabby-content {
+        top: 60px
+    }
+
+    #create-your-own-token-and-coin .tabby-content img {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px
+    }
+}
+
+#create-your-own-token-and-coin #msform {
+    text-align: center;
+    margin-top: 20px
+}
+
+#create-your-own-token-and-coin #msform fieldset {
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0 !important
+}
+
+#create-your-own-token-and-coin #msform input,
+#create-your-own-token-and-coin #msform select,
+#create-your-own-token-and-coin #msform textarea {
+    padding: 8px 15px !important;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2c3e50;
+    background-color: #eceff1;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#create-your-own-token-and-coin #msform input:focus,
+#create-your-own-token-and-coin #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #673ab7;
+    outline-width: 0
+}
+
+#create-your-own-token-and-coin #msform .action-button {
+    background: #673ab7;
+    border: 0;
+    border-radius: 0;
+    margin: 10px 0 10px 5px
+}
+
+#create-your-own-token-and-coin #msform .action-button:focus,
+#create-your-own-token-and-coin #msform .action-button:hover {
+    background-color: #311b92
+}
+
+#create-your-own-token-and-coin #msform .action-button-previous {
+    background: #616161;
+    border: 0;
+    border-radius: 0;
+    margin: 10px 5px 10px 0
+}
+
+#create-your-own-token-and-coin #progressbar .active,
+#create-your-own-token-and-coin .fs-title,
+#create-your-own-token-and-coin .purple-text {
+    color: #673ab7
+}
+
+#create-your-own-token-and-coin #msform .action-button-previous:focus,
+#create-your-own-token-and-coin #msform .action-button-previous:hover {
+    background-color: #000
+}
+
+#create-your-own-token-and-coin .card {
+    z-index: 0;
+    border: none
+}
+
+#create-your-own-token-and-coin .fs-title {
+    margin-bottom: 15px
+}
+
+#create-your-own-token-and-coin .steps {
+    color: gray;
+    margin-bottom: 10px;
+    text-align: right
+}
+
+#create-your-own-token-and-coin .fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+#create-your-own-token-and-coin #progressbar {
+    margin-bottom: 15px;
+    overflow: hidden;
+    color: #d3d3d3
+}
+
+#create-your-own-token-and-coin #progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 49%;
+    float: left
+}
+
+#create-your-own-token-and-coin #progressbar #account:before,
+#create-your-own-token-and-coin #progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f15a"
+}
+
+#create-your-own-token-and-coin #progressbar #confirm:before,
+#create-your-own-token-and-coin #progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007"
+}
+
+#create-your-own-token-and-coin #progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    background: #d3d3d3;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    padding: 2px
+}
+
+#create-your-own-token-and-coin #progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #d3d3d3;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#create-your-own-token-and-coin #progressbar li.active:after,
+#create-your-own-token-and-coin #progressbar li.active:before {
+    background: #673ab7
+}
+
+#create-your-own-token-and-coin .progress {
+    height: 20px;
+    margin-bottom: 0
+}
+
+#create-your-own-token-and-coin .progress-bar {
+    background-color: #673ab7
+}
+
+#create-your-own-token-and-coin .fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+#accordion .panel {
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
+ #accordion .panel-heading {
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+}
+
+ #accordion .panel-title a {
+    display: block;
+    padding: 5px 15px 5px 50px;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    line-height: 30px;
+}
+
+ #accordion .panel-title a:before {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background: #47b475;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fdfbfb;
+    text-align: center;
+    text-shadow: none;
+    position: absolute;
+    top: 10px;
+    left: 18px;
+}
+
+ #accordion .panel-title a.collapsed:before {
+    content: "\f067";
+    background-color: #333;
+}
+
+ #accordion .panel-body {
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #222;
+    line-height: 27px;
+    border: 2px solid #ddd;
+}

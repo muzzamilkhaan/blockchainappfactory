@@ -1,0 +1,955 @@
+#decentralized-exchange-development .guardian-p {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+#decentralized-exchange-development .teck .category-grid-style-01 .category-item {
+    padding: 10px !important;
+}
+
+#decentralized-exchange-development .category-item.aos-item .text-center {
+    font-size: 12px !important;
+    margin-bottom: 0px !important;
+}
+
+#decentralized-exchange-development .teck .category-grid-style-01 .category-item .category-icon {
+    margin-bottom: 0 !important;
+}
+
+#decentralized-exchange-development .teck .category-icon img {
+    height: 80px !important;
+}
+
+
+
+#decentralized-exchange-development .banner_content {
+    text-align: left;
+}
+
+#decentralized-exchange-development .feature-box-3 {
+    min-height: 150px;
+}
+
+#decentralized-exchange-development .list {
+    margin-top: 0rem;
+    margin-bottom: 0rem !important;
+    font-size: 14px;
+    line-height: 35px;
+    text-indent: -27px;
+    list-style: none;
+}
+
+#decentralized-exchange-development .list li {
+    word-break: break-word;
+}
+
+#decentralized-exchange-development .list li:before {
+    content: " \f0a9";
+    font-family: FontAwesome;
+    color: #47b475;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+#decentralized-exchange-development .banner {
+    height: auto;
+    background-size: cover;
+    padding-top: 138px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+#decentralized-exchange-development .banner.my_banner:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #110053;
+}
+
+#decentralized-exchange-development .banner-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #122455, #00aeeb);
+    opacity: 0.8;
+}
+
+#decentralized-exchange-development  .banner_content {
+    text-align: left;
+    position: relative;
+    top: 0;
+    transform: none;
+}
+
+.underline {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+}
+
+#decentralized-exchange-development .banner_content .contentall {
+    margin-top: 85px;
+    max-width: 1000px;
+    margin: 81px auto 40px;
+    padding: 0;
+}
+
+#decentralized-exchange-development .contentall h1 {
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#decentralized-exchange-development .contentall p {
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+#decentralized-exchange-development .contentall a {
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#decentralized-exchange-development .banner_content h4 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+}
+
+#decentralized-exchange-development .sec_tit {
+    font-size: 3rem !important;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.4;
+}
+
+#decentralized-exchange-development h1,
+#decentralized-exchange-development h2,
+#decentralized-exchange-development h3,
+#decentralized-exchange-development h4,
+#decentralized-exchange-development h5,
+#decentralized-exchange-development h6 {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+#decentralized-exchange-development p {
+    font-size: 1.2rem !important;
+}
+
+#decentralized-exchange-development .timeline {
+    position: relative;
+    margin: 0 0 30px 0;
+    padding: 0;
+    list-style: none;
+}
+
+#decentralized-exchange-development .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #ddd;
+    left: 31px;
+    margin: 0;
+    border-radius: 2px;
+}
+
+#decentralized-exchange-development .timeline>li {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+#decentralized-exchange-development .timeline>li:before,
+#decentralized-exchange-development .timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+#decentralized-exchange-development .timeline>.time-label>span {
+    font-weight: 600;
+    padding: 5px 20px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 4px;
+    background-color: #47b475 !important;
+    color: #fff !important;
+}
+
+#decentralized-exchange-development .timeline>li:after {
+    clear: both;
+}
+
+#decentralized-exchange-development .timeline>li>.fa,
+#decentralized-exchange-development .timeline>li>.glyphicon,
+#decentralized-exchange-development .timeline>li>.ion {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    color: #666;
+    background: #d2d6de;
+    border-radius: 50%;
+    text-align: center;
+    left: 18px;
+    top: 0;
+}
+
+#decentralized-exchange-development .timeline>li>.timeline-item {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-top: 0;
+    background: #fff;
+    color: #444;
+    margin-left: 60px;
+    margin-right: 15px;
+    padding: 0;
+    position: relative;
+}
+
+#decentralized-exchange-development .timeline>li>.timeline-item>.timeline-body,
+#decentralized-exchange-development .timeline>li>.timeline-item>.timeline-footer {
+    padding: 10px;
+}
+
+#decentralized-exchange-development .timeline-body li {
+    padding: 5px 20px;
+    position: relative;
+}
+
+#decentralized-exchange-development .timeline-body li:before {
+    content: "*";
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    color: #47b475;
+}
+
+#decentralized-exchange-development .add_feat ul {
+    padding: 0;
+}
+
+#decentralized-exchange-development .feat_lev {
+    margin: 0 auto 65px;
+    text-align: center;
+    position: relative;
+    min-height: 120px;
+}
+
+#decentralized-exchange-development .feal_cnt p {
+    margin-bottom: 20px;
+}
+
+#decentralized-exchange-development a.hb_rd {
+    color: #fff;
+    background: #47b475;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+#decentralized-exchange-development .feat_ic img {
+    height: 90px;
+}
+
+#decentralized-exchange-development .feat_lev h5 {
+    line-height: 1.3;
+    margin: 20px 0 11px;
+    font-weight: bold;
+}
+
+#decentralized-exchange-development section.exp_function {
+    background: #f7f7fc;
+}
+
+#decentralized-exchange-development ul.f_point {
+    position: relative;
+    padding: 0px;
+    padding-left: 60px;
+    margin-top: 15px;
+}
+
+#decentralized-exchange-development ul.f_point:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #00cb99;
+    left: 24px;
+}
+
+#decentralized-exchange-development ul.f_point li {
+    position: relative;
+    padding-left: 25px;
+}
+
+#decentralized-exchange-development ul.f_point li:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #00cf92;
+    left: 0px;
+    top: 11px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+}
+
+#decentralized-exchange-development ul.f_point li .icon {
+    width: 40px;
+    height: 40px;
+    background: #00cf92;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -55px;
+    top: -2px;
+}
+
+#decentralized-exchange-development ul.f_point li .icon:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: #00cf92;
+    transform: rotate(-45deg) translateX(48px);
+    top: 29px;
+}
+
+#decentralized-exchange-development ul.f_point li .icon img {
+    -moz-transform: rotate(-45deg) translate(0px, -2px);
+    -webkit-transform: rotate(-45deg) translate(0px, -2px);
+    -ms-transform: rotate(-45deg) translate(0px, -2px);
+    transform: rotate(-45deg) translate(0px, -2px);
+    padding: 4px;
+}
+
+#decentralized-exchange-development ul.f_point h4 {
+    font-size: 16px;
+    color: #000;
+    text-shadow: 0px 0px;
+    font-weight: 700;
+}
+
+#decentralized-exchange-development .flip-tit {
+    font-size: 18px;
+    color: #000000;
+    line-height: 25px;
+}
+
+#decentralized-exchange-development p.flip-txt {
+    min-height: 130px;
+    font-size: 1.2rem !important;
+
+}
+
+#decentralized-exchange-development #how-to-start .timeline-center::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 88%;
+    width: 2px;
+    background: #47b475;
+}
+
+#decentralized-exchange-development .choose_title li {
+    margin-bottom: 21px;
+    border-left: 4px solid #0d8d06;
+    font-weight: normal;
+    padding: 10px;
+    padding-left: 15px;
+    background: #f2f2f2 !important;
+    font-size: 1.2rem !important;
+}
+
+#decentralized-exchange-development .ben_sec1 ul {
+    padding-left: 0;
+}
+
+#decentralized-exchange-development .ben_sec1 li i {
+    color: #fff;
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 17px;
+    width: 50px;
+    text-align: center;
+    height: 48px;
+    background: #17b559;
+    padding: 10px;
+    line-height: 33px;
+}
+
+#decentralized-exchange-development .ben_sec li {
+    margin-bottom: 21px;
+    border-left: 4px solid #0d8d06;
+    font-weight: normal;
+    padding: 10px;
+    padding-left: 15px;
+    background: #ffffff !important;
+}
+
+#decentralized-exchange-development .ben_sec ul {
+    padding-left: 0;
+}
+
+#decentralized-exchange-development .ben_sec li i {
+    color: #fff;
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 17px;
+    width: 50px;
+    text-align: center;
+    height: 48px;
+    background: #17b559;
+    padding: 10px;
+    line-height: 33px;
+}
+
+#decentralized-exchange-development .tm-icon img {
+    width: 40px;
+    margin-top: 9px;
+}
+
+@media (max-width: 768px) {
+    #decentralized-exchange-development .banner_img img {
+        max-width: 100%;
+        margin-top: 0%;
+    }
+
+    #decentralized-exchange-development .banner_content .contentall {
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    #decentralized-exchange-development .banner {
+        padding-top: 80px;
+        padding-bottom: 25px;
+    }
+
+    #decentralized-exchange-development .banner-overlay {
+        background: #00aeeb;
+    }
+
+    #decentralized-exchange-development .banner_content p {
+        font-size: 14px !important;
+    }
+
+    #decentralized-exchange-development .contentall h1 {
+        font-size: 25px;
+    }
+
+    #decentralized-exchange-development .feat_lev {
+        min-height: auto;
+        max-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    #decentralized-exchange-development .sec_tit {
+        font-size: 20px !important;
+    }
+}
+
+#decentralized-exchange-development .section-top {
+    display: inline-block;
+    width: 100%;
+}
+
+#decentralized-exchange-development .feature-type-5.two-coln-full .feature-box-5.black-box {
+    background: #eee;
+}
+
+#decentralized-exchange-development .two-coln-full p {
+    color: #000000;
+}
+
+#decentralized-exchange-development .timeline-center .timeline-row:nth-of-type(odd) .tm-detail {
+    border: 2px solid #47b475;
+}
+
+#decentralized-exchange-development .timeline-center .timeline-row:nth-of-type(even) .tm-detail {
+    border: 2px solid #47b475;
+}
+
+#decentralized-exchange-development .flip-box {
+    min-height: 10px !important;
+}
+
+#decentralized-exchange-development .flip-tit {
+    font-weight: 700;
+}
+
+#decentralized-exchange-development .flip-box:hover {
+    background: #47b475;
+}
+
+#decentralized-exchange-development .flip-box:hover .flip-tit {
+    color: #ffffff;
+}
+
+#decentralized-exchange-development .flip-box:hover .flip-txt {
+    color: #ffffff;
+}
+
+#decentralized-exchange-development .feature-box-3:hover {
+    background: #47b475;
+}
+
+#decentralized-exchange-development .feature-box-3:hover h4 {
+    color: #ffffff;
+}
+
+#decentralized-exchange-development .font-wei {
+    color: #000000 !important;
+    font-weight: 700 !important;
+}
+
+/* #decentralized-exchange-development #accordion .panel {
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
+#decentralized-exchange-development #accordion .panel-heading {
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+}
+
+#decentralized-exchange-development #accordion .panel-title a {
+    display: block;
+    padding: 5px 15px 5px 50px;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+}
+
+#decentralized-exchange-development #accordion .panel-title a:before {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background: #47b475;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fdfbfb;
+    text-align: center;
+    text-shadow: none;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+#decentralized-exchange-development #accordion .panel-title a.collapsed:before {
+    content: "\f067";
+    background: #333;
+    color: #fff;
+}
+
+#decentralized-exchange-development #accordion .panel-body {
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #000000;
+    line-height: 27px;
+    border: 2px solid #ddd;
+} */
+
+#decentralized-exchange-development .tm-detail h4 {
+    color: #000000;
+    font-weight: 700;
+}
+
+#decentralized-exchange-development .timeline-center .timeline-row:nth-of-type(odd) .tm-detail {
+    color: #000000;
+    font-size: 14px;
+}
+
+#decentralized-exchange-development .timeline-center .timeline-row:nth-of-type(even) .tm-detail {
+    color: #000000;
+    font-size: 14px;
+}
+
+#decentralized-exchange-development .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+
+#decentralized-exchange-development .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important;
+}
+
+#decentralized-exchange-development a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px !important;
+    display: inline-block;
+    margin-right: 26px !important;
+}
+
+#decentralized-exchange-development .contentall a,
+#decentralized-exchange-development a.home-talk-experts {
+    padding: 10px 20px !important;
+}
+
+#decentralized-exchange-development .container-center {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+}
+
+#decentralized-exchange-development .equalize {
+    display: flex;
+}
+
+
+#decentralized-exchange-development .tm-detail {
+    line-height: 28px !important;
+}
+
+#decentralized-exchange-development .timeline-center::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 88%;
+    width: 2px;
+    background: #d4d4d4;
+}
+
+#decentralized-exchange-development .awesome-features-wrapper {
+    border: 1px solid #cdcdcd;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    min-height: 350px;
+    transition: .3s;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#decentralized-exchange-development .awesome-features-wrapper::before {
+    background: #47b475;
+    height: 20px;
+    width: 3px;
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: 65px;
+}
+
+#decentralized-exchange-development .awesome-features-wrapper::after {
+    background: #47b475;
+    height: 50px;
+    width: 3px;
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: 94px;
+    z-index: 1;
+}
+
+#decentralized-exchange-development .awesome-features-icon-img {
+    margin-bottom: 22px;
+}
+
+#decentralized-exchange-development .awesome-features-icon-img img {
+    width: 60px;
+    height: 60px;
+}
+
+#decentralized-exchange-development .awesome-features-text h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 18px;
+}
+
+#decentralized-exchange-development .awesome-features-text p {
+    margin-bottom: 0;
+    padding: 0 36px;
+}
+
+#newsletter-form-sec .form-group {
+    margin-bottom: 7px;
+}
+
+#decentralized-exchange-development #mailForm_common .form-group label {
+    color: #fff;
+}
+
+#decentralized-exchange-development .contact-content {
+    padding-top: 40px;
+    padding: 30px;
+    margin-top: -40px;
+    margin-left: -40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, .22);
+    border-radius: 7px;
+}
+
+#decentralized-exchange-development .contact-content p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#decentralized-exchange-development .contact-content a {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#decentralized-exchange-development .contact-content a i {
+    color: #47b475;
+    font-size: 24px;
+}
+
+#decentralized-exchange-development .form-control {
+    background: #fff;
+}
+
+#decentralized-exchange-development .pad-40-20 {
+    padding: 25px 25px 0 25px;
+}
+
+#decentralized-exchange-development input#phone_common {
+    background: #fff;
+}
+
+#decentralized-exchange-development #mailForm_common .form-group label {
+    color: #fff;
+}
+
+#decentralized-exchange-development a.home-talk-experts {
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #decentralized-exchange-development .contact-content {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 20px !important;
+    }
+
+    #decentralized-exchange-development .pad-40-20 {
+        padding: 20px;
+    }
+
+    #decentralized-exchange-development .contact-content a {
+        font-size: 14px;
+    }
+
+    #decentralized-exchange-development .sticky-form {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+    #decentralized-exchange-development .contact-content {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+#decentralized-exchange-development .newsletter_videos h5 {
+    color: #fff;
+    font-size: 25px !important;
+}
+
+#decentralized-exchange-development h5.section-title {
+    font-size: 27.46px;
+}
+
+#decentralized-exchange-development .client h5 {
+    color: #444 !important;
+}
+
+#decentralized-exchange-development h5.common_h3 {
+    font-size: 25px !important;
+}
+
+#decentralized-exchange-development .pull-right-tow {
+    background-color: #ba3c0d;
+    padding: 3px 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 125px;
+    position: absolute;
+    right: 0;
+    bottom: -35px;
+}
+
+#decentralized-exchange-development .pull-right-tow a {
+    font-size: 12px;
+}
+
+#decentralized-exchange-development .header-nabar-icon .pull-right {
+    background-color: #47b475;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-right: 0px;
+    position: absolute;
+    right: 16px;
+    bottom: -30px;
+}
+
+#decentralized-exchange-development .header-nabar-icon .pull-right a:hover {
+    color: #fff !important;
+}
+
+#decentralized-exchange-development .header-nabar-icon .pull-right a,
+#decentralized-exchange-development .header-nabar-icon .pull-right-tow a {
+    color: #fff;
+}
+
+#decentralized-exchange-development .sticky-form>.quick-cont-btn {
+    top: 64vh;
+    right: -60px;
+    padding: 0px 20px;
+}
+
+@media (max-width: 320px) {
+
+    #decentralized-exchange-development .header-nabar-icon .pull-right,
+    #decentralized-exchange-development .pull-right-tow {
+        display: none;
+        border-radius: 0px;
+        position: relative;
+        width: 255px;
+
+        text-align: center;
+        margin: 0 15px;
+        float: left !important;
+        padding: 9px 2px;
+    }
+
+    #decentralized-exchange-development .sidenav a {
+        font-size: 14px;
+        padding: 4px 4px 8px 8px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #decentralized-exchange-development .header-nabar-icon .pull-right,
+    #decentralized-exchange-development .pull-right-tow {
+        display: none;
+        border-radius: 0px;
+        position: relative;
+        width: 255px;
+
+        text-align: center;
+        margin: 0 15px;
+        float: left !important;
+        padding: 9px 2px;
+    }
+
+    #decentralized-exchange-development .sidenav a {
+        font-size: 14px;
+        padding: 4px 4px 8px 8px;
+    }
+}
+
+#decentralized-exchange-development .color-btn {
+    background-color: #1fd1f9 !important;
+    background-image: -o-linear-gradient(135deg, #b621fe 0, #1fd1f9 74%) !important;
+    background-image: linear-gradient(315deg, #b621fe 0, #1fd1f9 74%) !important;
+    border-radius: 7px;
+    color: #fff;
+}
+
+#decentralized-exchange-development .color-btn1 {
+    border: none;
+    transition: 0.3s;
+    background: #f90cff;
+    background-image:
+        linear-gradient(to right bottom, #f90cff, #e027ff, #c534ff, #a93eff, #8a44ff, #6560ff, #3c73ff, #0081ff, #009cff, #00b3ff, #00c6f5, #0cd7e8);
+    animation: glow 1s infinite;
+    transition: 0.5s;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+#decentralized-exchange-development .color-btn1:focus,
+#decentralized-exchange-development .color-btn1:hover {
+    background-color: #47b475;
+    transition: 0.5s;
+
+}
+
+#decentralized-exchange-development .color-btn1 span:hover {
+    transition: 0.3s;
+    opacity: 1;
+    font-weight: 700;
+}
+
+@media (min-width:320px) and (max-width:643px) {
+    #decentralized-exchange-development .color-btn1 {
+        padding: 9px 16px !important;
+    }
+}
+@keyframes glow {
+    0% {
+        box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+    }
+
+    50% {
+        box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255)
+    }
+
+    100% {
+        box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168)
+    }
+}
+
+#decentralized-exchange-development .sticky_form_bp {
+    position: fixed;
+    right: -80px !important;
+    top: 250px;
+    z-index: 10;
+    background: #47b475;
+    color: #fff;
+    padding: 0px 15px 16px !important;
+    text-transform: capitalize;
+    font-weight: 700;
+    transform: rotate(270deg) !important;
+    cursor: pointer;
+    font-size: 14px;
+}

@@ -1,0 +1,574 @@
+#cryptocurrency-mlm-software-development .triangle-section ul li {
+    display: inline-block;
+    width: auto;
+}
+
+#cryptocurrency-mlm-software-development .triangle-section ul li>span {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#cryptocurrency-mlm-software-development .triangle-section ul li>span:before {
+    position: absolute;
+    content: "";
+    background: #47b475;
+    transform: rotate(45deg);
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -30px;
+}
+
+#cryptocurrency-mlm-software-development .triangle-section ul li a {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#cryptocurrency-mlm-software-development .triangle-section ul li>span svg {
+    position: relative;
+    z-index: 2;
+}
+
+#cryptocurrency-mlm-software-development .triangle-section ul {
+    margin-top: 70px;
+    display: inline-block;
+    width: 100%;
+}
+
+#cryptocurrency-mlm-software-development #our_services .feature-box-3 {
+    min-height: 250px;
+}
+
+#cryptocurrency-mlm-software-development .feature-box-4 p.feature-desc {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
+    #cryptocurrency-mlm-software-development .main-timeline .icon {
+        display: none !important;
+    }
+}
+
+#cryptocurrency-mlm-software-development .typ_box {
+    background: #fff;
+    padding: 35px 10px 0;
+    margin-bottom: 30px;
+    min-height: 360px;
+    transition: 0.5s;
+}
+
+#cryptocurrency-mlm-software-development .typ_ic_cnt h5 {
+    position: relative;
+}
+
+#cryptocurrency-mlm-software-development .typ_ic_cnt h5:after {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: #47b475;
+    display: block;
+    margin: 3px auto 14px;
+}
+
+#cryptocurrency-mlm-software-development .typ_ic {
+    margin-bottom: 10px;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 11px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #bbb;
+}
+
+#cryptocurrency-mlm-software-development .typ_ic img {
+    width: 50px;
+    margin-top: 20px;
+}
+
+#cryptocurrency-mlm-software-development .faq-content .panel-heading {
+    background: #eee !important;
+    color: #333 !important;
+}
+
+#cryptocurrency-mlm-software-development .faq-content h4.panel-title {
+    color: #333;
+}
+
+#cryptocurrency-mlm-software-development .faq-content .panel-body {
+    color: black !important;
+}
+
+#cryptocurrency-mlm-software-development .timeline::before {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    height: 100%;
+    width: 2px;
+    background: none;
+}
+
+#cryptocurrency-mlm-software-development .mt-50 {
+    margin-top: 50px;
+}
+
+#cryptocurrency-mlm-software-development .typ_ic_cnt p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#cryptocurrency-mlm-software-development .typ_box:hover {
+    box-shadow: 0 0 15px #bbb;
+}
+
+#cryptocurrency-mlm-software-development .flip-box {
+    padding: 30px 15px 0px;
+    min-height: 420px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border-bottom: 2px solid #47b47566;
+}
+
+#cryptocurrency-mlm-software-development .flip-txt {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+#cryptocurrency-mlm-software-development .flip-tit {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.4;
+    margin-bottom: 11px;
+}
+
+#cryptocurrency-mlm-software-development .flip-icon-outer {
+    padding: 20px;
+}
+
+@media (max-width: 1199px) {
+    #cryptocurrency-mlm-software-development .triangle-section ul li>span {
+        width: 75px;
+        height: 75px;
+    }
+
+    #cryptocurrency-mlm-software-development .triangle-section ul li>span:before {
+        top: -20px;
+    }
+
+    #cryptocurrency-mlm-software-development .feature-box-3 .feature-desc {
+        font-size: 13px;
+    }
+
+    #cryptocurrency-mlm-software-development #our_services .feature-box-3 {
+        min-height: 277px;
+    }
+}
+
+@media (max-width: 991px) {
+    #cryptocurrency-mlm-software-development .triangle-section ul li a span {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    #cryptocurrency-mlm-software-development .triangle-section ul li {
+        display: block;
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+    #cryptocurrency-mlm-software-development .triangle-section ul li a {
+        margin-top: 0px;
+    }
+
+    #cryptocurrency-mlm-software-development .triangle-section ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    #cryptocurrency-mlm-software-development .typ_box {
+        padding: 35px 10px 10px;
+        margin-bottom: 30px;
+        min-height: auto;
+        max-width: 500px;
+        margin: 0 auto 30px;
+    }
+
+    #cryptocurrency-mlm-software-development .flip-box {
+        padding: 30px 15px 30px;
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+}
+
+#cryptocurrency-mlm-software-development .tron-mlm {
+    background: #101819 url(images/tron-bg.webp);
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+#cryptocurrency-mlm-software-development .tron-mlm h2 {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+#cryptocurrency-mlm-software-development .tron-mlm p {
+    color: #fff;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline {
+    padding-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline:before {
+    content: "";
+    width: 7px;
+    height: 100%;
+    background: #47b475;
+    margin: 0 auto;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline {
+    width: 50%;
+    float: left;
+    padding: 20px 60px;
+    border-top: 3px solid #47b475;
+    border-right: 3px solid #47b475;
+    border-radius: 0 30px 0 0;
+    position: relative;
+    right: -3.5px;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #47b475;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    box-shadow: 0 0 0 2px #47b475;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline-content {
+    display: block;
+    padding: 30px 10px 10px;
+    border-radius: 20px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    border: 3px solid #47b475;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline-content:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline-content:before,
+#cryptocurrency-mlm-software-development .main-timeline .timeline-content:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 50px;
+    border-radius: 10px;
+    background: #47b475;
+    border: 1px solid #fff;
+    position: absolute;
+    top: -35px;
+    left: 50px;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline-content:after {
+    left: auto;
+    right: 50px;
+}
+
+#cryptocurrency-mlm-software-development .contentall a {
+    border-radius: 7px;
+}
+
+#cryptocurrency-mlm-software-development .contentall a:hover {
+    background: #00b7c2;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .title {
+    font-size: 24px;
+    margin: 0;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(2n) {
+    border-right: none;
+    border-left: 3px solid #47b475;
+    border-radius: 30px 0 0 0;
+    right: auto;
+    left: -3.5px;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(2n) .icon {
+    left: auto;
+    right: 0;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(2) {
+    margin-top: 130px;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(odd) {
+    margin: -130px 0 30px 0;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(even) {
+    margin-bottom: 80px;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:first-child,
+#cryptocurrency-mlm-software-development .main-timeline .timeline:last-child:nth-child(even) {
+    margin: 0 0 30px 0;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(2n) .timeline-content,
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(2n) .timeline-content:before,
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(2n) .timeline-content:after,
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(2n) .icon {
+    background: #47b475;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(2n) .icon {
+    box-shadow: 0 0 0 2px #47b475;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(2n) .timeline-content {
+    background: #fff;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(3n) .timeline-content,
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(3n) .timeline-content:before,
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(3n) .timeline-content:after,
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(3n) .icon {
+    background: #47b475;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(3n) .icon {
+    box-shadow: 0 0 0 2px #47b475;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(3n) .timeline-content {
+    background: #fff;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(4n) .timeline-content,
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(4n) .timeline-content:before,
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(4n) .timeline-content:after,
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(4n) .icon {
+    background: #47b475;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(4n) .icon {
+    box-shadow: 0 0 0 2px #47b475;
+}
+
+#cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(4n) .timeline-content {
+    background: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    #cryptocurrency-mlm-software-development .main-timeline:before {
+        left: 0;
+        right: auto;
+    }
+
+    #cryptocurrency-mlm-software-development .main-timeline .timeline,
+    #cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(even),
+    #cryptocurrency-mlm-software-development .main-timeline .timeline:nth-child(odd) {
+        width: 100%;
+        float: none;
+        padding: 20px 30px;
+        margin: 0 0 30px 0;
+        border-right: none;
+        border-left: 7px solid #084772;
+        border-radius: 30px 0 0 0;
+        right: auto;
+        left: 0;
+    }
+
+    #cryptocurrency-mlm-software-development .main-timeline .icon {
+        left: auto;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #cryptocurrency-mlm-software-development .main-timeline .title {
+        font-size: 18px;
+    }
+}
+
+#cryptocurrency-mlm-software-development .shard_master-node {
+    background: linear-gradient(rgba(71, 180, 117, 0.95), rgba(71, 180, 117, 0.57)), transparent url(images/masternode/node-pg.webp) top left/cover no-repeat scroll;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#cryptocurrency-mlm-software-development .shard_master-node h4 {
+    color: #fff;
+}
+
+#cryptocurrency-mlm-software-development .section-title h4 {
+    font-size: 30px;
+}
+
+#cryptocurrency-mlm-software-development .shard-marter-cnt {
+    text-align: center;
+    background: #ffffffa3;
+    padding: 30px 15px 0px 15px;
+    border: 5px dotted #47b475;
+    margin-bottom: 30px;
+}
+
+#cryptocurrency-mlm-software-development .title-th {
+    font-weight: 700;
+}
+
+#cryptocurrency-mlm-software-development .flip-tit {
+    font-weight: 600;
+}
+
+#cryptocurrency-mlm-software-development .tit {
+    font-weight: 600;
+}
+
+#cryptocurrency-mlm-software-development .feature-title {
+    font-weight: 600;
+}
+
+#cryptocurrency-mlm-software-development .flip-box:hover {
+    background: #47b475;
+    color: #fff;
+    /*   transform: translateY(-10px);*/
+}
+
+#cryptocurrency-mlm-software-development .flip-box:hover .flip-tit {
+    color: #fff;
+}
+
+#cryptocurrency-mlm-software-development .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+
+#cryptocurrency-mlm-software-development .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important;
+}
+
+#cryptocurrency-mlm-software-development a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px !important;
+    display: inline-block;
+    margin-right: 26px !important;
+}
+
+#cryptocurrency-mlm-software-development .contentall a,
+#cryptocurrency-mlm-software-development a.home-talk-experts {
+    padding: 10px 20px !important;
+}
+
+#cryptocurrency-mlm-software-development .tex {
+    padding: 10px;
+}
+
+#cryptocurrency-mlm-software-development .feature-box-4 {
+    background: #ffffff;
+    text-align: center;
+    min-height: 220px;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#cryptocurrency-mlm-software-development .feature-box-4:hover {
+    background: #47b475;
+}
+
+#cryptocurrency-mlm-software-development .feature-box-4:hover .feature-title {
+    color: #ffffff;
+}
+
+#cryptocurrency-mlm-software-development .feature-box-4:hover .feature-desc {
+    color: #ffffff;
+}
+
+#cryptocurrency-mlm-software-development .feature-box-4:hover .icon i {
+    filter: brightness(0) invert(1);
+}
+
+#cryptocurrency-mlm-software-development .banner_content .contentall {
+    margin-top: 70px;
+    padding: 0;
+}
+
+#cryptocurrency-mlm-software-development .contentall h1,
+.ban_tirt {
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+#cryptocurrency-mlm-software-development .contentall p {
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 21px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    display: block;
+    color: #fff !important;
+}
+
+#cryptocurrency-mlm-software-development .contentall h1 {
+    color: #fff !important;
+}
+
+#cryptocurrency-mlm-software-development .banner_content .contentall {
+    margin-top: 90px;
+}
+
+@media (min-width: 992px) {
+    #cryptocurrency-mlm-software-development .banner {
+        height: auto !important;
+    }
+}
+
