@@ -13,19 +13,70 @@ import {
   Content2,
   UnderLine,
   Sec3,
-  Sec3CardContainer,
 } from "./p2pExchangeDevComp";
 import { Section } from "../../../components/sections/section";
 import icons from "../../../assets/icons/index";
 import Card from "../../../components/cards/Card";
 
+const Data = [
+  {
+    img: "https://www.blockchainappfactory.com/images/p2p/cryptocurrencies.webp",
+    title: "Multiple Cryptocurrencies",
+    desc: "Our platform is integrated with multiple cryptocurrency support like BTC, LTC, ETH, USDT, etc.",
+  },
+  {
+    img: "https://www.blockchainappfactory.com/images/p2p/translate.webp",
+    title: "Multi-Language Support",
+    desc: "The platform offers multi-language support, thereby providing global access to your P2P platform. We intend to provide the best user experience for every customer, from every nook and corner of the world. ",
+  },
+  {
+    img: "https://www.blockchainappfactory.com/images/p2p/track.webp",
+    title: "Dominant Trading engine",
+    desc: "Our team of expert developers will offer you a powerful, highly-secure trading engine, with the capability of auto-matching buyers and sellers without any time-lapse. ",
+  },
+  {
+    img: "https://www.blockchainappfactory.com/images/p2p/portfolio.webp",
+    title: "Multiple Cryptocurrencies",
+    desc: "The platform offers multi-language support, thereby providing global access to your P2P platform. We intend to provide the best user experience for every customer, from every nook and corner of the world. ",
+  },
+  {
+    img: "https://www.blockchainappfactory.com/images/p2p/wrench.webp",
+    title: "Multiple Cryptocurrencies",
+    desc: "The platform offers multi-language support, thereby providing global access to your P2P platform. We intend to provide the best user experience for every customer, from every nook and corner of the world. ",
+  },
+  {
+    img: "https://www.blockchainappfactory.com/images/p2p/gateway.webp",
+    title: "Multiple Cryptocurrencies",
+    desc: "The platform offers multi-language support, thereby providing global access to your P2P platform. We intend to provide the best user experience for every customer, from every nook and corner of the world. ",
+  },
+  {
+    img: "https://www.blockchainappfactory.com/images/p2p/authentication.webp",
+    title: "Multi-Language Support",
+    desc: "The platform offers multi-language support, thereby providing global access to your P2P platform. We intend to provide the best user experience for every customer, from every nook and corner of the world. ",
+  },
+  {
+    img: "https://www.blockchainappfactory.com/images/p2p/authentication.webp",
+    title: "Multi-Language Support",
+    desc: "The platform offers multi-language support, thereby providing global access to your P2P platform. We intend to provide the best user experience for every customer, from every nook and corner of the world. ",
+  },
+  {
+    img: "https://www.blockchainappfactory.com/images/p2p/authentication.webp",
+    title: "Multi-Language Support",
+    desc: "The platform offers multi-language support, thereby providing global access to your P2P platform. We intend to provide the best user experience for every customer, from every nook and corner of the world. ",
+  },
+  {
+    img: "https://www.blockchainappfactory.com/images/p2p/authentication.webp",
+    title: "Multi-Language Support",
+    desc: "The platform offers multi-language support, thereby providing global access to your P2P platform. We intend to provide the best user experience for every customer, from every nook and corner of the world. ",
+  },
+];
 const P2pExchangeDev = () => {
   return (
     <React.Fragment>
       <Container>
         {/* BANNER START HERE */}
         <Banner>
-          <Sec paddingBlock="3vw">
+          <Sec >
             <Layout>
               <Content>
                 <div className="content">
@@ -43,7 +94,7 @@ const P2pExchangeDev = () => {
                 </ButtonContainer>
               </Content>
               <Image>
-                <img src={icons.p2p_banner} alt="" />
+                <img src={icons.p2p_banner} alt="" className="sec1-img"/>
               </Image>
             </Layout>
           </Sec>
@@ -78,9 +129,7 @@ const P2pExchangeDev = () => {
             Our P2P Crypto Exchange Development Features
           </h3>
           {/* <Sec3CardContainer> */}
-            <Card />
-            <Card />
-            <Card />
+          <Card data={Data} />
           {/* </Sec3CardContainer> */}
         </Sec3>
       </Container>

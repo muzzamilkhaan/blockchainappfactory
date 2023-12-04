@@ -2,19 +2,24 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   /* display: flex; */
-  padding-inline: 6vw;
-  background-color: red;
+  /* padding-inline: 6vw; */
   display: flex;
-  flex-direction: row;
+  gap: 25px;
+  /* width: 33%; */
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 export const CardContainer = styled.div`
-  display: flex;
-  width: 33%;
-  min-height: 345px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  /* display: flex; */
+  width: 30%;
+  flex-wrap: wrap;
+  min-height: 300px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
   border-radius: 5px;
   border-bottom: 2px solid #47b47566;
-  padding: 35px 10px;
+  padding: 25px 10px;
+  background-color: #fff;
+  margin-bottom: 40px;
 `;
 
 export const CardContent = styled.div`
@@ -33,6 +38,7 @@ export const CardContent = styled.div`
     font-size: 14px;
     line-height: 1.7;
     max-width: 280px;
+    text-align: center;
   }
 `;
 export const ImageContainer = styled.div`

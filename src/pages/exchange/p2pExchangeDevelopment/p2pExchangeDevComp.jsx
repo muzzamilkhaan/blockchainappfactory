@@ -1,38 +1,74 @@
 import styled from "styled-components";
 import { Section } from "../../../components/sections/section";
+import { layout } from "../../../helpers/constant";
+const { mobile, tablet, laptop, desktop } = layout;
+
 export const Container = styled.div`
   padding-top: 100px;
 `;
 export const Banner = styled.div`
   background-image: url("https://www.blockchainappfactory.com/images/p2p/p2p_banner_bg.webp");
-  height: 100vh;
+  /* height: 100vh; */
+  background-size: cover;
 `;
 export const Sec = styled(Section)`
   background-image: linear-gradient(to right, #00add8fa, #00c0b0d9);
-  height: 100vh;
   padding-inline: 0;
+  padding-block: 0;
+  @media only screen and (min-width: ${mobile}) {
+    /* height: 100vh; */
+    padding-block: 8vw;
+  }
+  @media only screen and (min-width: ${tablet}) {
+  }
+  @media only screen and (min-width: ${laptop}) {
+    height: 100vh;
+  }
 `;
 export const Layout = styled.div`
   display: flex;
   color: #ffffff;
+
+  @media only screen and (min-width: ${mobile}) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media only screen and (min-width: ${tablet}) {
+    flex-direction: row;
+  }
+  @media only screen and (min-width: ${laptop}) {
+    flex-direction: row;
+    gap: 40px;
+  }
+  @media only screen and (min-width: ${desktop}) {
+  }
 `;
 export const Image = styled.image`
-  padding-block-start: 5vw;
+  /* padding-block-start: 6vw; */
+
+  @media (max-width: 880px) {
+    width: 80%;
+    position: relative;
+    left: 25px;
+  }
 `;
 export const Content = styled.div`
   padding-inline-start: 7vw;
-  padding-block-start: 5vw;
+  /* padding-block-start: 6vw; */
   .h1 {
     margin-bottom: 25px;
     line-height: 1.3;
     font-weight: 700;
-    font-size: 40px;
+    font-size: clamp(26px, 4vw, 40px);
   }
   .p1 {
     font-size: 18px;
     display: inline-block;
     width: 100%;
     color: #fff;
+  }
+  @media (max-width: 420px) {
+    /* padding-block: 20vw; */
   }
 `;
 
@@ -44,7 +80,7 @@ export const ButtonContainer = styled.div`
 `;
 export const Button = styled.button`
   background-color: #47b475;
-  padding: 10px 35px;
+  padding: 12px 30px;
   font-weight: 700;
   cursor: pointer;
   border-radius: 30px;
@@ -88,6 +124,17 @@ export const Sec3 = styled(Section)`
     letter-spacing: 0.09rem !important;
     text-transform: capitalize;
   }
-`;
-export const Sec3CardContainer = styled.div`
+
+  @media only screen and (min-width: ${mobile}) {
+    padding-inline: 3vw;
+  }
+  @media only screen and (min-width: ${tablet}) {
+    padding-inline: 6vw;
+  }
+  @media only screen and (min-width: ${laptop}) {
+    padding-inline: 80px;
+  }
+  @media only screen and (min-width: ${desktop}) {
+    padding-inline: 122px;
+  }
 `;
