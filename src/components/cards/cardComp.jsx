@@ -74,26 +74,21 @@ export const ImageContainer = styled.div`
 `;
 export const MainContainer = styled.div`
   display: flex;
-  justify-content: space-around;
-  gap: 20px;
+  /* justify-content: space-evenly; */
+  gap: 30px;
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* .arrowCard2:last-of-type {
+      display: none;
+    } */
+  }
 `;
 export const ContainerCard2 = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  /* align-items: center; */
-  .arrowCard2 {
-    width: 100px;
-    height: 26px;
-    position: relative;
-    top: 45px;
-    right: -30px;
-  }
-  .p-card2 {
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 60px;
-    color: #000000;
-  }
+  gap: 30px;
+  /* justify-content: space-between;
+  background-color: red; */
 `;
 export const ImageCardSec2 = styled.div`
   width: 100px;
@@ -106,5 +101,33 @@ export const ImageCardSec2 = styled.div`
     position: relative;
     top: 22px;
     left: 18px;
+  }
+`;
+
+export const CardSec4Left = styled.div`
+  .p-card2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #000000;
+  }
+`;
+export const CardSec4Right = styled.div`
+  position: relative;
+  top: 40px;
+  /* position: absolute;
+  top: 40px;
+  right: -70%; */
+  .arrowCard2 {
+    width: 100px;
+    height: 26px;
+  }
+`;
+export const Check = styled.div`
+  .card-1,
+  .card-3,
+  .card-5 {
+    grid-column: 1;
+    background-color: #aaffaa; /* Adjust the background color as needed */
   }
 `;

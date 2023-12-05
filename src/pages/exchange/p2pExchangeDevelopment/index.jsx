@@ -33,7 +33,11 @@ import {
 } from "./p2pExchangeDevComp";
 import { Section } from "../../../components/sections/section";
 import icons from "../../../assets/icons/index";
-import { Card, ExchangeCardSec4 } from "../../../components/cards/Card";
+import {
+  Card,
+  ExchangeCardSec4,
+  YourComponent,
+} from "../../../components/cards/Card";
 import "./p2pExchangeDev.css";
 import Faq from "../../../components/shared/Faq";
 import Sec6 from "../decentralizedExchangeDevelopment/Sec6";
@@ -107,7 +111,6 @@ const ExchangeSec4 = [
     img: "https://www.blockchainappfactory.com/images/p2p/kyc.webp",
     title: "KYC/AML verification",
   },
-  
 ];
 const FAQ = [
   {
@@ -570,6 +573,7 @@ const P2pExchangeDev = () => {
         {/* IMPORT SECTION FROM DECENTRALIZE EXCHANGE */}
         <Sec6 />
         {/* SECTION END HERE */}
+        <YourComponent />
       </Container>
     </React.Fragment>
   );

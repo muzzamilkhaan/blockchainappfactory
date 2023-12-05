@@ -7,7 +7,11 @@ import {
   ImageCardSec2,
   ContainerCard2,
   MainContainer,
+  CardSec4Left,
+  CardSec4Right,
+  Check,
 } from "./cardComp";
+import styled from "styled-components";
 
 export const Card = ({ data }) => {
   return (
@@ -33,93 +37,76 @@ export const ExchangeCardSec4 = ({ data }) => {
   let length = data.length - 1;
   return (
     <>
-      <div class="col-md-3 col-sm-6 col-xs-6">
-        <div class="equal-height work_pr work_pr_1">
-          <div class="work_ic">
-            {" "}
-            <img
-              class=""
-              data-src="images/p2p/seo-and-web.webp"
-              src="https://www.blockchainappfactory.com/images/p2p/seo-and-web.webp"
-            />{" "}
-          </div>
-          <div class="work_cnt">
-            <p>User Registration</p>
-          </div>{" "}
-          <img
-            class="arrr"
-            data-src="images/p2p/arw.webp"
-            src="https://www.blockchainappfactory.com/images/p2p/arw.webp"
-          />{" "}
-        </div>
-      </div>
-      ;
-      {/* <h1>hello</h1>
-      <div>
-        <div>
-          <img
-            className=""
-            src="https://www.blockchainappfactory.com/images/p2p/seo-and-web.webp"
-            data-src="images/p2p/seo-and-web.webp"
-          />
-        </div>
-      </div> */}
-      {/* <div
-        className="equal-height work_pr work_pr_1"
-        style={{ minHeight: "141px" }}
-      >
-        <div
-          className="work_ic"
-          style={{
-            background: "#fff",
-            width: "100px",
-            margin: "0 auto 18px",
-            borderRadius: "50%",
-            height: "100px",
-            boxShadow: "0 0 10px #ccc",
-          }}
-        >
-          <img
-            className=""
-            src="https://www.blockchainappfactory.com/images/p2p/seo-and-web.webp"
-            style={{
-              height: "50px",
-              marginTop: "30px",
-              marginBottom: "15px",
-            }}
-          />
-        </div>
-        <div className="work_cnt">
-          <p>User Registration</p>
-        </div>
-        <img
-          className="arrr"
-          src="https://www.blockchainappfactory.com/images/p2p/arw.webp"
-        />
-      </div> */}
-      {/* <MainContainer>
-      {data.map((item, index) => {
-        return (
-          <ContainerCard2 key={index}>
-            {" "}
-            <div>
-              <ImageCardSec2 className="img">
-                <img src={item.img} alt="" className="imgCard2" />
-              </ImageCardSec2>
-              <p className="p-card2">{item.title}</p>
-            </div>
-            {index !== length && (
-              <img
-                src="https://www.blockchainappfactory.com/images/p2p/arw.webp"
-                alt=""
-                className="arrowCard2"
-                key={index}
-              />
-            )}
-          </ContainerCard2>
-        );
-      })}
-      </MainContainer> */}
+      <MainContainer>
+        {data.map((item, index) => {
+          return (
+            <ContainerCard2 key={index}>
+              {" "}
+              <CardSec4Left>
+                <ImageCardSec2 className="img">
+                  <img src={item.img} alt="" className="imgCard2" />
+                </ImageCardSec2>
+                <p className="p-card2">{item.title}</p>
+              </CardSec4Left>
+              {index !== length && (
+                <CardSec4Right>
+                  <img
+                    src="https://www.blockchainappfactory.com/images/p2p/arw.webp"
+                    alt=""
+                    className="arrowCard2"
+                    key={index}
+                  />
+                </CardSec4Right>
+              )}
+            </ContainerCard2>
+          );
+        })}
+      </MainContainer>
     </>
+  );
+};
+
+const MainContainer1 = styled.div`
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+`;
+
+const CardContainer1 = styled.div`
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  border: 1px solid #ccc;
+  padding: 10px;
+`;
+
+const LeftCard1 = styled(CardContainer1)`
+  background-color: #aaffaa; /* Adjust the background color as needed */
+`;
+
+const RightCard1 = styled(CardContainer1)`
+  background-color: #aaaaff; /* Adjust the background color as needed */
+  margin-top: 60px;
+`;
+
+export const YourComponent = () => {
+  // Assuming you have an array of card data
+  const cardData = [
+    { id: 1, content: "Card 1" },
+    { id: 2, content: "Card 2" },
+    { id: 3, content: "Card 3" },
+    { id: 4, content: "Card 4" },
+    { id: 5, content: "Card 5" },
+    { id: 6, content: "Card 6" },
+  ];
+
+  return (
+    <MainContainer1>
+      <LeftCard1>{cardData[0].content}</LeftCard1>
+      <RightCard1>{cardData[1].content}</RightCard1>
+      <LeftCard1>{cardData[2].content}</LeftCard1>
+      <RightCard1>{cardData[3].content}</RightCard1>
+      <LeftCard1>{cardData[4].content}</LeftCard1>
+      <RightCard1>{cardData[5].content}</RightCard1>
+    </MainContainer1>
   );
 };

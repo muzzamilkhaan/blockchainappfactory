@@ -154,7 +154,7 @@ export const Sec3 = styled(Section)`
 `;
 
 export const Sec4 = styled(Section)`
-  padding-inline: 8vw;
+  padding-inline: 0;
   .sec4-h3 {
     text-align: center;
     /* font-size: clamp(25px, 4vw, 40px); */
@@ -163,6 +163,17 @@ export const Sec4 = styled(Section)`
     line-height: 1.4;
     letter-spacing: 1.5px !important;
     text-transform: capitalize;
+  }
+  @media only screen and (min-width: ${mobile}) {
+    padding-inline: 3vw;
+  }
+  @media only screen and (min-width: ${tablet}) {
+    padding-inline: 6vw;
+  }
+  @media only screen and (min-width: ${laptop}) {
+    padding-inline: 12vw;
+  }
+  @media only screen and (min-width: ${desktop}) {
   }
 `;
 export const CardSec4 = styled.div`
