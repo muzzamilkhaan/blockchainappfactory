@@ -1,17 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
-function Faq({data , className}) {
-    const [activeTab, setActiveTab] = useState(0)
+function Faq({ data, className }) {
+  console.log("data:", data);
+  const [activeTab, setActiveTab] = useState(0);
 
-    const changeTabs = (index) => {
-      if (activeTab === index) {
-        setActiveTab(null)
-      } else {
-        setActiveTab(index)
-      }
+  const changeTabs = (index) => {
+    if (activeTab === index) {
+      setActiveTab(null);
+    } else {
+      setActiveTab(index);
     }
+  };
   return (
-    <div className={className} id='custom-accordian'>
+    <div className={className} id="custom-accordian">
       <div className="container">
         <div className="row">
           <div className="section-header text-center col-sm-12">
@@ -20,27 +21,44 @@ function Faq({data , className}) {
           <div className="col-sm-12 col-md-12">
             <div className="faq-content">
               <div className="panel-group" id="accordion">
-                {data.map((item , index) =>{
-                  return(
-                <div className="panel panel-default">
-                  <div className="panel-heading" style={{ cursor: 'pointer' }} onClick={() => { changeTabs(index) }}>
-                    <h4 className="panel-title">
-                      <a
-                        alt=""
-                        data-toggle="collapse"
-                        className={`${activeTab !== index ? 'collapsed' : ''}`}
+                {data.map((item, index) => {
+                  return (
+                    <div className="panel panel-default">
+                      <div
+                        className="panel-heading"
+                        style={{ cursor: "pointer" }}
+                        onClick={() => {
+                          changeTabs(index);
+                        }}
                       >
-                        {item.title}
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="faq1" className={`panel-collapse collapse ${activeTab === index ? 'in' : ''}`} style={{ height: activeTab === index ? 'auto' : '0px' }}>
-                    <div className="panel-body" dangerouslySetInnerHTML={{ __html: item.desc }}>
-                      {/* {item.desc} */}
+                        <h4 className="panel-title">
+                          <a
+                            alt=""
+                            data-toggle="collapse"
+                            className={`${
+                              activeTab !== index ? "collapsed" : ""
+                            }`}
+                          >
+                            {item.title}
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="faq1"
+                        className={`panel-collapse collapse ${
+                          activeTab === index ? "in" : ""
+                        }`}
+                        style={{ height: activeTab === index ? "auto" : "0px" }}
+                      >
+                        <div
+                          className="panel-body"
+                          dangerouslySetInnerHTML={{ __html: item.desc }}
+                        >
+                          {/* {item.desc} */}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                  )
+                  );
                 })}
                 {/* <div className="panel panel-default">
                   <div className="panel-heading" style={{ cursor: 'pointer' }} onClick={() => { changeTabs(1) }}>
@@ -136,7 +154,7 @@ function Faq({data , className}) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Faq
+export default Faq;

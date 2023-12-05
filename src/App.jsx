@@ -13,6 +13,8 @@ import "./cryptoCurrency.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import CreateYourOwnTokenAndCoin from "./components/shared/CreateYourOwnTokenAndCoin";
 import Header from "./headerFooter/Header";
+import P2pExchangeDev from "./pages/exchange/p2pExchangeDevelopment";
+import Footer from "./headerFooter/Footer";
 
 const ContactUs = lazy(() => import("./pages/contactUs/ContactUs"));
 const QuickContact = lazy(() => import("./components/shared/QuickContact"));
@@ -128,7 +130,9 @@ const BitcoinOrdinalsMarketplaceDevelopment = lazy(() =>
   )
 );
 
-import P2pExchangeDev from "./pages/exchange/p2pExchangeDevelopment";
+const p2pExchangeDevelopment = lazy(() =>
+  import("./pages/exchange/p2pExchangeDevelopment")
+);
 
 function App() {
   return (
@@ -261,6 +265,7 @@ function App() {
           </Routes>
         </Suspense>
       </Router>
+      <Footer/>
     </>
   );
 }
