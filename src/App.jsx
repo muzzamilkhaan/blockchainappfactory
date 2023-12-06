@@ -134,6 +134,8 @@ const p2pExchangeDevelopment = lazy(() =>
   import("./pages/exchange/p2pExchangeDevelopment")
 );
 
+import NftMarketPlaceEthereum from "./pages/NFT/nftMarketPlaceEthereum/index";
+
 function App() {
   return (
     <>
@@ -262,10 +264,16 @@ function App() {
               path="/p2p-exchange-development"
               element={<P2pExchangeDev />}
             />
+            <Route
+              path="nft-marketplace-on-ethereum"
+              element={<NftMarketPlaceEthereum />}
+            />
+            {/* <Route 
+            path="" element={<Nft}/> */}
           </Routes>
         </Suspense>
       </Router>
-      <Footer/>
+      <Footer />
     </>
   );
 }

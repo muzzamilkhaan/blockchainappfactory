@@ -1,185 +1,202 @@
-import React from 'react'
-import { useState } from 'react';
+import React from "react";
+import { useState } from "react";
 import { FaMobileAlt, FaEnvelope } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Header() {
-    const [dropdown, setDropdown] = useState(0)
-    const [open, setOpen] = useState(false)
-    return (
-        <>
-            <div className="header menu-style-1">
-                <div className="top-wrapper">
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-xs-12 d-flex flex-wrap-wrap justify-content-between">
-                                <div className="cont-det">
-                                    <a href="tel:+916382665366">
-                                        <FaMobileAlt />
-                                        +91 63826 65366
-                                    </a>
-                                    <a href="mailto:info@blockchainappfactory.com">
-                                        <FaEnvelope />
-                                        info@blockchainappfactory.com
-                                    </a>
-                                </div>
-                                <div className="loc">
-                                    <p className="">
-                                        <IoLocationSharp />
-                                        Our Global
-                                        Offices : Japan | USA | UK | UAE | Singapore |Malaysia | Australia
-                                        | India
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  const [dropdown, setDropdown] = useState(0);
+  const [open, setOpen] = useState(false);
+  return (
+    <>
+      <div className="header menu-style-1">
+        <div className="top-wrapper">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-xs-12 d-flex flex-wrap-wrap justify-content-between">
+                <div className="cont-det">
+                  <a href="tel:+916382665366">
+                    <FaMobileAlt />
+                    +91 63826 65366
+                  </a>
+                  <a href="mailto:info@blockchainappfactory.com">
+                    <FaEnvelope />
+                    info@blockchainappfactory.com
+                  </a>
                 </div>
-                <div className="container-fluid">
-                    <Link className="logo" to={"/"} >
-                        <img
-                            src="./assets/images/logo-green.webp"
-                            alt=" Blockchain Development Company"
-                            title="Enterprise Blockchain Technology Solution & Services Provider"
-                            width="177px"
-                            height="35px"
-                            className="logo-img"
-                        />
-                    </Link>
-                    <span
-                        className="mob_nav_ic"
-                        style={{ fontSize: 30, cursor: "pointer" }}
-                        // onClick="if (!window.__cfRLUnblockHandlers) return false; openNav()"
-                        onClick={() =>{setOpen(true)}}
+                <div className="loc">
+                  <p className="">
+                    <IoLocationSharp />
+                    Our Global Offices : Japan | USA | UK | UAE | Singapore
+                    |Malaysia | Australia | India
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid">
+          <Link className="logo" to={"/"}>
+            <img
+              src="./assets/images/logo-green.webp"
+              alt=" Blockchain Development Company"
+              title="Enterprise Blockchain Technology Solution & Services Provider"
+              width="177px"
+              height="35px"
+              className="logo-img"
+            />
+          </Link>
+          <span
+            className="mob_nav_ic"
+            style={{ fontSize: 30, cursor: "pointer" }}
+            // onClick="if (!window.__cfRLUnblockHandlers) return false; openNav()"
+            onClick={() => {
+              setOpen(true);
+            }}
+          >
+            ☰
+          </span>
+          <nav
+            className="menu sidenav"
+            style={{ width: open ? "100%" : "" }}
+            id="mySidenav"
+          >
+            <button
+              type="button"
+              className="closebtn"
+              // onClick="if (!window.__cfRLUnblockHandlers) return false; closeNav()"
+              onClick={() => {
+                setOpen(false);
+              }}
+            >
+              <i className="fa fa-close" />
+            </button>
+            <a href="#" className="menu-mobile" />
+            <ul className="main-menu">
+              <li
+                className="menu-item menu-dropdown-icon"
+                onMouseEnter={() => {
+                  setDropdown(1);
+                }}
+                onMouseLeave={() => {
+                  setDropdown(0);
+                }}
+              >
+                <a className="">
+                  Crypto <b className="caret" />
+                </a>
+                <ul
+                  className="mega-submenu menu_desk menu_desk_crypto"
+                  style={{
+                    display: dropdown === 1 ? "block" : "none",
+                    opacity: 1,
+                  }}
+                >
+                  <li className="has-subsubmenu">
+                    <h4>Crypto/Token</h4>
+                    <ul
+                      className="mega-submenu1 normal-sub"
+                      style={{ opacity: 1 }}
                     >
-                        ☰
-                    </span>
-                    <nav className="menu sidenav" style={{width : open ? '100%' : ''}} id="mySidenav">
-                        <button
-                            type="button"
-                            className="closebtn"
-                            // onClick="if (!window.__cfRLUnblockHandlers) return false; closeNav()"
-                            onClick={() =>{setOpen(false)}}
+                      <li>
+                        <Link to={"/cryptocurrency-development"}>
+                          Cryptocurrency Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/token-development"}>Token Development</Link>
+                      </li>
+                      <li>
+                        <Link to={"/ethereum-token-development"}>
+                          Ethereum Token Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/tron-token-development"}>
+                          Tron Token Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/brc-20-token-development"}>
+                          BRC 20 Token Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/src-20-token-development"}>
+                          SRC 20 Token Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to={
+                            "/binance-smart-chain-bep20-like-token-development"
+                          }
                         >
-                            <i className="fa fa-close" />
-                        </button>
-                        <a href="#" className="menu-mobile" />
-                        <ul className="main-menu">
-                            
-                            <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(1) }} onMouseLeave={() => { setDropdown(0) }}>
-                                <a className="">
-                                    Crypto <b className="caret" />
-                                </a>
-                                <ul
-                                    className="mega-submenu menu_desk menu_desk_crypto"
-                                    style={{ display: dropdown === 1 ? "block" : "none", opacity: 1 }}
-                                >
-                                    <li className="has-subsubmenu">
-                                        <h4>Crypto/Token</h4>
-                                        <ul className="mega-submenu1 normal-sub" style={{ opacity: 1 }}>
-                                            <li>
-                                                <Link to={"/cryptocurrency-development"}>
-                                                    Cryptocurrency Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/token-development"}>
-                                                    Token Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/ethereum-token-development"}>
-                                                    Ethereum Token Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/tron-token-development"}>
-                                                    Tron Token Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/brc-20-token-development"}>
-                                                    BRC 20 Token Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/src-20-token-development"}>
-                                                    SRC 20 Token Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/binance-smart-chain-bep20-like-token-development"}>
-                                                    BEP - 20 Token Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/stable-coin-development"}>
-                                                    Stable Coin Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/white-paper-development"}>
-                                                    White Paper Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/cryptocurrency-mlm-software-development"}>
-                                                    Cryptocurrency MLM Software
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-subsubmenu">
-                                        <h4>Tokenization</h4>
-                                        <ul className="mega-submenu1 normal-sub">
-                                            <li>
-                                                <Link to={"/art-tokenization"}>
-                                                    Art Tokenization
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/asset-tokenization"}>
-                                                    Asset Tokenization
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/real-estate-tokenization"}>
-                                                    Real Estate Tokenization
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link  to={"/tokenization-platform-development"} >
-                                                   
-                                                    Tokenization Platform Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/real-estate-tokenization-essential-guide"}>
-                                                     
-                                                    Real Estate Tokenization Essential Guide
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/crypto-etf-development"}>
-                                                     
-                                                    Crypto ETF Development
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-subsubmenu">
-                                        <h4>Crypto Guide</h4>
-                                        <ul className="mega-submenu1 normal-sub">
-                                            <li>
-                                                <Link to={"/how-to-launch-crypto-token"}>
-                                                    How to Launch Crypto token
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                {/* <ul
+                          BEP - 20 Token Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/stable-coin-development"}>
+                          Stable Coin Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/white-paper-development"}>
+                          White Paper Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/cryptocurrency-mlm-software-development"}>
+                          Cryptocurrency MLM Software
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="has-subsubmenu">
+                    <h4>Tokenization</h4>
+                    <ul className="mega-submenu1 normal-sub">
+                      <li>
+                        <Link to={"/art-tokenization"}>Art Tokenization</Link>
+                      </li>
+                      <li>
+                        <Link to={"/asset-tokenization"}>
+                          Asset Tokenization
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/real-estate-tokenization"}>
+                          Real Estate Tokenization
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/tokenization-platform-development"}>
+                          Tokenization Platform Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/real-estate-tokenization-essential-guide"}>
+                          Real Estate Tokenization Essential Guide
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/crypto-etf-development"}>
+                          Crypto ETF Development
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="has-subsubmenu">
+                    <h4>Crypto Guide</h4>
+                    <ul className="mega-submenu1 normal-sub">
+                      <li>
+                        <Link to={"/how-to-launch-crypto-token"}>
+                          How to Launch Crypto token
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                {/* <ul
                                     className="mega-submenu menu_desk menu_desk_ico"
                                     style={{ display: dropdown === 1 ? "block" : "none", opacity: 1 }}
 
@@ -316,44 +333,58 @@ function Header() {
                                         </ul>
                                     </li>
                                 </ul> */}
+              </li>
+              <li
+                className="menu-item menu-dropdown-icon"
+                onMouseEnter={() => {
+                  setDropdown(2);
+                }}
+                onMouseLeave={() => {
+                  setDropdown(0);
+                }}
+              >
+                <a className="">
+                  Exchange <b className="caret" />
+                </a>
+                <ul
+                  className="mega-submenu menu_desk menu_desk_exchange"
+                  style={{
+                    display: dropdown === 2 ? "block" : "none",
+                    opacity: 1,
+                  }}
+                >
+                  <li className="has-subsubmenu">
+                    <h4>Exchange</h4>
+                    <ul
+                      className="mega-submenu1 normal-sub"
+                      style={{ display: "none" }}
+                    >
+                      <li>
+                        <Link to={"/cryptocurrency-exchange-software"}>
+                          Cryptocurrency Exchange Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to={
+                            "/white-label-cryptocurrency-exchange-software-development"
+                          }
+                        >
+                          White label Crypto Exchange
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/decentralized-exchange-development"}>
+                          Decentralized Exchange Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/p2p-exchange-development"}>
+                          P2P Exchange Development
+                        </Link>
+                      </li>
 
-                            </li>
-                            <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(2) }} onMouseLeave={() => { setDropdown(0) }}>
-                                <a className="">
-                                    Exchange <b className="caret" />
-                                </a>
-                                <ul
-                                    className="mega-submenu menu_desk menu_desk_exchange"
-                                    style={{ display: dropdown === 2 ? "block" : "none", opacity: 1 }}
-                                >
-                                    <li className="has-subsubmenu">
-                                        <h4>Exchange</h4>
-                                        <ul
-                                            className="mega-submenu1 normal-sub"
-                                            style={{ display: "none" }}
-                                        >
-                                            <li>
-                                                <Link to={"/cryptocurrency-exchange-software"}>
-                                                    Cryptocurrency Exchange Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/white-label-cryptocurrency-exchange-software-development"}>
-                                                    White label Crypto Exchange
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/decentralized-exchange-development"}>
-                                                    Decentralized Exchange Development
-                                                </Link>
-                                            </li>
-                                             <li>
-                                                <Link to={"/p2p-exchange-development"}>
-                                                    P2P Exchange Development
-                                                    </Link>
-                                            </li>
-
-                                            {/*<li>
+                      {/*<li>
                                                 <a href="https://www.blockchainappfactory.com/crypto-prediction-market-platform">
                                                     Crypto Prediction Market Platform
                                                 </a>
@@ -378,9 +409,9 @@ function Header() {
                                                     Exchange Listing Services
                                                 </a>
                                             </li> */}
-                                        </ul>
-                                    </li>
-                                    {/* <li className="has-subsubmenu">
+                    </ul>
+                  </li>
+                  {/* <li className="has-subsubmenu">
                                         <h4>Exchange Clone</h4>
                                         <ul className="mega-submenu1 normal-sub">
                                             <li>
@@ -440,7 +471,7 @@ function Header() {
                                             </li>
                                         </ul>
                                     </li> */}
-                                    {/* <li className="has-subsubmenu">
+                  {/* <li className="has-subsubmenu">
                                         <h4>Wallet</h4>
                                         <ul className="mega-submenu1 normal-sub">
                                             <li>
@@ -460,40 +491,52 @@ function Header() {
                                             </li>
                                         </ul>
                                     </li> */}
-                                </ul>
-                            </li>
-                            <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(3) }} onMouseLeave={() => { setDropdown(0) }}>
-                                <a className="">
-                                    NFT
-                                    <b className="caret" />
-                                </a>
-                                <ul
-                                    className="mega-submenu menu_desk-nft row m-0"
-                                    style={{ display: dropdown === 3 ? "block" : "none", opacity: 1 }}
-                                >
-                                    <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
-                                        <h4>Marketplace Development</h4>
-                                        <ul className="mega-submenu1 normal-sub">
-                                            <li>
-                                                <Link to={"/nft-marketplace-development"}>
-                                                    NFT Marketplace Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/white-label-nft-marketplace"}>
-                                                    White-Label NFT Marketplace
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/bitcoin-ordinals-marketplace-development"}>
-                                                    Bitcoin Ordinals Marketplace
-                                                </Link>
-                                            </li>
-                                            {/* <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-marketplace-on-ethereum">
-                                                    NFT Marketplace On Ethereum
-                                                </a>
-                                            </li>
+                </ul>
+              </li>
+              <li
+                className="menu-item menu-dropdown-icon"
+                onMouseEnter={() => {
+                  setDropdown(3);
+                }}
+                onMouseLeave={() => {
+                  setDropdown(0);
+                }}
+              >
+                <a className="">
+                  NFT
+                  <b className="caret" />
+                </a>
+                <ul
+                  className="mega-submenu menu_desk-nft row m-0"
+                  style={{
+                    display: dropdown === 3 ? "block" : "none",
+                    opacity: 1,
+                  }}
+                >
+                  <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
+                    <h4>Marketplace Development</h4>
+                    <ul className="mega-submenu1 normal-sub">
+                      <li>
+                        <Link to={"/nft-marketplace-development"}>
+                          NFT Marketplace Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/white-label-nft-marketplace"}>
+                          White-Label NFT Marketplace
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/bitcoin-ordinals-marketplace-development"}>
+                          Bitcoin Ordinals Marketplace
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/nft-marketplace-on-ethereum"}>
+                          NFT Marketplace On Ethereum
+                        </Link>
+                      </li>
+                      {/*
                                             <li>
                                                 <a href="https://www.blockchainappfactory.com/nft-marketplace-in-matic">
                                                     NFT Marketplace On Matic
@@ -534,8 +577,8 @@ function Header() {
                                                     NFT Marketplace On Harmony
                                                 </a>
                                             </li> */}
-                                        </ul>
-                                        {/* <h4>Custom Solutions</h4>
+                    </ul>
+                    {/* <h4>Custom Solutions</h4>
                                         <ul className="mega-submenu1 normal-sub">
                                             <li>
                                                 <a href="https://www.blockchainappfactory.com/nft-loyalty-program">
@@ -543,8 +586,8 @@ function Header() {
                                                 </a>
                                             </li>
                                         </ul> */}
-                                    </li>
-                                    {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
+                  </li>
+                  {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
                                         <h4>Marketplace Solutions</h4>
                                         <ul className="mega-submenu1 normal-sub">
                                             <li>
@@ -624,7 +667,7 @@ function Header() {
                                             </li>
                                         </ul>
                                     </li> */}
-                                    {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
+                  {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
                                         <h4>NFT Services</h4>
                                         <ul
                                             className="mega-submenu1 normal-sub"
@@ -710,7 +753,7 @@ function Header() {
                                             </ul>
                                         </ul>
                                     </li> */}
-                                    {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
+                  {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
                                         <h4>NFT Gaming</h4>
                                         <ul className="mega-submenu1 normal-sub" style={{ opacity: 1 }}>
                                             <li>
@@ -790,9 +833,9 @@ function Header() {
                                             </li>
                                         </ul>
                                     </li> */}
-                                </ul>
-                            </li>
-                            {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(4) }} onMouseLeave={() => { setDropdown(0) }}>
+                </ul>
+              </li>
+              {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(4) }} onMouseLeave={() => { setDropdown(0) }}>
                                 <a className="" href="">
                                     Marketing
                                     <b className="caret" />
@@ -966,33 +1009,42 @@ function Header() {
                                     </li>
                                 </ul>
                             </li> */}
-                            <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(5) }} onMouseLeave={() => { setDropdown(0) }}>
-                                <a className="" href="">
-                                    ICO/IDO <b className="caret" />
-                                </a>
-                                <ul
-                                    className="mega-submenu menu_desk menu_desk_ico"
-                                    style={{ display: dropdown === 5 ? "block" : "none", opacity: 1 }}
-                                >
-                                    <li className="has-subsubmenu">
-                                        <h4>ICO</h4>
-                                        <ul className="mega-submenu1 normal-sub">
-                                            <li>
-                                                <Link to={"/ico-development"}>
-                                                    ICO Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/ico-marketing-services"}>
-                                                    ICO Marketing
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to={"/ico-community-marketing"}>
-                                                    ICO Community Marketing
-                                                </Link>
-                                            </li>
-                                            {/* <li>
+              <li
+                className="menu-item menu-dropdown-icon"
+                onMouseEnter={() => {
+                  setDropdown(5);
+                }}
+                onMouseLeave={() => {
+                  setDropdown(0);
+                }}
+              >
+                <a className="" href="">
+                  ICO/IDO <b className="caret" />
+                </a>
+                <ul
+                  className="mega-submenu menu_desk menu_desk_ico"
+                  style={{
+                    display: dropdown === 5 ? "block" : "none",
+                    opacity: 1,
+                  }}
+                >
+                  <li className="has-subsubmenu">
+                    <h4>ICO</h4>
+                    <ul className="mega-submenu1 normal-sub">
+                      <li>
+                        <Link to={"/ico-development"}>ICO Development</Link>
+                      </li>
+                      <li>
+                        <Link to={"/ico-marketing-services"}>
+                          ICO Marketing
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/ico-community-marketing"}>
+                          ICO Community Marketing
+                        </Link>
+                      </li>
+                      {/* <li>
                                                 <a href="https://www.blockchainappfactory.com/ico-telegram-marketing">
                                                     ICO Telegram Marketing
                                                 </a>
@@ -1017,9 +1069,9 @@ function Header() {
                                                     Crowdfunding Platform
                                                 </a>
                                             </li> */}
-                                        </ul>
-                                    </li>
-                                    {/* <li className="has-subsubmenu">
+                    </ul>
+                  </li>
+                  {/* <li className="has-subsubmenu">
                                         <h4>STO</h4>
                                         <ul className="mega-submenu1 normal-sub">
                                             <li>
@@ -1089,9 +1141,9 @@ function Header() {
                                             </li>
                                         </ul>
                                     </li> */}
-                                </ul>
-                            </li>
-                            {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(6) }} onMouseLeave={() => { setDropdown(0) }}>
+                </ul>
+              </li>
+              {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(6) }} onMouseLeave={() => { setDropdown(0) }}>
                                 <a className="" href="">
                                     Web 3.0
                                     <b className="caret" />
@@ -1252,7 +1304,7 @@ function Header() {
                                     </li>
                                 </ul>
                             </li> */}
-                            {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(7) }} onMouseLeave={() => { setDropdown(0) }}>
+              {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(7) }} onMouseLeave={() => { setDropdown(0) }}>
                                 <a href="#" className="">
                                     AI
                                     <b className="caret" />
@@ -1293,7 +1345,7 @@ function Header() {
                                     </li>
                                 </ul>
                             </li> */}
-                            {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(8) }} onMouseLeave={() => { setDropdown(0) }}>
+              {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(8) }} onMouseLeave={() => { setDropdown(0) }}>
                                 <a href="" className="">
                                     
                                     Metaverse <b className="caret" />
@@ -1364,7 +1416,7 @@ function Header() {
                                     </li>
                                 </ul>
                             </li> */}
-                            {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(9) }} onMouseLeave={() => { setDropdown(0) }}>
+              {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(9) }} onMouseLeave={() => { setDropdown(0) }}>
                                 <a className="" href="">
                                     DeFi
                                     <b className="caret" />
@@ -1493,12 +1545,10 @@ function Header() {
                                     </li>
                                 </ul>
                             </li> */}
-                            <li className="menu-item">
-                                <Link to={"/contact"}>
-                                    Contact Us
-                                </Link>
-                            </li>
-                            {/* <li className="menu-item cnt_m menu-dropdown-icon" onMouseEnter={() => { setDropdown(10) }} onMouseLeave={() => { setDropdown(0) }}>
+              <li className="menu-item">
+                <Link to={"/contact"}>Contact Us</Link>
+              </li>
+              {/* <li className="menu-item cnt_m menu-dropdown-icon" onMouseEnter={() => { setDropdown(10) }} onMouseLeave={() => { setDropdown(0) }}>
                                 <a href="" className="hidden-xs">
                                     contact <b className="caret" />
                                 </a>
@@ -1561,15 +1611,12 @@ function Header() {
                                     </li>
                                 </ul>
                             </li> */}
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-
-        </>
-
-    )
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Header
+export default Header;

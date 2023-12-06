@@ -59,6 +59,8 @@ export const CardContent = styled.div`
   }
 `;
 export const ImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -69,24 +71,23 @@ export const ImageContainer = styled.div`
     height: 60px;
     position: relative;
     top: 18px;
-    left: 18px;
+    /* left: 18px; */
   }
 `;
 export const MainContainer = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
   /* justify-content: space-evenly; */
-  gap: 30px;
-  @media (max-width: 768px) {
+  gap: 10px;
+  @media (max-width: 991px) {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* .arrowCard2:last-of-type {
-      display: none;
-    } */
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
   }
 `;
 export const ContainerCard2 = styled.div`
   display: flex;
-  gap: 30px;
+  /* gap: 30px; */
   /* justify-content: space-between;
   background-color: red; */
 `;
@@ -105,6 +106,8 @@ export const ImageCardSec2 = styled.div`
 `;
 
 export const CardSec4Left = styled.div`
+  display: flex;
+  flex-direction: column;
   .p-card2 {
     text-align: center;
     font-weight: 700;
@@ -121,6 +124,11 @@ export const CardSec4Right = styled.div`
   .arrowCard2 {
     width: 100px;
     height: 26px;
+  }
+  .arrowCard2:last-child {
+    /* background-color: yellowgreen; */
+  }
+  @media (max-width: 768px) {
   }
 `;
 export const Check = styled.div`

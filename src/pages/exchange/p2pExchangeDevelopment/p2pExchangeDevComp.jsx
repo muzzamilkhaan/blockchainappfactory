@@ -87,6 +87,19 @@ export const Button = styled.button`
   font-size: 12px;
   transition: all 0.3s ease-out 0s;
   border: none;
+  .banner-sec {
+    color: #fff;
+  }
+  &:hover {
+    transform: scale(1.1, 1.1);
+    /* color: #47b475; */
+    background-color: #337ab7;
+  }
+  &:hover.sec5-btn {
+    transform: scale(1.1, 1.1);
+    /* color: #47b475; */
+    background-color: #337ab7;
+  }
 `;
 export const BannerContainer = styled.div``;
 
@@ -176,6 +189,23 @@ export const Sec4 = styled(Section)`
   @media only screen and (min-width: ${desktop}) {
   }
 `;
+export const ButtonSec4 = styled.button`
+  margin: 0 auto;
+  border: none;
+  border-radius: 30px;
+  background-color: #47b475;
+  padding: 12px 30px;
+  transition: all 0.3s ease-out 0s;
+
+  .sec5-anchor {
+    color: #fff;
+  }
+  &:hover {
+    transform: scale(1.1, 1.1);
+    /* color: #47b475; */
+    background-color: #337ab7;
+  }
+`;
 export const CardSec4 = styled.div`
   display: flex;
   justify-content: center;
@@ -246,6 +276,7 @@ export const Sec5Card = styled.div`
     border: none;
     /* color: #fff; */
   }
+
   @media (max-width: 480px) {
     .sec5-btn {
       position: relative;
