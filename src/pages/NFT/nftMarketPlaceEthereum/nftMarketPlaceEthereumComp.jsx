@@ -250,7 +250,7 @@ export const LeftSec4 = styled.div`
   }
 `;
 export const RightSec4 = styled.div`
-  /* width: 50%; */
+  width: 50%;
 
   .primary-list li {
     position: relative;
@@ -263,11 +263,10 @@ export const RightSec4 = styled.div`
     font-size: 14px;
     text-align: justify;
   }
-  .primary-list li:before {
+  .primary-list li::before {
     position: absolute;
-    content: "\uf10c"; /* FontAwesome Unicode */
-    font-family: "Font Awesome";
-    font-weight: 900;
+    content: "x"; /* FontAwesome Unicode */
+    font-family: "FontAwesome";
     left: 4px;
     top: 4px;
     font-size: 16px;
@@ -297,5 +296,60 @@ export const ButtonSec4 = styled.div`
   }
 `;
 export const Sec5 = styled(Section)`
+  padding-inline: 7vw;
+`;
+export const Sec6 = styled(Section)``;
+export const BoxSec2 = styled.div`
+  border: 2px solid #f2f2f2;
+  padding: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  .list-sec6 {
+    margin-top: 0rem;
+    margin-bottom: 0rem !important;
+    font-size: 14px;
+    line-height: 35px;
+    text-indent: -17px;
+    list-style: none;
+    margin-left: 15px;
+  }
+  .list-sec6 li::before {
+    content: "x";
+    font-family: "FontAwesome";
+    color: #2e9107;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+`;
+export const Sec7 = styled(Section)`
+  .list_01-sec7 {
+    margin-top: 0rem;
+    margin-bottom: 0rem !important;
+    font-size: 14px;
+    line-height: 35px;
+    text-indent: -28px;
+    list-style: none;
+    margin-left: 5px;
+    text-align: rui;
+    /* text-align: justify; */
+  }
+  .span-sec7 {
+    font-weight: 700;
+  }
+  li::before {
+    content: "c";
+    font-family: "FontAwesome";
+    color: #47b475;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+`;
+export const Sec8 = styled(Section)`
 padding-inline:7vw;
+  .p1-sec8 {
+    font-size: 14px;
+    font-family: "Open Sans", "sans-serif";
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
 `;

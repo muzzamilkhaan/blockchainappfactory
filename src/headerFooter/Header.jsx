@@ -195,6 +195,22 @@ function Header() {
                       </li>
                     </ul>
                   </li>
+
+                  <li className="has-subsubmenu">
+                    <h4>Custom Solutions</h4>
+                    <ul className="mega-submenu1 normal-sub">
+                      <li>
+                        <Link to={"/crypto-prediction-market-platform"}>
+                          Crypto Prediction Market Platform
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/decentralized-sports-betting-platform"}>
+                          Decentralizes Sports Betting Platform
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
                 {/* <ul
                                     className="mega-submenu menu_desk menu_desk_ico"
@@ -534,6 +550,11 @@ function Header() {
                       <li>
                         <Link to={"/nft-marketplace-on-ethereum"}>
                           NFT Marketplace On Ethereum
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/nft-marketplace-in-matic"}>
+                          NFT Marketplace On Matic
                         </Link>
                       </li>
                       {/*

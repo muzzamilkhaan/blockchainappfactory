@@ -41,7 +41,7 @@ function Sec1() {
                 {" "}
                 <img
                   className="magic"
-                  src="images/decentralized-sports-betting-platform/banner-img.webp"
+                  src="https://www.blockchainappfactory.com/images/decentralized-sports-betting-platform/banner-img.webp"
                   alt=" "
                   title=" "
                 />{" "}

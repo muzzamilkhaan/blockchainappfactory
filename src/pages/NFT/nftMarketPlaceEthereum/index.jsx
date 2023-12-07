@@ -1,4 +1,5 @@
 import React from "react";
+import Sec9 from "../../exchange/decentralizedExchangeDevelopment/Sec6";
 import {
   BannerContainer,
   BannerLayout,
@@ -18,6 +19,10 @@ import {
   RightSec4,
   ButtonSec4,
   Sec5,
+  Sec6,
+  BoxSec2,
+  Sec7,
+  Sec8,
 } from "./nftMarketPlaceEthereumComp";
 import { NftCard } from "../../../components/cards/nftCard/NftCard";
 
@@ -79,8 +84,18 @@ const nftMarketPlaceEthereum = () => {
               </p>
             </div>
             <ButtonContainer>
-              <Button className="btn-Banner">CONNECT WITH WHATSAPP</Button>
-              <Button>TALK WITH OUR EXPERTS</Button>
+              <Button className="btn-Banner">
+                {" "}
+                <a href="#" target="_blank" style={{ color: "#fff" }}>
+                  {" "}
+                  CONNECT WITH WHATSAPP
+                </a>
+              </Button>
+              <Button>
+                <a href="#" target="_blank" style={{ color: "#fff" }}>
+                  TALK WITH OUR EXPERTS{" "}
+                </a>
+              </Button>
             </ButtonContainer>
           </LeftLayout>
           <RightLayout>
@@ -202,8 +217,11 @@ const nftMarketPlaceEthereum = () => {
         </LayoutSec4>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <ButtonSec4>
-            <a href="" target="_blank" style={{ color: "#fff" }}>
-              TALK WITH OUR EXPERT{" "}
+            <a
+              href="https://www.blockchainappfactory.com/nft-marketplace-on-ethereum#newsletter-form-sec"
+              style={{ color: "#fff" }}
+            >
+              TALK WITH OUR EXPERTS{" "}
             </a>
           </ButtonSec4>
         </div>
@@ -214,6 +232,148 @@ const nftMarketPlaceEthereum = () => {
         </h3>
         <NftCard data={Sec5Card} />
       </Sec5>
+      <Sec6 backgroundColor="#fff">
+        <h2 className="sec_tit underline text-center sec3-h3">
+          Benefits of Running a Marketplace Selling Ethereum-based NFTs
+        </h2>
+        <BoxSec2>
+          <ul className="list-sec6">
+            {/* <FontAwesomeIcon icon="fa-solid fa-caret-right" /> */}
+            <li className="li-sec61">
+              The Ethereum blockchain does not go offline, meaning that users
+              can carry out trading operations anytime.
+            </li>
+            <li>
+              One can easily access the ownership history and other related
+              information for the NFTs based on Ethereum.
+            </li>
+            <li>
+              Ethereum’s decentralized nature means true peer-to-peer trading is
+              possible, eliminating the need for multiple platforms.
+            </li>
+            <li>
+              Manipulating data inside the blockchain ledger is no longer
+              possible as information is distributed across the network.
+            </li>
+            <li>
+              With a single back-end, Ethereum users can easily connect
+              applications based on it, including wallets and marketplaces.
+            </li>
+            <li>
+              Your NFT marketplace on Ethereum can sail smoothly as the network
+              supports multiple centralized and decentralized cryptocurrency
+              wallets.
+            </li>
+          </ul>
+        </BoxSec2>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginTop: "30px",
+          }}
+        >
+          <ButtonSec4>
+            <a
+              href="https://www.blockchainappfactory.com/nft-marketplace-on-ethereum#newsletter-form-sec"
+              style={{ color: "#fff" }}
+            >
+              TALK WITH OUR EXPERTS{" "}
+            </a>
+          </ButtonSec4>
+        </div>
+      </Sec6>
+      <Sec7 backgroundColor="#f2f2f2">
+        <h2 className="sec_tit underline text-center sec3-h3">
+          The Process of Creating an NFT Marketplace on Ethereum{" "}
+        </h2>
+        <LayoutSec4>
+          <LeftSec4>
+            <img
+              src="https://www.blockchainappfactory.com/images/nft-marketplace-on-ethereum/process_01.webp"
+              alt=""
+              className="sec4-img"
+            />
+          </LeftSec4>
+          <RightSec4>
+            <ul className="list_01-sec7">
+              <li>
+                <span className="span-sec7">Design : </span>
+                Collect all the ideas together, and decide on your venture and
+                technology to be used to frame the plans and whitepaper.
+              </li>
+              <li>
+                <span className="span-sec7">Design : </span>Create user-end
+                screens that contain a smooth user interface (UI) that gives a
+                seamless user experience (UX) and test them.
+              </li>
+              <li>
+                <span className="span-sec7">Choose Wallet : </span>You can
+                either build your own crypto wallet or integrate existing
+                trusted crypto wallet software that matches all your
+                requirements.
+              </li>
+              <li>
+                <span className="span-sec7">Front-end : </span>You should use
+                Architecture, SDK, IDK, and other programming tools to develop a
+                platform that is quick, reliant, and efficient.
+              </li>
+              <li>
+                <span className="span-sec7">Back-end : </span>You should utilize
+                programming, frameworks, and databases to build smart contracts
+                on which the logic of your platform is based.
+              </li>
+              <li>
+                <span className="span-sec7">Test : </span>You should carry out
+                repetitive testing using different test cases and troubleshoot
+                all the defects to build an ideal platform.
+              </li>
+              <li>
+                <span className="span-sec7">Launch : </span>Release the
+                marketplace platform for public use. Ensure that you carry out
+                enough promotions to gather an initial user base.
+              </li>
+            </ul>
+          </RightSec4>
+        </LayoutSec4>
+      </Sec7>
+      <Sec8 backgroundColor="white">
+        <h2 className="sec_tit underline text-center sec3-h3">
+          How can Blockchain App Factory Help You Develop an NFT Marketplace in
+          Ethereum?
+        </h2>
+        <p className="p1-sec8">
+          At Blockchain App Factory, our aim has always been to satisfy customer
+          needs while learning newer technologies with each project. Even though{" "}
+          <a href="https://www.blockchainappfactory.com/nft-marketplace-development">
+            developing an NFT marketplace
+          </a>
+          on Ethereum can seem like a concept too old, we have been learning
+          every day, which makes our experts utilize advanced development
+          techniques to build your new platform. Our professionals excel in
+          various aspects of development, and we possess access to all the
+          state-of-the-art technologies that we implement in our projects.
+          Hence, if you are still wondering about owning your own NFT
+          marketplace on Ethereum, consider talking to our experts to know more.
+        </p>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginTop: "30px",
+          }}
+        >
+          <ButtonSec4>
+            <a
+              href="https://www.blockchainappfactory.com/nft-marketplace-on-ethereum#newsletter-form-sec"
+              style={{ color: "#fff" }}
+            >
+              TALK WITH OUR EXPERTS{" "}
+            </a>
+          </ButtonSec4>
+        </div>
+      </Sec8>
+      <Sec9 />
     </>
   );
 };
