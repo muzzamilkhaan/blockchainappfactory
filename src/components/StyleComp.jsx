@@ -4,7 +4,7 @@ import { Section } from "./sections/section";
 const { mobile, tablet, laptop, desktop } = layout;
 
 export const BannerContainer = styled(Section)`
-  background: url(${({ bgImg }) => (bgImg ? bgImg : "")});
+  background: url(${({ bgimg }) => (bgimg ? bgimg : "")});
   /* background: url("https://www.blockchainappfactory.com/images/matic/banner.webp"); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -112,6 +112,7 @@ export const ButtonContainer = styled.div`
 export const ButtonComp = styled.button`
   background-color: #47b475;
   font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
   color: #fff;
   padding: 12px 30px;
   font-weight: 550;
@@ -122,6 +123,8 @@ export const ButtonComp = styled.button`
   border: none;
 
   &:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.08, 1.08);
+    background-color: #00a9e2;
+    color: "#fff";
   }
 `;

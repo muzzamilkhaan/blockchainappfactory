@@ -129,13 +129,13 @@ const BitcoinOrdinalsMarketplaceDevelopment = lazy(() =>
     "./pages/NFT/bitcoinOrdinalsMarketplaceDevelopment/BitcoinOrdinalsMarketplaceDevelopment"
   )
 );
-
 const p2pExchangeDevelopment = lazy(() =>
   import("./pages/exchange/p2pExchangeDevelopment")
 );
 
 import NftMarketPlaceEthereum from "./pages/NFT/nftMarketPlaceEthereum/index";
 import NftMarketPlaceMatic from "./pages/NFT/nftMarketPlaceMatic";
+import NftMarketPlaceBSC from "./pages/NFT/nftMarketPlaceBSC";
 
 function App() {
   return (
@@ -272,6 +272,10 @@ function App() {
             <Route
               path="nft-marketplace-in-matic"
               element={<NftMarketPlaceMatic />}
+            />
+            <Route
+              path="nft-marketplace-on-binance-smart-chain"
+              element={<NftMarketPlaceBSC />}
             />
             {/* <Route 
             path="" element={<Nft}/> */}

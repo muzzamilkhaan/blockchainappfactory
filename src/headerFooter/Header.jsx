@@ -557,6 +557,11 @@ function Header() {
                           NFT Marketplace On Matic
                         </Link>
                       </li>
+                      <li>
+                        <Link to={"/nft-marketplace-on-binance-smart-chain"}>
+                          NFT Marketplace On BSC
+                        </Link>
+                      </li>
                       {/*
                                             <li>
                                                 <a href="https://www.blockchainappfactory.com/nft-marketplace-in-matic">

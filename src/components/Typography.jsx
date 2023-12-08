@@ -9,14 +9,21 @@ const H1 = styled.h1`
 
 const H2 = styled.h2`
   font-size: ${({ fontSize }) =>
-    fontSize ? fontSize : "clamp(30px, 2.2vw, 46px)"};
+    fontSize ? fontSize : "clamp(20px, 2.2vw, 25px)"};
+  font-family: "Lato", "sans-serif";
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.4;
+  text-transform: capitalize;
 `;
 
 const H3 = styled.h3`
-  /* font-family: ${({ fontFamily }) =>
-    fontFamily ? fontFamily : interRegular}; */
-  font-size: ${({ fontSize }) =>
-    fontSize ? fontSize : "clamp(18px, 1.2vw, 24px)"};
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #000000;
+  margin-top: 8px;
+  font-family: "Lato", "sans-serif";
 `;
 
 const H4 = styled.h4`
@@ -26,8 +33,8 @@ const H4 = styled.h4`
     fontSize ? fontSize : "clamp(14px, 1vw, 18px)"};
 `;
 
+/* font-family: ${interSemiBold}; */
 const H5 = styled.h5`
-  /* font-family: ${interSemiBold}; */
   font-size: ${({ fontSize }) =>
     fontSize ? fontSize : "clamp(18px, 1.2vw, 24px)"};
 `;
@@ -39,14 +46,18 @@ const H6 = styled.h6`
     fontSize ? fontSize : "clamp(14px, 1vw, 18px)"};
 `;
 
+/* font-family: ${interRegular}; */
 const P1 = styled.p`
-  /* font-family: ${interRegular}; */
   font-size: ${({ fontSize }) =>
-    fontSize ? fontSize : "clamp(18px, 1.1vw, 22px)"};
+    fontSize ? fontSize : "clamp(12px, 1.1vw, 14px)"};
+  font-family: "Open Sans", "sans-serif";
+  color: #555555;
+  text-align: center;
+  letter-spacing: 0.5px;
 `;
 
+/* font-family: ${interRegular}; */
 const P2 = styled.p`
-  /* font-family: ${interRegular}; */
   font-size: ${({ fontSize }) =>
     fontSize ? fontSize : "clamp(14px, 1vw, 18px)"};
 `;

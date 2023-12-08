@@ -11,7 +11,7 @@ import Button from "./Button";
 const Banner = ({ bannerImg, heading, para, btnContent1, btnContent2 }) => {
   return (
     <>
-      <BannerContainer bgImg={bannerImg}>
+      <BannerContainer bgimg={bannerImg}>
         <BannerLayout>
           <LeftLayout>
             <h1 className="h1-banner">{heading}</h1>
