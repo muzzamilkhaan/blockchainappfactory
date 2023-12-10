@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Faq({ data, className }) {
-  console.log("data:", data);
+  // console.log("data:", data);
   const [activeTab, setActiveTab] = useState(0);
 
   const changeTabs = (index) => {
@@ -23,7 +23,7 @@ function Faq({ data, className }) {
               <div className="panel-group" id="accordion">
                 {data.map((item, index) => {
                   return (
-                    <div className="panel panel-default">
+                    <div className="panel panel-default" key={index}>
                       <div
                         className="panel-heading"
                         style={{ cursor: "pointer" }}

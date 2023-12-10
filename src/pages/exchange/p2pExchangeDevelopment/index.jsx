@@ -8,7 +8,7 @@ import {
   Image,
   Content,
   ButtonContainer,
-  Button,
+  // Button,
   Sec2,
   Content2,
   UnderLine,
@@ -19,6 +19,7 @@ import {
   Sec5Layout,
   Sec5Card,
   Sec5CardContainer,
+  Sec6,
   CardSec4,
   InnerContainer,
   Sec7,
@@ -41,8 +42,8 @@ import {
 } from "../../../components/cards/Card";
 import "./p2pExchangeDev.css";
 import Faq from "../../../components/shared/Faq";
-import Sec6 from "../decentralizedExchangeDevelopment/Sec6";
-
+import Sec10 from "../decentralizedExchangeDevelopment/Sec6";
+import Button from "../../../components/Button";
 const Data = [
   {
     img: "https://www.blockchainappfactory.com/images/p2p/cryptocurrencies.webp",
@@ -186,31 +187,16 @@ const P2pExchangeDev = () => {
                   </p>
                 </div>
                 <ButtonContainer>
-                  <Button>
-                    {" "}
-                    <a
-                      href="https://api.whatsapp.com/send?l=en&text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&phone=916382665366"
-                      className="banner-sec"
-                    >
-                      {" "}
-                      CONNECT WITH WHATSAPP{" "}
-                    </a>
-                  </Button>
-                  <Button>
-                    <a
-                      href="https://www.blockchainappfactory.com/p2p-exchange-development#newsletter-form-sec"
-                      className="banner-sec"
-                    >
-                      TALK WITH OUR EXPERTS{" "}
-                    </a>
-                  </Button>
-                  <Button>
-                    {" "}
-                    <a href="#demo" className="banner-sec">
-                      {" "}
-                      VIEW DEMO{" "}
-                    </a>
-                  </Button>
+                  <Button
+                    btnContent="CONNECT WITH WHATSAPP"
+                    to="https://api.whatsapp.com/send?l=en&text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&phone=916382665366"
+                    target="_blank"
+                  />{" "}
+                  <Button
+                    btnContent=" Talk with our Experts"
+                    to="#newsletter-form-sec"
+                  />
+                  <Button btnContent="View demo" to="#demo" />
                 </ButtonContainer>
               </Content>
               <Image>
@@ -248,7 +234,7 @@ const P2pExchangeDev = () => {
         {/* SEC2 END HERE */}
         {/* SECTION3 START HERE */}
         <Sec3 backgroundColor="#f2f2f2">
-          <h3 class="sec_tit underline text-center sec3-h3">
+          <h3 className="sec_tit underline text-center sec3-h3">
             Our P2P Crypto Exchange Development Features
           </h3>
           <Card data={Data} />
@@ -262,14 +248,12 @@ const P2pExchangeDev = () => {
           <ExchangeCardSec4 data={ExchangeSec4} />
           <ExchangeCardSec4 data={ExchangeSec5} />
           <ExchangeCardSec4 data={ExchangeSec6} />
-          <ButtonSec4 className="">
-            <a
-              href="https://www.blockchainappfactory.com/p2p-exchange-development#newsletter-form-sec"
-              className="sec5-anchor"
-            >
-              Talk with our Experts
-            </a>
-          </ButtonSec4>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <Button
+              btnContent=" Talk with our Experts"
+              to="#newsletter-form-sec"
+            />
+          </div>
         </Sec4>
         {/* SECTION 4 END HERE */}
         {/* SECTION5 START HERE */}
@@ -291,15 +275,13 @@ const P2pExchangeDev = () => {
                 <b>Controlled Exchange </b>
                 <Sec5Card>
                   {/* <Button>CONNECT WITH WHATSAPP</Button> */}
-                  <Button className="sec5-btn">
-                    <a
-                      href="https://blink.deliveryventure.com/"
-                      style={{ color: "#fff" }}
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <Button
+                      btnContent="View Demo"
+                      to="https://blink.deliveryventure.com/"
                       target="_blank"
-                    >
-                      View Demo
-                    </a>
-                  </Button>
+                    />
+                  </div>
                   <h4 className="sec5-h4">User Demo</h4>
                   <div
                     style={{
@@ -330,7 +312,7 @@ const P2pExchangeDev = () => {
                       gap: "5px",
                       letterSpacing: ".5px",
                       borderBottom: "1px solid #fff",
-                      marginBottom:"10px"
+                      marginBottom: "10px",
                     }}
                   >
                     <b>Password :</b>
@@ -393,15 +375,13 @@ const P2pExchangeDev = () => {
               <InnerContainer>
                 <b>Centrillized Exchange </b>
                 <Sec5Card>
-                  <Button className="sec5-btn">
-                    <a
-                      href="https://exchange.bafdemo.com/"
-                      style={{ color: "#fff" }}
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <Button
+                      btnContent="View Demo"
+                      to="https://exchange.bafdemo.com/"
                       target="_blank"
-                    >
-                      View Demo
-                    </a>
-                  </Button>
+                    />
+                  </div>
                   <h4 className="sec5-h4">User Demo</h4>
                   <div
                     style={{
@@ -433,6 +413,7 @@ const P2pExchangeDev = () => {
                       gap: "5px",
                       letterSpacing: ".5px",
                     }}
+                    className
                   >
                     <b>Password :</b>
                     <p
@@ -450,15 +431,13 @@ const P2pExchangeDev = () => {
               <InnerContainer>
                 <b>P2P</b>
                 <Sec5Card>
-                  <Button className="sec5-btn">
-                    <a
-                      href="http://localbitcoin.deliveryventure.com/"
-                      style={{ color: "#fff" }}
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <Button
+                      btnContent="View Demo"
+                      to="https://localbitcoin.deliveryventure.com/"
                       target="_blank"
-                    >
-                      View Demo
-                    </a>
-                  </Button>
+                    />
+                  </div>
                   <h4 className="sec5-h4">User Demo</h4>
                   <div
                     style={{
@@ -489,7 +468,7 @@ const P2pExchangeDev = () => {
                       gap: "5px",
                       letterSpacing: ".5px",
                       borderBottom: "1px solid #fff",
-                      marginBottom:"20px"
+                      marginBottom: "20px",
                     }}
                   >
                     <b>Password :</b>
@@ -503,15 +482,13 @@ const P2pExchangeDev = () => {
                       Demo@123
                     </p>
                   </div>
-                  <Button className="sec5-btn">
-                    <a
-                      href="https://exchange.bafdemo.com/"
-                      style={{ color: "#fff" }}
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <Button
+                      btnContent="View Demo"
+                      to="https://localbitcoin.deliveryventure.com/admin/login"
                       target="_blank"
-                    >
-                      View Demo
-                    </a>
-                  </Button>
+                    />
+                  </div>
                   <h4 className="sec5-h4">Admin Demo</h4>
                   <div
                     style={{
@@ -529,7 +506,6 @@ const P2pExchangeDev = () => {
                         fontSize: "14px",
                         letterSpacing: ".5px",
                         marginBottom: "0px",
-                        
                       }}
                     >
                       admin@demo.com
@@ -542,7 +518,6 @@ const P2pExchangeDev = () => {
                       color: "#fff",
                       gap: "5px",
                       letterSpacing: ".5px",
-                      
                     }}
                   >
                     <b>Password :</b>
@@ -565,6 +540,143 @@ const P2pExchangeDev = () => {
 
         {/* TODO */}
         {/* <YourComponent /> */}
+        <Sec6 backgroundColor="#f6f6f6">
+          <div className="common_spacing gray_bg">
+            <div className="container">
+              <div className="row">
+                <h2 className="sec_tit underline text-center">
+                  Our P2P exchange platform development process
+                </h2>
+              </div>
+              <div className="col-md-12 mt30">
+                <div className="timeline-center">
+                  <div className="timeline-row row m-0">
+                    <div className="tm-detail tm-det tm-det-left">
+                      <h4 className="common_h4 mb10 tm-det-tit">Step 1</h4>
+                      <ul className="process-list">
+                        <li>
+                          <p>
+                            Research, requirements gathering, and exchange
+                            preparation that suits your business model.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="tm-icon roadmap-icon-outer">
+                      {" "}
+                      <i
+                        className="fa fa-search-plus"
+                        aria-hidden="true"
+                      ></i>{" "}
+                    </div>
+                  </div>
+                  <div className="timeline-row row m-0">
+                    <div className="tm-detail tm-det tm-det-right">
+                      <h4 className="mb10 common_h4 tm-det-tit">Step 2</h4>
+                      <ul className="process-list">
+                        <li>
+                          <p>
+                            {" "}
+                            Essential technology integrations such as UX/UI
+                            enhanced security with legal compliance based on the
+                            geography of exchange corporation.{" "}
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="tm-icon roadmap-icon-outer">
+                      {" "}
+                      <i className="fa fa-desktop" aria-hidden="true"></i>{" "}
+                    </div>
+                  </div>
+                  <div className="timeline-row row m-0">
+                    <div className="tm-detail tm-det tm-det-left">
+                      <h4 className="common_h4 mb10 tm-det-tit">Step 3</h4>
+                      <ul className="process-list">
+                        <li>
+                          <p>Trading engine installation.</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="tm-icon roadmap-icon-outer">
+                      {" "}
+                      <i className="fa fa-cogs" aria-hidden="true"></i>{" "}
+                    </div>
+                  </div>
+                  <div className="timeline-row row m-0">
+                    <div className="tm-detail tm-det tm-det-right">
+                      <h4 className="mb10 common_h4 tm-det-tit">Step 4</h4>
+                      <ul className="process-list">
+                        <li>
+                          <p>
+                            Integration of various blockchains into the
+                            platform.{" "}
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="tm-icon roadmap-icon-outer">
+                      {" "}
+                      <i className="fa fa-btc" aria-hidden="true"></i>{" "}
+                    </div>
+                  </div>
+                  <div className="timeline-row row m-0">
+                    <div className="tm-detail tm-det tm-det-left">
+                      <h4 className="common_h4 mb10 tm-det-tit">Step 5</h4>
+                      <ul className="process-list">
+                        <li>
+                          <p>Listing of tokens/ coins. </p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="tm-icon roadmap-icon-outer">
+                      {" "}
+                      <i className="fa fa-list" aria-hidden="true"></i>{" "}
+                    </div>
+                  </div>
+                  <div className="timeline-row row m-0">
+                    <div className="tm-detail tm-det tm-det-right">
+                      <h4 className="mb10 common_h4 tm-det-tit">Step 6</h4>
+                      <ul className="process-list">
+                        <li>
+                          <p>Delivery of exchange platform.</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="tm-icon roadmap-icon-outer">
+                      {" "}
+                      <i className="fa fa-exchange" aria-hidden="true"></i>{" "}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className="text-center">
+              <div className="cta_mine">
+                <a
+                  className="nectar-button medium regular accent-color regular-button nec-btn"
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?l=en&amp;text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&amp;phone=916382665366"
+                  data-color-override="false"
+                  data-hover-color-override="false"
+                  data-hover-text-color-override="#fff"
+                >
+                  <span>Connect with Whatsapp</span>
+                </a>
+              </div>{" "}
+            </div> */}
+            <div
+              className="text-center"
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <Button
+                btnContent="Connect with Whatsapp"
+                to="https://api.whatsapp.com/send?l=en&amp;text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&amp;phone=916382665366"
+                target="_blank"
+              />
+            </div>
+          </div>
+        </Sec6>
 
         {/* SECTION5 END HERE */}
         {/* SECTION6 START HERE */}
@@ -659,7 +771,7 @@ const P2pExchangeDev = () => {
         </Sec9>
         {/* SECTION9 END HERE */}
         {/* IMPORT SECTION FROM DECENTRALIZE EXCHANGE */}
-        <Sec6 />
+        <Sec10 />
         {/* SECTION END HERE */}
       </Container>
     </React.Fragment>

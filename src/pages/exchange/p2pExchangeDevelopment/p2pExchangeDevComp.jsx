@@ -93,12 +93,13 @@ export const Button = styled.button`
   &:hover {
     transform: scale(1.1, 1.1);
     /* color: #47b475; */
-    background-color: #337ab7;
+    background-color:  #00a9e2;
   }
   &:hover.sec5-btn {
     transform: scale(1.1, 1.1);
     /* color: #47b475; */
-    background-color: #337ab7;
+    background-color:  #00a9e2;
+    color: #fff;
   }
 `;
 export const BannerContainer = styled.div``;
@@ -297,6 +298,50 @@ export const Sec5Card = styled.div`
     padding: 20px 0;
   }
 `;
+
+export const Sec6 = styled(Section)`
+  .sec_tit {
+    font-family: "Lato", "sans-serif";
+    color: #000;
+    text-transform: capitalize;
+    font-size: 25px;
+  }
+  .timeline-row i {
+    color: #47b474;
+    font-size: 30px;
+    line-height: 1;
+  }
+  .timeline-center .timeline-row:nth-of-type(even) {
+    margin-left: 50% !important;
+  }
+  .timeline-center::before {
+    background: #47b475 !important;
+  }
+  .nectar-button {
+    padding: 15px 25px;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .nectar-button:hover {
+    transform: scale(1.08, 1.08);
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 850px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      /* width: 100%; */
+    }
+  }
+  @media (max-width: 1001px) {
+    .tm-detail {
+      margin-left: -18%;
+    }
+  }
+`;
+
 export const Sec7 = styled(Section)`
   padding-inline: 0;
 
