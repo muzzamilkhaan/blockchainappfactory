@@ -6,7 +6,6 @@ const Sec1 = () => {
     <SECONE>
       <div
         className="banner blockchain-counsulting"
-        // style="background-image: url(images/nft-bsc/nft-bnr.webp);background-size: cover;"
       >
         <div id="large-header" className="large-header"></div>
         <div className="banner-overlay"></div>

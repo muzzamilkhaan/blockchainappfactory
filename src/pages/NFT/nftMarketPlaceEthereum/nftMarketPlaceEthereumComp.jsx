@@ -263,18 +263,17 @@ export const RightSec4 = styled.div`
     font-size: 14px;
     text-align: justify;
   }
-  .primary-list li::before {
+  .fa-circle {
     position: absolute;
-    content: "x"; /* FontAwesome Unicode */
-    font-family: "FontAwesome";
     left: 4px;
     top: 4px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1;
     color: #47b475;
-    /* border-radius: 5px; */
+    border-radius: 5px;
     padding: 4px;
   }
+
   @media only screen and (min-width: ${mobile}) {
     width: 100%;
   }
@@ -298,7 +297,20 @@ export const ButtonSec4 = styled.div`
 export const Sec5 = styled(Section)`
   padding-inline: 7vw;
 `;
-export const Sec6 = styled(Section)``;
+export const Sec6 = styled(Section)`
+  .fa-caret-right {
+    color: #2e9107;
+    font-size: 18px;
+    padding-right: 10px;
+  }
+  /* .list-sec6 li::before {
+    content: "x";
+    font-family: "FontAwesome";
+    color: #2e9107;
+    margin-right: 10px;
+    font-size: 18px;
+  } */
+`;
 export const BoxSec2 = styled.div`
   border: 2px solid #f2f2f2;
   padding: 30px;
@@ -313,13 +325,6 @@ export const BoxSec2 = styled.div`
     list-style: none;
     margin-left: 15px;
   }
-  .list-sec6 li::before {
-    content: "x";
-    font-family: "FontAwesome";
-    color: #2e9107;
-    margin-right: 10px;
-    font-size: 18px;
-  }
 `;
 export const Sec7 = styled(Section)`
   .list_01-sec7 {
@@ -327,25 +332,32 @@ export const Sec7 = styled(Section)`
     margin-bottom: 0rem !important;
     font-size: 14px;
     line-height: 35px;
-    text-indent: -28px;
+    text-indent: -15px;
     list-style: none;
     margin-left: 5px;
-    text-align: rui;
+    margin: 10px;
+    /* text-align: rui; */
     /* text-align: justify; */
   }
   .span-sec7 {
     font-weight: 700;
   }
-  li::before {
+  .fa-hand-point-right {
+    color: #47b475;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  /* li::before {
     content: "c";
     font-family: "FontAwesome";
     color: #47b475;
     margin-right: 10px;
     font-size: 18px;
-  }
+  } */
 `;
 export const Sec8 = styled(Section)`
-padding-inline:7vw;
+  padding-inline: 7vw;
   .p1-sec8 {
     font-size: 14px;
     font-family: "Open Sans", "sans-serif";

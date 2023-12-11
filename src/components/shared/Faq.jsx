@@ -38,6 +38,7 @@ function Faq({ data, className }) {
                             className={`${
                               activeTab !== index ? "collapsed" : ""
                             }`}
+                            style={{ fontFamily: "Lato,sans-serif" }}
                           >
                             {item.title}
                           </a>

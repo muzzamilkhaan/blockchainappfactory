@@ -136,7 +136,7 @@ const p2pExchangeDevelopment = lazy(() =>
 import NftMarketPlaceEthereum from "./pages/NFT/nftMarketPlaceEthereum/index";
 import NftMarketPlaceMatic from "./pages/NFT/nftMarketPlaceMatic";
 import NftMarketPlaceBSC from "./pages/NFT/nftMarketPlaceBSC";
-
+import NftMarketPaceAstar from "./pages/NFT/nftMarketplaceAstar";
 function App() {
   return (
     <>
@@ -276,6 +276,10 @@ function App() {
             <Route
               path="nft-marketplace-on-binance-smart-chain"
               element={<NftMarketPlaceBSC />}
+            />
+            <Route
+              path="nft-marketplace-development-on-astar"
+              element={<NftMarketPaceAstar />}
             />
             {/* <Route 
             path="" element={<Nft}/> */}

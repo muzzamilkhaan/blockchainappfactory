@@ -182,35 +182,42 @@ const nftMarketPlaceEthereum = () => {
             <ul className="primary-list">
               <div>
                 <li>
+                  <i className="fa-regular fa-circle "></i>
                   Since the network is completely decentralized, all data gets
                   distributed, which makes one trust automated entities.
                 </li>
               </div>
               <li>
+                <i className="fa-regular fa-circle"></i>
                 Through Ethereum, firms can easily install platforms and look
                 after exchange, mine, and storage without any hassle.
               </li>
               <li>
+                <i className="fa-regular fa-circle"></i>
                 The huge support behind Ethereum is the result of seamless
                 working with multiple nodes and many users.
               </li>
               <li>
+                <i className="fa-regular fa-circle"></i>
                 Transactions on Ethereum are private and encrypted. Information
                 is never exchanged to external parties until specifically
                 requested.
               </li>
               <li>
+                <i className="fa-regular fa-circle"></i>
                 The Ethereum network will soon become faster due to the
                 development of Layer2 solutions and software protocols.
               </li>
               <li>
+                <i className="fa-regular fa-circle"></i>
                 Ethereum also has earned many licenses across regulatory
                 organizations worldwide, as it meets security and regulatory
                 requirements.
               </li>
               <li>
-                Ethereum’s scaling solutions have already shown a better speed
-                (100 TPS), which makes the network’s future safe.
+                <i className="fa-regular fa-circle"></i>F Ethereum’s scaling
+                solutions have already shown a better speed (100 TPS), which
+                makes the network’s future safe.
               </li>
             </ul>
           </RightSec4>
@@ -240,26 +247,32 @@ const nftMarketPlaceEthereum = () => {
           <ul className="list-sec6">
             {/* <FontAwesomeIcon icon="fa-solid fa-caret-right" /> */}
             <li className="li-sec61">
+              <i className="fa-solid fa-caret-right"></i>
               The Ethereum blockchain does not go offline, meaning that users
               can carry out trading operations anytime.
             </li>
             <li>
+              <i className="fa-solid fa-caret-right"></i>
               One can easily access the ownership history and other related
               information for the NFTs based on Ethereum.
             </li>
             <li>
+              <i className="fa-solid fa-caret-right"></i>
               Ethereum’s decentralized nature means true peer-to-peer trading is
               possible, eliminating the need for multiple platforms.
             </li>
             <li>
-              Manipulating data inside the blockchain ledger is no longer
-              possible as information is distributed across the network.
+              <i className="fa-solid fa-caret-right"></i>Manipulating data
+              inside the blockchain ledger is no longer possible as information
+              is distributed across the network.
             </li>
             <li>
+              <i className="fa-solid fa-caret-right"></i>
               With a single back-end, Ethereum users can easily connect
               applications based on it, including wallets and marketplaces.
             </li>
             <li>
+              <i className="fa-solid fa-caret-right"></i>
               Your NFT marketplace on Ethereum can sail smoothly as the network
               supports multiple centralized and decentralized cryptocurrency
               wallets.
@@ -298,37 +311,44 @@ const nftMarketPlaceEthereum = () => {
           <RightSec4>
             <ul className="list_01-sec7">
               <li>
+                <i className="fa-regular fa-hand-point-right"></i>
                 <span className="span-sec7">Design : </span>
                 Collect all the ideas together, and decide on your venture and
                 technology to be used to frame the plans and whitepaper.
               </li>
               <li>
+                <i className="fa-regular fa-hand-point-right"></i>
                 <span className="span-sec7">Design : </span>Create user-end
                 screens that contain a smooth user interface (UI) that gives a
                 seamless user experience (UX) and test them.
               </li>
               <li>
+                <i className="fa-regular fa-hand-point-right"></i>
                 <span className="span-sec7">Choose Wallet : </span>You can
                 either build your own crypto wallet or integrate existing
                 trusted crypto wallet software that matches all your
                 requirements.
               </li>
               <li>
+                <i className="fa-regular fa-hand-point-right"></i>
                 <span className="span-sec7">Front-end : </span>You should use
                 Architecture, SDK, IDK, and other programming tools to develop a
                 platform that is quick, reliant, and efficient.
               </li>
               <li>
+                <i className="fa-regular fa-hand-point-right"></i>
                 <span className="span-sec7">Back-end : </span>You should utilize
                 programming, frameworks, and databases to build smart contracts
                 on which the logic of your platform is based.
               </li>
               <li>
+                <i className="fa-regular fa-hand-point-right"></i>
                 <span className="span-sec7">Test : </span>You should carry out
                 repetitive testing using different test cases and troubleshoot
                 all the defects to build an ideal platform.
               </li>
               <li>
+                <i className="fa-regular fa-hand-point-right"></i>
                 <span className="span-sec7">Launch : </span>Release the
                 marketplace platform for public use. Ensure that you carry out
                 enough promotions to gather an initial user base.

@@ -562,6 +562,16 @@ function Header() {
                           NFT Marketplace On BSC
                         </Link>
                       </li>
+                      <li>
+                        <Link to={"/nft-marketplace-development-on-astar"}>
+                          NFT Marketplace On Astar
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/nft-marketplace-on-avalanche"}>
+                          NFT Marketplace On Avalanche
+                        </Link>
+                      </li>
                       {/*
                                             <li>
                                                 <a href="https://www.blockchainappfactory.com/nft-marketplace-in-matic">
