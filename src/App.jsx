@@ -137,6 +137,8 @@ import NftMarketPlaceEthereum from "./pages/NFT/nftMarketPlaceEthereum/index";
 import NftMarketPlaceMatic from "./pages/NFT/nftMarketPlaceMatic";
 import NftMarketPlaceBSC from "./pages/NFT/nftMarketPlaceBSC";
 import NftMarketPaceAstar from "./pages/NFT/nftMarketplaceAstar";
+import NftMarketplaceAvalanche from "./pages/NFT/nftMarketplaceAvalanche";
+
 function App() {
   return (
     <>
@@ -266,20 +268,24 @@ function App() {
               element={<P2pExchangeDev />}
             />
             <Route
-              path="nft-marketplace-on-ethereum"
+              path="/nft-marketplace-on-ethereum"
               element={<NftMarketPlaceEthereum />}
             />
             <Route
-              path="nft-marketplace-in-matic"
+              path="/nft-marketplace-in-matic"
               element={<NftMarketPlaceMatic />}
             />
             <Route
-              path="nft-marketplace-on-binance-smart-chain"
+              path="/nft-marketplace-on-binance-smart-chain"
               element={<NftMarketPlaceBSC />}
             />
             <Route
-              path="nft-marketplace-development-on-astar"
+              path="/nft-marketplace-development-on-astar"
               element={<NftMarketPaceAstar />}
+            />
+            <Route
+              path="/nft-marketplace-on-avalanche"
+              element={<NftMarketplaceAvalanche />}
             />
             {/* <Route 
             path="" element={<Nft}/> */}

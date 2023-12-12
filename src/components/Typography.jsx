@@ -69,4 +69,9 @@ const P3 = styled.p`
     fontSize ? fontSize : "clamp(12px, .7vw, 14px)"};
 `;
 
-export { H1, H2, H3, H4, H5, H6, P1, P2, P3 };
+const StyledTitle = styled.h2`
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.5px !important;
+  color: #000;
+`;
+export { H1, H2, H3, H4, H5, H6, P1, P2, P3, StyledTitle };
