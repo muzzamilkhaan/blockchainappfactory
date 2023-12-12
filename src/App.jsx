@@ -138,6 +138,9 @@ import NftMarketPlaceMatic from "./pages/NFT/nftMarketPlaceMatic";
 import NftMarketPlaceBSC from "./pages/NFT/nftMarketPlaceBSC";
 import NftMarketPaceAstar from "./pages/NFT/nftMarketplaceAstar";
 import NftMarketplaceAvalanche from "./pages/NFT/nftMarketplaceAvalanche";
+import NftMarketplaceSidechain from "./pages/NFT/nftMarketplaceSidechain";
+import NftMarketplaceSolana from "./pages/NFT/nftMarketplaceSolona";
+// import {} from "./"
 
 function App() {
   return (
@@ -286,6 +289,14 @@ function App() {
             <Route
               path="/nft-marketplace-on-avalanche"
               element={<NftMarketplaceAvalanche />}
+            />
+            <Route
+              path="/nft-development-in-sidechain"
+              element={<NftMarketplaceSidechain />}
+            />
+            <Route
+              path="/solana-based-nft-marketplace-development"
+              element={<NftMarketplaceSolana />}
             />
             {/* <Route 
             path="" element={<Nft}/> */}

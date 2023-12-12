@@ -32,6 +32,7 @@ import {
   RightSec8,
   Sec9,
   ButtonSec4,
+  Heading1,
 } from "./p2pExchangeDevComp";
 import { Section } from "../../../components/sections/section";
 import icons from "../../../assets/icons/index";
@@ -44,6 +45,7 @@ import "./p2pExchangeDev.css";
 import Faq from "../../../components/shared/Faq";
 import Sec10 from "../decentralizedExchangeDevelopment/Sec6";
 import Button from "../../../components/Button";
+import { H1, H2 } from "../../../components/index";
 const Data = [
   {
     img: "https://www.blockchainappfactory.com/images/p2p/cryptocurrencies.webp",

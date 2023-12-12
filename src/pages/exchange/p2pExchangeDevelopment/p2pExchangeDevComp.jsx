@@ -1,8 +1,12 @@
 import styled from "styled-components";
 import { Section } from "../../../components/sections/section";
 import { layout } from "../../../helpers/constant";
+import { H1, H2 } from "../../../components/index";
 const { mobile, tablet, laptop, desktop } = layout;
 
+export const Heading1 = styled(H1)`
+  color: #fff;
+`;
 export const Container = styled.div`
   padding-top: 100px;
 `;
@@ -67,8 +71,14 @@ export const Content = styled.div`
     width: 100%;
     color: #fff;
   }
-  @media (max-width: 420px) {
+  @media (max-width: 768px) {
     /* padding-block: 20vw; */
+    .h1 {
+      text-align: center;
+    }
+    .p1 {
+      text-align: center;
+    }
   }
 `;
 
@@ -93,12 +103,12 @@ export const Button = styled.button`
   &:hover {
     transform: scale(1.1, 1.1);
     /* color: #47b475; */
-    background-color:  #00a9e2;
+    background-color: #00a9e2;
   }
   &:hover.sec5-btn {
     transform: scale(1.1, 1.1);
     /* color: #47b475; */
-    background-color:  #00a9e2;
+    background-color: #00a9e2;
     color: #fff;
   }
 `;

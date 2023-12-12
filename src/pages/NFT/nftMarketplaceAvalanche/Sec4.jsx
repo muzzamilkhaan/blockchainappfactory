@@ -1,6 +1,6 @@
 import React from "react";
 import { SecFour } from "./nftMarketplaceAvalancheComp";
-import { StyledTitle } from "../../../components/index";
+// import { Heading } from "../../../components/index";
 import Button from "../../../components/Button";
 const Sec4 = () => {
   return (

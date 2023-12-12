@@ -572,6 +572,16 @@ function Header() {
                           NFT Marketplace On Avalanche
                         </Link>
                       </li>
+                      <li>
+                        <Link to={"/nft-development-in-sidechain"}>
+                          NFT Marketplace On Sidechain
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/solana-based-nft-marketplace-development"}>
+                          NFT Marketplace On Solana
+                        </Link>
+                      </li>
                       {/*
                                             <li>
                                                 <a href="https://www.blockchainappfactory.com/nft-marketplace-in-matic">
