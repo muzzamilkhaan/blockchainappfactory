@@ -584,7 +584,12 @@ function Header() {
                       </li>
                       <li>
                         <Link to={"/zksync2-integration-in-nft-platform"}>
-                        Zksync2.0 Integration Service
+                          Zksync2.0 Integration Service
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/nft-marketplace-on-harmony"}>
+                          Nft Marketplace On Harmony
                         </Link>
                       </li>
                       {/*

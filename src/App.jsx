@@ -141,7 +141,7 @@ import NftMarketplaceAvalanche from "./pages/NFT/nftMarketplaceAvalanche";
 import NftMarketplaceSidechain from "./pages/NFT/nftMarketplaceSidechain";
 import NftMarketplaceSolana from "./pages/NFT/nftMarketplaceSolona";
 import ZksyncIntegrationService from "./pages/NFT/zksyncIntegrationService";
-
+import NtMarketplaceHarmony from "./pages/NFT/nftMarketplaceHarmony";
 // import {} from "./"
 
 function App() {
@@ -303,6 +303,10 @@ function App() {
             <Route
               path="/zksync2-integration-in-nft-platform"
               element={<ZksyncIntegrationService />}
+            />
+            <Route
+              path="/nft-marketplace-on-harmony"
+              element={<NtMarketplaceHarmony />}
             />
             {/* <Route 
             path="" element={<Nft}/> */}

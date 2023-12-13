@@ -88,6 +88,6 @@ const H3 = styled.h3`
   letter-spacing: 1.5px !important;
   color: #000;
   font-size: ${({ fontSize }) =>
-    fontSize ? fontSize : "clamp(16px, 1vww, 20px)"};
+    fontSize ? fontSize : "clamp(16px, 2vw, 18px)"};
 `;
 export { H1, H2, H3, P1 };
