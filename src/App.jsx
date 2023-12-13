@@ -140,7 +140,7 @@ import NftMarketPaceAstar from "./pages/NFT/nftMarketplaceAstar";
 import NftMarketplaceAvalanche from "./pages/NFT/nftMarketplaceAvalanche";
 import NftMarketplaceSidechain from "./pages/NFT/nftMarketplaceSidechain";
 import NftMarketplaceSolana from "./pages/NFT/nftMarketplaceSolona";
-import ZksyncIntegrationService from "./pages/NFT/zksync2.0IntegrationService";
+import ZksyncIntegrationService from "./pages/NFT/zksyncIntegrationService";
 
 // import {} from "./"
 

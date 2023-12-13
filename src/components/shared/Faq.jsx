@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { H2 } from "../Typography";
 
 function Faq({ data, className }) {
   // console.log("data:", data);
@@ -16,7 +17,9 @@ function Faq({ data, className }) {
       <div className="container">
         <div className="row">
           <div className="section-header text-center col-sm-12">
-            <h3 className="section-title mt20 underline">FAQ</h3>
+            <div className="section-title mt20 underline">
+              <H2>FAQ</H2>
+            </div>
           </div>
           <div className="col-sm-12 col-md-12">
             <div className="faq-content">
