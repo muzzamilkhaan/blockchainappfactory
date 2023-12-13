@@ -1,6 +1,7 @@
 import React from "react";
 import { SecSix } from "./nftMarketplaceSolanaComp";
 import { Button } from "../../../components/index";
+import { H2 } from "../../../components/index";
 const Sec6 = () => {
   return (
     <SecSix>
@@ -9,9 +10,9 @@ const Sec6 = () => {
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <div className="section-title text-center">
-                <h3 className="section-title underline mb20">
-                  Watch Our NFT Marketplace Demo
-                </h3>{" "}
+                <div className="section-title underline mb20">
+                  <H2>Watch Our NFT Marketplace Demo</H2>
+                </div>{" "}
               </div>
               <div className="text-center">
                 <img

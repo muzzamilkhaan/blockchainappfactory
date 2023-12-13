@@ -582,6 +582,11 @@ function Header() {
                           NFT Marketplace On Solana
                         </Link>
                       </li>
+                      <li>
+                        <Link to={"/zksync2-integration-in-nft-platform"}>
+                        Zksync2.0 Integration Service
+                        </Link>
+                      </li>
                       {/*
                                             <li>
                                                 <a href="https://www.blockchainappfactory.com/nft-marketplace-in-matic">

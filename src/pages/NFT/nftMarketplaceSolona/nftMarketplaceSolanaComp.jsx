@@ -68,7 +68,9 @@ export const SecOne = styled.div`
   .banner_btn {
     padding: 15px;
   }
-
+  .contentall {
+    padding-top: 75px;
+  }
   @media (max-width: 768px) {
     .contentall {
       max-width: 100%;
@@ -165,34 +167,42 @@ export const SecSix = styled.div`
 `;
 export const SecSeven = styled.div`
   .testimonials-item {
-    display: block;
-    position: relative;
-    margin-bottom: 30px;
+    /* Additional styles for .testimonials-item if needed */
+    margin-bottom: 40px;
+    &:hover {
+      .testimonials-content {
+        background: #47b47557;
+        transition: all 0.3s ease 0s;
+      }
+
+      .user {
+        transform: translateY(-30%);
+      }
+      .testimonials-content h3 {
+        color: #000;
+      }
+    }
   }
+
   .testimonials-item .testimonials-content {
     background: #fff;
     overflow: hidden;
     box-shadow: 0 2px 48px 0 rgb(0 0 0 / 6%);
-    /* -webkit-border-radius: 5px;
-    -moz-border-radius: 5px; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     border-radius: 5px;
     position: relative;
-    /* height: 100%; */
+    height: 100%;
     min-height: 220px;
 
-    &::before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-      background: #47b47557 !important;
-      opacity: 0;
-      /* -webkit-transition: all 0.3s ease 0s;
-      -moz-transition: all 0.3s ease 0s;
-      -o-transition: all 0.3s ease 0s; */
+    &:hover {
+      background: #47b47557;
       transition: all 0.3s ease 0s;
+      color: #000 !important;
     }
+  }
+  .user {
+    transition: all 0.3s ease 0s;
   }
   .testimonials-item .testimonials-content .user-name {
     display: block;
@@ -207,26 +217,13 @@ export const SecSeven = styled.div`
     z-index: 3;
     text-transform: capitalize;
   }
-  .testimonials-item .testimonials-content .txt p {
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-bottom: 25px;
-    margin-top: 30px !important;
-    font-weight: 400;
-    font-size: 14px;
-    color: black;
-    letter-spacing: 0.6px;
-    line-height: 26px;
-    position: relative;
-    z-index: 3;
-  }
   .testimonials-item .user {
     width: 70px;
     height: 70px;
     position: relative;
     position: absolute;
-    top: -10px;
-    left: 25px;
+    top: -20px;
+    left: 35px;
     z-index: 3;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -241,12 +238,134 @@ export const SecSeven = styled.div`
     line-height: 80px;
     text-align: center;
   }
-  .testimonials-content h3 {
+  /* .user {
+    transition: all 0.3s ease 0s;
+    &:hover {
+      transform: translateY(-30%);
+    } 
+  } */
+  .testimonials-item .testimonials-content .user-name {
+    display: block;
+    font-weight: 600;
+    font-size: 19px;
+    color: #47b475;
+    margin-top: 20px;
+    padding-left: 115px;
+    letter-spacing: 0.69px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 3;
+    text-transform: capitalize;
     font-family: "Lato", sans-serif;
-    letter-spacing: 0.5px !important;
+  }
+  .testimonials-item .testimonials-content .txt p {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    position: relative;
+    z-index: 3;
+  }
+  /* .testimonials-item .txt {
+    margin-top: -20px;
+  } */
+`;
+export const SecEight = styled.div`
+  .category-grid-style-01 .category-item {
+    padding: 30px;
+    text-align: center;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    position: relative;
+    cursor: pointer;
+    background: #f2f2f2;
+    width: 20%;
+
+    &:hover::before {
+      box-shadow: 5px 5px 24px 0px rgb(2 45 98 / 10%);
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      transition: all 0.3s ease-in-out;
+    }
+    &::before {
+      content: "";
+      background: #ffffff;
+      width: 110%;
+      height: 110%;
+      display: inline-block;
+      position: absolute;
+      left: -5%;
+      top: -5%;
+      z-index: 1;
+      opacity: 0;
+      -webkit-transform: scale(0.96);
+      transform: scale(0.96);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .category-grid-style-01 .category-item {
+      width: 100% !important;
+    }
+  }
+  .category-grid-style-01 .category-item .category-icon {
+    color: #333333;
+    font-size: 44px;
+    line-height: 1;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+  }
+  .category-grid-style-01 .category-item .category-title {
+    color: #022d62;
+    font-weight: bold;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
   }
 `;
-export const SecEight = styled.div``;
-export const SecNine = styled.div``;
+export const SecNine = styled.div`
+  #features.what-we-offer-sec {
+    background: url("https://www.blockchainappfactory.com/images/solana/bgg.webp")
+      top center;
+    padding: 60px 0 80px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat !important;
 
-// style="background-image: url(images/solana/banner-solana.webp);background-position: center 0;background-size: cover;
+    &::before {
+      background: rgba(0, 0, 0, 0.6);
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  #features .card {
+    border-color: #f2f2f2;
+    border-radius: 3px;
+    padding: 25px;
+    background: #fff;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  @media (max-width: 768px) {
+    .card-text {
+      text-align: justify;
+    }
+  }
+`;

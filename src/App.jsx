@@ -140,6 +140,8 @@ import NftMarketPaceAstar from "./pages/NFT/nftMarketplaceAstar";
 import NftMarketplaceAvalanche from "./pages/NFT/nftMarketplaceAvalanche";
 import NftMarketplaceSidechain from "./pages/NFT/nftMarketplaceSidechain";
 import NftMarketplaceSolana from "./pages/NFT/nftMarketplaceSolona";
+import ZksyncIntegrationService from "./pages/NFT/zksync2.0IntegrationService";
+
 // import {} from "./"
 
 function App() {
@@ -297,6 +299,10 @@ function App() {
             <Route
               path="/solana-based-nft-marketplace-development"
               element={<NftMarketplaceSolana />}
+            />
+            <Route
+              path="/zksync2-integration-in-nft-platform"
+              element={<ZksyncIntegrationService />}
             />
             {/* <Route 
             path="" element={<Nft}/> */}

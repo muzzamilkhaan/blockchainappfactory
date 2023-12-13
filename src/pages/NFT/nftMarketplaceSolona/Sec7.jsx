@@ -1,6 +1,6 @@
 import React from "react";
 import { SecSeven } from "./nftMarketplaceSolanaComp";
-
+import { H2 } from "../../../components/index";
 const Sec7 = () => {
   return (
     <SecSeven>
@@ -9,9 +9,9 @@ const Sec7 = () => {
           <div className="row">
             <div className="section-title text-center">
               <div className="sec_tit mb20">
-                <h3 className="section-title underline mb20">
-                  The Salient Features Of Solana NFT Marketplace
-                </h3>
+                <div className="section-title underline mb20">
+                  <H2>The Salient Features Of Solana NFT Marketplace</H2>
+                </div>
               </div>
               <p className="text-center">
                 The listed below are the top-level features that are integrated
@@ -20,20 +20,19 @@ const Sec7 = () => {
             </div>
             <div className="testimonials-wrapper container-center mt50">
               <div
-                className="col-lg-4 col-md-4 col-sm-4 col-xs-12 equalize aos-init aos-animate"
+                className="col-lg-4 col-md-4 col-sm-12 col-xs-12 equalize aos-init aos-animate"
                 data-aos="fade-right"
                 data-aos-delay="200"
               >
                 <div className="testimonials-item">
                   <div className="user">
-                    {" "}
-                    <i className=" ">
-                      <img
-                        className="lazy"
-                        data-src="/images/solana/icons/composer.webp"
-                        src="https://www.blockchainappfactory.com/images/solana/icons/composer.webp"
-                      />{" "}
-                    </i>{" "}
+                    {/* <i className=" "> */}
+                    <img
+                      className="lazy"
+                      data-src="/images/solana/icons/composer.webp"
+                      src="https://www.blockchainappfactory.com/images/solana/icons/composer.webp"
+                    />{" "}
+                    {/* </i>{" "} */}
                   </div>
                   <div className="testimonials-content">
                     <h3 className="user-name">Composability</h3>
@@ -48,7 +47,7 @@ const Sec7 = () => {
                 </div>
               </div>
               <div
-                className="col-lg-4 col-md-4 col-sm-4 col-xs-12 equalize aos-init aos-animate"
+                className="col-lg-4 col-md-4 col-sm-12 col-xs-12 equalize aos-init aos-animate"
                 data-aos="fade-right"
                 data-aos-delay="600"
               >
@@ -76,7 +75,7 @@ const Sec7 = () => {
                 </div>
               </div>
               <div
-                className="col-lg-4 col-md-4 col-sm-4 col-xs-12 equalize aos-init aos-animate"
+                className="col-lg-4 col-md-4 col-sm-12 col-xs-12 equalize aos-init aos-animate"
                 data-aos="fade-right"
                 data-aos-delay="200"
               >
@@ -87,6 +86,7 @@ const Sec7 = () => {
                       <img
                         className="lazy"
                         data-src="/images/solana/icons/money-transaction.webp"
+                        style={{ height: "50px" }}
                         src="https://www.blockchainappfactory.com/images/solana/icons/money-transaction.webp"
                       />{" "}
                     </i>{" "}

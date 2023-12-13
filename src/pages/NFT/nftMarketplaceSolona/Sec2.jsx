@@ -1,6 +1,6 @@
 import React from "react";
 import { SecTwo } from "./nftMarketplaceSolanaComp";
-
+import { H2 } from "../../../components/index";
 const Sec2 = () => {
   return (
     <SecTwo>
@@ -9,9 +9,9 @@ const Sec2 = () => {
           <div className="row">
             <div className="col-md-12 section-header">
               <div className="section-title">
-                <h2 className="text-center up">
-                  Solana NFT Marketplace Development
-                </h2>
+                <div className="text-center up">
+                  <H2>Solana NFT Marketplace Development</H2>
+                </div>
                 <hr />{" "}
               </div>
               <p className="text-justify mt20">
