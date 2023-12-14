@@ -143,6 +143,8 @@ import NftMarketplaceSolana from "./pages/NFT/nftMarketplaceSolona";
 import ZksyncIntegrationService from "./pages/NFT/zksyncIntegrationService";
 import NtMarketplaceHarmony from "./pages/NFT/nftMarketplaceHarmony";
 import NftLoyaltyProgram from "./pages/NFT/nftLoyaltyProgram";
+import TokenGatingPlatform from "./pages/NFT/tokenGatingPlatform";
+import NftMusicMarketplaceDevelopment from "./pages/NFT/nftMusicMarketplaceDevelopment";
 
 function App() {
   return (
@@ -311,6 +313,14 @@ function App() {
             <Route
               path="/nft-loyalty-program"
               element={<NftLoyaltyProgram />}
+            />
+            <Route
+              path="/token-gating-platform"
+              element={<TokenGatingPlatform />}
+            />
+            <Route
+              path="/nft-music-marketplace-development"
+              element={<NftMusicMarketplaceDevelopment />}
             />
           </Routes>
         </Suspense>

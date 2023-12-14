@@ -525,7 +525,7 @@ function Header() {
                 <ul
                   className="mega-submenu menu_desk-nft row m-0"
                   style={{
-                    display: dropdown === 3 ? "block" : "none",
+                    display: dropdown === 3 ? "flex" : "none",
                     opacity: 1,
                   }}
                 >
@@ -596,10 +596,10 @@ function Header() {
                       {/*  */}
                       <li className="has-subsubmenu">
                         <h4>Custom Solutions</h4>
-                        <ul className="mega-submenu1 normal-sub">
+                        {/* <ul className="mega-submenu1 normal-sub"> */}
                           <li>
                             <Link to={"/nft-loyalty-program"}>
-                              Nft Layalty Program
+                              Nft Loyalty Program
                             </Link>
                           </li>
                           <li>
@@ -607,7 +607,7 @@ function Header() {
                               Token Gating Platform
                             </Link>
                           </li>
-                        </ul>
+                        {/* </ul> */}
                       </li>
                       {/*
                                             <li>
@@ -660,13 +660,13 @@ function Header() {
                                             </li>
                                         </ul> */}
                   </li>
-                  {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
+                  <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
                                         <h4>Marketplace Solutions</h4>
                                         <ul className="mega-submenu1 normal-sub">
                                             <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-music-marketplace-development">
+                                                <Link to="nft-music-marketplace-development">
                                                     NFT Marketplace for Music
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
                                                 <a href="https://www.blockchainappfactory.com/nft-art-marketplace-development">
@@ -739,7 +739,7 @@ function Header() {
                                                 </a>
                                             </li>
                                         </ul>
-                                    </li> */}
+                                    </li>
                   {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
                                         <h4>NFT Services</h4>
                                         <ul

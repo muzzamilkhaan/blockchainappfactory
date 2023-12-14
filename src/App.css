@@ -6077,9 +6077,9 @@ html {
         padding: 10px
     }
     ul.mega-submenu.menu_desk-nft {
-        max-width: 350px;
+        max-width: 700px;
         margin: 0 auto;
-        left: 60%;
+        left: 30%;
         right: 0;
         padding: 10px
     }
@@ -6090,7 +6090,7 @@ html {
         /*margin-right: 20px;*/
     }
     ul.mega-submenu.menu_desk-nft li.has-subsubmenu {
-        width: 100%;
+        width: 50%;
         float: left;
         /*margin-right: 20px;*/
     }
