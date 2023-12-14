@@ -166,6 +166,19 @@ export const SecSix = styled.div`
   }
 `;
 export const SecSeven = styled.div``;
-export const SecEight = styled.div``;
-export const SecNine = styled.div``;
+export const SecEight = styled.div`
+  .container .para {
+    @media (max-width: 768px) {
+      text-align: start !important;
+    }
+  }
+`;
+export const SecNine = styled.div`
+  .fa-caret-right {
+    color: #47b475;
+    font-size: 14px;
+    /* margin-right: 10px; */
+    text-indent: -20px;
+  }
+`;
 export const SecTen = styled.div``;

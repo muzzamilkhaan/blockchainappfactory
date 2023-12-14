@@ -56,6 +56,7 @@ function Faq({ data, className }) {
                       >
                         <div
                           className="panel-body"
+                          style={{ whiteSpace: "pre-line" }}
                           dangerouslySetInnerHTML={{ __html: item.desc }}
                         >
                           {/* {item.desc} */}

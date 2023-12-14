@@ -8,6 +8,8 @@ import Sec6 from "./Sec6";
 import Sec7 from "./Sec7";
 import Sec8 from "./Sec8";
 import Sec9 from "./Sec9";
+import Sec10 from "./Sec10";
+import Sec11 from "./Sec11";
 import WeSpotlightedIn from "../../../components/shared/WeSpotlightedIn";
 const index = () => {
   return (
@@ -21,6 +23,8 @@ const index = () => {
       <Sec7 />
       <Sec8 />
       <Sec9 />
+      <Sec10 />
+      <Sec11 />
       <WeSpotlightedIn />
     </div>
   );

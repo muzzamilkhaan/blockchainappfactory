@@ -142,7 +142,7 @@ import NftMarketplaceSidechain from "./pages/NFT/nftMarketplaceSidechain";
 import NftMarketplaceSolana from "./pages/NFT/nftMarketplaceSolona";
 import ZksyncIntegrationService from "./pages/NFT/zksyncIntegrationService";
 import NtMarketplaceHarmony from "./pages/NFT/nftMarketplaceHarmony";
-// import {} from "./"
+import NftLoyaltyProgram from "./pages/NFT/nftLoyaltyProgram";
 
 function App() {
   return (
@@ -308,8 +308,10 @@ function App() {
               path="/nft-marketplace-on-harmony"
               element={<NtMarketplaceHarmony />}
             />
-            {/* <Route 
-            path="" element={<Nft}/> */}
+            <Route
+              path="/nft-loyalty-program"
+              element={<NftLoyaltyProgram />}
+            />
           </Routes>
         </Suspense>
       </Router>

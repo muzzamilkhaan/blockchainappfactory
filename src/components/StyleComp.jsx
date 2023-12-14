@@ -111,6 +111,7 @@ export const ButtonContainer = styled.div`
 `;
 export const ButtonComp = styled.button`
   width: 100%;
+  max-width: 300px;
   background-color: #47b475;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;

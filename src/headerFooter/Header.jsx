@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaMobileAlt, FaEnvelope } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
-
+import { H3 } from "../components/index";
 function Header() {
   const [dropdown, setDropdown] = useState(0);
   const [open, setOpen] = useState(false);
@@ -197,7 +197,7 @@ function Header() {
                   </li>
 
                   <li className="has-subsubmenu">
-                    <h4>Custom Solutions</h4>
+                    <h4> Custom Solutions</h4>
                     <ul className="mega-submenu1 normal-sub">
                       <li>
                         <Link to={"/crypto-prediction-market-platform"}>
@@ -591,6 +591,23 @@ function Header() {
                         <Link to={"/nft-marketplace-on-harmony"}>
                           Nft Marketplace On Harmony
                         </Link>
+                      </li>
+
+                      {/*  */}
+                      <li className="has-subsubmenu">
+                        <h4>Custom Solutions</h4>
+                        <ul className="mega-submenu1 normal-sub">
+                          <li>
+                            <Link to={"/nft-loyalty-program"}>
+                              Nft Layalty Program
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"token-gating-platform"}>
+                              Token Gating Platform
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
                       {/*
                                             <li>
