@@ -671,7 +671,7 @@ function Header() {
                         </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/nft-for-sports">
+                        <a href="nft-for-sports">
                           NFT Marketplace For Sports
                         </a>
                       </li>
