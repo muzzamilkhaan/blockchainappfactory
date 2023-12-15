@@ -592,23 +592,22 @@ function Header() {
                           Nft Marketplace On Harmony
                         </Link>
                       </li>
-</ul>
-                        <h4>Custom Solutions</h4>
-                        <ul className="mega-submenu1 normal-sub">
-                     
-                          <li>
-                            <Link to={"/nft-loyalty-program"}>
-                              Nft Loyalty Program
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to={"token-gating-platform"}>
-                              Token Gating Platform
-                            </Link>
-                          </li>
-                          </ul>
-                       
-                      {/*
+                    </ul>
+                    <h4>Custom Solutions</h4>
+                    <ul className="mega-submenu1 normal-sub">
+                      <li>
+                        <Link to={"/nft-loyalty-program"}>
+                          Nft Loyalty Program
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"token-gating-platform"}>
+                          Token Gating Platform
+                        </Link>
+                      </li>
+                    </ul>
+
+                    {/*
                                             <li>
                                                 <a href="https://www.blockchainappfactory.com/nft-marketplace-in-matic">
                                                     NFT Marketplace On Matic
@@ -659,85 +658,85 @@ function Header() {
                                         </ul> */}
                   </li>
                   <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
-                                        <h4>Marketplace Solutions</h4>
-                                        <ul className="mega-submenu1 normal-sub">
-                                            <li>
-                                                <Link to="nft-music-marketplace-development">
-                                                    NFT Marketplace for Music
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-art-marketplace-development">
-                                                    NFT Marketplace for Art
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-for-sports">
-                                                    NFT Marketplace For Sports
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-for-realestate">
-                                                    NFT for Real estate
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-for-physical-assets">
-                                                    NFT for Physical assets
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-in-ecommerce">
-                                                    NFT in E-commerce
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-ticketing-marketplace">
-                                                    NFT Ticketing Marketplace
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-aggregator-marketplace-development">
-                                                    NFT Aggregator Marketplace
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/cross-chain-nft-marketplace">
-                                                    Cross-Chain NFT Marketplace
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/dao-enabled-nft-platform">
-                                                    DAO Enabled NFT Platform
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-marketplace-with-governance-token">
-                                                    Marketplace with Governance
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/celebrity-nft-marketplace-development">
-                                                    Celebrity NFT Marketplace
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/carbon-credits-development">
-                                                    Carbon Credits Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/phygital-nft-marketplace">
-                                                    Phygital NFT Marketplace
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/fractional-nft-marketplace-development">
-                                                    Fractional NFT Marketplace
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                    <h4>Marketplace Solutions</h4>
+                    <ul className="mega-submenu1 normal-sub">
+                      <li>
+                        <Link to="nft-music-marketplace-development">
+                          NFT Marketplace for Music
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="nft-art-marketplace-development">
+                          NFT Marketplace for Art
+                        </Link>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-for-sports">
+                          NFT Marketplace For Sports
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-for-realestate">
+                          NFT for Real estate
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-for-physical-assets">
+                          NFT for Physical assets
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-in-ecommerce">
+                          NFT in E-commerce
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-ticketing-marketplace">
+                          NFT Ticketing Marketplace
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-aggregator-marketplace-development">
+                          NFT Aggregator Marketplace
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/cross-chain-nft-marketplace">
+                          Cross-Chain NFT Marketplace
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/dao-enabled-nft-platform">
+                          DAO Enabled NFT Platform
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-marketplace-with-governance-token">
+                          Marketplace with Governance
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/celebrity-nft-marketplace-development">
+                          Celebrity NFT Marketplace
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/carbon-credits-development">
+                          Carbon Credits Development
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/phygital-nft-marketplace">
+                          Phygital NFT Marketplace
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/fractional-nft-marketplace-development">
+                          Fractional NFT Marketplace
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
                   {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
                                         <h4>NFT Services</h4>
                                         <ul

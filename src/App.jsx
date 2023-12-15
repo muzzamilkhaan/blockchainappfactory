@@ -145,6 +145,7 @@ import NtMarketplaceHarmony from "./pages/NFT/nftMarketplaceHarmony";
 import NftLoyaltyProgram from "./pages/NFT/nftLoyaltyProgram";
 import TokenGatingPlatform from "./pages/NFT/tokenGatingPlatform";
 import NftMusicMarketplaceDevelopment from "./pages/NFT/nftMusicMarketplaceDevelopment";
+import NftArtMarketplaceDevelopment from "./pages/NFT/nftArtMarketplaceDevelopment";
 
 function App() {
   return (
@@ -321,6 +322,10 @@ function App() {
             <Route
               path="/nft-music-marketplace-development"
               element={<NftMusicMarketplaceDevelopment />}
+            />
+            <Route
+              path="/nft-art-marketplace-development"
+              element={<NftArtMarketplaceDevelopment />}
             />
           </Routes>
         </Suspense>
