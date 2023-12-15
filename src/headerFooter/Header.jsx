@@ -592,11 +592,10 @@ function Header() {
                           Nft Marketplace On Harmony
                         </Link>
                       </li>
-
-                      {/*  */}
-                      <li className="has-subsubmenu">
+</ul>
                         <h4>Custom Solutions</h4>
-                        {/* <ul className="mega-submenu1 normal-sub"> */}
+                        <ul className="mega-submenu1 normal-sub">
+                     
                           <li>
                             <Link to={"/nft-loyalty-program"}>
                               Nft Loyalty Program
@@ -607,8 +606,8 @@ function Header() {
                               Token Gating Platform
                             </Link>
                           </li>
-                        {/* </ul> */}
-                      </li>
+                          </ul>
+                       
                       {/*
                                             <li>
                                                 <a href="https://www.blockchainappfactory.com/nft-marketplace-in-matic">
@@ -650,7 +649,6 @@ function Header() {
                                                     NFT Marketplace On Harmony
                                                 </a>
                                             </li> */}
-                    </ul>
                     {/* <h4>Custom Solutions</h4>
                                         <ul className="mega-submenu1 normal-sub">
                                             <li>
