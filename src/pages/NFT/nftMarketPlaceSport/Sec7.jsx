@@ -7,9 +7,9 @@ const Sec7 = () => {
     <SecSeven>
       <section className="common_spacing gray_bg">
         <div className="container">
-          <h2 className="common_h3 sec-tit underline text-center font-wei">
+          <div className="common_h3 sec-tit underline text-center font-wei">
             <H2> Sports In-demand for Fantasy leagues </H2>
-          </h2>
+          </div>
           <div className="row">
             <div className="col-sm-12">
               <div className="row mt-40">

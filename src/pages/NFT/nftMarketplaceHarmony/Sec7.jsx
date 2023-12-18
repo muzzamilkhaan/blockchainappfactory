@@ -1,6 +1,6 @@
 import React from "react";
 import { SecSeven } from "./nftMarketplaceHarmonyComp";
-import { H2 } from "../../../components";
+import { H2, H3 } from "../../../components";
 const Sec7 = () => {
   return (
     <SecSeven>
@@ -8,18 +8,18 @@ const Sec7 = () => {
         <div className="container">
           <div className="section-title underline text-center">
             <div className="sec_tit">
-              <h2>Innovative Features Of Our NFT Marketplace On Harmony</h2>
+              <H2>Innovative Features Of Our NFT Marketplace On Harmony</H2>
             </div>
           </div>
           <div className="row mt50">
             <div className="col-md-12">
               <div className="main-timeline">
                 <div className="timeline">
-                  <div className="timeline-content">
-                    <div className="timeline-icon">
+                  <div className="timeline-content1">
+                    <div className="icon-container">
                       <i className="fa fa-globe"></i>
                     </div>
-                    <h3 className="title">Our Systematic Architecture</h3>
+                    <H3 className="head">Our Systematic Architecture</H3>
                     <p className="description">
                       {" "}
                       Our architecture is primarily dependent on the operation
@@ -29,11 +29,11 @@ const Sec7 = () => {
                   </div>
                 </div>
                 <div className="timeline">
-                  <div className="timeline-content">
+                  <div className="timeline-content1">
                     <div className="timeline-icon">
                       <i className="fa fa-rocket"></i>
                     </div>
-                    <h3 className="title">Random Operation</h3>
+                    <H3 className="head">Random Operation</H3>
                     <p className="description">
                       {" "}
                       This feature allows the network validators to be assigned
@@ -43,11 +43,11 @@ const Sec7 = () => {
                   </div>
                 </div>
                 <div className="timeline">
-                  <div className="timeline-content">
+                  <div className="timeline-content1">
                     <div className="timeline-icon">
                       <i className="fa fa-area-chart"></i>
                     </div>
-                    <h3 className="title">Proof-Of-Stake</h3>
+                    <H3 className="head">Proof-Of-Stake</H3>
                     <p className="description">
                       {" "}
                       Our proof-of-stake feature in the marketplace allows the
@@ -56,11 +56,11 @@ const Sec7 = () => {
                   </div>
                 </div>
                 <div className="timeline">
-                  <div className="timeline-content">
+                  <div className="timeline-content1">
                     <div className="timeline-icon">
                       <i className="fa fa-link"></i>
                     </div>
-                    <h3 className="title">Cross-Chain Shard Processing</h3>
+                    <H3 className="head">Cross-Chain Shard Processing</H3>
                     <p className="description">
                       {" "}
                       Our platform has a special feature known as cross-chain

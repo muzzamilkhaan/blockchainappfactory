@@ -165,7 +165,103 @@ export const SecSix = styled.div`
     }
   }
 `;
-export const SecSeven = styled.div``;
+export const SecSeven = styled.div`
+  .mt50 {
+    margin-top: 50px !important;
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .main-timeline .timeline {
+    width: calc(50% + 120px) !important;
+    margin: 0 5px 30px !important;
+    float: left !important;
+  }
+  .timeline {
+    &::before {
+      background-color: #fff !important;
+    }
+  }
+  .timeline:nth-child(even) {
+    &::before {
+      background-color: #fff !important;
+    }
+  }
+  .main-timeline .timeline-content1 {
+    color: #161515;
+    background: #f5f5f5;
+    text-align: center;
+    padding: 20px 140px 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    position: relative;
+    z-index: 1;
+    &::before {
+      content: "";
+      background: linear-gradient(to top right, #47b475 50%, #368e5b 51%);
+      position: absolute;
+      top: 0;
+      left: calc(100% - 120px);
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+    &::after {
+      content: "";
+      background: linear-gradient(to top right, #47b475 50%, #368e5b 51%);
+    }
+  }
+
+  .main-timeline .description {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 0;
+  }
+  .main-timeline .timeline:nth-child(even) {
+    float: right !important;
+    margin: 0 0 30px 5px !important;
+    padding: 20px 20px 20px 140px !important;
+  }
+
+  /* .main-timeline .timeline:nth-child(even) .timeline-icon {
+    right: auto; */
+  /* left: 0; */
+  /* }   */
+
+  .main-timeline .timeline {
+    width: calc(50% + 120px) !important;
+  }
+  .head {
+    color: #47b475;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 8px;
+    line-height: 1.3;
+  }
+  .main-timeline .icon-container {
+    color: #fff;
+    font-size: 55px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 33px;
+  }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    &::before {
+      content: "\f0ac";
+    }
+  }
+`;
 export const SecEight = styled.div`
   .container .para {
     @media (max-width: 768px) {

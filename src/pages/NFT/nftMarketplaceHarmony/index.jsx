@@ -18,7 +18,7 @@ const index = () => {
       <Sec4 />
       <Sec5 />
       <Sec6 />
-      <Sec7 />
+      {/* <Sec7 /> */}
       <Sec8 />
       <Sec9 />
       <WeSpotlightedIn />

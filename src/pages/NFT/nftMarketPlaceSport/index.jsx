@@ -16,7 +16,7 @@ import WeSpotlightedIn from "../../../components/shared/WeSpotlightedIn";
 const index = () => {
   return (
     <div>
-      {/* <Sec1 />
+      <Sec1 />
       <Sec2 />
       <Sec3 />
       <Sec4 />
@@ -24,11 +24,11 @@ const index = () => {
       <Sec6 />
       <Sec7 />
       <Sec8 />
-      <Sec9 /> */}
-      <Sec10 />
-      {/* <Sec11 />
+      <Sec9 />
+      {/* <Sec10 /> */}
+      <Sec11 />
       <Sec12 />
-      <Sec13 /> */}
+      <Sec13 />
       <WeSpotlightedIn />
     </div>
   );
