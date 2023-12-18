@@ -3,6 +3,66 @@ import { Section } from "../../../components/sections/section";
 import { layout } from "../../../helpers/constant";
 const { mobile, tablet, laptop, desktop } = layout;
 
+//AFTER START
+export const SecOne = styled.div`
+  .nec-btn {
+    position: relative !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+  }
+  .nec-btn:hover {
+    transform: scale(1, 1) !important;
+    color: #fff !important;
+    background: #00a9e2 !important;
+  }
+  a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px !important;
+    display: inline-block;
+    margin-right: 26px !important;
+  }
+  .contentall a,
+  a.home-talk-experts {
+    padding: 10px 20px !important;
+  }
+  .contentall h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    @media (max-width: 768px) {
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+
+  .contentall {
+    padding-top: 150px;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+  .img-container img {
+    padding-top: 80px;
+  }
+  .banner {
+    background: url("https://www.blockchainappfactory.com/images/nft-marketplace-on-ethereum/banner_bg.webp");
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+  }
+  .banner-overlay {
+    background-color: rgba(0 0 0/30%) !important;
+  }
+`;
+
+// AFTER END
+
 export const BannerContainer = styled.div`
   background: url("https://www.blockchainappfactory.com/images/nft-marketplace-on-ethereum/banner_bg.webp");
   background-size: cover;
@@ -363,5 +423,8 @@ export const Sec8 = styled(Section)`
     font-family: "Open Sans", "sans-serif";
     text-align: center;
     letter-spacing: 0.5px;
+    @media (max-width: 768px) {
+      text-align: start !important;
+    }
   }
 `;

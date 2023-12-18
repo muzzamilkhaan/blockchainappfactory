@@ -25,7 +25,8 @@ import {
   Sec8,
 } from "./nftMarketPlaceEthereumComp";
 import { NftCard } from "../../../components/cards/nftCard/NftCard";
-
+import Sec1 from "./Sec1";
+import { H2 } from "../../../components";
 const Sec5Card = [
   {
     img: "https://www.blockchainappfactory.com/images/nft-marketplace-on-ethereum/icons/e1.webp",
@@ -71,8 +72,7 @@ const Sec5Card = [
 const nftMarketPlaceEthereum = () => {
   return (
     <>
-      <BannerContainer>
-        {/* <BannerOverlay></BannerOverlay> */}
+      {/* <BannerContainer>
         <BannerLayout>
           <LeftLayout>
             <div className="">
@@ -105,11 +105,12 @@ const nftMarketPlaceEthereum = () => {
             />
           </RightLayout>
         </BannerLayout>
-      </BannerContainer>
+      </BannerContainer> */}
+      <Sec1 />
       <Sec2 backgroundColor="white" paddingBlock="5vw">
-        <h2 className="sec_tit underline text-center sec2-h2">
-          NFT Marketplace – A Brief Introduction
-        </h2>
+        <div className="sec_tit underline text-center sec2-h2">
+          <H2> NFT Marketplace – A Brief Introduction </H2>
+        </div>
         <p className="p1">
           An NFT marketplace is a software platform where people can purchase,
           sell, and trade assets backed by non-fungible tokens (NFTs). If you
@@ -126,9 +127,9 @@ const nftMarketPlaceEthereum = () => {
         </p>
       </Sec2>
       <Sec3 backgroundColor="#f2f2f2">
-        <h2 className="sec_tit underline text-center sec3-h2">
-          Ethereum – The Blockchain Legacy
-        </h2>
+        <div className="sec_tit underline text-center sec3-h2 py-4">
+          <H2> Ethereum – The Blockchain Legacy </H2>
+        </div>
         <LayoutSec3>
           <LeftSec3>
             <p className="p1">
@@ -161,9 +162,9 @@ const nftMarketPlaceEthereum = () => {
         </LayoutSec3>
       </Sec3>
       <Sec4 backgroundColor="#fff">
-        <h2 className="sec_tit underline text-center sec2-h2">
-          Why Should You Begin Your NFT Marketplace on Ethereum?
-        </h2>
+        <div className="sec_tit underline text-center sec2-h2 py-4">
+          <H2> Why Should You Begin Your NFT Marketplace on Ethereum? </H2>
+        </div>
         <p className="p1-sec4">
           As we all know, running an NFT marketplace on Ethereum has been one of
           the most popular businesses on the network. Although the wide user
@@ -234,15 +235,20 @@ const nftMarketPlaceEthereum = () => {
         </div>
       </Sec4>
       <Sec5 backgroundColor="#f2f2f2">
-        <h3 className="sec_tit underline text-center sec3-h3">
-          Essential Features in an Ethereum-based NFT Marketplace Platform
-        </h3>
+        <div className="sec_tit underline text-center sec3-h3 py-4">
+          <H2>
+            {" "}
+            Essential Features in an Ethereum-based NFT Marketplace Platform{" "}
+          </H2>
+        </div>
         <NftCard data={Sec5Card} />
       </Sec5>
       <Sec6 backgroundColor="#fff">
-        <h2 className="sec_tit underline text-center sec3-h3">
-          Benefits of Running a Marketplace Selling Ethereum-based NFTs
-        </h2>
+        <div className="sec_tit underline text-center sec3-h3 py-4">
+          <H2>
+            Benefits of Running a Marketplace Selling Ethereum-based NFTs{" "}
+          </H2>
+        </div>
         <BoxSec2>
           <ul className="list-sec6">
             {/* <FontAwesomeIcon icon="fa-solid fa-caret-right" /> */}
@@ -297,9 +303,9 @@ const nftMarketPlaceEthereum = () => {
         </div>
       </Sec6>
       <Sec7 backgroundColor="#f2f2f2">
-        <h2 className="sec_tit underline text-center sec3-h3">
-          The Process of Creating an NFT Marketplace on Ethereum{" "}
-        </h2>
+        <div className="sec_tit underline text-center sec3-h3 py-4">
+          <H2> The Process of Creating an NFT Marketplace on Ethereum </H2>
+        </div>
         <LayoutSec4>
           <LeftSec4>
             <img
@@ -358,10 +364,10 @@ const nftMarketPlaceEthereum = () => {
         </LayoutSec4>
       </Sec7>
       <Sec8 backgroundColor="white">
-        <h2 className="sec_tit underline text-center sec3-h3">
-          How can Blockchain App Factory Help You Develop an NFT Marketplace in
-          Ethereum?
-        </h2>
+        <div className="sec_tit underline text-center sec3-h3 py-4">
+         <H2> How can Blockchain App Factory Help You Develop an NFT Marketplace in
+          Ethereum? </H2>
+        </div>
         <p className="p1-sec8">
           At Blockchain App Factory, our aim has always been to satisfy customer
           needs while learning newer technologies with each project. Even though{" "}
