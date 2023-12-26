@@ -676,17 +676,17 @@ function Header() {
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/nft-for-realestate">
+                        <a href="nft-for-realestate">
                           NFT for Real estate
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/nft-for-physical-assets">
+                        <a href="nft-for-physical-assets">
                           NFT for Physical assets
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/nft-in-ecommerce">
+                        <a href="nft-in-ecommerce">
                           NFT in E-commerce
                         </a>
                       </li>

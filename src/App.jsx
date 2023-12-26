@@ -147,6 +147,9 @@ import TokenGatingPlatform from "./pages/NFT/tokenGatingPlatform";
 import NftMusicMarketplaceDevelopment from "./pages/NFT/nftMusicMarketplaceDevelopment";
 import NftArtMarketplaceDevelopment from "./pages/NFT/nftArtMarketplaceDevelopment";
 import NftMarketPlaceSport from "./pages/NFT/nftMarketPlaceSport";
+import NftForRealeState from "./pages/NFT/nftForRealeState";
+import NftForPhysicalAssets from "./pages/NFT/nftForPhysicalAssets";
+import NftInEcommerce from "./pages/NFT/nftInEcommerce";
 
 function App() {
   return (
@@ -329,6 +332,15 @@ function App() {
               element={<NftArtMarketplaceDevelopment />}
             />
             <Route path="/nft-for-sports" element={<NftMarketPlaceSport />} />
+            <Route path="/nft-for-realestate" element={<NftForRealeState />} />
+            <Route
+              path="/nft-for-physical-assets"
+              element={<NftForPhysicalAssets />}
+            />
+            <Route
+              path="/nft-in-ecommerce"
+              element={<NftInEcommerce />}
+            />
           </Routes>
         </Suspense>
       </Router>
