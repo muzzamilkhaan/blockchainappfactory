@@ -691,12 +691,12 @@ function Header() {
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/nft-ticketing-marketplace">
+                        <a href="nft-ticketing-marketplace">
                           NFT Ticketing Marketplace
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/nft-aggregator-marketplace-development">
+                        <a href="nft-aggregator-marketplace-development">
                           NFT Aggregator Marketplace
                         </a>
                       </li>

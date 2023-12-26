@@ -133,6 +133,7 @@ const p2pExchangeDevelopment = lazy(() =>
   import("./pages/exchange/p2pExchangeDevelopment")
 );
 
+// NFT PAGE
 import NftMarketPlaceEthereum from "./pages/NFT/nftMarketPlaceEthereum/index";
 import NftMarketPlaceMatic from "./pages/NFT/nftMarketPlaceMatic";
 import NftMarketPlaceBSC from "./pages/NFT/nftMarketPlaceBSC";
@@ -150,6 +151,8 @@ import NftMarketPlaceSport from "./pages/NFT/nftMarketPlaceSport";
 import NftForRealeState from "./pages/NFT/nftForRealeState";
 import NftForPhysicalAssets from "./pages/NFT/nftForPhysicalAssets";
 import NftInEcommerce from "./pages/NFT/nftInEcommerce";
+import NftTicketingMarketplace from "./pages/NFT/nftTicketingMarketplace";
+import NftAggregatorMarketplaceDevelopment from "./pages/NFT/nftAggregatorMarketplaceDevelopment";
 
 function App() {
   return (
@@ -337,9 +340,14 @@ function App() {
               path="/nft-for-physical-assets"
               element={<NftForPhysicalAssets />}
             />
+            <Route path="/nft-in-ecommerce" element={<NftInEcommerce />} />
             <Route
-              path="/nft-in-ecommerce"
-              element={<NftInEcommerce />}
+              path="/nft-ticketing-marketplace"
+              element={<NftTicketingMarketplace />}
+            />
+            <Route
+              path="/nft-aggregator-marketplace-development"
+              element={<NftAggregatorMarketplaceDevelopment />}
             />
           </Routes>
         </Suspense>
