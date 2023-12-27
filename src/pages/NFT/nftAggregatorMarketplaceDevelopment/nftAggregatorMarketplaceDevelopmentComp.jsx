@@ -197,7 +197,7 @@ export const SecNine = styled.div`
   .bg_color {
     color: #000;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 767px) {
     table {
       width: 100%;
       max-width: 100%;
@@ -279,6 +279,9 @@ export const SecTwelve = styled.div`
     text-align: center;
     border-radius: 5px;
     margin: 2px;
+    @media (max-width: 767px) {
+      width: 49%;
+    }
   }
   .Package_list img {
     height: 55px;

@@ -701,17 +701,17 @@ function Header() {
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/cross-chain-nft-marketplace">
+                        <a href="cross-chain-nft-marketplace">
                           Cross-Chain NFT Marketplace
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/dao-enabled-nft-platform">
+                        <a href="dao-enabled-nft-platform">
                           DAO Enabled NFT Platform
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/nft-marketplace-with-governance-token">
+                        <a href="nft-marketplace-with-governance-token">
                           Marketplace with Governance
                         </a>
                       </li>

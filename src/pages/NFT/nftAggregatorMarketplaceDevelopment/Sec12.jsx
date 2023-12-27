@@ -14,14 +14,14 @@ const Sec12 = () => {
           <div className="row">
             <div className="section-title text-center">
               <div className="sec_tit mb20">
-                <h3
+                <div
                   className="section-title underline mb20"
                   //   style="color:#fff;"
                 >
                   <H2>
                     Web3 Technological Stacks We Utilize for Your New Venture{" "}
                   </H2>
-                </h3>{" "}
+                </div>{" "}
               </div>
             </div>
             <div className="col-md-12 text-center">

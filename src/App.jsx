@@ -153,6 +153,7 @@ import NftForPhysicalAssets from "./pages/NFT/nftForPhysicalAssets";
 import NftInEcommerce from "./pages/NFT/nftInEcommerce";
 import NftTicketingMarketplace from "./pages/NFT/nftTicketingMarketplace";
 import NftAggregatorMarketplaceDevelopment from "./pages/NFT/nftAggregatorMarketplaceDevelopment";
+import CrossChainNftMarketplace from "./pages/NFT/crossChainNftMarketplace";
 
 function App() {
   return (
@@ -348,6 +349,10 @@ function App() {
             <Route
               path="/nft-aggregator-marketplace-development"
               element={<NftAggregatorMarketplaceDevelopment />}
+            />
+            <Route
+              path="/cross-chain-nft-marketplace"
+              element={<CrossChainNftMarketplace />}
             />
           </Routes>
         </Suspense>
