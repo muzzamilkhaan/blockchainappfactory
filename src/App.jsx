@@ -155,6 +155,8 @@ import NftTicketingMarketplace from "./pages/NFT/nftTicketingMarketplace";
 import NftAggregatorMarketplaceDevelopment from "./pages/NFT/nftAggregatorMarketplaceDevelopment";
 import CrossChainNftMarketplace from "./pages/NFT/crossChainNftMarketplace";
 import DaoEnabledNftPlatform from "./pages/NFT/daoEnabledNftPlatform";
+import NftMarketplaceWithGovernanceToken from "./pages/NFT/nftMarketplaceWithGovernanceToken";
+import NftMarketplaceForCelebrities from "./pages/NFT/nftMarketplaceForCelebrities";
 
 function App() {
   return (
@@ -354,6 +356,14 @@ function App() {
             <Route
               path="/dao-enabled-nft-platform"
               element={<DaoEnabledNftPlatform />}
+            />
+            <Route
+              path="/nft-marketplace-with-governance-token"
+              element={<NftMarketplaceWithGovernanceToken />}
+            />
+            <Route
+              path="nft-marketplace-for-celebrities"
+              element={<NftMarketplaceForCelebrities />}
             />
           </Routes>
         </Suspense>
