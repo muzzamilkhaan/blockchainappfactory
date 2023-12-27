@@ -716,22 +716,22 @@ function Header() {
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/celebrity-nft-marketplace-development">
+                        <a href="nft-marketplace-for-celebrities">
                           Celebrity NFT Marketplace
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/carbon-credits-development">
+                        <a href="carbon-credits-development">
                           Carbon Credits Development
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/phygital-nft-marketplace">
+                        <a href="phygital-nft-marketplace">
                           Phygital NFT Marketplace
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/fractional-nft-marketplace-development">
+                        <a href="fractional-nft-marketplace-development">
                           Fractional NFT Marketplace
                         </a>
                       </li>
