@@ -1,5 +1,6 @@
 import React from "react";
 import { SecSeven } from "./nftMarketplaceForCelebritiesComp";
+import { H2, Button } from "../../../components";
 
 const Sec7 = () => {
   return (
@@ -8,9 +9,9 @@ const Sec7 = () => {
         <div className="container">
           <div className="row">
             <div className="section-title">
-              <h2 className="section-title underline mb20 text-center font-wei">
-                Various Celebrity NFT Marketplace Models
-              </h2>{" "}
+              <div className="section-title underline mb20 text-center font-wei mt30">
+                <H2> Various Celebrity NFT Marketplace Models </H2>
+              </div>{" "}
             </div>
           </div>
           <div className="row text-center mt20">
@@ -18,7 +19,7 @@ const Sec7 = () => {
               <div
                 className="col-xs-12 col-sm-4 .equalize text-left wow fadeInUp"
                 data-wow-delay="0.3s"
-                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;"
+                // style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;"
               >
                 <div className="service-box">
                   <div className="service-icon">
@@ -26,7 +27,7 @@ const Sec7 = () => {
                     <img
                       className=""
                       data-src="/images/cele/icons/celebrities.webp"
-                      src="/images/cele/icons/celebrities.webp"
+                      src="https://www.blockchainappfactory.com/images/cele/icons/celebrities.webp"
                     />{" "}
                   </div>
                   <h3 className="service-title">
@@ -44,7 +45,7 @@ const Sec7 = () => {
               <div
                 className="col-xs-12 col-sm-4 .equalize text-left wow fadeInUp"
                 data-wow-delay="0.5s"
-                style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"
+                // style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"
               >
                 <div className="service-box">
                   <div className="service-icon">
@@ -52,7 +53,7 @@ const Sec7 = () => {
                     <img
                       className=""
                       data-src="/images/cele/icons/actor.webp"
-                      src="/images/cele/icons/actor.webp"
+                      src="https://www.blockchainappfactory.com/images/cele/icons/actor.webp"
                     />{" "}
                   </div>
                   <h3 className="service-title">NFT Marketplace for Actors</h3>
@@ -69,7 +70,7 @@ const Sec7 = () => {
               <div
                 className="col-xs-12 col-sm-4 .equalize text-left wow fadeInUp"
                 data-wow-delay="0.7s"
-                style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"
+                // style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"
               >
                 <div className="service-box">
                   <div className="service-icon">
@@ -77,7 +78,7 @@ const Sec7 = () => {
                     <img
                       className=""
                       data-src="/images/cele/icons/artists.webp"
-                      src="/images/cele/icons/artists.webp"
+                      src="https://www.blockchainappfactory.com/images/cele/icons/artists.webp"
                     />{" "}
                   </div>
                   <h3 className="service-title">NFT Marketplace for Artists</h3>
@@ -94,7 +95,7 @@ const Sec7 = () => {
               <div
                 className="col-xs-12 col-sm-4 .equalize text-left wow fadeInUp"
                 data-wow-delay="0.7s"
-                style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"
+                // style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"
               >
                 <div className="service-box">
                   <div className="service-icon">
@@ -102,7 +103,7 @@ const Sec7 = () => {
                     <img
                       className=""
                       data-src="/images/cele/icons/musician.webp"
-                      src="/images/cele/icons/musician.webp"
+                      src="https://www.blockchainappfactory.com/images/cele/icons/musician.webp"
                     />{" "}
                   </div>
                   <h3 className="service-title">
@@ -120,7 +121,7 @@ const Sec7 = () => {
               <div
                 className="col-xs-12 col-sm-4 .equalize text-left wow fadeInUp"
                 data-wow-delay="0.7s"
-                style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"
+                // style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"
               >
                 <div className="service-box">
                   <div className="service-icon">
@@ -128,7 +129,7 @@ const Sec7 = () => {
                     <img
                       className=""
                       data-src="/images/cele/icons/models.webp"
-                      src="/images/cele/icons/models.webp"
+                      src="https://www.blockchainappfactory.com/images/cele/icons/models.webp "
                     />{" "}
                   </div>
                   <h3 className="service-title">
@@ -145,24 +146,18 @@ const Sec7 = () => {
               </div>
             </div>
             <div className="text-center">
-              <div className="cta_mine">
-                <a
-                  rel="nofollow"
-                  className="nectar-button medium regular accent-color regular-button nec-btn"
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?l=en&amp;text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&amp;phone=916382665366"
-                  data-color-override="false"
-                  data-hover-color-override="false"
-                  data-hover-text-color-override="#fff"
-                >
-                  <span>Connect with Whatsapp</span>
-                </a>
-                <a
-                  href="#newsletter-form-sec"
-                  className="nectar-button medium regular accent-color regular-button nec-btn"
-                >
-                  <span>Talk with our Experts</span>
-                </a>
+              <div className="cta_mine mb30">
+                <div className="d-flex justify-content-center flex-wrap gap-3 ">
+                  <Button
+                    btnContent="Connect with Whatsapp"
+                    target="_blank"
+                    to="https://api.whatsapp.com/send?l=en&amp;text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&amp;phone=916382665366"
+                  />
+                  <Button
+                    btnContent="Talk with our Experts"
+                    to="#newsletter-form-sec"
+                  />
+                </div>
               </div>
             </div>
           </div>

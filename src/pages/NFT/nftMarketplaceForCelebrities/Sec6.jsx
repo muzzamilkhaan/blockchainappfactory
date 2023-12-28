@@ -1,5 +1,6 @@
 import React from "react";
 import { SecSix } from "./nftMarketplaceForCelebritiesComp";
+import { Button, H2 } from "../../../components";
 
 const Sec6 = () => {
   return (
@@ -8,9 +9,9 @@ const Sec6 = () => {
         <div className="container">
           <div className="row">
             <div className="section-title">
-              <h3 className="section-title underline mb20 text-center font-wei">
-                Who are the “So-Called” Celebrities?
-              </h3>
+              <div className="section-title underline mb20 text-center font-wei">
+                <H2> Who are the “So-Called” Celebrities? </H2>
+              </div>
               <p className="text-center">
                 Any individual who already has a unique fan base in their social
                 media or any other platforms will be eligible to have their own
@@ -27,7 +28,7 @@ const Sec6 = () => {
                   <img
                     className=""
                     data-src="/images/cele/icons/celebrity.webp"
-                    src="/images/cele/icons/celebrity.webp"
+                    src="https://www.blockchainappfactory.com/images/cele/icons/celebrity.webp"
                   />{" "}
                 </div>
                 <h4>Movie Celebs</h4>
@@ -46,7 +47,7 @@ const Sec6 = () => {
                   <img
                     className=""
                     data-src="/images/cele/icons/model.webp"
-                    src="/images/cele/icons/model.webp"
+                    src="https://www.blockchainappfactory.com/images/cele/icons/model.webp"
                   />{" "}
                 </div>
                 <h4>Fashion Models</h4>
@@ -65,7 +66,7 @@ const Sec6 = () => {
                   <img
                     className=""
                     data-src="/images/cele/icons/musicians.webp"
-                    src="/images/cele/icons/musicians.webp"
+                    src="https://www.blockchainappfactory.com/images/cele/icons/model.webp"
                   />{" "}
                 </div>
                 <h4> Musicians</h4>
@@ -84,7 +85,7 @@ const Sec6 = () => {
                   <img
                     className=""
                     data-src="/images/cele/icons/artist.webp"
-                    src="/images/cele/icons/artist.webp"
+                    src="https://www.blockchainappfactory.com/images/cele/icons/artist.webp"
                   />{" "}
                 </div>
                 <h4>Artists</h4>
@@ -103,7 +104,7 @@ const Sec6 = () => {
                   <img
                     className=""
                     data-src="/images/cele/icons/gamer.webp"
-                    src="/images/cele/icons/gamer.webp"
+                    src="https://www.blockchainappfactory.com/images/cele/icons/gamer.webp"
                   />{" "}
                 </div>
                 <h4>Gamers</h4>
@@ -122,7 +123,7 @@ const Sec6 = () => {
                   <img
                     className=""
                     data-src="/images/cele/icons/wallet.webp"
-                    src="/images/cele/icons/wallet.webp"
+                    src="https://www.blockchainappfactory.com/images/cele/icons/wallet.webp"
                   />{" "}
                 </div>
                 <h4>Sports Personalities</h4>
@@ -161,23 +162,17 @@ a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
 }
 </style> */}
               <div className="cta_mine">
-                <a
-                  rel="nofollow"
-                  className="nectar-button medium regular accent-color regular-button nec-btn"
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?l=en&amp;text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&amp;phone=916382665366"
-                  data-color-override="false"
-                  data-hover-color-override="false"
-                  data-hover-text-color-override="#fff"
-                >
-                  <span>Connect with Whatsapp</span>
-                </a>
-                <a
-                  href="#newsletter-form-sec"
-                  className="nectar-button medium regular accent-color regular-button nec-btn"
-                >
-                  <span>Talk with our Experts</span>
-                </a>
+                <div className="d-flex justify-content-center flex-wrap gap-3 ">
+                  <Button
+                    btnContent="Connect with Whatsapp"
+                    target="_blank"
+                    to="https://api.whatsapp.com/send?l=en&amp;text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&amp;phone=916382665366"
+                  />
+                  <Button
+                    btnContent="Talk with our Experts"
+                    to="#newsletter-form-sec"
+                  />
+                </div>
               </div>{" "}
             </div>
           </div>

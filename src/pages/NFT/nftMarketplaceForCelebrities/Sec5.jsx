@@ -22,9 +22,8 @@ const Sec5 = () => {
                 data-aos="fade-up"
                 data-aos-duration="500"
               >
-                <div className="category-item aos-item">
+                <div className="category-item1 aos-item">
                   <div className="category-icon">
-                    {" "}
                     <img
                       className="img-fuild"
                       style={{ height: "100px" }}
@@ -38,7 +37,7 @@ const Sec5 = () => {
                     for client projects.
                   </p>
                 </div>
-                <div className="category-item aos-item">
+                <div className="category-item1 aos-item">
                   <div className="category-icon">
                     {" "}
                     <img
@@ -54,7 +53,7 @@ const Sec5 = () => {
                     solutions.{" "}
                   </p>
                 </div>
-                <div className="category-item aos-item">
+                <div className="category-item1 aos-item">
                   <div className="category-icon">
                     <img
                       className="img-fuild"
@@ -69,7 +68,7 @@ const Sec5 = () => {
                     assets for the firm.
                   </p>
                 </div>
-                <div className="category-item aos-item">
+                <div className="category-item1 aos-item">
                   <div className="category-icon">
                     {" "}
                     <img
@@ -85,7 +84,7 @@ const Sec5 = () => {
                     various end users.
                   </p>
                 </div>
-                <div className="category-item aos-item">
+                <div className="category-item1 aos-item">
                   <div className="category-icon">
                     <img
                       className="img-fuild"
@@ -103,13 +102,13 @@ const Sec5 = () => {
                     multiple functionalities.
                   </p>
                 </div>
-                <div className="category-item aos-item">
+                <div className="category-item1 aos-item">
                   <div className="category-icon">
                     {" "}
                     <img
                       className="img-fuild"
                       style={{ height: "100px" }}
-                      src="/images/nftm/LI&amp;FUNG-svg.webp"
+                      src="https://www.blockchainappfactory.com/images/nftm/LI&FUNG-svg.webp"
                       alt=""
                     />{" "}
                   </div>
@@ -119,13 +118,13 @@ const Sec5 = () => {
                     supply and logistics.
                   </p>
                 </div>
-                <div className="category-item aos-item">
+                <div className="category-item1 aos-item">
                   <div className="category-icon">
                     {" "}
                     <img
                       className="img-fuild"
                       style={{ height: "100px" }}
-                      src="/images/nftm/globant-logo-dark-svg.webp"
+                      src="https://www.blockchainappfactory.com/images/nftm/globant-logo-dark-svg.webp  "
                       alt=""
                     />{" "}
                   </div>{" "}
@@ -135,13 +134,13 @@ const Sec5 = () => {
                     created by our experts.
                   </p>
                 </div>
-                <div className="category-item aos-item">
+                <div className="category-item1 aos-item">
                   <div className="category-icon">
                     {" "}
                     <img
                       className="img-fuild"
                       style={{ height: "100px" }}
-                      src="/images/nftm/bh.webp"
+                      src="https://www.blockchainappfactory.com/images/nftm/bh.webp"
                       alt=""
                     />{" "}
                   </div>

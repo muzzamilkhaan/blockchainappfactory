@@ -1,34 +1,34 @@
 import React from "react";
-import { SecEight } from "./nftMarketplaceForCelebritiesComp";
+import { SecTwelve } from "./nftMarketplaceForCelebritiesComp";
 import { H2 } from "../../../components";
 
-const Sec8 = () => {
+const Sec12 = () => {
   return (
-    <SecEight>
+    <SecTwelve>
       <div className="common_spacing gray_bg">
         <div className="container">
           <div className="row">
             <div className="section-title">
               <div className="section-title underline mb20 text-center font-wei">
-                <H2> Develop NFT Marketplace for Celebrity-Influencers </H2>
+                <H2> White Label Celebrity NFT Marketplace </H2>
               </div>{" "}
             </div>
           </div>
           <div className="row mt40">
             <div className="col-sm-12 col-md-12 col-lg-12 text-center">
               <p>
-                Celebrity-influencers NFT marketplace development can be
-                beneficial for popular icons who propagate on an NFT niche.
-                These platforms can be useful to sell exclusive content from
-                them, and NFT drops for ventures they act as influencers. Their
-                popularity can ensure that both kinds of NFTs can be hit.
+                White label celebrity NFT marketplace solutions can be useful
+                for those Web3 ventures trying to capitalize on their celebrity
+                contacts to build their business within a short time or icons
+                who have much-anticipated content coming up soon, and they need
+                to promote it in a novel way to attract fans.
               </p>
             </div>
           </div>
         </div>
       </div>
-    </SecEight>
+    </SecTwelve>
   );
 };
 
-export default Sec8;
+export default Sec12;
