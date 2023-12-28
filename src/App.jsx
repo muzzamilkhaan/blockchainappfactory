@@ -158,6 +158,7 @@ import DaoEnabledNftPlatform from "./pages/NFT/daoEnabledNftPlatform";
 import NftMarketplaceWithGovernanceToken from "./pages/NFT/nftMarketplaceWithGovernanceToken";
 import NftMarketplaceForCelebrities from "./pages/NFT/nftMarketplaceForCelebrities";
 import CarbonCreditsDevelopment from "./pages/NFT/carbonCreditsDevelopment";
+import PhygitalNftMarketplace from "./pages/NFT/phygitalNftMarketplace";
 
 function App() {
   return (
@@ -363,12 +364,16 @@ function App() {
               element={<NftMarketplaceWithGovernanceToken />}
             />
             <Route
-              path="nft-marketplace-for-celebrities"
+              path="/nft-marketplace-for-celebrities"
               element={<NftMarketplaceForCelebrities />}
             />
             <Route
-              path="carbon-credits-development"
+              path="/carbon-credits-development"
               element={<CarbonCreditsDevelopment />}
+            />
+            <Route
+              path="/phygital-nft-marketplace"
+              element={<PhygitalNftMarketplace />}
             />
           </Routes>
         </Suspense>
