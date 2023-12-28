@@ -160,8 +160,7 @@ import NftMarketplaceForCelebrities from "./pages/NFT/nftMarketplaceForCelebriti
 import CarbonCreditsDevelopment from "./pages/NFT/carbonCreditsDevelopment";
 import PhygitalNftMarketplace from "./pages/NFT/phygitalNftMarketplace";
 import FractionalNftMarketplaceDevelopment from "./pages/NFT/fractionalNftMarketplaceDevelopment";
-
-
+import NftDevelopmentServices from "./pages/NFT/nftDevelopmentServices";
 
 function App() {
   return (
@@ -381,6 +380,10 @@ function App() {
             <Route
               path="/fractional-nft-marketplace-development"
               element={<FractionalNftMarketplaceDevelopment />}
+            />
+            <Route
+              path="/nft-development-services"
+              element={<NftDevelopmentServices />}
             />
           </Routes>
         </Suspense>

@@ -737,16 +737,17 @@ function Header() {
                       </li>
                     </ul>
                   </li>
-                  {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
+                  {/*  */}
+                  <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
                                         <h4>NFT Services</h4>
                                         <ul
                                             className="mega-submenu1 normal-sub"
                                             style={{ display: "none" }}
                                         >
                                             <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-development-services">
+                                              <Link to="nft-development-services">
                                                     NFT Development Services
-                                                </a>
+                                                    </Link>
                                             </li>
                                             <li>
                                                 <a href="https://www.blockchainappfactory.com/nft-launchpad-development-service">
@@ -822,8 +823,8 @@ function Header() {
                                                 </li>
                                             </ul>
                                         </ul>
-                                    </li> */}
-                  {/* <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
+                                    </li>
+                  <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
                                         <h4>NFT Gaming</h4>
                                         <ul className="mega-submenu1 normal-sub" style={{ opacity: 1 }}>
                                             <li>
@@ -902,7 +903,7 @@ function Header() {
                                                 </a>
                                             </li>
                                         </ul>
-                                    </li> */}
+                                    </li>
                 </ul>
               </li>
               {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(4) }} onMouseLeave={() => { setDropdown(0) }}>
