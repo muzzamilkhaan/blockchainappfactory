@@ -159,6 +159,9 @@ import NftMarketplaceWithGovernanceToken from "./pages/NFT/nftMarketplaceWithGov
 import NftMarketplaceForCelebrities from "./pages/NFT/nftMarketplaceForCelebrities";
 import CarbonCreditsDevelopment from "./pages/NFT/carbonCreditsDevelopment";
 import PhygitalNftMarketplace from "./pages/NFT/phygitalNftMarketplace";
+import FractionalNftMarketplaceDevelopment from "./pages/NFT/fractionalNftMarketplaceDevelopment";
+
+
 
 function App() {
   return (
@@ -374,6 +377,10 @@ function App() {
             <Route
               path="/phygital-nft-marketplace"
               element={<PhygitalNftMarketplace />}
+            />
+            <Route
+              path="/fractional-nft-marketplace-development"
+              element={<FractionalNftMarketplaceDevelopment />}
             />
           </Routes>
         </Suspense>
