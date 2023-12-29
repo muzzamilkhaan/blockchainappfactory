@@ -46,6 +46,7 @@ import Faq from "../../../components/shared/Faq";
 import Sec10 from "../decentralizedExchangeDevelopment/Sec6";
 import Button from "../../../components/Button";
 import { H1, H2 } from "../../../components/index";
+import Sec1 from "./Sec1";
 const Data = [
   {
     img: "https://www.blockchainappfactory.com/images/p2p/cryptocurrencies.webp",
@@ -174,6 +175,7 @@ const FAQ = [
 const P2pExchangeDev = () => {
   return (
     <React.Fragment>
+      <Sec1/>
       <Container>
         {/* BANNER START HERE */}
         <Banner>

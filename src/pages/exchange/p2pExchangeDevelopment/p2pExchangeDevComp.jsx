@@ -461,3 +461,92 @@ export const RightSec8 = styled.div`
   }
 `;
 export const Sec9 = styled(Section)``;
+
+export const SecOne = styled.div`
+  .banner {
+    /* height: auto; */
+    background-image: url("https://www.blockchainappfactory.com/images/p2p/p2p_banner_bg.webp");
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 0;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background-image: linear-gradient(to right, #00add8fa, #00c0b0d9);
+    }
+  }
+  #ico .banner_content {
+    text-align: left;
+    position: relative;
+    top: 0;
+    transform: none;
+    color: #fff;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+  }
+  .banner_content .contental {
+    margin-top: 130px;
+    @media (max-width: 767px) {
+      margin-top: 300px;
+    }
+  }
+  .contental h1 {
+    margin-bottom: 25px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    text-align: start;
+    font-family: "Lato", sans-serif;
+    @media (max-width: 767px) {
+      text-align: center;
+      font-size: 26px;
+    }
+  }
+  .contental p {
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: start;
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  .p2b_ban img {
+    max-width: 125% !important;
+    padding-top: 100px;
+    @media (max-width: 767px) {
+      max-width: 80% !important;
+      padding-top: 0;
+    }
+  }
+  .d-flex{
+    @media (max-width: 767px) {
+     justify-content: center !important;
+    }
+  }
+`;
+export const SecTwo = styled.div``;
+export const SecThree = styled.div``;
+export const SecFour = styled.div``;
+export const SecFive = styled.div``;
+export const SecSix = styled.div``;
+export const SecSeven = styled.div``;
+export const SecEight = styled.div``;
+export const SecNine = styled.div``;
+export const SecTen = styled.div``;
+export const SecEleven = styled.div``;
+export const SecTwelve = styled.div``;
+export const SecThirteen = styled.div``;
