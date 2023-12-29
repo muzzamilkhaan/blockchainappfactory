@@ -1,5 +1,6 @@
 import React from "react";
 import { SecFour } from "./nftDevelopmentServicesComp";
+import { H2 } from "../../../components";
 
 const Sec4 = () => {
   return (
@@ -12,9 +13,12 @@ const Sec4 = () => {
           <div className="row real-estate-list">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
               <div className="section-title text-center">
-                <h2 className="sec_tit underline text-center mb20 text-white">
-                  What Do Our NFT Systems Support?
-                </h2>
+                <div className="sec_tit underline text-center mb20 text-white">
+                  <H2 style={{ color: "#fff" }}>
+                    {" "}
+                    What Do Our NFT Systems Support?{" "}
+                  </H2>
+                </div>
                 <p className="text-white">
                   We specialize in developing robust NFT systems that support
                   and enhance the four fundamental processes involved in NFT
@@ -69,7 +73,7 @@ const Sec4 = () => {
                   <img
                     className="lazy"
                     data-src="images/demo/icon/auctions.webp"
-                    src="images/demo/icon/auctions.webp"
+                    src="https://www.blockchainappfactory.com/images/demo/icon/auctions.webp"
                   />{" "}
                 </div>
                 <div className="content">
@@ -96,7 +100,7 @@ const Sec4 = () => {
                   <img
                     className="lazy"
                     data-src="images/demo/icon/transaction.webp"
-                    src="images/demo/icon/transaction.webp"
+                    src="https://www.blockchainappfactory.com/images/demo/icon/transaction.webp"
                   />{" "}
                 </div>
                 <div className="content">
@@ -123,7 +127,7 @@ const Sec4 = () => {
                   <img
                     className="lazy"
                     data-src="images/demo/icon/redeem.webp"
-                    src="images/demo/icon/redeem.webp"
+                    src="https://www.blockchainappfactory.com/images/demo/icon/redeem.webp"
                   />{" "}
                 </div>
                 <div className="content">

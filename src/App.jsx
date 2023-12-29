@@ -358,6 +358,10 @@ function App() {
               element={<NftAggregatorMarketplaceDevelopment />}
             />
             <Route
+              path="/cross-chain-nft-marketplace"
+              element={<CrossChainNftMarketplace />}
+            />
+            <Route
               path="/dao-enabled-nft-platform"
               element={<DaoEnabledNftPlatform />}
             />

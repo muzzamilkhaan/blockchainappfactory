@@ -277,8 +277,7 @@ export const SecEight = styled.div`
     }
   }
 
-  element.style {
-  }
+
   #base {
     padding: 50px 100px;
   }
