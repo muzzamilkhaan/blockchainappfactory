@@ -162,6 +162,7 @@ import PhygitalNftMarketplace from "./pages/NFT/phygitalNftMarketplace";
 import FractionalNftMarketplaceDevelopment from "./pages/NFT/fractionalNftMarketplaceDevelopment";
 import NftDevelopmentServices from "./pages/NFT/nftDevelopmentServices";
 import NftLaunchpadDevelopmentService from "./pages/NFT/nftLaunchpadDevelopmentService";
+import NftExchangeDevelopment from "./pages/NFT/nftExchangeDevelopment";
 
 function App() {
   return (
@@ -391,8 +392,12 @@ function App() {
               element={<NftDevelopmentServices />}
             />
             <Route
-              path="nft-launchpad-development-service"
+              path="/nft-launchpad-development-service"
               element={<NftLaunchpadDevelopmentService />}
+            />
+            <Route
+              path="/nft-exchange-development"
+              element={<NftExchangeDevelopment />}
             />
           </Routes>
         </Suspense>
