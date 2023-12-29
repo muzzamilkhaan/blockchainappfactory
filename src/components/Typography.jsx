@@ -81,7 +81,8 @@ const H2 = styled.h2`
   letter-spacing: 1.5px !important;
   color: #000;
   font-size: ${({ fontSize }) =>
-    fontSize ? fontSize : "clamp(20px, 2.1vw, 30px)"};
+    fontSize ? fontSize : "clamp(20px, 2.1vw, 26px)"};
+    font-weight: 700;
 `;
 const H3 = styled.h3`
   font-family: "Lato", sans-serif;

@@ -671,14 +671,10 @@ function Header() {
                         </Link>
                       </li>
                       <li>
-                        <a href="nft-for-sports">
-                          NFT Marketplace For Sports
-                        </a>
+                        <a href="nft-for-sports">NFT Marketplace For Sports</a>
                       </li>
                       <li>
-                        <a href="nft-for-realestate">
-                          NFT for Real estate
-                        </a>
+                        <a href="nft-for-realestate">NFT for Real estate</a>
                       </li>
                       <li>
                         <a href="nft-for-physical-assets">
@@ -686,9 +682,7 @@ function Header() {
                         </a>
                       </li>
                       <li>
-                        <a href="nft-in-ecommerce">
-                          NFT in E-commerce
-                        </a>
+                        <a href="nft-in-ecommerce">NFT in E-commerce</a>
                       </li>
                       <li>
                         <a href="nft-ticketing-marketplace">
@@ -739,171 +733,173 @@ function Header() {
                   </li>
                   {/*  */}
                   <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
-                                        <h4>NFT Services</h4>
-                                        <ul
-                                            className="mega-submenu1 normal-sub"
-                                            style={{ display: "none" }}
-                                        >
-                                            <li>
-                                              <Link to="nft-development-services">
-                                                    NFT Development Services
-                                                    </Link>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-launchpad-development-service">
-                                                    NFT Launchpad Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-exchange-development">
-                                                    NFT Exchange Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-wallet-development">
-                                                    NFT Wallet Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-minting-platform-development">
-                                                    NFT minting platform
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-layer-2-development">
-                                                    NFT Layer 2 Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/create-nft-ecosystem">
-                                                    NFT Ecosystem
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/semi-fungible-token-development">
-                                                    SFT Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/carbon-credits-development">
-                                                    Carbon Credits Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/social-token-development-platform">
-                                                    Social Token Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-staking-platform-development">
-                                                    NFT Staking platform
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-streaming-platform-development-solutions">
-                                                    NFT Streaming Platform
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-consulting">
-                                                    NFT Consulting Service
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-studio">
-                                                    NFT Studio
-                                                </a>
-                                            </li>
-                                            <h4>Report</h4>
-                                            <ul className="mega-submenu1 normal-sub">
-                                                <li>
-                                                    <a href="https://www.blockchainappfactory.com/nft-adoption-market-analysis-report">
-                                                        NFT Adoption Report
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </ul>
-                                    </li>
+                    <h4>NFT Services</h4>
+                    <ul
+                      className="mega-submenu1 normal-sub"
+                      style={{ display: "none" }}
+                    >
+                      <li>
+                        <Link to="nft-development-services">
+                          NFT Development Services
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="nft-launchpad-development-service">
+                          NFT Launchpad Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="nft-exchange-development">
+                          NFT Exchange Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="nft-wallet-development">
+                          NFT Wallet Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="nft-minting-platform-development">
+                          NFT minting platform
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="nft-layer-2-development">
+                          NFT Layer 2 Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="create-nft-ecosystem">NFT Ecosystem</Link>
+                      </li>
+                      <li>
+                        <Link to="semi-fungible-token-development">
+                          SFT Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="carbon-credits-development">
+                          Carbon Credits Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="social-token-development-platform">
+                          Social Token Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="nft-staking-platform-development">
+                          NFT Staking platform
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="nft-streaming-platform-development-solutions">
+                          NFT Streaming Platform
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="nft-consulting">NFT Consulting Service</Link>
+                      </li>
+                      <li>
+                        <Link to="nft-studio">NFT Studio</Link>
+                      </li>
+                      <li>
+                        <Link to="nft-art-design-services">
+                          NFT Art Design Services
+                        </Link>
+                      </li>
+                      <h4>Report</h4>
+                      <ul className="mega-submenu1 normal-sub">
+                        <li>
+                          <a href="https://www.blockchainappfactory.com/nft-adoption-market-analysis-report">
+                            NFT Adoption Report
+                          </a>
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
                   <li className="col-xs-12 col-sm-12 col-lg-3 col-md-12 has-subsubmenu">
-                                        <h4>NFT Gaming</h4>
-                                        <ul className="mega-submenu1 normal-sub" style={{ opacity: 1 }}>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-gaming-platform-development">
-                                                    NFT Gaming Platform
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/p2e-nft-game-development">
-                                                    Play2Earn Game Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/web2-game-to-web3-game-development">
-                                                    Web2 to Web3 Game
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-lottery-game-development">
-                                                    NFT Lottery Game Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-gaming-marketplace-development">
-                                                    NFT Game Marketplace
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-racing-game-development">
-                                                    NFT Racing Game
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/casino-nft-games-development">
-                                                    NFT Casino Game
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-rpg-game-development">
-                                                    NFT RPG Game Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/move-to-earn-nft-platform">
-                                                    Move To Earn NFT Platform
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-game-development-like-splinterlands">
-                                                    Splinterlands Like NFT Game
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/dungeonswap-like-nft-game-development">
-                                                    Dungeon Swap Like NFT Game
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/mycryptoheroes-like-nft-game-development ">
-                                                    My Crypto Heros Like NFT Game
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-marketplace-like-zedrun">
-                                                    Zed Run Like NFT Game
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/decentraland-like-nft-development">
-                                                    Decentraland Like NFT Game
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/nft-game-development-like-revv-racing">
-                                                    Revv Racing Like NFT Game
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                    <h4>NFT Gaming</h4>
+                    <ul
+                      className="mega-submenu1 normal-sub"
+                      style={{ opacity: 1 }}
+                    >
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-gaming-platform-development">
+                          NFT Gaming Platform
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/p2e-nft-game-development">
+                          Play2Earn Game Development
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/web2-game-to-web3-game-development">
+                          Web2 to Web3 Game
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-lottery-game-development">
+                          NFT Lottery Game Development
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-gaming-marketplace-development">
+                          NFT Game Marketplace
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-racing-game-development">
+                          NFT Racing Game
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/casino-nft-games-development">
+                          NFT Casino Game
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-rpg-game-development">
+                          NFT RPG Game Development
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/move-to-earn-nft-platform">
+                          Move To Earn NFT Platform
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-game-development-like-splinterlands">
+                          Splinterlands Like NFT Game
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/dungeonswap-like-nft-game-development">
+                          Dungeon Swap Like NFT Game
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/mycryptoheroes-like-nft-game-development ">
+                          My Crypto Heros Like NFT Game
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-marketplace-like-zedrun">
+                          Zed Run Like NFT Game
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/decentraland-like-nft-development">
+                          Decentraland Like NFT Game
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/nft-game-development-like-revv-racing">
+                          Revv Racing Like NFT Game
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
               {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(4) }} onMouseLeave={() => { setDropdown(0) }}>
