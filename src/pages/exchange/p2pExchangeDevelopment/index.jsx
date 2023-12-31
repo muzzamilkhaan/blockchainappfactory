@@ -9,10 +9,10 @@ import {
   Content,
   ButtonContainer,
   // Button,
-  Sec2,
+  // Sec2,
   Content2,
   UnderLine,
-  Sec3,
+  // Sec3,
   ImageSec2,
   Sec4,
   Sec5,
@@ -47,6 +47,8 @@ import Sec10 from "../decentralizedExchangeDevelopment/Sec6";
 import Button from "../../../components/Button";
 import { H1, H2 } from "../../../components/index";
 import Sec1 from "./Sec1";
+import Sec2 from "./Sec2";
+import Sec3 from "./Sec3";
 const Data = [
   {
     img: "https://www.blockchainappfactory.com/images/p2p/cryptocurrencies.webp",
@@ -175,10 +177,12 @@ const FAQ = [
 const P2pExchangeDev = () => {
   return (
     <React.Fragment>
-      <Sec1/>
+      <Sec1 />
+      <Sec2 />
+      <Sec3 />
       <Container>
         {/* BANNER START HERE */}
-        <Banner>
+        {/* <Banner>
           <Sec>
             <Layout>
               <Content>
@@ -208,10 +212,10 @@ const P2pExchangeDev = () => {
               </Image>
             </Layout>
           </Sec>
-        </Banner>
+        </Banner> */}
         {/* BANNER END HERE */}
         {/* SEC2 START HERE */}
-        <Sec2 backgroundColor="white">
+        {/* <Sec2 backgroundColor="white">
           <Content2>
             <h2 className="h2">P2P Exchange Development Services</h2>
             <UnderLine />
@@ -234,15 +238,15 @@ const P2pExchangeDev = () => {
           <ImageSec2>
             <img src={icons.p2p_intro} alt="" />
           </ImageSec2>
-        </Sec2>
+        </Sec2> */}
         {/* SEC2 END HERE */}
         {/* SECTION3 START HERE */}
-        <Sec3 backgroundColor="#f2f2f2">
+        {/* <Sec3 backgroundColor="#f2f2f2">
           <h3 className="sec_tit underline text-center sec3-h3">
             Our P2P Crypto Exchange Development Features
           </h3>
           <Card data={Data} />
-        </Sec3>
+        </Sec3> */}
         {/* SECTION3 END HERE */}
         {/* SECTION 4 START HERE */}
         <Sec4 backgroundColor="white">
