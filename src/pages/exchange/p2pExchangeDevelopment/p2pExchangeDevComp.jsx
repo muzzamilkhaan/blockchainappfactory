@@ -350,6 +350,9 @@ export const Sec6 = styled(Section)`
       margin-left: -18%;
     }
   }
+  .timeline-center h4 {
+    font-family: "Lato", sans-serif;
+  }
 `;
 
 export const Sec7 = styled(Section)`
@@ -532,19 +535,145 @@ export const SecOne = styled.div`
       padding-top: 0;
     }
   }
-  .d-flex{
+  .d-flex {
     @media (max-width: 767px) {
-     justify-content: center !important;
+      justify-content: center !important;
     }
   }
 `;
 export const SecTwo = styled.div``;
-export const SecThree = styled.div``;
-export const SecFour = styled.div``;
-export const SecFive = styled.div``;
-export const SecSix = styled.div``;
+export const SecThree = styled.div`
+  .flip-box {
+    min-height: 380px !important;
+    @media (max-width: 767px) {
+      min-height: max-content !important;
+    }
+  }
+  .flip-icon-outer {
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  .flip-icon-outer img {
+    height: 60px;
+    position: relative;
+    top: 19px;
+  }
+  .flip-tit {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+  }
+  .flip-txt {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+`;
+export const SecFour = styled.div`
+  .technologies1 {
+    background: #140050;
+    padding: 50px 0;
+  }
+  .technologies1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .technologies1 ul li {
+    width: 26%;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    margin: -1px;
+    border: 1px solid #fff;
+    @media (max-width:767px){
+      width: 49%;
+    }
+  }
+  img {
+    vertical-align: middle;
+    max-width: 100%;
+  }
+  .technologies1 ul li p {
+    margin-bottom: 0px;
+  }
+`;
+export const SecFive = styled.div`
+  .work_ic {
+    background: #fff;
+    width: 100px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    height: 100px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  .work_pr {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #000000;
+  }
+  .work_ic img {
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  img.arrr {
+    width: 100px;
+    position: absolute;
+    right: -18%;
+    top: 40px;
+    height: 25px;
+  }
+  .lt_row {
+    position: relative;
+    margin-left: 13%;
+  }
+`;
+export const SecSix = styled.div`
+  .design {
+    background: #000;
+    border-radius: 20px;
+    padding: 5px 0 1px;
+    margin: 15px auto;
+  }
+
+  .design h5,
+  .design p {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1.5px !important;
+  }
+`;
 export const SecSeven = styled.div``;
-export const SecEight = styled.div``;
+export const SecEight = styled.div`
+  .ben_sec ul {
+    padding-left: 0;
+  }
+  .ben_sec li {
+    background: #04bdb70d;
+    margin-bottom: 21px;
+    border-left: 4px solid #17b5587a;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .ben_sec li i {
+    color: #17b559;
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 17px;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    background: #f5f5f5;
+    padding: 10px;
+    line-height: 33px;
+  }
+`;
 export const SecNine = styled.div``;
 export const SecTen = styled.div``;
 export const SecEleven = styled.div``;

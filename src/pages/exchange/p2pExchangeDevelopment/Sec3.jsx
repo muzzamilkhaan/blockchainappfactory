@@ -9,18 +9,18 @@ const Sec3 = () => {
         <div className="container">
           <div className="row">
             <div className="sec_tit underline text-center">
-              <H2> Our P2P Crypto Exchange Development Features </H2>   
+              <H2> Our P2P Crypto Exchange Development Features </H2>
             </div>
           </div>
           <div className="row flip-box-row">
             <div className="col-md-4 col-sm-4 col-xs-12">
               <div
                 className="equal-height white-flip-box flip-box"
-                style={{ minHeight: 345 }}
+               
               >
                 <div className="flip-icon-outer">
                   {" "}
-                  <img src="/images/p2p/cryptocurrencies.webp" />{" "}
+                  <img src="https://www.blockchainappfactory.com/images/p2p/cryptocurrencies.webp" />{" "}
                 </div>
                 <h5 className="flip-tit">Multiple Cryptocurrencies</h5>
                 <p className="flip-txt">
@@ -32,11 +32,11 @@ const Sec3 = () => {
             <div className="col-md-4 col-sm-4 col-xs-12">
               <div
                 className="equal-height white-flip-box flip-box"
-                style={{ minHeight: 345 }}
+               
               >
                 <div className="flip-icon-outer">
                   {" "}
-                  <img src="/images/p2p/translate.webp" />{" "}
+                  <img src="https://www.blockchainappfactory.com/images/p2p/translate.webp  " />{" "}
                 </div>
                 <h5 className="flip-tit">Multi-Language Support</h5>
                 <p className="flip-txt">
@@ -50,11 +50,11 @@ const Sec3 = () => {
             <div className="col-md-4 col-sm-4 col-xs-12">
               <div
                 className="equal-height white-flip-box flip-box"
-                style={{ minHeight: 345 }}
+               
               >
                 <div className="flip-icon-outer">
                   {" "}
-                  <img src="/images/p2p/track.webp" />{" "}
+                  <img src="https://www.blockchainappfactory.com/images/p2p/track.webp" />{" "}
                 </div>
                 <h5 className="flip-tit">Dominant Trading engine</h5>
                 <p className="flip-txt">
@@ -69,11 +69,11 @@ const Sec3 = () => {
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div
                 className="equal-height white-flip-box flip-box"
-                style={{ minHeight: 345 }}
+               
               >
                 <div className="flip-icon-outer">
                   {" "}
-                  <img src="/images/p2p/portfolio.webp" />{" "}
+                  <img src="https://www.blockchainappfactory.com/images/p2p/portfolio.webp" />{" "}
                 </div>
                 <h5 className="flip-tit">
                   Automated KYC &amp; AML verification
@@ -88,11 +88,11 @@ const Sec3 = () => {
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div
                 className="equal-height white-flip-box flip-box"
-                style={{ minHeight: 345 }}
+               
               >
                 <div className="flip-icon-outer">
                   {" "}
-                  <img src="/images/p2p/wrench.webp" />{" "}
+                  <img src="https://www.blockchainappfactory.com/images/p2p/wrench.webp" />{" "}
                 </div>
                 <h5 className="flip-tit">Crypto Swaps</h5>
                 <p className="flip-txt">
@@ -106,11 +106,11 @@ const Sec3 = () => {
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div
                 className="equal-height white-flip-box flip-box"
-                style={{ minHeight: 345 }}
+               
               >
                 <div className="flip-icon-outer">
                   {" "}
-                  <img src="/images/p2p/gateway.webp" />{" "}
+                  <img src="https://www.blockchainappfactory.com/images/p2p/gateway.webp" />{" "}
                 </div>
                 <h5 className="flip-tit">Payment Gateway integration</h5>
                 <p className="flip-txt">
@@ -129,7 +129,7 @@ const Sec3 = () => {
               >
                 <div className="flip-icon-outer">
                   {" "}
-                  <img src="/images/p2p/authentication.webp" />{" "}
+                  <img src="https://www.blockchainappfactory.com/images/p2p/authentication.webp" />{" "}
                 </div>
                 <h5 className="flip-tit">Multi-Factor Authentication</h5>
                 <p className="flip-txt">
@@ -146,7 +146,7 @@ const Sec3 = () => {
               >
                 <div className="flip-icon-outer">
                   {" "}
-                  <img src="/images/p2p/wallet.webp" />{" "}
+                  <img src="https://www.blockchainappfactory.com/images/p2p/wallet.webp" />{" "}
                 </div>
                 <h5 className="flip-tit">Multi-Currency wallet</h5>
                 <p className="flip-txt">
@@ -162,7 +162,7 @@ const Sec3 = () => {
               >
                 <div className="flip-icon-outer">
                   {" "}
-                  <img src="/images/p2p/admin.webp" />{" "}
+                  <img src="https://www.blockchainappfactory.com/images/p2p/admin.webp" />{" "}
                 </div>
                 <h5 className="flip-tit">Admin Panel</h5>
                 <p className="flip-txt">
@@ -175,7 +175,7 @@ const Sec3 = () => {
               <div className="equal-height white-flip-box flip-box" style={{}}>
                 <div className="flip-icon-outer">
                   {" "}
-                  <img src="/images/p2p/meeting.webp" />{" "}
+                  <img src="https://www.blockchainappfactory.com/images/p2p/meeting.webp" />{" "}
                 </div>
                 <h5 className="flip-tit">Preferred trading</h5>
                 <p className="flip-txt">
