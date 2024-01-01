@@ -121,9 +121,77 @@ export const SecTwo = styled.div`
 `;
 export const SecThree = styled.div``;
 export const SecFour = styled.div``;
-export const SecFive = styled.div``;
+export const SecFive = styled.div`
+  .service-box {
+    background: #f9f9ff;
+    text-align: center;
+    padding: 40px 15px;
+    margin-top: 30px;
+    transition: all 0.3s;
+    min-height: 530px;
+    @media (max-width: 767px) {
+      min-height: max-content;
+    }
+  }
+  .service-box h3 {
+    margin-bottom: 20px;
+    line-height: 1.3 !important;
+    font-family: "Lato", sans-serif;
+  }
+  .service-box img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 14px;
+  }
+  .service-box p {
+    padding-bottom: 20px;
+    color: #161515;
+  }
+`;
 export const SecSix = styled.div``;
-export const SecSeven = styled.div``;
+export const SecSeven = styled.div`
+  .service-three-area .single-service {
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    min-height: 340px;
+    margin-bottom: 20px;
+    padding-top: 20px !important;
+    &:hover {
+      box-shadow: 0 0 20px rgb(193 193 193 / 60%);
+      .service-icon {
+        transform: scale(1.1);
+      }
+    }
+    @media (max-width: 767px) {
+      min-height: max-content;
+    }
+  }
+  .service-three-area .single-service .service-icon span {
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    display: inline-block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 28px;
+  }
+  .service-three-area .single-service .service-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
+  }
+`;
 export const SecEight = styled.div``;
 export const SecNine = styled.div``;
 export const SecTen = styled.div``;
