@@ -165,6 +165,7 @@ import NftLaunchpadDevelopmentService from "./pages/NFT/nftLaunchpadDevelopmentS
 import NftExchangeDevelopment from "./pages/NFT/nftExchangeDevelopment";
 import NftWalletDevelopment from "./pages/NFT/nftWalletDevelopment";
 import NftMintingPlatformDevelopment from "./pages/NFT/nftMintingPlatformDevelopment";
+import NftLayerTwoDevelopment from "./pages/NFT/nftLayerTwoDevelopment";
 
 function App() {
   return (
@@ -408,6 +409,10 @@ function App() {
             <Route
               path="/nft-minting-platform-development"
               element={<NftMintingPlatformDevelopment />}
+            />
+            <Route
+              path="/nft-layer-2-development"
+              element={<NftLayerTwoDevelopment />}
             />
           </Routes>
         </Suspense>
