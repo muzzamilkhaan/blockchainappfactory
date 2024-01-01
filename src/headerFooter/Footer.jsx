@@ -5,7 +5,7 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 function Footer() {
   return (
     <>
-      <div className="footer-wrap" style={{ paddingTop: '80px' }}>
+      <div id='footerID' className="footer-wrap" style={{ paddingTop: '80px' }}>
         <div className="container">
           <div className="row">
             <div
