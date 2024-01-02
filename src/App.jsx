@@ -168,6 +168,7 @@ import NftMintingPlatformDevelopment from "./pages/NFT/nftMintingPlatformDevelop
 import NftLayerTwoDevelopment from "./pages/NFT/nftLayerTwoDevelopment";
 import CreateNftEcosystem from "./pages/NFT/createNftEcosystem";
 import SemiFungibleTokenDevelopment from "./pages/NFT/semiFungibleTokenDevelopment";
+import SocialTokenDevelopmentPlatform from "./pages/NFT/socialTokenDevelopmentPlatform";
 
 function App() {
   return (
@@ -421,8 +422,12 @@ function App() {
               element={<CreateNftEcosystem />}
             />
             <Route
-              path="semi-fungible-token-development"
+              path="/semi-fungible-token-development"
               element={<SemiFungibleTokenDevelopment />}
+            />
+            <Route
+              path="/social-token-development-platform"
+              element={<SocialTokenDevelopmentPlatform />}
             />
           </Routes>
         </Suspense>
