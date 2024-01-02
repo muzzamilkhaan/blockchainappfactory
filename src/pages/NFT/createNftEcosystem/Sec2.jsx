@@ -3,45 +3,31 @@ import { SecTwo } from "./createNftEcosystemComp";
 import { H3, H2 } from "../../../components";
 const Sec2 = () => {
   const [isSticky, setSticky] = useState(false);
-  const [footerOffset, setFooterOffset] = useState(0);
-  const innerWrapperRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
-      // Adjust the scroll position threshold as needed
       const scrollPosition = window.scrollY;
       const threshold = 400;
+      const footer = document.getElementById("get-quote"); // Replace "yourFooterId" with the actual ID of your footer
 
-      // Check if the scroll position is beyond the threshold
-      setSticky(scrollPosition > threshold);
-    };
-    const handleResize = () => {
-      console.log("inside handleSize");
-      // Check if innerWrapperRef.current is not null before accessing its properties
-      if (innerWrapperRef.current) {
-        // Calculate the distance between the bottom of the inner wrapper and the top of the footer
-        const innerWrapperBottom =
-          innerWrapperRef.current.getBoundingClientRect().bottom;
-        const footerTop = document
-          .getElementById("footerID")
-          .getBoundingClientRect().top;
-        setFooterOffset(innerWrapperBottom - footerTop);
-        // console.log("innerWrapperBottom:", innerWrapperBottom);
-        // console.log("footerTop:", footerTop);
-        // console.log("footerOffset:", innerWrapperBottom - footerTop);
+      if (footer) {
+        // console.log("INSDE IF: FOOTER", footer);
+        const footerPosition = footer.getBoundingClientRect().top;
+
+        // Check if the scroll position is within the threshold and before the footer
+        setSticky(
+          scrollPosition > threshold && footerPosition > window.innerHeight
+        );
+      } else {
+        // Fallback if footer element is not found
+        setSticky(scrollPosition > threshold);
       }
     };
-    window.addEventListener("resize", handleResize);
 
-    handleResize(); // Call it once to set initial values
-
-    // Attach the event listener when the component mounts
     window.addEventListener("scroll", handleScroll);
 
-    // Remove the event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("resize", handleResize);
     };
   }, []);
   return (
@@ -1180,15 +1166,12 @@ const Sec2 = () => {
                 className={`outer-wrapper ${isSticky ? "sticky-wrapper" : ""}`}
               >
                 <div
-                  ref={innerWrapperRef}
                   className="inner-wrapper-sticky"
                   style={{
                     position: isSticky ? "fixed" : "static",
-                    top: 120,
+                    top: isSticky ? 120 : "auto",
                     left: "885px",
-                    bottom: isSticky
-                      ? `${Math.max(200, footerOffset)}px`
-                      : "auto",
+                    marginBottom: isSticky ? 30 : 0,
                     width: "360px",
                   }}
                 >

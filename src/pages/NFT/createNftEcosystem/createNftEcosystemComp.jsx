@@ -41,6 +41,7 @@ export const SecOne = styled.div`
   }
 `;
 export const SecTwo = styled.div`
+margin-bottom: 30px;
   .separate ul li {
     list-style: disc;
   }
