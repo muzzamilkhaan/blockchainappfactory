@@ -171,6 +171,7 @@ import SemiFungibleTokenDevelopment from "./pages/NFT/semiFungibleTokenDevelopme
 import SocialTokenDevelopmentPlatform from "./pages/NFT/socialTokenDevelopmentPlatform";
 import NftStakingPlatformDevelopment from "./pages/NFT/nftStakingPlatformDevelopment";
 import NftStreamingPlatformDevelopmentSolutions from "./pages/NFT/nftStreamingPlatformDevelopmentSolutions";
+import NftConsulting from "./pages/NFT/nftConsulting";
 
 function App() {
   return (
@@ -438,6 +439,10 @@ function App() {
             <Route
               path="/nft-streaming-platform-development-solutions"
               element={<NftStreamingPlatformDevelopmentSolutions />}
+            />
+            <Route
+              path="/nft-consulting"
+              element={<NftConsulting />}
             />
           </Routes>
         </Suspense>
