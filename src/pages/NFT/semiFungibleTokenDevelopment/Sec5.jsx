@@ -39,7 +39,7 @@ const Sec5 = () => {
                   <img
                     className="dam"
                     data-src="images/semi-fungible-token-development/icons/05.webp"
-                    src="images/semi-fungible-token-development/icons/05.webp"
+                    src="https://www.blockchainappfactory.com/images/semi-fungible-token-development/icons/05.webp"
                   />{" "}
                 </div>
                 <div className="tw_feat_cnt">
@@ -59,7 +59,7 @@ const Sec5 = () => {
                   <img
                     className="dam"
                     data-src="images/semi-fungible-token-development/icons/06.webp"
-                    src="images/semi-fungible-token-development/icons/06.webp"
+                    src="https://www.blockchainappfactory.com/images/semi-fungible-token-development/icons/06.webp"
                   />{" "}
                 </div>
                 <div className="tw_feat_cnt">
@@ -79,7 +79,7 @@ const Sec5 = () => {
                   <img
                     className="dam"
                     data-src="images/semi-fungible-token-development/icons/07.webp"
-                    src="images/semi-fungible-token-development/icons/07.webp"
+                    src="https://www.blockchainappfactory.com/images/semi-fungible-token-development/icons/07.webp"
                   />{" "}
                 </div>
                 <div className="tw_feat_cnt">
@@ -99,7 +99,7 @@ const Sec5 = () => {
                   <img
                     className="dam"
                     data-src="images/semi-fungible-token-development/icons/08.webp"
-                    src="images/semi-fungible-token-development/icons/08.webp"
+                    src="https://www.blockchainappfactory.com/images/semi-fungible-token-development/icons/08.webp"
                   />{" "}
                 </div>
                 <div className="tw_feat_cnt">
@@ -119,7 +119,7 @@ const Sec5 = () => {
                   <img
                     className="dam"
                     data-src="images/semi-fungible-token-development/icons/09.webp"
-                    src="images/semi-fungible-token-development/icons/09.webp"
+                    src="https://www.blockchainappfactory.com/images/semi-fungible-token-development/icons/09.webp"
                   />{" "}
                 </div>
                 <div className="tw_feat_cnt">

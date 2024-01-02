@@ -1,5 +1,6 @@
 import React from "react";
 import { SecSeven } from "./semiFungibleTokenDevelopmentComp";
+import { H2 } from "../../../components";
 
 const Sec7 = () => {
   return (
@@ -8,10 +9,10 @@ const Sec7 = () => {
         <div className="container">
           <div className="row">
             <div className="sec_tit underline text-center">
-              <h3>
+              <H2>
                 Why Choose Blockchain App Factory for Semi Fungible Token
                 Development?
-              </h3>
+              </H2>
             </div>
           </div>
           <div className="row">

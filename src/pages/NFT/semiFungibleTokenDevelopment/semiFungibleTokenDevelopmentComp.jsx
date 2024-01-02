@@ -162,6 +162,9 @@ export const SecFour = styled.div`
         filter: brightness(0) invert(1);
       }
     }
+    @media (max-width:767px){
+      min-height: max-content;
+    }
   }
   .single_feature_six_seven_icon .icon {
     width: auto;
@@ -253,7 +256,11 @@ export const SecFive = styled.div`
     margin-top: 15px;
   }
 `;
-export const SecSix = styled.div``;
+export const SecSix = styled.div`
+.rounded-border {
+    border-radius: 10px;
+}
+`;
 export const SecSeven = styled.div``;
 export const SecEight = styled.div``;
 export const SecNine = styled.div``;
