@@ -170,6 +170,7 @@ import CreateNftEcosystem from "./pages/NFT/createNftEcosystem";
 import SemiFungibleTokenDevelopment from "./pages/NFT/semiFungibleTokenDevelopment";
 import SocialTokenDevelopmentPlatform from "./pages/NFT/socialTokenDevelopmentPlatform";
 import NftStakingPlatformDevelopment from "./pages/NFT/nftStakingPlatformDevelopment";
+import NftStreamingPlatformDevelopmentSolutions from "./pages/NFT/nftStreamingPlatformDevelopmentSolutions";
 
 function App() {
   return (
@@ -433,6 +434,10 @@ function App() {
             <Route
               path="/nft-staking-platform-development"
               element={<NftStakingPlatformDevelopment />}
+            />
+            <Route
+              path="/nft-streaming-platform-development-solutions"
+              element={<NftStreamingPlatformDevelopmentSolutions />}
             />
           </Routes>
         </Suspense>
