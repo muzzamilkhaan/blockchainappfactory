@@ -810,9 +810,9 @@ function Header() {
                       <h4>Report</h4>
                       <ul className="mega-submenu1 normal-sub">
                         <li>
-                          <a href="https://www.blockchainappfactory.com/nft-adoption-market-analysis-report">
+                          <Link to="nft-adoption-market-analysis-report">
                             NFT Adoption Report
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </ul>

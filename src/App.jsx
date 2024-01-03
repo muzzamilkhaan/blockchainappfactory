@@ -1,4 +1,6 @@
 import React, { Suspense, lazy } from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/landingpage/LandingPage";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -174,6 +176,7 @@ import NftStreamingPlatformDevelopmentSolutions from "./pages/NFT/nftStreamingPl
 import NftConsulting from "./pages/NFT/nftConsulting";
 import NftStudio from "./pages/NFT/nftStudio";
 import NftArtDesignServices from "./pages/NFT/nftArtDesignServices";
+import NftAdoptionMarketAnalysisReport from "./pages/NFT/nftAdoptionMarketAnalysisReport";
 
 function App() {
   return (
@@ -447,6 +450,10 @@ function App() {
             <Route
               path="/nft-art-design-services"
               element={<NftArtDesignServices />}
+            />
+            <Route
+              path="/nft-adoption-market-analysis-report"
+              element={<NftAdoptionMarketAnalysisReport />}
             />
           </Routes>
         </Suspense>
