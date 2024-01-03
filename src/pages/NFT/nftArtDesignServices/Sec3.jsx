@@ -49,7 +49,7 @@ const Sec3 = () => {
                     <img
                       className=""
                       data-src="images/nft-art-design-services/icons/3d.webp"
-                      src="images/nft-art-design-services/icons/3d.webp"
+                      src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/nft-collections.webp"
                     />
                   </div>
                   <div className="content">
@@ -67,7 +67,7 @@ const Sec3 = () => {
                     <img
                       className=""
                       data-src="images/nft-art-design-services/icons/nft-animation.webp"
-                      src="images/nft-art-design-services/icons/nft-animation.webp"
+                      src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/collectibles.webp"
                     />
                   </div>
                   <div className="content">
@@ -84,7 +84,7 @@ const Sec3 = () => {
                     <img
                       className=""
                       data-src="images/nft-art-design-services/icons/avatars.webp"
-                      src="images/nft-art-design-services/icons/avatars.webp"
+                      src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/avatars.webp"
                     />
                   </div>
                   <div className="content">
@@ -101,7 +101,7 @@ const Sec3 = () => {
                     <img
                       className=""
                       data-src="images/nft-art-design-services/icons/nft-collections.webp"
-                      src="images/nft-art-design-services/icons/nft-collections.webp"
+                      src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/nft-collections.webp"
                     />
                   </div>
                   <div className="content">
@@ -118,7 +118,7 @@ const Sec3 = () => {
                     <img
                       className=""
                       data-src="images/nft-art-design-services/icons/collectibles.webp"
-                      src="images/nft-art-design-services/icons/collectibles.webp"
+                      src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/collectibles.webp"
                     />
                   </div>
                   <div className="content">
@@ -136,7 +136,7 @@ const Sec3 = () => {
                     <img
                       className=""
                       data-src="images/nft-art-design-services/icons/digital-assets.webp"
-                      src="images/nft-art-design-services/icons/digital-assets.webp"
+                      src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/digital-assets.webp"
                     />
                   </div>
                   <div className="content">
@@ -154,7 +154,7 @@ const Sec3 = () => {
                     <img
                       className=""
                       data-src="images/nft-art-design-services/icons/marketplaces.webp"
-                      src="images/nft-art-design-services/icons/marketplaces.webp"
+                      src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/marketplaces.webp"
                     />
                   </div>
                   <div className="content">
@@ -172,7 +172,7 @@ const Sec3 = () => {
                     <img
                       className=""
                       data-src="images/nft-art-design-services/icons/marketing.webp"
-                      src="images/nft-art-design-services/icons/marketing.webp"
+                      src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/marketing.webp"
                     />
                   </div>
                   <div className="content">

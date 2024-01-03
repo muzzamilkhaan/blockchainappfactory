@@ -1,5 +1,6 @@
 import React from "react";
 import { SecFour } from "./nftArtDesignServicesComp";
+import { H2 } from "../../../components";
 
 const Sec4 = () => {
   return (
@@ -7,11 +8,12 @@ const Sec4 = () => {
       <div className="technologies gray_bg" style={{ background: "#eee" }}>
         <div className="container">
           <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3 className="sec_tit underline text-center">
-              Our NFT Design Agency Creates Appealing Visuals for
-            </h3>
-            <p className="text-center " 
-            // style="font-size: 16px;"
+            <div className="sec_tit underline text-center">
+              <H2> Our NFT Design Agency Creates Appealing Visuals for </H2>
+            </div>
+            <p
+              className="text-center "
+              // style="font-size: 16px;"
             >
               Experienced artists and graphic designers from our NFT design
               agency work tirelessly to bring NFTs that intrigue people visually
@@ -22,7 +24,7 @@ const Sec4 = () => {
                 <img
                   className=""
                   data-src="images/nft-art-design-services/icons/nft-gaming.webp"
-                  src="images/nft-art-design-services/icons/nft-gaming.webp"
+                  src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/nft-gaming.webp"
                 />
                 <p className="white">Gaming Characters </p>
               </li>
@@ -30,7 +32,7 @@ const Sec4 = () => {
                 <img
                   className=""
                   data-src="images/nft-art-design-services/icons/artworks.webp"
-                  src="images/nft-art-design-services/icons/artworks.webp"
+                  src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/artworks.webp"
                 />
                 <p className="white">Artworks </p>
               </li>
@@ -38,7 +40,7 @@ const Sec4 = () => {
                 <img
                   className=""
                   data-src="images/nft-art-design-services/icons/music.webp"
-                  src="images/nft-art-design-services/icons/music.webp"
+                  src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/music.webp"
                 />
                 <p className="white">Music Clips</p>
               </li>
@@ -46,7 +48,7 @@ const Sec4 = () => {
                 <img
                   className=""
                   data-src="images/nft-art-design-services/icons/video.webp"
-                  src="images/nft-art-design-services/icons/video.webp"
+                  src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/video.webp"
                 />
                 <p className="white">Video Moments</p>
               </li>
@@ -54,7 +56,7 @@ const Sec4 = () => {
                 <img
                   className=""
                   data-src="images/nft-art-design-services/icons/generative.webp"
-                  src="images/nft-art-design-services/icons/generative.webp"
+                  src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/generative.webp"
                 />
                 <p className="white">Generative Images</p>
               </li>
@@ -62,7 +64,7 @@ const Sec4 = () => {
                 <img
                   className=""
                   data-src="images/nft-art-design-services/icons/metaverse.webp"
-                  src="images/nft-art-design-services/icons/metaverse.webp"
+                  src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/metaverse.webp"
                 />
                 <p className="white">Metaverse Avatars</p>
               </li>
@@ -70,7 +72,7 @@ const Sec4 = () => {
                 <img
                   className=""
                   data-src="images/nft-art-design-services/icons/fashion.webp"
-                  src="images/nft-art-design-services/icons/fashion.webp"
+                  src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/fashion.webp"
                 />
                 <p className="white">Fashion Accessories</p>
               </li>
@@ -78,7 +80,7 @@ const Sec4 = () => {
                 <img
                   className=""
                   data-src="images/nft-art-design-services/icons/collectibles.webp"
-                  src="images/nft-art-design-services/icons/collectibles.webp"
+                  src="https://www.blockchainappfactory.com/images/nft-art-design-services/icons/collectibles.webp"
                 />
                 <p className="white">Digital Collectibles</p>
               </li>
