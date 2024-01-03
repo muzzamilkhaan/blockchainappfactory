@@ -177,6 +177,7 @@ import NftConsulting from "./pages/NFT/nftConsulting";
 import NftStudio from "./pages/NFT/nftStudio";
 import NftArtDesignServices from "./pages/NFT/nftArtDesignServices";
 import NftAdoptionMarketAnalysisReport from "./pages/NFT/nftAdoptionMarketAnalysisReport";
+import NftGamingPlatformDevelopment from "./pages/NFT/nftGamingPlatformDevelopment";
 
 function App() {
   return (
@@ -454,6 +455,10 @@ function App() {
             <Route
               path="/nft-adoption-market-analysis-report"
               element={<NftAdoptionMarketAnalysisReport />}
+            />
+            <Route
+              path="/nft-gaming-platform-development"
+              element={<NftGamingPlatformDevelopment />}
             />
           </Routes>
         </Suspense>
