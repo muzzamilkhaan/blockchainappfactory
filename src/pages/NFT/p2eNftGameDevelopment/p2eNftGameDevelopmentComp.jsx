@@ -53,11 +53,15 @@ export const SecOne = styled.div`
     @media (max-width: 767px) {
       font-size: 25px !important;
       text-align: center;
+      padding-top: 0;
     }
   }
   .contentall p {
     color: #fff !important;
     text-align: start;
+    @media (max-width: 767px) {
+      text-align: center;
+    }
   }
   .banner {
     background-image: url("https://www.blockchainappfactory.com/images/p2e/p2e-bg.webp");
@@ -65,6 +69,12 @@ export const SecOne = styled.div`
     /* padding-top: 138px; */
     /* padding-bottom: 50px; */
     background-position: center;
+    @media (max-width: 991px) {
+      height: 900px;
+      .contentall {
+        padding-top: 0;
+      }
+    }
     @media (max-width: 767px) {
       height: 100vh;
     }
