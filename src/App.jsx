@@ -183,6 +183,7 @@ import Web2GameToWeb3GameDevelopment from "./pages/NFT/web2GameToWeb3GameDevelop
 import NftLotteryGameDevelopment from "./pages/NFT/nftLotteryGameDevelopment/NftLotteryGameDevelopment";
 import NftGamingMarketplaceDevelopment from "./pages/NFT/nftGamingMarketplaceDevelopment/nftGamingMarketplaceDevelopment";
 import NftRacingGameDevelopment from "./pages/NFT/nftRacingGameDevelopment/nftRacingGameDevelopment";
+import CasinoNftGamesDevelopment from "./pages/NFT/casinoNftGamesDevelopment/casinoNftGamesDevelopment";
 
 function App() {
   return (
@@ -484,6 +485,10 @@ function App() {
             <Route
               path="/nft-racing-game-development"
               element={<NftRacingGameDevelopment />}
+            />
+            <Route
+              path="/casino-nft-games-development"
+              element={<CasinoNftGamesDevelopment />}
             />
           </Routes>
         </Suspense>
