@@ -9,12 +9,9 @@ const Sec11 = () => {
         <div className="container">
           <div className="section-title text-center">
             <div className="sec_tit">
-              <div className="text-white underline">
-                <H2 style={{ color: "#fff" }}>
-                  {" "}
-                  Workflow of Our NFT Game Development{" "}
-                </H2>
-              </div>
+              <h2 className="text-white underline">
+                Workflow of Our NFT Game Development{" "}
+              </h2>
             </div>
           </div>
           <div className="row mt40">
@@ -35,7 +32,7 @@ const Sec11 = () => {
                       to frame an exclusive plan.
                     </p>
                   </div>
-                  <div className="border1" />
+                  <div className="border1"></div>
                 </div>
                 <div className="gameflow">
                   <div className="gameflow-icon">
@@ -52,7 +49,7 @@ const Sec11 = () => {
                       gaming platform efficiently.
                     </p>
                   </div>
-                  <div className="border1" />
+                  <div className="border1"></div>
                 </div>
                 <div className="gameflow">
                   <div className="gameflow-icon">
@@ -69,7 +66,7 @@ const Sec11 = () => {
                       based on your game’s concept.
                     </p>
                   </div>
-                  <div className="border1" />
+                  <div className="border1"></div>
                 </div>
                 <div className="gameflow">
                   <div className="gameflow-icon">
@@ -86,7 +83,7 @@ const Sec11 = () => {
                       match your NFT game’s theme.
                     </p>
                   </div>
-                  <div className="border1" />
+                  <div className="border1"></div>
                 </div>
                 <div className="gameflow">
                   <div className="gameflow-icon">
@@ -103,7 +100,7 @@ const Sec11 = () => {
                       coordinates using game engines.
                     </p>
                   </div>
-                  <div className="border1" />
+                  <div className="border1"></div>
                 </div>
                 <div className="gameflow">
                   <div className="gameflow-icon">
@@ -120,7 +117,7 @@ const Sec11 = () => {
                       offer immersive experiences.
                     </p>
                   </div>
-                  <div className="border1" />
+                  <div className="border1"></div>
                 </div>
                 <div className="gameflow">
                   <div className="gameflow-icon">
@@ -137,7 +134,7 @@ const Sec11 = () => {
                       requirements without compromising.
                     </p>
                   </div>
-                  <div className="border1" />
+                  <div className="border1"></div>
                 </div>
                 <div className="gameflow">
                   <div className="gameflow-icon">
@@ -154,7 +151,7 @@ const Sec11 = () => {
                       technological stacks and practices.
                     </p>
                   </div>
-                  <div className="border1" />
+                  <div className="border1"></div>
                 </div>
                 <div className="gameflow">
                   <div className="gameflow-icon">
@@ -171,7 +168,7 @@ const Sec11 = () => {
                       troubleshot if defects arise.
                     </p>
                   </div>
-                  <div className="border1" />
+                  <div className="border1"></div>
                 </div>
                 <div className="gameflow">
                   <div className="gameflow-icon">
@@ -188,7 +185,7 @@ const Sec11 = () => {
                       public use on various platforms.
                     </p>
                   </div>
-                  <div className="border1" />
+                  <div className="border1"></div>
                 </div>
               </div>
             </div>

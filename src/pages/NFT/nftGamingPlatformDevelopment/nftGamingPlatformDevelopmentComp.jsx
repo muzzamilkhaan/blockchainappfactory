@@ -768,7 +768,6 @@ export const SecEleven = styled.div`
   .main-gameflow .gameflow:nth-child(2n) .gameflow-content {
     float: right;
     text-align: right;
-  
   }
 
   .main-gameflow .gameflow-content {
@@ -793,5 +792,17 @@ export const SecEleven = styled.div`
     z-index: 1;
   }
 `;
-export const SecTwelve = styled.div``;
+export const SecTwelve = styled.div`
+  .uniq_features ul {
+    padding-left: 0px;
+  }
+  .uniq_features ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 29px;
+    text-indent: -29px;
+    color: #fff;
+  }
+  
+`;
 export const SecThirteen = styled.div``;

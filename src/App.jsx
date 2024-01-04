@@ -178,6 +178,7 @@ import NftStudio from "./pages/NFT/nftStudio";
 import NftArtDesignServices from "./pages/NFT/nftArtDesignServices";
 import NftAdoptionMarketAnalysisReport from "./pages/NFT/nftAdoptionMarketAnalysisReport";
 import NftGamingPlatformDevelopment from "./pages/NFT/nftGamingPlatformDevelopment";
+import P2eNftGameDevelopment from "./pages/NFT/p2eNftGameDevelopment";
 
 function App() {
   return (
@@ -459,6 +460,10 @@ function App() {
             <Route
               path="/nft-gaming-platform-development"
               element={<NftGamingPlatformDevelopment />}
+            />
+            <Route
+              path="/p2e-nft-game-development"
+              element={<P2eNftGameDevelopment />}
             />
           </Routes>
         </Suspense>

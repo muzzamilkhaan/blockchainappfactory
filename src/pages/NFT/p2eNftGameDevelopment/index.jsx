@@ -1,7 +1,6 @@
 import React from "react";
 import Sec1 from "./Sec1";
 import Sec2 from "./Sec2";
-import { Wrapper } from "./nftGamingPlatformDevelopmentComp";
 import Sec3 from "./Sec3";
 import Sec4 from "./Sec4";
 import Sec5 from "./Sec5";
@@ -12,24 +11,24 @@ import Sec9 from "./Sec9";
 import Sec10 from "./Sec10";
 import Sec11 from "./Sec11";
 import Sec12 from "./Sec12";
+import WeSpotlightedIn from "../../../components/shared/WeSpotlightedIn";
 
 const index = () => {
   return (
     <div>
-      <Wrapper>
-        <Sec1 />
-        <Sec2 />
-        <Sec3 />
-        <Sec4 />
-        <Sec5 />
-        <Sec6 />
-        <Sec7 />
-        <Sec8 />
-        <Sec9 />
-        <Sec10 />
-        <Sec11 />
-        <Sec12 />
-      </Wrapper>
+      <Sec1 />
+      <Sec2 />
+      <Sec3 />
+      {/* <Sec4 /> */}
+      <Sec5 />
+      <Sec6 />
+      <Sec7 />
+      <Sec8 />
+      <Sec9 />
+      <Sec10 />
+      <Sec11 />
+      <Sec12 />
+      <WeSpotlightedIn />
     </div>
   );
 };
