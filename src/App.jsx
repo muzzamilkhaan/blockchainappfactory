@@ -15,7 +15,7 @@ import "./cryptoCurrency.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import CreateYourOwnTokenAndCoin from "./components/shared/CreateYourOwnTokenAndCoin";
 import Header from "./headerFooter/Header";
-import P2pExchangeDev from "./pages/exchange/p2pExchangeDevelopment";
+import P2pExchangeDev from "./pages/exchange/p2pExchangeDevelopment/p2pExchangeDevComp";
 import Footer from "./headerFooter/Footer";
 
 const ContactUs = lazy(() => import("./pages/contactUs/ContactUs"));
