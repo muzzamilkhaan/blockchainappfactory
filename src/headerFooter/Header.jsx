@@ -874,29 +874,29 @@ function Header() {
                         </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/dungeonswap-like-nft-game-development">
+                        <Link to="dungeonswap-like-nft-game-development">
                           Dungeon Swap Like NFT Game
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/mycryptoheroes-like-nft-game-development ">
+                        <Link to="mycryptoheroes-like-nft-game-development">
                           My Crypto Heros Like NFT Game
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/nft-marketplace-like-zedrun">
+                        <Link to="nft-marketplace-like-zedrun">
                           Zed Run Like NFT Game
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/decentraland-like-nft-development">
+                        <Link to="decentraland-like-nft-development">
                           Decentraland Like NFT Game
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/nft-game-development-like-revv-racing">
+                        <Link to="nft-game-development-like-revv-racing">
                           Revv Racing Like NFT Game
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>

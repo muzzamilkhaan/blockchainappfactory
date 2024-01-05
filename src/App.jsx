@@ -186,6 +186,8 @@ import NftRacingGameDevelopment from "./pages/NFT/nftRacingGameDevelopment/nftRa
 import CasinoNftGamesDevelopment from "./pages/NFT/casinoNftGamesDevelopment/casinoNftGamesDevelopment";
 import NftRpgGameDevelopment from "./pages/NFT/nftRpgGameDevelopment/nftRpgGameDevelopment";
 import MoveToEarnNftPlatform from "./pages/NFT/moveToEarnNftPlatform/moveToEarnNftPlatform";
+import NftGameDevelopmentLikeSplinterlands from "./pages/NFT/nftGameDevelopmentLikeSplinterlands/nftGameDevelopmentLikeSplinterlands";
+import DungeonswapLikeNftGameDevelopment from "./pages/NFT/dungeonswapLikeNftGameDevelopment/dungeonswapLikeNftGameDevelopment";
 
 function App() {
   return (
@@ -499,6 +501,14 @@ function App() {
             <Route
               path="/move-to-earn-nft-platform"
               element={<MoveToEarnNftPlatform />}
+            />
+            <Route
+              path="/nft-game-development-like-splinterlands"
+              element={<NftGameDevelopmentLikeSplinterlands />}
+            />
+            <Route
+              path="/dungeonswap-like-nft-game-development"
+              element={<DungeonswapLikeNftGameDevelopment />}
             />
           </Routes>
         </Suspense>
