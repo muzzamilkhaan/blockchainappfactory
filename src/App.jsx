@@ -189,6 +189,7 @@ import MoveToEarnNftPlatform from "./pages/NFT/moveToEarnNftPlatform/moveToEarnN
 import NftGameDevelopmentLikeSplinterlands from "./pages/NFT/nftGameDevelopmentLikeSplinterlands/nftGameDevelopmentLikeSplinterlands";
 import DungeonswapLikeNftGameDevelopment from "./pages/NFT/dungeonswapLikeNftGameDevelopment/dungeonswapLikeNftGameDevelopment";
 import MycryptoheroesLikeNftGameDevelopment from "./pages/NFT/mycryptoheroesLikeNftGameDevelopment/mycryptoheroesLikeNftGameDevelopment";
+import NftMarketplaceLikeZedrun from "./pages/NFT/nftMarketplaceLikeZedrun/nftMarketplaceLikeZedrun";
 
 function App() {
   return (
@@ -514,6 +515,10 @@ function App() {
             <Route
               path="/mycryptoheroes-like-nft-game-development"
               element={<MycryptoheroesLikeNftGameDevelopment />}
+            />
+            <Route
+              path="/nft-marketplace-like-zedrun"
+              element={<NftMarketplaceLikeZedrun />}
             />
           </Routes>
         </Suspense>
