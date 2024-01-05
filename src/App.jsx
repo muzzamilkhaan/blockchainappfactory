@@ -191,6 +191,7 @@ import DungeonswapLikeNftGameDevelopment from "./pages/NFT/dungeonswapLikeNftGam
 import MycryptoheroesLikeNftGameDevelopment from "./pages/NFT/mycryptoheroesLikeNftGameDevelopment/mycryptoheroesLikeNftGameDevelopment";
 import NftMarketplaceLikeZedrun from "./pages/NFT/nftMarketplaceLikeZedrun/nftMarketplaceLikeZedrun";
 import DecentralandLikeNftDevelopment from "./pages/NFT/decentralandLikeNftDevelopment/decentralandLikeNftDevelopment";
+import NftGameDevelopmentLikeRevvRacing from "./pages/NFT/nftGameDevelopmentLikeRevvRacing/nftGameDevelopmentLikeRevvRacing";
 
 function App() {
   return (
@@ -524,6 +525,10 @@ function App() {
             <Route
               path="/decentraland-like-nft-development"
               element={<DecentralandLikeNftDevelopment />}
+            />
+            <Route
+              path="/nft-game-development-like-revv-racing"
+              element={<NftGameDevelopmentLikeRevvRacing />}
             />
           </Routes>
         </Suspense>
