@@ -1,59 +1,49 @@
-import React, { useState } from 'react';
+import React from "react";
+import { Mousewheel, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
+import { SecTen } from "./nftMarketPlaceSportComp";
+import { H2 } from "../../../components";
+import "./swiper.css";
 const ScrollComponent = () => {
-  const [data, setData] = useState([
-    { id: 1, heading: 'Heading 1', paragraph: 'Content 1' },
-    { id: 2, heading: 'Heading 2', paragraph: 'Content 2' },
-    // Add more data as needed
-  ]);
-
-  const [currentItemIndex, setCurrentItemIndex] = useState(0);
-
-  const handleScroll = (event) => {
-    const delta = Math.sign(event.deltaY);
-
-    setCurrentItemIndex((prevIndex) => {
-      let newIndex = prevIndex + delta;
-      if (newIndex < 0) {
-        newIndex = data.length - 1;
-      } else if (newIndex >= data.length) {
-        newIndex = 0;
-      }
-      return newIndex;
-    });
-  };
-
-  // Disable scrolling on the body and html elements
-  const disableScroll = () => {
-    document.body.style.overflow = 'hidden';
-    document.documentElement.style.overflow = 'hidden';
-  };
-
-  // Enable scrolling on the body and html elements
-  const enableScroll = () => {
-    document.body.style.overflow = 'auto';
-    document.documentElement.style.overflow = 'auto';
-  };
-
   return (
-    <>
-    <div
-      style={{ height: '300px', overflowY: 'auto' }}
-      onWheel={(event) => {
-        handleScroll(event);
-        disableScroll();
-      }}
-      onMouseLeave={enableScroll}
+    <Swiper
+      direction={"vertical"}
+      slidesPerView={1}
+      spaceBetween={30}
+      mousewheel={true}
+      pagination={{ clickable: true }}
+      modules={[Mousewheel, Pagination]}
+      className="mySwiper"
     >
-      {data.map((item, index) => (
-        <div key={item.id} style={{ display: index === currentItemIndex ? 'block' : 'none' }}>
-          <h2>{item.heading}</h2>
-          <p>{item.paragraph}</p>
-        </div>
-      ))}
-    </div>
-      
-      </>
+      {" "}
+      <SwiperSlide>Slide 1</SwiperSlide> <SwiperSlide>Slide 2</SwiperSlide>{" "}
+      <SwiperSlide>Slide 3</SwiperSlide> <SwiperSlide>Slide 4</SwiperSlide>{" "}
+      <SwiperSlide>Slide 5</SwiperSlide> <SwiperSlide>Slide 6</SwiperSlide>{" "}
+      <SwiperSlide>Slide 7</SwiperSlide> <SwiperSlide>Slide 8</SwiperSlide>{" "}
+      <SwiperSlide>Slide 9</SwiperSlide>{" "}
+    </Swiper>
+    // <SecTen>
+    //   <section className="common_spacing bgg">
+    //     <div className="container">
+    //       <div className="section-title text-center">
+    //         <div className="sec_tit mb20">
+    //           <div className="section-title underline mb20 font-wei">
+    //             <H2 style={{ color: "#161515" }}>
+    //               {" "}
+    //               Token standards unleashing the potential of NFTs{" "}
+    //             </H2>
+    //           </div>
+    //         </div>
+    //       </div>
+    //       <div className="row">
+    //         <div className="col-md-12">
+
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </section>
+    // </SecTen>
   );
 };
 

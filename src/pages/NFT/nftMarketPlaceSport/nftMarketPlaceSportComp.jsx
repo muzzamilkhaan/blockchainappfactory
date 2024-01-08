@@ -206,7 +206,11 @@ export const SecNine = styled.div`
     }
   }
 `;
-export const SecTen = styled.div``;
+export const SecTen = styled.div`
+  .bgg {
+    background-image: linear-gradient(179deg, #47b475 0%, #19aec5 74%);
+  }
+`;
 export const SecEleven = styled.div`
   .box h3 {
     color: #47b475;

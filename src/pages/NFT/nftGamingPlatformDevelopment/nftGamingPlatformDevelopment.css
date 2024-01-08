@@ -857,7 +857,7 @@
    #nft-gaming-platform-development .panel {
         background-color: #2d2d2d;
     }
-    body .faq-content .panel-heading {
+    #nft-gaming-platform-development body .faq-content .panel-heading {
         background: #9841ff !important;
     }
    #nft-gaming-platform-development .faq-content h4.panel-title {
@@ -869,7 +869,7 @@
    #nft-gaming-platform-development .dark h3.section-title {
         color: #fff;
     }
-    #neonShadow {
+    #nft-gaming-platform-development  #neonShadow {
         border: none;
         border-radius: 50px;
         transition: 0.3s;
@@ -974,10 +974,10 @@
     padding: 30px 60px;
     position: relative;
 }
-.main-gameflow .gameflow:first-child{
+#nft-gaming-platform-development .main-gameflow .gameflow:first-child{
     padding-top: 0;
 }
-.main-gameflow .gameflow:last-child{
+#nft-gaming-platform-development .main-gameflow .gameflow:last-child{
     padding-bottom: 0;
 }
 .main-gameflow .gameflow:before,
@@ -987,7 +987,7 @@
     width: 100%;
     clear: both;
 }
-.main-gameflow .gameflow-icon{
+#nft-gaming-platform-development .main-gameflow .gameflow-icon{
     width: 75px;
     height: 75px;
     line-height: 65px;
@@ -1007,8 +1007,8 @@
     bottom: 0;
     z-index: 2;
 }
-.main-gameflow .gameflow:first-child .gameflow-icon,
-.main-gameflow .gameflow:last-child .gameflow-icon{
+#nft-gaming-platform-development .main-gameflow .gameflow:first-child .gameflow-icon,
+#nft-gaming-platform-development .main-gameflow .gameflow:last-child .gameflow-icon{
     box-sizing: content-box;
     margin: 0;
     top: 0;
@@ -1016,38 +1016,38 @@
     border: 2px solid #fff;
     box-shadow: 0 0 0 2px #837cb6;
 }
-.main-gameflow .gameflow:last-child .gameflow-icon{
+#nft-gaming-platform-development .main-gameflow .gameflow:last-child .gameflow-icon{
     top: auto;
     bottom: 0;
 }
-.main-gameflow .gameflow:nth-child(2n) .gameflow-icon{
+#nft-gaming-platform-development .main-gameflow .gameflow:nth-child(2n) .gameflow-icon{
     left: auto;
     right: -34px;
 }
-.main-gameflow .gameflow:last-child:nth-child(2n) .gameflow-icon{
+#nft-gaming-platform-development .main-gameflow .gameflow:last-child:nth-child(2n) .gameflow-icon{
     right: -36px;
 }
-.main-gameflow .gameflow-content{
+#nft-gaming-platform-development .main-gameflow .gameflow-content{
     width: 50%;
 }
-.main-gameflow .gameflow:nth-child(2n) .gameflow-content{
+#nft-gaming-platform-development .main-gameflow .gameflow:nth-child(2n) .gameflow-content{
     float: right;
     text-align: right;
 }
-.main-gameflow .title{
+#nft-gaming-platform-development .main-gameflow .title{
     font-size: 18px;
     color: #fff;
     margin-top: 0;
     text-transform: capitalize;
     font-weight: 600;
 }
-.main-gameflow .description{
+#nft-gaming-platform-development .main-gameflow .description{
     font-size: 15px;
     color: #fff;
     line-height: 25px;
     margin: 0;
 }
-.main-gameflow .border{
+#nft-gaming-platform-development .main-gameflow .border{
     width: 50%;
     border-top: 2px solid #837cb6;
     border-bottom: 2px solid #837cb6;
@@ -1059,16 +1059,16 @@
     left: 0;
     z-index: 1;
 }
-.main-gameflow .gameflow:nth-child(2n) .border{
+#nft-gaming-platform-development .main-gameflow .gameflow:nth-child(2n) .border{
     border-left: none;
     border-right: 2px solid #837cb6;
     border-radius: 0 6px 6px 0;
     left: 50%;
 }
-.main-gameflow .gameflow:first-child .border{
+#nft-gaming-platform-development .main-gameflow .gameflow:first-child .border{
     border-top: none;
 }
-.main-gameflow .gameflow:last-child .border{
+#nft-gaming-platform-development .main-gameflow .gameflow:last-child .border{
     border-bottom: none;
 }
 @media only screen and (max-width: 990px){
@@ -1084,13 +1084,13 @@
     }
 }
 
-.expoBox{
+ #nft-gaming-platform-development .expoBox{
     padding-left: 30px;
     position: relative;
     margin-bottom:20px;
     transition: all 0.4s ease-in-out 0s;
 }
-.expoBox:before{
+ #nft-gaming-platform-development .expoBox:before{
     content: "";
     width: 60px;
     height: 60px;
@@ -1100,7 +1100,7 @@
     left: 5px;
     z-index: 1;
 }
-.expoBox .service-icon{
+ #nft-gaming-platform-development .expoBox .service-icon{
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -1114,8 +1114,8 @@
     left: 0;
     z-index: 1;
 }
-.expoBox .service-icon img{width: 32px; height: 32px; filter: brightness(0) invert(1);}
-.expoBox .service-content{
+ #nft-gaming-platform-development .expoBox .service-icon img{width: 32px; height: 32px; filter: brightness(0) invert(1);}
+ #nft-gaming-platform-development .expoBox .service-content{
     padding: 30px;
     border-width: 1px;
     border-style: solid;
@@ -1124,11 +1124,11 @@
     transition: all 0.4s ease-in-out 0s;
     height: 100%;
 }
-.expoBox:hover .service-content{
+#nft-gaming-platform-development .expoBox:hover .service-content{
     background: #0000007a;
     border-color: #3f4147;
 }
-.expoBox .title{
+#nft-gaming-platform-development .expoBox .title{
     font-size: 18px;
     font-weight: 600;
     color: #fff;
@@ -1137,10 +1137,10 @@
     text-transform: capitalize;
     transition: all 0.4s ease-in-out 0s;
 }
-.expoBox:hover .title{
+#nft-gaming-platform-development .expoBox:hover .title{
     color: #fff;
 }
-.expoBox:hover .service-icon{
+#nft-gaming-platform-development .expoBox:hover .service-icon{
 animation: rot 2s;
 animation-iteration-count: 3;
 transition: all 1s ease-in-out 1s;
@@ -1164,17 +1164,17 @@ to{transform:rotateY(360deg);}
 }
 
 /*-- Technology --*/               
-.technologies {padding: 50px 0;}
-.technologies ul {display: flex; flex-wrap: wrap; justify-content: center;}
-.technologies ul li {width:26%; text-align: center; font-size: 16px; padding: 15px; margin: -1px; border: 1px solid #fff; }
-/*.technologies ul li img {height: 60px;}*/
-.technologies ul li p{margin-bottom: 0 !important;}
+ #nft-gaming-platform-development .technologies {padding: 50px 0;}
+ #nft-gaming-platform-development .technologies ul {display: flex; flex-wrap: wrap; justify-content: center;}
+ #nft-gaming-platform-development .technologies ul li {width:26%; text-align: center; font-size: 16px; padding: 15px; margin: -1px; border: 1px solid #fff; }
+/* #nft-gaming-platform-development .technologies ul li img {height: 60px;}*/
+ #nft-gaming-platform-development .technologies ul li p{margin-bottom: 0 !important;}
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-.technologies ul li {width: 49%;}
-.technologies ul li img {width: 60px;}
-.technologies ul li{margin:0px;}
-#neonShadow{display: block; margin-bottom: 10px;}
+ #nft-gaming-platform-development .technologies ul li {width: 49%;}
+ #nft-gaming-platform-development .technologies ul li img {width: 60px;}
+ #nft-gaming-platform-development .technologies ul li{margin:0px;}
+ #nft-gaming-platform-development #neonShadow{display: block; margin-bottom: 10px;}
 }
        
    #nft-gaming-platform-development .category-grid-style-01 {
@@ -1189,7 +1189,7 @@ to{transform:rotateY(360deg);}
     box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
     border-radius: 5px;
 }
-.teck .category-grid-style-01 .category-item {
+  #nft-gaming-platform-development .teck .category-grid-style-01 .category-item {
     padding: 30px;
     text-align: center;
     width: 25%;
@@ -1198,7 +1198,7 @@ to{transform:rotateY(360deg);}
     position: relative;
     cursor: pointer;
 }
-.teck .category-grid-style-01 .category-item:before {
+  #nft-gaming-platform-development .teck .category-grid-style-01 .category-item:before {
     content: "";
 /*    background: #fff;*/
       background: linear-gradient(90deg, rgba(105, 85, 180, 0.1) 0%, rgba(105, 85, 180, 0.3) 50%, rgba(105, 85, 180, 0.1) 100%);
@@ -1214,7 +1214,7 @@ to{transform:rotateY(360deg);}
     transform: scale(.96);
     transition: all .3s ease-in-out;
 }
-.teck .category-grid-style-01 .category-item .category-icon {
+  #nft-gaming-platform-development .teck .category-grid-style-01 .category-item .category-icon {
     color: #333;
     font-size: 44px;
     line-height: 1;
@@ -1222,7 +1222,7 @@ to{transform:rotateY(360deg);}
     position: relative;
     z-index: 2;
 }
-.category-grid-style-01 .category-item:hover:before {
+#nft-gaming-platform-development .category-grid-style-01 .category-item:hover:before {
     -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
     box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
     opacity: 1;
@@ -1231,7 +1231,7 @@ to{transform:rotateY(360deg);}
     transition: all .3s ease-in-out;
    
 }
-.category-item.aos-item .text-center {
+#nft-gaming-platform-development .category-item.aos-item .text-center {
  color: #fff;
 }
 @media (min-width: 320px) and (max-width:768px){
@@ -1242,22 +1242,22 @@ to{transform:rotateY(360deg);}
 }
 
      @media (min-width:320px) and (max-width:643px){
-        #neonShadow{
+        #nft-gaming-platform-development #neonShadow{
             padding: 12px 12px!important;
         }
      }
  
-    #newsletter-form-sec .form-group{margin-bottom:7px;}
-    #mailForm_common .form-group label{color: #fff;}
+     #nft-gaming-platform-development #newsletter-form-sec .form-group{margin-bottom:7px;}
+    #nft-gaming-platform-development #mailForm_common .form-group label{color: #fff;}
    #nft-gaming-platform-development .contact-content{padding-top: 40px; padding: 30px; margin-top: -40px; margin-left: -40px; background-color: #f9f9f9; box-shadow: 0 0 6px 1px rgba(0,0,0,.22); border-radius: 7px;}
    #nft-gaming-platform-development .contact-content p{font-size: 18px; line-height: 30px;}
    #nft-gaming-platform-development .contact-content a{font-size: 18px; display: block;margin-bottom: 20px;}
    #nft-gaming-platform-development .contact-content a i{color: #47b475; font-size: 24px;}
    #nft-gaming-platform-development .form-control{background: #fff;}
    #nft-gaming-platform-development .pad-40-20{padding: 25px 25px 0 25px;}
-    input#phone_common{background: #fff;}
-    #mailForm_common .form-group label{color: #fff;}
-    a.home-talk-experts{border-radius: 25px;}
+     #nft-gaming-platform-development input#phone_common{background: #fff;}
+     #nft-gaming-platform-development #mailForm_common .form-group label{color: #fff;}
+     #nft-gaming-platform-development a.home-talk-experts{border-radius: 25px;}
 
     @media only screen and (min-width: 320px) and (max-width: 767px) {
        #nft-gaming-platform-development .contact-content{margin-top: 20px; margin-left: 0;padding: 20px !important;}
@@ -1273,13 +1273,13 @@ to{transform:rotateY(360deg);}
     color: #fff;
         font-size: 25px!important;
 }
-h5.section-title {
+ #nft-gaming-platform-development h5.section-title {
     font-size: 27.46px;
 }
-.client h5 {
+ #nft-gaming-platform-development .client h5 {
     color: #444!important;
 }
-h5.common_h3 {
+ #nft-gaming-platform-development h5.common_h3 {
     font-size: 25px!important;
 }
 
@@ -1293,11 +1293,11 @@ h5.common_h3 {
     right: 0;
     bottom: -35px;
 }
-.pull-right-tow a{
+ #nft-gaming-platform-development .pull-right-tow a{
     font-size: 12px;
 }
 
-.header-nabar-icon .pull-right {
+ #nft-gaming-platform-development .header-nabar-icon .pull-right {
     background-color: #47b475;
     font-weight: 700;
     font-size: 15px;
@@ -1310,12 +1310,12 @@ h5.common_h3 {
     bottom: -30px;
 }
 
-.header-nabar-icon .pull-right a:hover{
+ #nft-gaming-platform-development .header-nabar-icon .pull-right a:hover{
     color: #fff!important;
 }
-.header-nabar-icon .pull-right a, .header-nabar-icon .pull-right-tow a{color: #fff;}
+ #nft-gaming-platform-development .header-nabar-icon .pull-right a, .header-nabar-icon .pull-right-tow a{color: #fff;}
 
-.sticky-form>.quick-cont-btn {
+ #nft-gaming-platform-development .sticky-form>.quick-cont-btn {
     top: 64vh;
     right: -60px;
     padding: 0px 20px;
@@ -1369,207 +1369,5 @@ h5.common_h3 {
     }
 }*/
 
-.color-btn {
-    background-color: #1fd1f9 !important;
-    background-image: -o-linear-gradient(135deg,#b621fe 0,#1fd1f9 74%) !important;
-    background-image: linear-gradient(315deg,#b621fe 0,#1fd1f9 74%) !important;
-    border-radius: 7px;
-    color: #fff;
-}
-.color-btn1{
-    border: none;
-    /*border-radius: 50px;*/
-    transition: 0.3s;
-    background: #f90cff;
-    background-image: 
-    linear-gradient(to right bottom,#f90cff,#e027ff,#c534ff,#a93eff,#8a44ff,#6560ff,#3c73ff,#0081ff,#009cff,#00b3ff,#00c6f5,#0cd7e8);
-    /* clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%); */
-    animation: glow 1s infinite;
-    transition: 0.5s;
-    padding: 10px 25px;
-    color: #fff;
-    font-weight: 700;
-    margin: 0 auto;
-    font-size: 16px;
-}
-.color-btn1:focus,.color-btn1:hover{
-        background-color: #47b475;
-        transition: 0.5s;
 
-}
-.color-btn1 span:hover {
-        transition: 0.3s;
-        opacity: 1;
-        font-weight: 700;
-    }
-  @media (min-width:320px) and (max-width:643px){
-       #nft-gaming-platform-development .color-btn1{
-           padding: 9px 16px!important;
-        }
-     }
-/*.color-btn1:before{
-    content: "";
-    background: rgba(0,0,0,0.9);
-    border-radius: 50px;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    z-index: -1;
-}*/
-@keyframes glow {
-        0% {
-            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
-        }
-        
-        50% {
-            box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255)
-        }
-        
-        100% {
-            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168)
-        }
-    }
-.sticky_form_bp {
-    position: fixed;
-    right: -80px !important;
-    top: 250px;
-    z-index: 10;
-    background: #47b475;
-    color: #fff;
-    padding: 0px 15px 16px !important;
-    text-transform: capitalize;
-    font-weight: 700;
-    transform: rotate(270deg) !important;
-    cursor: pointer;
-    font-size: 14px;
-}
-/*@media (max-width: 1024px){
-   #nft-gaming-platform-development .sticky_form_bp {
-        display:block !important;
-}
-}
-
-@media (max-width: 320px){
-   #nft-gaming-platform-development .sticky_form_bp  {
-        display: block;
-        
-}
-}*/
-
-@media (min-width: 320px) and (max-width: 768px) {
-/*.openbtn1{width: 70px !important; top: 21% !important;}*/
-}  
-
-/* The sidepanel menu */
-.sidepanel4 {
-  height: auto; /* Specify a height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 999999; /* Stay on top */
-  top: 27%;
-  left: 0;
-  background-color: transparent; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 0px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-
-}
-
-/* The sidepanel links */
-.sidepanel4 a {
-  /*padding: 8px 8px 8px 32px;*/
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s; 
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidepanel4 a:hover {
-  color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) */
-.sidepanel4 .closebtn1 {
-  position: absolute;
-  top: 7px;
-  right: 7px;
-  font-size: 44px;
-  margin-left: 50px;
-  color: #fff;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  text-align: center;
-  background: #eb1e2d !important;
-  line-height: 0.80em;
-  font-weight: bold;
-  border: 2px solid #fff;
-  box-shadow: 0px 0px 10px rgb(0 0 0 / 70%);
-}
-
-/* Style the button that is used to open the sidepanel */
-.openbtn1 {
-  /*font-size: 20px;
-  cursor: pointer;
-  background-color: transparent;
-  color: white;
-  padding: 0px;
-  border: none;
-  position: fixed;
-  top: 43%;
-  left: 0;
-  width: 90px;
-  z-index: 99999;*/
-  /*animation: zoom-in-zoom-out 1s ease infinite;*/
-  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
-}
-
-.openbtn1:hover {
-  background-color: transparent;
-}
-
-@keyframes zoom-in-zoom-out {
-  0% {
-    transform: scale(0.8, 0.8);
-  }
-  50% {
-    transform: scale(1, 1);
-  }
-  100% {
-    transform: scale(0.8, 0.8);
-  }
-}
-
-.close-btn{position: fixed; left: 10px; bottom: 20px; z-index: 99; color: #fff !important; font-size: 16px; font-weight: bold; border-radius: 50%; border: 0; width: 30px; height: 30px; padding: 0; box-shadow: 1px 1px 11px -3px #999; display: none; transition: all 2s; background-color: #89002a;}
-.fixed-social {position: fixed; bottom: 42px; padding: 0px 10px; background: linear-gradient(2deg, black, #868686, black); transition: all 2s; width: 200px; height: 25px; border-radius: 20px; box-shadow: 1px 1px 11px -3px #999; /*filter: drop-shadow(0 0 0.75rem crimson);*/ display: flex !important; flex-wrap: wrap; z-index: 99; justify-content: center;}
-.hide {opacity:0; left:-100%;}
-.show1 {opacity:1; left:50px;}
-.fixed-social .items{margin: 0 auto;}
-.fixed-social .items .icons{width: 55px; height: 55px; background: linear-gradient(45deg, black, transparent); padding: 5px; border-radius: 50%; margin: -17px 0; float: left;}
-.fixed-social .items .icons i{padding: 9px; background: #00a7e7; border-radius: 50%; font-size: 26px; color: #fff;}
-.fixed-social .items .text{padding-left: 60px; font-weight: bold; font-family: arial; font-size: 14px; color: #fff !important; line-height: 2.2em;}
-.fixed-social .items a{text-decoration: none; outline: none; padding: 0; margin: 0;}
-
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
-   #nft-gaming-platform-development .show1 {left:20px;}
-   #nft-gaming-platform-development .close-btn{bottom: 60px;}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 899px) {
-   #nft-gaming-platform-development .fixed-social {bottom: 80px;}  
-   #nft-gaming-platform-development .show1 {left:50px;}
-   #nft-gaming-platform-development .close-btn{bottom:60px; z-index: 999;}
-}
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-   #nft-gaming-platform-development .fixed-social .items .text{display: none;}   
-   #nft-gaming-platform-development .fixed-social {bottom: 80px; }  
-   #nft-gaming-platform-development .show1 {left:12%;} 
-   #nft-gaming-platform-development .fixed-social .items a{display: flex; justify-content: center;}
-   #nft-gaming-platform-development .close-btn{bottom:60px; z-index: 999;}
-}
  

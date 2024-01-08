@@ -25,7 +25,9 @@ const index = () => {
       <Sec7 />
       <Sec8 />
       <Sec9 />
+
       {/* <Sec10 /> */}
+      
       <Sec11 />
       <Sec12 />
       <Sec13 />

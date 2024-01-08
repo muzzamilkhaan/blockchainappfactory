@@ -203,7 +203,7 @@ export const SecThree = styled.div`
   .client-box img {
     max-width: 80px;
     border-radius: 10px;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
     /* width: 180px; */
   }
   .client-box h6 {

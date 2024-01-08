@@ -1,6 +1,9 @@
 import React, { Suspense, lazy } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/landingpage/LandingPage";
 import "bootstrap/dist/css/bootstrap.min.css";
