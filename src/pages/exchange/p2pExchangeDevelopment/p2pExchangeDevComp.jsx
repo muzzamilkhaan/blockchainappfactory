@@ -2,12 +2,78 @@ import React from "react";
 import "./p2pExchangeDevelopment.css";
 import Sec1 from "./Sec1";
 import Sec2 from "./Sec2";
+import Sec3 from "./Sec3";
+import Sec4 from "./Sec4";
+import Sec5 from "./Sec5";
+import Sec6 from "./Sec6";
+import Sec7 from "./Sec7";
+import Sec8 from "./Sec8.jsx";
+import Sec9 from "./Sec9.jsx";
+import Sec10 from "./Sec10.jsx";
+import WeSpotlightedIn from "../../../components/shared/WeSpotlightedIn.jsx";
+import styled from "styled-components";
+import { Section } from "../../../components/sections/section.jsx";
 
+export const SecSeven = styled.div``;
+export const Sec6Comp = styled(Section)`
+  .sec_tit {
+    font-family: "Lato", "sans-serif";
+    color: #000;
+    text-transform: capitalize;
+    font-size: 25px;
+  }
+  .timeline-row i {
+    color: #47b474;
+    font-size: 30px;
+    line-height: 1;
+  }
+  .timeline-center .timeline-row:nth-of-type(even) {
+    margin-left: 50% !important;
+  }
+  .timeline-center::before {
+    background: #47b475 !important;
+  }
+  .nectar-button {
+    padding: 15px 25px;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .nectar-button:hover {
+    transform: scale(1.08, 1.08);
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 850px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      /* width: 100%; */
+    }
+  }
+  @media (max-width: 1001px) {
+    .tm-detail {
+      margin-left: -18%;
+    }
+  }
+  .timeline-center h4 {
+    font-family: "Lato", sans-serif;
+  }
+`;
 const p2pExchangeDevComp = () => {
   return (
     <div id="p2p-exchange-development">
       <Sec1 />
       <Sec2 />
+      <Sec3 />
+      <Sec4 />
+      <Sec5 />
+      <Sec6 />
+      <Sec7 />
+      <Sec8 />
+      <Sec9 />
+      <Sec10 />
+      <WeSpotlightedIn />
     </div>
   );
 };
@@ -325,52 +391,6 @@ export default p2pExchangeDevComp;
 //   }
 // `;
 
-// export const Sec6 = styled(Section)`
-//   .sec_tit {
-//     font-family: "Lato", "sans-serif";
-//     color: #000;
-//     text-transform: capitalize;
-//     font-size: 25px;
-//   }
-//   .timeline-row i {
-//     color: #47b474;
-//     font-size: 30px;
-//     line-height: 1;
-//   }
-//   .timeline-center .timeline-row:nth-of-type(even) {
-//     margin-left: 50% !important;
-//   }
-//   .timeline-center::before {
-//     background: #47b475 !important;
-//   }
-//   .nectar-button {
-//     padding: 15px 25px;
-//     border-radius: 30px;
-//     transition: transform 0.3s ease-in-out;
-//   }
-//   .nectar-button:hover {
-//     transform: scale(1.08, 1.08);
-//   }
-//   @media (min-width: 1200px) {
-//     .container {
-//       width: 850px;
-//     }
-//   }
-//   @media (min-width: 768px) {
-//     .container {
-//       /* width: 100%; */
-//     }
-//   }
-//   @media (max-width: 1001px) {
-//     .tm-detail {
-//       margin-left: -18%;
-//     }
-//   }
-//   .timeline-center h4 {
-//     font-family: "Lato", sans-serif;
-//   }
-// `;
-
 // export const Sec7 = styled(Section)`
 //   padding-inline: 0;
 
@@ -665,7 +685,7 @@ export default p2pExchangeDevComp;
 //     letter-spacing: 1.5px !important;
 //   }
 // `;
-// export const SecSeven = styled.div``;
+
 // export const SecEight = styled.div`
 //   .ben_sec ul {
 //     padding-left: 0;

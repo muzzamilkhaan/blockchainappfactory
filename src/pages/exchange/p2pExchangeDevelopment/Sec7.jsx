@@ -1,11 +1,11 @@
 import React from "react";
-import { SecSeven, Sec6 } from "./p2pExchangeDevComp";
+import { SecSeven,  Sec6Comp } from "./p2pExchangeDevComp";
 import { H2,Button } from "../../../components";
 
 const Sec7 = () => {
   return (
     <SecSeven>
-      <Sec6 backgroundColor="#f6f6f6">
+      <Sec6Comp backgroundColor="#f6f6f6">
         <div className="common_spacing gray_bg">
           <div className="container">
             <div className="row">
@@ -127,7 +127,7 @@ const Sec7 = () => {
             />
           </div>
         </div>
-      </Sec6>
+      </Sec6Comp>
     </SecSeven>
   );
 };

@@ -1,5 +1,4 @@
 import React from "react";
-import { SecTen } from "./p2pExchangeDevComp";
 import Faq from "../../../components/shared/Faq";
 
 const Sec10 = () => {
@@ -26,9 +25,9 @@ const Sec10 = () => {
     },
   ];
   return (
-    <SecTen>
+    <div>
       <Faq data={FAQ} />
-    </SecTen>
+    </div>
   );
 };
 
