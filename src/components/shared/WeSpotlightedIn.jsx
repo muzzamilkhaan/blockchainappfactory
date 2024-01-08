@@ -5,9 +5,14 @@ import { GrTasks } from "react-icons/gr";
 import { FaUsers } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { H2 } from "../index";
-function WeSpotlightedIn() {
+function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
+  const containerStyles = {
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundColor: backgroundColor,
+    backgroundRepeat: "repeat",
+  };
   return (
-    <div id="get-quote" className="gray_bg">
+    <div style={containerStyles} id="get-quote" className="gray_bg">
       <section className="client">
         <div className="container clients1">
           <div className="row">

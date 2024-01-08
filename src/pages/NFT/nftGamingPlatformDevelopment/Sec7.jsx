@@ -18,7 +18,7 @@ const Sec7 = () => {
               />
             </div>
             <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-              <div className="section-title text-center">
+              <div className="section-title text-center" style={{padding:"3em"}}>
                 <H2 style={{ color: "#fff",padding:"30px 0px" }}>
                   Pave the Path to Launch a Successful NFT Game with Our Expert
                   Team!

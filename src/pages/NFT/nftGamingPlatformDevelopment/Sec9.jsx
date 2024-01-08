@@ -71,22 +71,13 @@ const Sec9 = () => {
               </li>
             </ul>
             <div className="clearfix" />
-            <div className="text-center cta_mine txt mb40">
+            {/* <div className="text-center cta_mine txt mb40"> */}
               {" "}
-              <a
-                className="neonShadow"
-                target="_blank"
-                href="https://api.whatsapp.com/send?l=en&text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&phone=916382665366"
-                data-color-override="false"
-                data-hover-color-override="false"
-                data-hover-text-color-override="#fff"
-              >
-                <span>Connect with Whatsapp</span>
-              </a>{" "}
-              <a href="#newsletter-form-sec" className="neonShadow">
-                <span>Talk with our Experts</span>
-              </a>{" "}
-            </div>
+              <div className="btn-button">
+                <button className="neonShadow" style={{marginBottom:"20px"}}>Connect with whatsapp</button>
+                <button className="neonShadow">Take your First Step!</button>
+              </div>
+            {/* </div> */}
           </div>
         </div>
       </div>

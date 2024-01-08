@@ -1,0 +1,1575 @@
+
+.top-header p{margin-bottom:0;color:#fff;display:inline-block;width:auto}.lc-1ip30wz{height:30px!important}.top-header{background:#378658;padding:10px}@-webkit-keyframes breathing{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1.1);transform:scale(1.1)}50%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes breathing{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1.1);transform:scale(1.1)}50%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}.top-header .breathing_effect{-webkit-animation:breathing 1s infinite ease-in-out;animation:breathing 1s infinite ease-in-out;-webkit-font-smoothing:antialiased;transition:1s;display:inline-block;width:auto}.top-header .breathing_effect a{background:#f44336;color:#fff;padding:5px 10px;border-radius:0;margin-left:15px}.top-header .breathing_effect a:hover{color:#fff!important}@media (max-width:1199px){.header .main-menu>li a{padding:0 5px}}@media (max-width:550px){.top-header p{width:60%;text-align:right;vertical-align:middle}.top-header .breathing_effect{display:inline-block;width:40%}}
+.guardian-p{
+  text-align: center;font-size: 12px;
+}
+/*-- Client section --*/
+.teck .category-grid-style-01 .category-item{padding: 10px !important;}
+.category-item.aos-item .text-center{font-size: 12px !important; margin-bottom: 0px !important;} 
+.teck .category-grid-style-01 .category-item .category-icon{margin-bottom: 0 !important;}
+.teck .category-icon img{height: 80px !important;}
+#nft-gaming-platform-development h1,#nft-gaming-platform-development h2,#nft-gaming-platform-development h3,#nft-gaming-platform-development h4,#nft-gaming-platform-development h5,#nft-gaming-platform-development h6 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0px !important;
+}
+#nft-gaming-platform-development .contentall{
+    padding: 0;
+}
+  
+/*-- Client section --*/
+
+           #nft-gaming-platform-development .nft-gaming-platform-development{background-color: #1b0e22;
+            background-image: url('./assets/images/body-bg1.webp');
+            background-repeat: repeat;
+            background-position: 0 0;
+            /*color: #ddd;*/
+            }
+   #nft-gaming-platform-development .banner_content {
+            text-align: left;
+        }
+        
+       #nft-gaming-platform-development .text-white {
+            color: #fff;
+        }
+        
+       #nft-gaming-platform-development .banner-overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 2;
+            z-index: 1;
+            background-color: rgb(0 0 0 / 50%);
+        }
+        
+       #nft-gaming-platform-development .banner {
+            /*background: url(images/nftg/banner.webp);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;*/
+            padding-top: 100px;
+            padding-bottom: 10px; 
+/*            height: 900px!important;*/
+        }
+     /*   .banner {
+            height: 800px!important;
+            }*/
+       #nft-gaming-platform-development .panel-default>.panel-heading+.panel-collapse>.panel-body{background: #0c0c28;border: 0;}
+        h3.common_h3 {
+            font-size: 30px!important;
+        }
+       #nft-gaming-platform-development .section-title.text-center h3.common_h3{color: #fff !important;}
+        
+       #nft-gaming-platform-development .bg-2 {
+            background-image: linear-gradient(45deg, black, #00000052), url(images/nftg/4.webp);
+            background-size: cover;
+            padding-top: 65px;
+            padding-bottom: 50px;
+            height: auto;
+            background-attachment: fixed;
+        }
+        
+       #nft-gaming-platform-development .banner-overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.95;
+        }
+        
+        #nft-gaming-platform-development.banner_content {
+            text-align: left;
+            position: relative;
+            top: 0;
+            transform: none;
+        }
+        
+       #nft-gaming-platform-development .contentall h1,
+       #nft-gaming-platform-development .ban_tirt {
+            margin-bottom: 20px;
+            line-height: 1.3;
+            font-weight: 700;
+            font-size: 40px;
+            text-transform: capitalize;
+        }
+        
+       #nft-gaming-platform-development .contentall p {
+            font-weight: normal;
+            line-height: 1.6;
+            font-size: 19px;
+            display: block;
+        }
+        
+       #nft-gaming-platform-development .contentall a {
+            color: #fff;
+            cursor: pointer;
+            margin-bottom: 15px;
+            background: none;
+        }
+        
+       #nft-gaming-platform-development .sec_tit,
+       #nft-gaming-platform-development .sec_tit h2 {
+            font-size: 25px!important;
+            font-weight: 700;
+            color: #000000;
+            line-height: 1.4;
+            text-transform: capitalize;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            letter-spacing: 0;
+            line-height: 1.3;
+        }
+        
+       #nft-gaming-platform-development .wrapper {
+            overflow: hidden;
+            width: 100%;
+            padding: 10px 0 10px;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+
+           #nft-gaming-platform-development .banner {
+            height: 780px!important;
+            }
+          @media (max-width: 1024px){
+            #nft-gaming-platform-development .banner {
+            height: 800px!important;
+            }
+          }
+
+          @media (max-width: 768px){
+            #nft-gaming-platform-development .banner {
+            height: 600px!important;
+            }
+          }
+
+          @media (max-width: 320px){
+            #nft-gaming-platform-development .banner {
+            height: 550px!important;
+            }
+          }
+
+       #nft-gaming-platform-development .banner_content .contentall {
+            margin-top: -160px;
+            text-align: center;
+        }
+        @media (max-width: 320px)
+        {
+          #nft-gaming-platform-development .banner_content .contentall {
+            margin-top: 0px;
+            text-align: center;}
+          
+        }
+        @media (max-width: 1199px) {
+           #nft-gaming-platform-development .contentall h1,
+           #nft-gaming-platform-development .ban_tirt {
+                font-size: 30px;
+            }
+        }
+        
+        @media (max-width: 991px) {
+           #nft-gaming-platform-development .advantages ul .right .icons:before {
+                display: none;
+            }
+           #nft-gaming-platform-development .advantages ul .icons:before {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            body,
+            html {
+                font-size: calc(15px + (14 - 12) * ((100vw - 600px)/ (1140 - 600)));
+            }
+           #nft-gaming-platform-development .banner {
+                padding-top: 80px;
+                padding-bottom: 50px;
+            }
+           #nft-gaming-platform-development .banner-overlay {
+                background: rgb(7 9 16 / 55%);
+            }
+           #nft-gaming-platform-development .banner_content p {
+                font-size: 14px!important;
+            }
+           #nft-gaming-platform-development .contentall h1,
+           #nft-gaming-platform-development .ban_tirt {
+                font-size: 25px;
+            }
+           #nft-gaming-platform-development .sec_tit,
+           #nft-gaming-platform-development .sec_tit h2 {
+                font-size: 20px!important;
+            }
+           #nft-gaming-platform-development .pull-left img {
+                margin-top: 30px;
+            }
+           #nft-gaming-platform-development .pr_arr:after,
+           #nft-gaming-platform-development .pr_arr:before,
+           #nft-gaming-platform-development .banner_content p br,
+           #nft-gaming-platform-development .sec_tit br {
+                display: none !important;
+            }
+        }
+        
+     
+         @media (min-width: 320px) and (max-width: 425px) {
+           #nft-gaming-platform-development .ces-point ul li {
+/*                min-height: 202px!important;*/
+                width: 100%!important;
+            }
+        }
+        
+        h3.section-title {
+            font-size: 25px !important;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        
+       #nft-gaming-platform-development .banner_content h4 {
+            margin-top: 10px;
+            font-size: 24px;
+            color: #fff;
+            line-height: 40px;
+            font-weight: 700;
+            text-transform: capitalize;
+            letter-spacing: 0;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+       #nft-gaming-platform-development .faq-content #accordion .panel-title>a.accordion-toggle::before,
+       #nft-gaming-platform-development .faq-content #accordion a[data-toggle=collapse]::before {
+            margin-top: 0px!important;
+            background: #f90cff !important;
+        }
+        
+        body .faq-content .panel-heading {
+            background: #fff!important;
+            color: #666;
+        }
+        
+        div#assis_t .flip-box {
+            padding: 30px 15px 20px;
+            min-height: 280px;
+        }
+        
+       #nft-gaming-platform-development .intro_cnt img {
+            border-radius: 10px;
+        }
+        
+        div#assis_t .flip-box img {
+            width: 54px;
+            margin-top: 7px;
+        }
+        
+        a.home-talk-experts.w_bt {
+            background: no-repeat;
+            color: #47b475;
+            border: 2px solid #47b475;
+            padding: 8px 25px;
+        }
+        
+        a.home-talk-experts.w_bt:hover {
+            color: #000 !important;
+        }
+        
+       #nft-gaming-platform-development .sec_tit h2 {
+            display: inline;
+        }
+        
+       #nft-gaming-platform-development .text-white {
+            color: #fff;
+        }
+        
+       #nft-gaming-platform-development .ct_warp {
+            background-image: linear-gradient(45deg, black, #00000052), url(images/nftg/3.webp);
+            background-size: cover;
+            padding-top: 70px;
+            padding-bottom: 0;
+            background-position: center center;
+            padding-bottom: 70px;
+            text-align: center;
+            background-attachment: fixed;
+            background-attachment: scroll;
+        }
+
+   #nft-gaming-platform-development .ct_warp h3 {
+        font-weight: 600;
+    }
+   #nft-gaming-platform-development .ct_warp a.home-talk-experts:hover {
+        color: #47b475!important;
+    }
+   #nft-gaming-platform-development .ct_warp p {
+        font-size: 16px;
+        color: #fff;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+   #nft-gaming-platform-development .ct_warp a.home-talk-experts {
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 1.5;
+        text-align: center;
+        background: #fff;
+        color: #47b475;
+    }
+    :root {
+        --d: 700ms;
+        --e: cubic-bezier(0.19, 1, 0.22, 1);
+    }
+   #nft-gaming-platform-development .dd_heading {
+        text-align: center;
+        font-family: roboto thin;
+    }
+   #nft-gaming-platform-development .page-content {
+        display: grid;
+        grid-gap: 1rem;
+        padding: 1rem;
+        max-width: 1024px;
+        margin: 0 auto;
+        font-family: var(--font-sans);
+    }
+    @media (min-width: 600px) {
+       #nft-gaming-platform-development .page-content {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (min-width: 768px) {
+       #nft-gaming-platform-development .heading {
+            margin-top: -31px;
+        }
+    }
+    @media (min-width: 800px) {
+       #nft-gaming-platform-development .page-content {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+   #nft-gaming-platform-development .d_card {
+        position: relative;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: end;
+        align-items: flex-end;
+        overflow: hidden;
+        padding: 1rem;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        color: whitesmoke;
+        background-color: whitesmoke;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+    @media (min-width: 600px) {
+       #nft-gaming-platform-development .d_card {
+            height: 350px;
+        }
+    }
+   #nft-gaming-platform-development .d_card:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 110%;
+        background-size: cover;
+        background-position: 0 0;
+        -webkit-transition: -webkit-transform calc(var(--d) * 1.5) var(--e);
+        transition: -webkit-transform calc(var(--d) * 1.5) var(--e);
+        transition: transform calc(var(--d) * 1.5) var(--e);
+        transition: transform calc(var(--d) * 1.5) var(--e), -webkit-transform calc(var(--d) * 1.5) var(--e);
+        pointer-events: none;
+    }
+   #nft-gaming-platform-development .d_card:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200%;
+        pointer-events: none;
+        background-image: linear-gradient( 45deg, black, #00000052);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: -webkit-transform calc(var(--d) * 2) var(--e);
+        transition: -webkit-transform calc(var(--d) * 2) var(--e);
+        transition: transform calc(var(--d) * 2) var(--e);
+        transition: transform calc(var(--d) * 2) var(--e), -webkit-transform calc(var(--d) * 2) var(--e);
+    }
+   #nft-gaming-platform-development .bg1:before {
+        background-image: url(images/nftg/b1.webp);
+    }
+   #nft-gaming-platform-development .bg2:before {
+        background-image: url(images/nftg/b2.webp);
+    }
+   #nft-gaming-platform-development .bg3:before {
+        background-image: url(images/nftg/b3.webp);
+    }
+   #nft-gaming-platform-development .bg4:before {
+        background-image: url(images/nftg/b4.webp);
+    }
+   #nft-gaming-platform-development .bg5:before {
+        background-image: url(images/nftg/b5.webp);
+    }
+   #nft-gaming-platform-development .bg6:before {
+        background-image: url(images/nftg/b6.webp);
+    }
+   #nft-gaming-platform-development .bg7:before {
+        background-image: url(images/nftg/b7.webp);
+    }
+   #nft-gaming-platform-development .bg8:before {
+        background-image: url(images/nftg/b8.webp);
+    }
+   #nft-gaming-platform-development .bg9:before {
+        background-image: url(images/nftg/b9.webp);
+    }
+   #nft-gaming-platform-development .content {
+        position: relative;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 100%;
+        padding: 1rem;
+        -webkit-transition: -webkit-transform var(--d) var(--e);
+        transition: -webkit-transform var(--d) var(--e);
+        transition: transform var(--d) var(--e);
+        transition: transform var(--d) var(--e), -webkit-transform var(--d) var(--e);
+        z-index: 1;
+    }
+   #nft-gaming-platform-development .content > * + * {
+        margin-top: 1rem;
+    }
+   #nft-gaming-platform-development .heading {
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 1.2;
+        color: #fff;
+    }
+   #nft-gaming-platform-development .data-content {
+        font-family: var(--font-serif);
+        font-size: 1.125rem;
+        font-style: italic;
+        line-height: 1.35;
+    }
+    @media (hover: hover) and (min-width: 600px) {
+       #nft-gaming-platform-development .d_card:after {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+        
+       #nft-gaming-platform-development .content {
+            -webkit-transform: translateY(calc(100% - 4.5rem));
+            transform: translateY(calc(100% - 4.5rem));
+        }
+        
+       #nft-gaming-platform-development .content > *:not(.heading) {
+            opacity: 0;
+            -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+            -webkit-transition: opacity var(--d) var(--e), -webkit-transform var(--d) var(--e);
+            transition: opacity var(--d) var(--e), -webkit-transform var(--d) var(--e);
+            transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+            transition: transform var(--d) var(--e), opacity var(--d) var(--e), -webkit-transform var(--d) var(--e);
+        }
+        
+       #nft-gaming-platform-development .d_card:hover,
+       #nft-gaming-platform-development .d_card:focus-within {
+            -webkit-box-align: center;
+            align-items: center;
+        }
+        
+       #nft-gaming-platform-development .d_card:hover:before,
+       #nft-gaming-platform-development .d_card:focus-within:before {
+            -webkit-transform: translateY(-4%);
+            transform: translateY(-4%);
+        }
+        
+       #nft-gaming-platform-development .d_card:hover:after,
+       #nft-gaming-platform-development .d_card:focus-within:after {
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        
+       #nft-gaming-platform-development .d_card:hover .content,
+       #nft-gaming-platform-development .d_card:focus-within .content {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+        
+       #nft-gaming-platform-development .d_card:hover .content > *:not(.heading),
+       #nft-gaming-platform-development .d_card:focus-within .content > *:not(.heading) {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            -webkit-transition-delay: calc(var(--d) / 8);
+            transition-delay: calc(var(--d) / 8);
+        }
+        
+       #nft-gaming-platform-development .d_card:focus-within:before,
+       #nft-gaming-platform-development .d_card:focus-within:after,
+       #nft-gaming-platform-development .d_card:focus-within .content,
+       #nft-gaming-platform-development .d_card:focus-within .content > *:not(.heading) {
+            -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+        }
+    }
+   #nft-gaming-platform-development .bg_6 {
+        background: url(images/nftg/bg11.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+   #nft-gaming-platform-development .common_h3.sec-tit {
+        color: #000000;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        font-size: 27.46px;
+    }
+   #nft-gaming-platform-development .uniq_features ul {
+        padding-left: 0px;
+    }
+   #nft-gaming-platform-development .uniq_features ul li {
+        margin-bottom: 15px;
+        position: relative;
+        padding-left: 29px;
+        text-indent: -29px;
+    }
+   #nft-gaming-platform-development .common_spacing.uniq_features.bg_2 {
+        background: #0f1014;
+    }
+   #nft-gaming-platform-development .advantages {
+        padding: 50px 0px;
+    }
+   #nft-gaming-platform-development .advantages ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 0px 0px 0px;
+        padding: 0px;
+    }
+   #nft-gaming-platform-development .advantages ul li {
+        width: 100%;
+        color: #000;
+        margin: 0 5px;
+        position: relative;
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+       #nft-gaming-platform-development .advantages ul .right .icons,
+       #nft-gaming-platform-development .advantages ul li .icons {
+            margin-bottom: 20px;
+        }
+    }
+   #nft-gaming-platform-development .advantages ul .right .icons:before {
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid #d02bfb;
+        width: 200px;
+        margin-top: 20px;
+        z-index: -3;
+        margin-left: 0px;
+    }
+   #nft-gaming-platform-development .advantages ul li .icons:after {
+        content: '';
+        position: absolute;
+        width: 85px;
+        height: 85px;
+        /*background: #f90cff;*/
+        background-image: linear-gradient(to right bottom, #f90cff82, #e027ff82, #c534ff82, #a93eff82, #8a44ff82, #6560ff82, #3c73ff82, #0081ff82, #009cff82, #00b3ff82, #00c6f582, #0cd7e882); 
+        z-index: -1;
+        border-radius: 10px;
+        top: -12px;
+        left: -12px;
+    }
+   #nft-gaming-platform-development .advantages ul .right p {
+        text-align: right;
+    }
+   #nft-gaming-platform-development .advantages-img:before {
+        content: '';
+        position: absolute;
+        width: 330px;
+        height: 330px;
+        border-radius: 50%;
+        top: -15px;
+        left: -15px;
+        border: 2px solid #fff;
+        z-index: -1;
+    }
+   #nft-gaming-platform-development .advantages-img img {
+        /* height: 450px;*/
+        /*margin-top: 68px;*/
+        border-radius: 50%;
+        border: 1px solid #ffffff05;
+    }
+   #nft-gaming-platform-development .advantages ul li p {
+        margin: 30px 0;
+        min-height: 70px;
+        color: #fff;
+    }
+   #nft-gaming-platform-development .advantages-img {
+        background: #222d54;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        padding-top: 0px;
+        position: relative;
+        margin: 90px auto 0 auto;
+        z-index: 5;
+        text-align: center;
+    }
+   #nft-gaming-platform-development .advantages ul .right .icons {
+        float: right;
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+   #nft-gaming-platform-development .advantages ul li .icons {
+        background: #f90cff;
+        background-image: linear-gradient(to right bottom, #f90cff, #e027ff, #c534ff, #a93eff, #8a44ff, #6560ff, #3c73ff, #0081ff, #009cff, #00b3ff, #00c6f5, #0cd7e8);
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+        border-radius: 10px;
+        position: relative;
+        z-index: 2;
+        float: left;
+        margin-right: 30px;
+    }
+   #nft-gaming-platform-development .advantages ul .icons:before {
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid #d02bfb;
+        width: 200px;
+        margin-top: 20px;
+        z-index: -3;
+        margin-left: -200px;
+    }
+   #nft-gaming-platform-development .bg_3 {
+        background: linear-gradient(45deg, #0000007a, #0000006e), url(images/nftg/img_44.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #fff;
+    }
+   #nft-gaming-platform-development .partner-sec {
+        background: #f90cff;
+        background: linear-gradient(to right bottom, #f90cff, #e027ff50, #c534ff50, #a93eff50, #8a44ff50, #6560ff50, #3c73ff50, #0081ff50, #009cff50, #00b3ff50, #00c6f550, #0cd7e850);
+        padding: 40px 15px 10px;
+        max-width: 450px;
+        margin: 0 auto 30px;
+        min-height: 359px;
+        border-radius: 4px;
+        color: #fff;
+    }
+   #nft-gaming-platform-development .partner-sec img {
+        margin-bottom: 10px;
+    }
+   #nft-gaming-platform-development .partner-sec h4 {
+        line-height: 1.3;
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #fff;
+        letter-spacing: 0px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-top: 6px;
+    }
+   #nft-gaming-platform-development .container-center {display: flex; flex-wrap: wrap; position: relative; z-index: 1; justify-content: center; }
+   #nft-gaming-platform-development .equalize {display: flex;}
+   #nft-gaming-platform-development .testimonials-item .user {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        position: absolute;
+        top: -10px;
+        left: 25px;
+        z-index: 3;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        overflow: hidden;
+        background: #86938c6b;
+        box-shadow: 0 2px 48px 0 rgb(0 0 0 / 6%);
+        line-height: 80px;
+        text-align: center;
+    }
+   #nft-gaming-platform-development .testimonials-item {
+        display: block;
+        position: relative;
+        margin-bottom: 30px;
+    }
+   #nft-gaming-platform-development .testimonials-item .user i {
+        color: #fff;
+    }
+   #nft-gaming-platform-development .testimonials-item .user i img {
+        width: 55px;
+        margin-top: -10px;
+    }
+   #nft-gaming-platform-development .testimonials-item .testimonials-content {
+        background: #0b152d;
+        overflow: hidden;
+        box-shadow: 0 2px 48px 0 rgb(0 0 0 / 6%);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        position: relative;
+        height: 100%;
+        min-height: 245px;
+    }
+   #nft-gaming-platform-development .testimonials-item:hover h3 {
+        color: #fff!important;
+    }
+   #nft-gaming-platform-development .testimonials-item:hover p {
+        color: #fff!important;
+    }
+   #nft-gaming-platform-development .testimonials-item .testimonials-content::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: #393737!important;
+        opacity: 0;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+    }
+   #nft-gaming-platform-development .testimonials-item .testimonials-content .user-name {
+        display: block;
+        font-weight: 600;
+        font-size: 19px;
+        color: #fff;
+        margin-top: 20px;
+        padding-left: 115px;
+        letter-spacing: .69px;
+        margin-bottom: 5px;
+        position: relative;
+        z-index: 3;
+        text-transform: capitalize;
+    }
+   #nft-gaming-platform-development .testimonials-item .txt {
+        margin-top: -20px;
+    }
+   #nft-gaming-platform-development .testimonials-item .testimonials-content .txt p {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-bottom: 25px;
+        margin-top: 60px!important;
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: .6px;
+        line-height: 26px;
+        position: relative;
+        z-index: 3;
+    }
+   #nft-gaming-platform-development .txt p {
+        font-size: 15px!important;
+    }
+   #nft-gaming-platform-development .testimonials-item:hover .testimonials-content:before {
+        opacity: 1;
+    }
+   #nft-gaming-platform-development .testimonials-item:hover .user {
+        top: -20px;
+    }
+   #nft-gaming-platform-development .bg_4 {
+        background: linear-gradient(45deg, #0000007a, transparent), url(images/nftg/img_33.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #fff;
+    }
+   #nft-gaming-platform-development .ces-point ul li:hover {
+        background: #700707ad;
+        transition: 0.5s all ease-in-out;
+    }
+   #nft-gaming-platform-development .ces-point ul li {
+        margin-right: 5px;
+        color: #ffffff;
+        letter-spacing: 0.3px;
+        font-weight: 500;
+        /*font-size: 18px;*/
+        text-transform: none;
+        cursor: pointer;
+        background: #673ab7bd;
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 8%);
+        border-radius: 7px;
+        padding: 15px 10px;
+        border: 1px solid transparent;
+        transition: 0.5s all ease-in-out;
+        text-align: center;
+        width: auto;
+        margin-bottom: 10px;
+        width: 32%;
+        min-height: 150px;
+        float: left;
+    }
+   #nft-gaming-platform-development .point-icon {
+        margin-bottom: 10px;
+    }
+   #nft-gaming-platform-development .ces-point ul li img {
+        height: 50px;
+    }
+   #nft-gaming-platform-development .ces ul .none-bg {
+        background: red;
+    }
+   #nft-gaming-platform-development .bg_5 {
+        background: url(images/nftg/img_55.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #fff;
+    }
+   #nft-gaming-platform-development .shard_master-node {
+        /*background: linear-gradient(rgb(0 183 194 / 0%), rgb(0 183 194 / 0%)), transparent url(images/nftg/cta-bg.webp) top left/cover no-repeat fixed;*/
+        padding-top: 60px;
+        background-size: cover;
+        padding-bottom: 60px;
+        background-position: bottom;
+    }
+   #nft-gaming-platform-development .shard-marter-cnt {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.92);
+        padding: 30px 15px 0px 15px;
+        border: 5px dotted #00b7c2;
+        margin-bottom: 30px;
+    }
+   #nft-gaming-platform-development .dark {
+        background: #2d2d2d;
+        color: #fff;
+    }
+   #nft-gaming-platform-development .panel {
+        background-color: #2d2d2d;
+    }
+    body .faq-content .panel-heading {
+        background: #9841ff !important;
+    }
+   #nft-gaming-platform-development .faq-content h4.panel-title {
+        color: #fff;
+    }
+   #nft-gaming-platform-development .faq-content .panel-body {
+        color: #fff!important;
+    }
+   #nft-gaming-platform-development .dark h3.section-title {
+        color: #fff;
+    }
+    #neonShadow {
+        border: none;
+        border-radius: 50px;
+        transition: 0.3s;
+            background: #f90cff;
+    background-image: linear-gradient(to right bottom,#f90cff,#e027ff,#c534ff,#a93eff,#8a44ff,#6560ff,#3c73ff,#0081ff,#009cff,#00b3ff,#00c6f5,#0cd7e8);
+    /*clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%);*/
+        animation: glow 1s infinite;
+        transition: 0.5s;
+        padding: 12px 57px;
+        color: #fff;
+        font-weight: 700;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+   #nft-gaming-platform-development .panel-title a:hover {
+        color: #000 !important;
+    }
+   #nft-gaming-platform-development .contentall a:hover {
+        background: #00acdc00!important;
+    }
+   #nft-gaming-platform-development .btn_new span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        padding-top: 15%;
+        padding-right: 2.5%;
+        margin-right: 0px;
+        font-size: 1.2rem;
+        transition: 0.3s;
+        opacity: 0;
+    }
+   #nft-gaming-platform-development .btn_new span:hover {
+        transition: 0.3s;
+        opacity: 1;
+        font-weight: 700;
+    }
+    #neonShadow:hover {        
+        border-radius: 5px;
+        background-color: #ad0d54;
+        transition: 0.5s;
+    }
+
+     /* @media (min-width: 320px) {
+         #neonShadow{
+            padding: 12px 12px!important;
+         }
+      }*/
+      /* @media (max-width: 425px) {
+         #neonShadow{
+            padding: 12px 24px!important;
+         }
+      }*/
+    @keyframes glow {
+        0% {
+            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+        }
+        
+        50% {
+            box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255)
+        }
+        
+        100% {
+            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168)
+        }
+    }
+   #nft-gaming-platform-development .intro_cnt.common_spacing.bg_1 {
+        background: linear-gradient(45deg, #00000000, #00000000), url(images/nftg/bc2.webp);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+   #nft-gaming-platform-development .place {
+        /*background: linear-gradient(45deg, #000000c2, #0000004f), url(images/nftg/place-bg.webp);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;*/
+        color: #fff;
+    }
+   #nft-gaming-platform-development .ideate {
+        background: linear-gradient(45deg, #00000080, #0000004f), url(images/nftg/ideate-virtual.webp);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+   #nft-gaming-platform-development .igo-nft {
+        /*background: linear-gradient(45deg, #18050573, #220d0d), url(images/nftg/bc1.webp);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;*/
+        color: #fff;
+    }
+   #nft-gaming-platform-development .main-gameflow{max-width: 600px; margin: 0 auto;}
+   #nft-gaming-platform-development .main-gameflow .gameflow{
+    padding: 30px 60px;
+    position: relative;
+}
+.main-gameflow .gameflow:first-child{
+    padding-top: 0;
+}
+.main-gameflow .gameflow:last-child{
+    padding-bottom: 0;
+}
+.main-gameflow .gameflow:before,
+.main-gameflow .gameflow:after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.main-gameflow .gameflow-icon{
+    width: 75px;
+    height: 75px;
+    line-height: 65px;
+    border-radius: 50%;
+    background: #f90cff;
+    background-image: linear-gradient(to right bottom,#f90cff,#e027ff,#c534ff,#a93eff,#8a44ff,#6560ff,#3c73ff,#0081ff,#009cff,#00b3ff,#00c6f5,#0cd7e8);
+    box-sizing: border-box;
+    /*border: 2px solid transparent;*/
+    box-shadow: 0 0 0 2px transparent;
+    text-align: center;
+    margin: auto 0;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: -34px;
+    bottom: 0;
+    z-index: 2;
+}
+.main-gameflow .gameflow:first-child .gameflow-icon,
+.main-gameflow .gameflow:last-child .gameflow-icon{
+    box-sizing: content-box;
+    margin: 0;
+    top: 0;
+    left: -36px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #837cb6;
+}
+.main-gameflow .gameflow:last-child .gameflow-icon{
+    top: auto;
+    bottom: 0;
+}
+.main-gameflow .gameflow:nth-child(2n) .gameflow-icon{
+    left: auto;
+    right: -34px;
+}
+.main-gameflow .gameflow:last-child:nth-child(2n) .gameflow-icon{
+    right: -36px;
+}
+.main-gameflow .gameflow-content{
+    width: 50%;
+}
+.main-gameflow .gameflow:nth-child(2n) .gameflow-content{
+    float: right;
+    text-align: right;
+}
+.main-gameflow .title{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 0;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.main-gameflow .description{
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin: 0;
+}
+.main-gameflow .border{
+    width: 50%;
+    border-top: 2px solid #837cb6;
+    border-bottom: 2px solid #837cb6;
+    border-left: 2px solid #837cb6;
+    border-radius: 6px 0 0 6px;
+    position: absolute;
+    top: 0;
+    bottom: -2px;
+    left: 0;
+    z-index: 1;
+}
+.main-gameflow .gameflow:nth-child(2n) .border{
+    border-left: none;
+    border-right: 2px solid #837cb6;
+    border-radius: 0 6px 6px 0;
+    left: 50%;
+}
+.main-gameflow .gameflow:first-child .border{
+    border-top: none;
+}
+.main-gameflow .gameflow:last-child .border{
+    border-bottom: none;
+}
+@media only screen and (max-width: 990px){
+   #nft-gaming-platform-development .main-gameflow .gameflow{
+        padding: 40px 60px;
+        margin: 0 0 0 35px;
+    }
+   #nft-gaming-platform-development .main-gameflow .gameflow:nth-child(2n){
+        margin: 0 35px 0 0;
+    }
+   #nft-gaming-platform-development .main-gameflow .gameflow-content{
+        width: 100%;
+    }
+}
+
+.expoBox{
+    padding-left: 30px;
+    position: relative;
+    margin-bottom:20px;
+    transition: all 0.4s ease-in-out 0s;
+}
+.expoBox:before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: #040045;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    z-index: 1;
+}
+.expoBox .service-icon{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #f90cff;
+    background-image: linear-gradient(to right bottom,#f90cff,#e027ff,#c534ff,#a93eff,#8a44ff,#6560ff,#3c73ff,#0081ff,#009cff,#00b3ff,#00c6f5,#0cd7e8);
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 1;
+}
+.expoBox .service-icon img{width: 32px; height: 32px; filter: brightness(0) invert(1);}
+.expoBox .service-content{
+    padding: 30px;
+    border-width: 1px;
+    border-style: solid;
+    /*border-color: #d5d5d5 #d5d5d5 #3f4147;*/
+    position: relative;
+    transition: all 0.4s ease-in-out 0s;
+    height: 100%;
+}
+.expoBox:hover .service-content{
+    background: #0000007a;
+    border-color: #3f4147;
+}
+.expoBox .title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 30px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in-out 0s;
+}
+.expoBox:hover .title{
+    color: #fff;
+}
+.expoBox:hover .service-icon{
+animation: rot 2s;
+animation-iteration-count: 3;
+transition: all 1s ease-in-out 1s;
+}
+@keyframes rot {
+from{transform:rotateY(0deg);}
+to{transform:rotateY(360deg);}    
+}
+.expoBox .description{
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+
+@media only screen and (max-width:990px){
+   #nft-gaming-platform-development .expoBox{ margin-bottom: 35px; }
+}
+
+@media only screen and (min-width:990px){
+    /*.expoBox .service-content{ min-height: 245px; }*/
+}
+
+/*-- Technology --*/               
+.technologies {padding: 50px 0;}
+.technologies ul {display: flex; flex-wrap: wrap; justify-content: center;}
+.technologies ul li {width:26%; text-align: center; font-size: 16px; padding: 15px; margin: -1px; border: 1px solid #fff; }
+/*.technologies ul li img {height: 60px;}*/
+.technologies ul li p{margin-bottom: 0 !important;}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.technologies ul li {width: 49%;}
+.technologies ul li img {width: 60px;}
+.technologies ul li{margin:0px;}
+#neonShadow{display: block; margin-bottom: 10px;}
+}
+       
+   #nft-gaming-platform-development .category-grid-style-01 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+/*    background: #fff;*/
+        background: linear-gradient(90deg, rgba(105, 85, 180, 0.1) 0%, rgba(105, 85, 180, 0.3) 50%, rgba(105, 85, 180, 0.1) 100%);
+    -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+    box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+    border-radius: 5px;
+}
+.teck .category-grid-style-01 .category-item {
+    padding: 30px;
+    text-align: center;
+    width: 25%;
+/*    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;*/
+    position: relative;
+    cursor: pointer;
+}
+.teck .category-grid-style-01 .category-item:before {
+    content: "";
+/*    background: #fff;*/
+      background: linear-gradient(90deg, rgba(105, 85, 180, 0.1) 0%, rgba(105, 85, 180, 0.3) 50%, rgba(105, 85, 180, 0.1) 100%);
+    width: 110%;
+    height: 110%;
+    display: inline-block;
+    position: absolute;
+    left: -5%;
+    top: -5%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transform: scale(.96);
+    transform: scale(.96);
+    transition: all .3s ease-in-out;
+}
+.teck .category-grid-style-01 .category-item .category-icon {
+    color: #333;
+    font-size: 44px;
+    line-height: 1;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+}
+.category-grid-style-01 .category-item:hover:before {
+    -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+    box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+   
+}
+.category-item.aos-item .text-center {
+ color: #fff;
+}
+@media (min-width: 320px) and (max-width:768px){
+   #nft-gaming-platform-development .teck .category-grid-style-01 .category-item{
+        width: 100%;
+    }
+
+}
+
+     @media (min-width:320px) and (max-width:643px){
+        #neonShadow{
+            padding: 12px 12px!important;
+        }
+     }
+ 
+    #newsletter-form-sec .form-group{margin-bottom:7px;}
+    #mailForm_common .form-group label{color: #fff;}
+   #nft-gaming-platform-development .contact-content{padding-top: 40px; padding: 30px; margin-top: -40px; margin-left: -40px; background-color: #f9f9f9; box-shadow: 0 0 6px 1px rgba(0,0,0,.22); border-radius: 7px;}
+   #nft-gaming-platform-development .contact-content p{font-size: 18px; line-height: 30px;}
+   #nft-gaming-platform-development .contact-content a{font-size: 18px; display: block;margin-bottom: 20px;}
+   #nft-gaming-platform-development .contact-content a i{color: #47b475; font-size: 24px;}
+   #nft-gaming-platform-development .form-control{background: #fff;}
+   #nft-gaming-platform-development .pad-40-20{padding: 25px 25px 0 25px;}
+    input#phone_common{background: #fff;}
+    #mailForm_common .form-group label{color: #fff;}
+    a.home-talk-experts{border-radius: 25px;}
+
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+       #nft-gaming-platform-development .contact-content{margin-top: 20px; margin-left: 0;padding: 20px !important;}
+       #nft-gaming-platform-development .pad-40-20{padding: 20px;}
+       #nft-gaming-platform-development .contact-content a{font-size: 14px;}
+       #nft-gaming-platform-development .sticky-form{display: none;}
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 899px) {
+       #nft-gaming-platform-development .contact-content{margin-top: 20px; margin-left: 0;}
+    }
+   #nft-gaming-platform-development .newsletter_videos h5 {
+    color: #fff;
+        font-size: 25px!important;
+}
+h5.section-title {
+    font-size: 27.46px;
+}
+.client h5 {
+    color: #444!important;
+}
+h5.common_h3 {
+    font-size: 25px!important;
+}
+
+   #nft-gaming-platform-development .pull-right-tow {
+    background-color: #ba3c0d;
+    padding: 3px 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 125px;
+    position: absolute;
+    right: 0;
+    bottom: -35px;
+}
+.pull-right-tow a{
+    font-size: 12px;
+}
+
+.header-nabar-icon .pull-right {
+    background-color: #47b475;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 3px 15px;
+    /*border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;*/
+    margin-right: 0px;
+    position: absolute;
+    right: 16px;
+    bottom: -30px;
+}
+
+.header-nabar-icon .pull-right a:hover{
+    color: #fff!important;
+}
+.header-nabar-icon .pull-right a, .header-nabar-icon .pull-right-tow a{color: #fff;}
+
+.sticky-form>.quick-cont-btn {
+    top: 64vh;
+    right: -60px;
+    padding: 0px 20px;
+}
+
+@media  (max-width: 320px){
+   #nft-gaming-platform-development .header-nabar-icon .pull-right, .pull-right-tow {
+        display: none;
+        border-radius: 0px;
+        position: relative;
+      width: 255px;
+    
+        text-align: center;
+        margin: 0 15px;
+        float: left !important;
+        padding: 9px 2px;
+    }
+   #nft-gaming-platform-development .sidenav a {
+    font-size: 14px;
+    padding: 4px 4px 8px 8px;
+}
+
+}
+@media  (max-width: 768px){
+   #nft-gaming-platform-development .header-nabar-icon .pull-right, .pull-right-tow {
+        display: none;
+        border-radius: 0px;
+        position: relative;
+      width: 255px;
+    
+        text-align: center;
+        margin: 0 15px;
+        float: left !important;
+        padding: 9px 2px;
+    }
+    #nft-gaming-platform-development .sidenav a {
+    font-size: 14px;
+    padding: 4px 4px 8px 8px;
+}
+}
+/*@media  (max-width: 1024px){
+   #nft-gaming-platform-development .header-nabar-icon .pull-right, .pull-right-tow {
+      background-color: #47b475;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-right: 0px;
+    position: relative;
+    right: 16px;
+    bottom: -30px;
+    }
+}*/
+
+.color-btn {
+    background-color: #1fd1f9 !important;
+    background-image: -o-linear-gradient(135deg,#b621fe 0,#1fd1f9 74%) !important;
+    background-image: linear-gradient(315deg,#b621fe 0,#1fd1f9 74%) !important;
+    border-radius: 7px;
+    color: #fff;
+}
+.color-btn1{
+    border: none;
+    /*border-radius: 50px;*/
+    transition: 0.3s;
+    background: #f90cff;
+    background-image: 
+    linear-gradient(to right bottom,#f90cff,#e027ff,#c534ff,#a93eff,#8a44ff,#6560ff,#3c73ff,#0081ff,#009cff,#00b3ff,#00c6f5,#0cd7e8);
+    /* clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%); */
+    animation: glow 1s infinite;
+    transition: 0.5s;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.color-btn1:focus,.color-btn1:hover{
+        background-color: #47b475;
+        transition: 0.5s;
+
+}
+.color-btn1 span:hover {
+        transition: 0.3s;
+        opacity: 1;
+        font-weight: 700;
+    }
+  @media (min-width:320px) and (max-width:643px){
+       #nft-gaming-platform-development .color-btn1{
+           padding: 9px 16px!important;
+        }
+     }
+/*.color-btn1:before{
+    content: "";
+    background: rgba(0,0,0,0.9);
+    border-radius: 50px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    z-index: -1;
+}*/
+@keyframes glow {
+        0% {
+            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+        }
+        
+        50% {
+            box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255)
+        }
+        
+        100% {
+            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168)
+        }
+    }
+.sticky_form_bp {
+    position: fixed;
+    right: -80px !important;
+    top: 250px;
+    z-index: 10;
+    background: #47b475;
+    color: #fff;
+    padding: 0px 15px 16px !important;
+    text-transform: capitalize;
+    font-weight: 700;
+    transform: rotate(270deg) !important;
+    cursor: pointer;
+    font-size: 14px;
+}
+/*@media (max-width: 1024px){
+   #nft-gaming-platform-development .sticky_form_bp {
+        display:block !important;
+}
+}
+
+@media (max-width: 320px){
+   #nft-gaming-platform-development .sticky_form_bp  {
+        display: block;
+        
+}
+}*/
+
+@media (min-width: 320px) and (max-width: 768px) {
+/*.openbtn1{width: 70px !important; top: 21% !important;}*/
+}  
+
+/* The sidepanel menu */
+.sidepanel4 {
+  height: auto; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 999999; /* Stay on top */
+  top: 27%;
+  left: 0;
+  background-color: transparent; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+
+}
+
+/* The sidepanel links */
+.sidepanel4 a {
+  /*padding: 8px 8px 8px 32px;*/
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; 
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel4 a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel4 .closebtn1 {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 44px;
+  margin-left: 50px;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  background: #eb1e2d !important;
+  line-height: 0.80em;
+  font-weight: bold;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 70%);
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn1 {
+  /*font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 0px;
+  border: none;
+  position: fixed;
+  top: 43%;
+  left: 0;
+  width: 90px;
+  z-index: 99999;*/
+  /*animation: zoom-in-zoom-out 1s ease infinite;*/
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+}
+
+.openbtn1:hover {
+  background-color: transparent;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
+
+.close-btn{position: fixed; left: 10px; bottom: 20px; z-index: 99; color: #fff !important; font-size: 16px; font-weight: bold; border-radius: 50%; border: 0; width: 30px; height: 30px; padding: 0; box-shadow: 1px 1px 11px -3px #999; display: none; transition: all 2s; background-color: #89002a;}
+.fixed-social {position: fixed; bottom: 42px; padding: 0px 10px; background: linear-gradient(2deg, black, #868686, black); transition: all 2s; width: 200px; height: 25px; border-radius: 20px; box-shadow: 1px 1px 11px -3px #999; /*filter: drop-shadow(0 0 0.75rem crimson);*/ display: flex !important; flex-wrap: wrap; z-index: 99; justify-content: center;}
+.hide {opacity:0; left:-100%;}
+.show1 {opacity:1; left:50px;}
+.fixed-social .items{margin: 0 auto;}
+.fixed-social .items .icons{width: 55px; height: 55px; background: linear-gradient(45deg, black, transparent); padding: 5px; border-radius: 50%; margin: -17px 0; float: left;}
+.fixed-social .items .icons i{padding: 9px; background: #00a7e7; border-radius: 50%; font-size: 26px; color: #fff;}
+.fixed-social .items .text{padding-left: 60px; font-weight: bold; font-family: arial; font-size: 14px; color: #fff !important; line-height: 2.2em;}
+.fixed-social .items a{text-decoration: none; outline: none; padding: 0; margin: 0;}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+   #nft-gaming-platform-development .show1 {left:20px;}
+   #nft-gaming-platform-development .close-btn{bottom: 60px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+   #nft-gaming-platform-development .fixed-social {bottom: 80px;}  
+   #nft-gaming-platform-development .show1 {left:50px;}
+   #nft-gaming-platform-development .close-btn{bottom:60px; z-index: 999;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+   #nft-gaming-platform-development .fixed-social .items .text{display: none;}   
+   #nft-gaming-platform-development .fixed-social {bottom: 80px; }  
+   #nft-gaming-platform-development .show1 {left:12%;} 
+   #nft-gaming-platform-development .fixed-social .items a{display: flex; justify-content: center;}
+   #nft-gaming-platform-development .close-btn{bottom:60px; z-index: 999;}
+}
+ 

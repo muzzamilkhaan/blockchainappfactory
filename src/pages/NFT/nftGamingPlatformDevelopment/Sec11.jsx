@@ -9,9 +9,9 @@ const Sec11 = () => {
         <div className="container">
           <div className="section-title text-center">
             <div className="sec_tit">
-              <h2 className="text-white underline">
-                Workflow of Our NFT Game Development{" "}
-              </h2>
+              <div className="text-white underline">
+                <H2 style={{color:"#fff"}}> Workflow of Our NFT Game Development </H2>
+              </div>
             </div>
           </div>
           <div className="row mt40">

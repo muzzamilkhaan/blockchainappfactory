@@ -11,6 +11,9 @@ export const SecOne = styled.div`
   .container {
     padding-top: 120px;
     /* height: 780px; */
+    @media (max-width: 767px) {
+      padding-top: 200px;
+    }
   }
   .content {
     display: flex;
@@ -20,6 +23,8 @@ export const SecOne = styled.div`
     gap: 20px;
     margin-top: -180px;
     padding: 30px 0px;
+    @media (max-width: 767px) {
+    }
   }
   .content h1 {
     color: #fff;
@@ -29,20 +34,32 @@ export const SecOne = styled.div`
     font-size: 40px;
     text-transform: capitalize;
     font-size: 40px;
+    @media (max-width: 767px) {
+      font-size: 25px;
+      padding: 0 px;
+    }
   }
   .content p {
     color: #fff;
     font-size: 19px;
     /* font-family: "openas"; */
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
   }
   .btn-button {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 70%;
+    gap: 20px;
+    /* width: 70%; */
     margin-top: 20px;
     /* gap: 10px; */
+    @media (max-width: 767px) {
+      display: inline-block;
+    }
   }
+
   .neonShadow {
     border: none;
     border-radius: 50px;
@@ -66,11 +83,13 @@ export const SecOne = styled.div`
     /* clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%); */
     animation: glow 1s infinite;
     transition: 0.5s;
-    padding: 12px 57px;
+    padding: 12px 30px ;
+
     color: #fff;
     font-weight: 700;
     margin: 0 auto;
     font-size: 20px;
+    margin-bottom: 20px;
   }
 `;
 export const SecTwo = styled.div`
@@ -152,6 +171,9 @@ export const SecFour = styled.div`
     font-weight: 700;
     margin: 0 auto;
     font-size: 20px;
+    @media (max-width:767px){
+      padding: 12px 12px;
+    }
   }
 `;
 export const SecFive = styled.div`
@@ -383,6 +405,10 @@ export const SecSix = styled.div`
         color: #fff !important;
       }
     }
+
+    @media (min-width: 320px) and (max-width: 768px) {
+      width: 100%;
+    }
   }
   h4 {
     margin: 0;
@@ -432,6 +458,10 @@ export const SecSeven = styled.div`
     font-weight: 700;
     margin: 0 auto;
     font-size: 20px;
+
+    @media (min-width: 320px) and (max-width: 643px){
+      padding: 12px 12px !important;
+    }
   }
 `;
 export const SecEight = styled.div`
@@ -554,8 +584,12 @@ export const SecNine = styled.div`
     font-weight: 700;
     margin: 0 auto;
     font-size: 20px;
+    @media(max-width:767px){
+      padding: 12px 30px;
+    }
   }
 `;
+
 export const SecTen = styled.div`
   .partner-sec {
     background: #f90cff;
@@ -599,6 +633,8 @@ export const SecTen = styled.div`
     color: #fff;
   }
 `;
+
+
 export const SecEleven = styled.div`
   .neonShadow {
     border: none;
@@ -628,6 +664,12 @@ export const SecEleven = styled.div`
     font-weight: 700;
     margin: 0 auto;
     font-size: 20px;
+  }
+  .main-gameflow{
+         @media only screen and (max-width: 990px) {
+          margin: 30px !important;
+         }
+     
   }
   .main-gameflow .gameflow-icon {
     width: 75px;
@@ -679,6 +721,10 @@ export const SecEleven = styled.div`
       width: 100%;
       clear: both;
     }
+    /* @media only screen and (max-width: 990px) {
+      padding: 40px 60px;
+      margin: 0 0 0 35px;
+    } */
   }
   .main-gameflow .gameflow:first-child .gameflow-icon {
     box-sizing: content-box;
@@ -727,6 +773,9 @@ export const SecEleven = styled.div`
   }
   .main-gameflow .gameflow-content {
     width: 50%;
+    @media only screen and (max-width: 990px) {
+      width: 100% !important;
+    }
   }
   .main-gameflow .title {
     font-size: 18px;
@@ -779,6 +828,9 @@ export const SecEleven = styled.div`
     border-radius: 0 6px 6px 0;
     left: 50%;
   }
+  .main-gameflow .gameflow:last-child .border1 {
+    border-bottom: 0 !important;
+  }
   .main-gameflow .border1 {
     width: 50%;
     border-top: 2px solid #837cb6;
@@ -803,6 +855,5 @@ export const SecTwelve = styled.div`
     text-indent: -29px;
     color: #fff;
   }
-  
 `;
 export const SecThirteen = styled.div``;
