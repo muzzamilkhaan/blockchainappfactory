@@ -13,6 +13,7 @@ import Sec11 from "./Sec11";
 import Sec12 from "./Sec12";
 import Sec13 from "./Sec13";
 import WeSpotlightedIn from "../../../components/shared/WeSpotlightedIn";
+import "./mystyl.css";
 const index = () => {
   return (
     <div>
@@ -25,9 +26,7 @@ const index = () => {
       <Sec7 />
       <Sec8 />
       <Sec9 />
-
-      {/* <Sec10 /> */}
-      
+      <Sec10 />
       <Sec11 />
       <Sec12 />
       <Sec13 />
