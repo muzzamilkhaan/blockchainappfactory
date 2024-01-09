@@ -901,7 +901,7 @@
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
     padding: 25px;
     border-radius: 25px;
-    /*height: 400px;*/
+    height: 400px;
     transition: all 0.3s;
 }
 
@@ -914,9 +914,10 @@
 
 @media screen and (max-width: 768px) {
     #white-label-nft-marketplace .blog-slider {
-        min-height: 500px;
-        height: auto;
+        /* min-height: 500px;
+        height: auto; */
         margin-top: 130px;
+        height: 600px;
     }
 }
 
@@ -1034,7 +1035,7 @@
     /*height: 100%;*/
     /*object-fit: cover;*/
     display: block;
-    opacity: 0;
+    opacity: 1;
     border-radius: 20px;
     transition: all 0.3s;
 }
@@ -1060,6 +1061,7 @@
 
 #white-label-nft-marketplace .blog-slider__content {
     padding-right: 25px;
+    text-align: start   ;
 }
 
 @media screen and (max-width: 768px) {
@@ -1077,7 +1079,7 @@
 }
 
 #white-label-nft-marketplace .blog-slider__content>* {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(25px);
     transition: all 0.4s;
 }
@@ -1100,6 +1102,7 @@
     color: #000000;
     margin-bottom: 30px;
     line-height: 1.5em;
+    font-size: 14px;
 }
 
 #white-label-nft-marketplace .blog-slider__button {
@@ -2157,3 +2160,90 @@ a.internal_link:hover {
 #white-label-nft-marketplace h5.common_h3 {
     font-size: 25px !important;
 }
+
+/* SWIPER STYLE */
+#white-label-nft-marketplace .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #white-label-nft-marketplace .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #8f8e8e; */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #white-label-nft-marketplace .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @keyframes imageupDown {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  #white-label-nft-marketplace .blog-slider__img {
+
+    opacity: 0;
+  }
+  @media (max-width: 767px) {
+    #white-label-nft-marketplace .blog-slider__img {
+      transform: translate(-50%, -50%);
+      left: 50%;
+      width: 80%;
+      height: 350px;
+    }
+  }
+  #white-label-nft-marketplace .blog-slider__img.active {
+    opacity: 1;
+    animation: imageupDown 0.8s ease-in-out;
+  }
+  #white-label-nft-marketplace .blog-slider__img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background-image: linear-gradient(147deg, #fe8a3900 0%, #fd383800 74%);*/
+    border-radius: 20px;
+    opacity: 0.8;
+  }
+  #white-label-nft-marketplace .blog-slider__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    opacity: 1;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  
+  /* PAGINATION STYLING */
+  #white-label-nft-marketplace .swiper-pagination-bullet {
+    width: 11px;
+    height: 11px;
+    display: block;
+    border-radius: 10px;
+    opacity: 0.2;
+    transition: all 0.3s;
+  }
+  #white-label-nft-marketplace .swiper-pagination-bullet-active {
+    height: 30px;
+    width: 11px;
+    box-shadow: 0px 0px 20px rgb(252 56 56 / 30%);
+    background-color: #23124c !important;
+    border-radius: 10px;
+    transition: all 0.3s;
+    opacity: 1;
+  }

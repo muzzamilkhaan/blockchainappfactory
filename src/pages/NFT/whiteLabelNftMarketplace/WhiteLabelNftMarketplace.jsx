@@ -39,7 +39,7 @@ function WhiteLabelNftMarketplace() {
         <Sec9 />
         <Sec10 />
         <Sec11 />
-        <Sec12 />
+        {/* <Sec12 /> */}
         <Sec13 />
         <Sec14 />
         <Sec15 />
