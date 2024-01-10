@@ -1,15 +1,61 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaMobileAlt, FaEnvelope } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
+import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { H3 } from "../components/index";
+
 function Header() {
+  const location = useLocation();
+  const baseUrl = location.pathname.split("/")[1];
+  // console.log("BaseURL:", baseUrl);
+
   const [dropdown, setDropdown] = useState(0);
   const [open, setOpen] = useState(false);
+  const [fixedHeader, setFixedHeader] = useState(false);
+  const [showMobileNav, setShowMobileNav] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      let triggerPosition = 500; // default trigger position
+      let liColor = ""; // default color
+
+      // Specify the scroll position and color based on the current page
+      if (baseUrl === "create-your-own-token-and-coin") {
+        triggerPosition = 0;
+        liColor = "#444";
+      }
+      if (baseUrl === "") {
+        // console.log("inside if")
+        triggerPosition = 500;
+        liColor = "#444";
+      }
+      // const triggerPosition = 500;
+      const scrollPosition = window.scrollY;
+
+      // Update the state based on the scroll position
+      setFixedHeader(scrollPosition > triggerPosition);
+
+      const menuItems = document.querySelectorAll(".header .main-menu  li ");
+      menuItems.forEach((item) => {
+        // console.log("fixedHeader:,liColor:", fixedHeader,liColor);
+        item.style.color = fixedHeader ? "liColor" : "#444";
+      });
+    };
+
+    // Attach the scroll event listener when the component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [fixedHeader, baseUrl]);
   return (
     <>
-      <div className="header menu-style-1">
+      <div
+        className={`header menu-style-1 ${fixedHeader ? "header-active" : ""}`}
+      >
         <div className="top-wrapper">
           <div className="container-fluid">
             <div className="row">

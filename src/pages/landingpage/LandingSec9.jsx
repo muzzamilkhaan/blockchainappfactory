@@ -1,4 +1,5 @@
 import React from 'react'
+import UnderLine from '../../components/UnderLine'
 
 function LandingSec9() {
   return (
@@ -10,7 +11,8 @@ function LandingSec9() {
                   <span className="text-primary">Industry Applications</span> For
                   Blockchain Technology
                 </h3>
-                <hr />
+                {/* <hr /> */}
+                <UnderLine background="#eeeeee" height="2px"/>
                 <p className="text-white">
                   Blockchain technology is predicted to disrupt at least few of the
                   following industries.

@@ -88,12 +88,30 @@
 }
 
 #create-your-own-token-and-coin .banner {
-    background-image: url(/public/assets/images/form-bg.png);
+    /* background-image: url(/public/assets/images/intersect.png); */
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 50px;
+
     height: auto;
     background-position: center;
+}
+#create-your-own-token-and-coin .banner-overlay1{
+    background-image: url(/public/assets/images/intersect.png);
+    width: 942px; 
+    height: 942px; 
+    background-repeat: no-repeat; 
+    position: absolute; 
+    right: -472px;
+ }
+
+@media (max-width:767px){
+    #create-your-own-token-and-coin .banner {
+        padding-top: 0;
+    }
+    #create-your-own-token-and-coin .banner-overlay1{
+        display: none;
+    }
 }
 
 #create-your-own-token-and-coin h3.common_h3 {
@@ -181,7 +199,9 @@
 
 
 #create-your-own-token-and-coin .bg-dark-half-md {
-    background: #368b5a;
+    /* background: #368b5a;
+     */
+    background: linear-gradient(81.32deg, #2A317D 0%, #1C224F 100%);
     width: 100%;
     display: inline-block;
     padding: 100px 0;
@@ -193,16 +213,18 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    background: #fff;
-    -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
-    box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+    /* background: #fff; */
+    background: transparent;
+    /* -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%); */
+    /* box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%); */
     border-radius: 5px;
+    box-shadow: none !important;
 }
 
 #create-your-own-token-and-coin .teck .category-grid-style-01 .category-item {
     padding: 30px;
     text-align: center;
-    width: 25%;
+    width: 25% !important;
     border-right: 1px solid #eee;
     border-bottom: 1px solid #eee;
     border-top: 0px solid #eee;
@@ -210,6 +232,7 @@
     position: relative;
     cursor: pointer;
     margin: 0;
+    box-shadow: none !important;
 }
 
 #create-your-own-token-and-coin .teck .category-grid-style-01 .category-item:before {
@@ -238,17 +261,19 @@
 }
 
 #create-your-own-token-and-coin .category-grid-style-01 .category-item:hover:before {
-    -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
-    box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
-    opacity: 1;
+    /* -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%); */
+    /* box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%); */
+    /* opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; */
 }
 
 
 #create-your-own-token-and-coin .bg-dark-half-md {
-    background: #368b5a;
+    /* background: #368b5a; */
+    background: linear-gradient(81.32deg, #2A317D 0%, #1C224F 100%);
+
     width: 100%;
     display: inline-block;
     padding: 60px 0;
@@ -353,7 +378,8 @@
 }
 
 #create-your-own-token-and-coin [type=radio]:checked~label {
-    background: #553285;
+    /* background: #553285; */
+    background: #1C224F;
     z-index: 2
 }
 
@@ -419,7 +445,8 @@
 }
 
 #create-your-own-token-and-coin #msform .action-button {
-    background: #673ab7;
+    /* background: #673ab7; */
+    background: #2A317D;
     border: 0;
     border-radius: 0;
     margin: 10px 0 10px 5px
@@ -519,7 +546,9 @@
 
 #create-your-own-token-and-coin #progressbar li.active:after,
 #create-your-own-token-and-coin #progressbar li.active:before {
-    background: #673ab7
+    /* background: #673ab7 */
+    background: #2A317D;
+
 }
 
 #create-your-own-token-and-coin .progress {

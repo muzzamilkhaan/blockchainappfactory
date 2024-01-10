@@ -4,7 +4,7 @@ function LandingSec6() {
   return (
     <div id="about" className="block p-120 no-top-pd nontoken">
     <div className="container">
-      <div className="row features">
+      <div className="row features home-sec-6">
         <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <div className="feature-box">
             <img

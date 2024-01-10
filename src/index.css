@@ -564,7 +564,14 @@ h3.common_h3, h2.common_h2 {
 .worked_with {
     position: relative;
     z-index: 1;
-    padding: 115px 0;
+    /* padding: 115px 0; */
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+@media (max-width:767px){
+    .worked_with {
+        padding-top: 0;
+    }
 }
 
 .worked_with .col-lg-8 {

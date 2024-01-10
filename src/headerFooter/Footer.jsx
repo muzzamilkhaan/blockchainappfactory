@@ -224,7 +224,7 @@ function Footer() {
                           />{" "}
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a
                           target="_blank"
                           rel="nofollow"
@@ -261,7 +261,7 @@ function Footer() {
                             src="https://www.blockchainappfactory.com/images/verified_logos/comodo_secure_seal_76x26_transp.webp"
                           />{" "}
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                   <div className="col-md-4 text-sm-end">

@@ -4,7 +4,7 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 function LandingSec10() {
   return (
     <section
-          className="p-t330 p-b210 bg-cta particles-js"
+          className="p-t330 p-b210 bg-cta particles-js home-sec-10"
           data-color="#fe4c1c,#00c3ff,#0160e7"
           data-id="i1-1"
           style={{ backgroundColor: "rgb(240, 246, 255)" }}

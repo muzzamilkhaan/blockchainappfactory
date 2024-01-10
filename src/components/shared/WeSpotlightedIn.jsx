@@ -5,6 +5,7 @@ import { GrTasks } from "react-icons/gr";
 import { FaUsers } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { H2 } from "../index";
+import UnderLine from "../UnderLine";
 function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
   const containerStyles = {
     backgroundImage: `url(${backgroundImage})`,
@@ -14,7 +15,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
   return (
     <div style={containerStyles} id="get-quote" className="gray_bg">
       <section className="client">
-        <div className="container clients1">
+        {/* <div className="container clients1">
           <div className="row">
             <div className="section-title text-center col-xs-12">
               <div className="common_h3 text-dark">
@@ -97,7 +98,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
               />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="container patner">
           <div className="row">
             <div className="section-title text-left">
@@ -115,13 +116,18 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                 src="./assets/images/certix.webp"
               />
               <img
-                style={{ background: "#000", padding: 3 }}
+                style={{
+                  background: "",
+                  padding: "0px",
+                  height: "",
+                  border: "none",
+                }}
                 className="lazy part-logo"
                 data-src="./assets/images/xt.webp"
                 alt="UAE"
                 width="150px"
                 height="100%"
-                src="./assets/images/xt.webp"
+                src="./assets/images/binance-partner.png"
               />
               <img
                 className="lazy part-logo"
@@ -133,78 +139,81 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
               />
             </div>
             <div className="col-md-12 col-sm-12 col-xs-12 mt20">
-              <img
+              {/* <img
                 className="lazy part-logo"
                 data-src="./assets/images/binance-logo.webp"
                 alt="UAE"
                 width="150px"
                 height="100%"
                 src="./assets/images/binance-logo.webp"
-              />
-              <img
+              /> */}
+              {/* <img
                 className="lazy part-logo"
                 data-src="./assets/images/polygon-logo.webp"
                 alt="UAE"
                 width="150px"
                 height="100%"
                 src="./assets/images/polygon-logo.webp"
-              />
-              <img
+              /> */}
+              {/* <img
                 className="lazy part-logo"
                 data-src="./assets/images/avalanche-logo.webp"
                 alt="UAE"
                 width="150px"
                 height="100%"
                 src="./assets/images/avalanche-logo.webp"
-              />
+              /> */}
             </div>
           </div>
         </div>
       </section>
       <div className="common_newsletter">
-        <div className="newsletter_videos">
+        <div className="newsletter_videos ">
           <div className="newsletter_videos_numbers">
             <div className="section-title text-center">
               <h5 className="common_h3">
                 History is Boring! But numbers aren't!
               </h5>
-              <hr />
+              {/* <hr /> */}
+              <UnderLine height="2px" background="#eeeeee" />
             </div>
-            <ul className="ul-style-4 list_growth m-t-50 history_ul">
-              <li>
-                {/* <i className="fa fa-link" aria-hidden="true" /> */}
-                <span>
-                  <GrLink />
-                </span>
-                Total Blockchain Experience <strong>10+ Years</strong>
-              </li>
-              <li>
-                <span>
-                  <FaCheck />
-                </span>
-                Projects Completed <strong>400</strong>
-              </li>
-              <li>
-                <span>
-                  <GrTasks />
-                </span>{" "}
-                Projects in progress <strong>50+</strong>
-              </li>
-              <li>
-                <span>
-                  <FaUsers />
-                </span>{" "}
-                Team <strong>500+</strong>
-              </li>
-              <li>
-                <span>
-                  <FaUsers />
-                </span>{" "}
-                Blockchain Experts <strong>150+</strong>
-              </li>
-            </ul>
+            <div className="container">
+              <ul className="ul-style-4 list_growth m-t-50 history_ul">
+                <li>
+                  {/* <i className="fa fa-link" aria-hidden="true" /> */}
+                  <span>
+                    <GrLink />
+                  </span>
+                  Total Blockchain Experience <strong>10+ Years</strong>
+                </li>
+                <li>
+                  <span>
+                    <FaCheck />
+                  </span>
+                  Projects Completed <strong>400</strong>
+                </li>
+                <li>
+                  <span>
+                    <GrTasks />
+                  </span>{" "}
+                  Projects in progress <strong>50+</strong>
+                </li>
+                <li>
+                  <span>
+                    <FaUsers />
+                  </span>{" "}
+                  Team <strong>500+</strong>
+                </li>
+                <li>
+                  <span>
+                    <FaUsers />
+                  </span>{" "}
+                  Blockchain Experts <strong>150+</strong>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="newsletter_videos_videos">
+          {/* <div className="newsletter_videos_videos">
             <a
               className="thumb fancybox-media1"
               allow-navigation=""
@@ -223,7 +232,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
               />
               <span className="play" />
             </a>
-          </div>
+          </div> */}
         </div>
         <div
           id="newsletter-form-sec"
@@ -245,22 +254,38 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
               <br />
               <br />
             </div>
-            <div style={{ background: "#022d62", borderRadius: 7 }}>
+            <div
+              style={{
+                borderRadius: 7,
+                background:
+                  "linear-gradient(81.32deg, #2A317D 0%, #1C224F 100%)",
+              }}
+            >
               <div className="col-md-5">
                 <div className="contact-content">
-                  <p>
+                  <p className="text-white">
                     Turn your ideas into reality with our expertise in web3
                     technology! Reach out to us today and discuss your project
                     or ask your queries to our proficient web3 experts.
                   </p>
-                  <hr />
-                  <a rel="nofollow" href="mailto:info@blockchainappfactory.com">
+                  {/* <hr /> */}
+                  <div
+                    style={{
+                      borderTop: "1px solid #30D4D1",
+                      padding: "10px 0",
+                    }}
+                  />
+                  <a
+                    rel="nofollow"
+                    href="mailto:info@blockchainappfactory.com"
+                    style={{ color: "#a4a4a4" }}
+                  >
                     {/* <i className="fa fa-envelope" aria-hidden="true" title="Mail" />{" "} */}
                     <FaEnvelope />
                     &nbsp; info@blockchainappfactory.com
                   </a>
-                  <a href="tel:+916382665366">
-                    <i className="fa fa-phone-square" aria-hidden="true" />{" "}
+                  <a href="tel:+916382665366" style={{ color: "#a4a4a4" }}>
+                    {/* <i className="fa fa-phone-square" aria-hidden="true" />{" "} */}
                     &nbsp; +91 63826 65366
                   </a>
                 </div>
@@ -277,6 +302,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       name="name"
                       placeholder="Full Name"
                       required=""
+                      style={{color:"#fff"}}
                     />
                   </div>
                   <div className="form-group col-md-6">
@@ -288,6 +314,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       name="email"
                       placeholder="Email address"
                       required=""
+                      style={{color:"#fff"}}
                     />
                   </div>
                   <div className="form-group col-md-6">
@@ -310,6 +337,8 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                         required=""
                         autoComplete="off"
                         placeholder="(201) 555-0123"
+                        style={{background:"#00000059",border:"none",color:"#fff" }}
+                        // className="form-control"
                       />
                     </div>
                     <input
@@ -339,6 +368,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       name="skype"
                       placeholder="Skype ID"
                       required=""
+                      style={{color:"#fff"}}
                     />
                   </div>
                   <div className="form-group newsletter-btns text-left col-md-12 mb10">
@@ -347,11 +377,11 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       href="https://join.skype.com/invite/c0fHGB5VrAXm"
                       target="_blank"
                       className="home-talk-experts space-right"
-                      style={{ borderRadius: 30 }}
+                      style={{ borderRadius: 30,background:"#30D4D1" }}
                     >
                       Connect with Skype
                     </a>{" "}
-                    <span className="or" style={{ color: "#fff" }}>
+                    <span className="or" style={{ color: "#fff",padding:"0px 4px" }}>
                       (OR)
                     </span>
                     <a
@@ -359,7 +389,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       rel="nofollow"
                       href="https://api.whatsapp.com/send?l=en&text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&phone=916382665366"
                       className="home-talk-experts space-right"
-                      style={{ borderRadius: 30 }}
+                      style={{ borderRadius: 30,background:"#30D4D1"  }}
                     >
                       Connect with Whatsapp
                     </a>
@@ -374,6 +404,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       required=""
                       rows={3}
                       defaultValue={""}
+                      style={{color:"#fff"}}
                     />
                   </div>
                   <div className="form-group col-md-12">
@@ -414,7 +445,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       <iframe style={{ display: "none" }} />
                     </div>
                     <br />
-                    <button type="button" className="common_send_btn">
+                    <button type="button" className="common_send_btn" style={{background:"#30D4D1" }}>
                       Submit
                     </button>
                   </div>

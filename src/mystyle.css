@@ -172,7 +172,7 @@ a.readmore:hover {
 
 .header {
     min-height: 50px;
-    background: #fff;
+    /* background: #fff; */
     z-index: 10000000000;
 }
 
@@ -1270,7 +1270,7 @@ input#phone_common {
 
 .part-logo {
     width: 200px;
-    height: 80px;
+    /* height: 80px; */
     object-fit: contain;
 }
 
@@ -3176,10 +3176,10 @@ label[for="file-1"] {
 }
 
 .newsletter_videos {
-    background: #47b475;
+    background: #30D4D1;
     padding: 0;
     border-left: 0;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: auto auto;
 }
 
@@ -3256,7 +3256,9 @@ label[for="file-1"] {
 }
 
 .newsletter_videos .history_ul li span svg path {
-    stroke: #47b475;
+    /* stroke: #47b475; */
+    stroke: #1D2350;
+    color: #1D2350;
 }
 
 .newsletter_videos .history_ul li strong {
@@ -3983,7 +3985,7 @@ img {
 
     .header {
         min-height: auto;
-        background: #fff;
+        /* background: #fff; */
         z-index: 10;
         max-height: 500px;
         overflow: scroll;

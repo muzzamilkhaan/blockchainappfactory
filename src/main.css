@@ -381,7 +381,7 @@ a {
 }
 
 a:hover {
-    color: #47b475 !important
+    color: #30D4D1 !important
 }
 
 p a {
@@ -875,8 +875,8 @@ dl,ol,ul {
 
 .header {
     min-height: 50px;
-    background: #fff;
-    box-shadow: 0 2px 30px -11px rgba(0, 0, 0, 0.3)
+    /* background: #fff; */
+    /* box-shadow: 0 2px 30px -11px rgba(0, 0, 0, 0.3) */
 }
 
 .secondNav .header .main-menu>li a {
@@ -5760,7 +5760,8 @@ h3.section-title {
     }
 
     .header {
-        overflow: hidden
+        overflow: hidden;
+        background: #fff;
     }
 
     .sidenav .closebtn {
@@ -6277,7 +6278,8 @@ span.rig_arw {
 
 .header .main-menu > li a {
     line-height: 50px;
-    color: #444;
+    /* color: #444; */
+    color: #fff;
     font-size: 14px;
     text-transform: capitalize;
     font-weight: bold;
