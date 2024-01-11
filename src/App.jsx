@@ -2,10 +2,9 @@ import React, { Suspense, lazy } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //IMPORT SWIPER CSS
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/landingpage/LandingPage";
@@ -199,6 +198,13 @@ import NftMarketplaceLikeZedrun from "./pages/NFT/nftMarketplaceLikeZedrun/nftMa
 import DecentralandLikeNftDevelopment from "./pages/NFT/decentralandLikeNftDevelopment/decentralandLikeNftDevelopment";
 import NftGameDevelopmentLikeRevvRacing from "./pages/NFT/nftGameDevelopmentLikeRevvRacing/nftGameDevelopmentLikeRevvRacing";
 
+// ICO / IDO
+const IcoTelegramMarketing = lazy(() =>
+  import("./pages/ICOIDO/icoTelegramMarketing/icoTelegramMarketing")
+);
+const IcoInfluencerMarketing = lazy(() =>
+  import("./pages/ICOIDO/icoInfluencerMarketing/icoInfluencerMarketing")
+);
 function App() {
   return (
     <>
@@ -535,6 +541,14 @@ function App() {
             <Route
               path="/nft-game-development-like-revv-racing"
               element={<NftGameDevelopmentLikeRevvRacing />}
+            />
+            <Route
+              path="/ico-telegram-marketing"
+              element={<IcoTelegramMarketing />}
+            />
+            <Route
+              path="/ico-influencer-marketing"
+              element={<IcoInfluencerMarketing />}
             />
           </Routes>
         </Suspense>

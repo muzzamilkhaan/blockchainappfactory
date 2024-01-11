@@ -31,7 +31,7 @@ function Header() {
         triggerPosition = 500;
         liColor = "#444";
       }
-      // const triggerPosition = 500;
+      // const triggerPosition = 500; 
       const scrollPosition = window.scrollY;
 
       // Update the state based on the scroll position
@@ -1157,34 +1157,34 @@ function Header() {
                           ICO Community Marketing
                         </Link>
                       </li>
-                      {/* <li>
-                                                <a href="https://www.blockchainappfactory.com/ico-telegram-marketing">
+                      <li>
+                                                <Link to="ico-telegram-marketing">
                                                     ICO Telegram Marketing
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="https://www.blockchainappfactory.com/ico-influencer-marketing">
+                                                <Link to="ico-influencer-marketing">
                                                     ICO Influencer Marketing
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="https://www.blockchainappfactory.com/initial-exchange-offering-services">
+                                                <Link to='initial-exchange-offering-services'>
                                                     IEO Development
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="https://www.blockchainappfactory.com/equity-token-offering-services">
+                                                <Link to="equity-token-offering-services">
                                                     ETO Development
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="https://www.blockchainappfactory.com/crowdfunding-platform">
+                                                <Link to="crowdfunding-platform">
                                                     Crowdfunding Platform
-                                                </a>
-                                            </li> */}
+                                                </Link>
+                                            </li>
                     </ul>
                   </li>
-                  {/* <li className="has-subsubmenu">
+                  <li className="has-subsubmenu">
                                         <h4>STO</h4>
                                         <ul className="mega-submenu1 normal-sub">
                                             <li>
@@ -1253,7 +1253,7 @@ function Header() {
                                                 </a>
                                             </li>
                                         </ul>
-                                    </li> */}
+                                    </li>
                 </ul>
               </li>
               {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(6) }} onMouseLeave={() => { setDropdown(0) }}>

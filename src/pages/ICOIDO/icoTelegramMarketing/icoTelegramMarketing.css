@@ -1,0 +1,1951 @@
+.top-header p {
+  margin-bottom: 0;
+  color: #fff;
+  display: inline-block;
+  width: auto;
+}
+.lc-1ip30wz {
+  height: 30px !important;
+}
+.top-header {
+  background: #378658;
+  padding: 10px;
+}
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.top-header .breathing_effect {
+  -webkit-animation: breathing 1s infinite ease-in-out;
+  animation: breathing 1s infinite ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  transition: 1s;
+  display: inline-block;
+  width: auto;
+}
+.top-header .breathing_effect a {
+  background: #f44336;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0;
+  margin-left: 15px;
+}
+.top-header .breathing_effect a:hover {
+  color: #fff !important;
+}
+@media (max-width: 1199px) {
+  .header .main-menu > li a {
+    padding: 0 5px;
+  }
+}
+@media (max-width: 550px) {
+  .top-header p {
+    width: 60%;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .top-header .breathing_effect {
+    display: inline-block;
+    width: 40%;
+  }
+}
+.guardian-p {
+  text-align: center;
+  font-size: 12px;
+}
+/*-- Client section --*/
+.teck .category-grid-style-01 .category-item {
+  padding: 10px !important;
+}
+.category-item.aos-item .text-center {
+  font-size: 12px !important;
+  margin-bottom: 0px !important;
+}
+.teck .category-grid-style-01 .category-item .category-icon {
+  margin-bottom: 0 !important;
+}
+.teck .category-icon img {
+  height: 80px !important;
+}
+#ico-telegram-marketing h1,
+#ico-telegram-marketing h2,
+#ico-telegram-marketing h3,
+#ico-telegram-marketing h4,
+#ico-telegram-marketing h5,
+#ico-telegram-marketing h6 {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0px !important;
+}
+#ico-telegram-marketing .contentall {
+  padding: 0;
+}
+/*-- Client section --*/
+
+#ico-telegram-marketing .form-right input.submit_send {
+  width: 100% !important;
+  margin: 0 !important;
+  display: inline-block !important;
+  background: #47b475 !important;
+  color: #fff !important;
+  border: 0 !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  padding: 10px 0 !important;
+}
+
+#ico-telegram-marketing #our_services .grids .grid .feature-box-3 {
+  min-height: 345px !important;
+}
+
+#ico-telegram-marketing .feature-box-3 .icon {
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ico-telegram-marketing #pricing-section {
+  padding: 60px 0;
+}
+
+#ico-telegram-marketing .pricing-box h1 {
+  font-size: 60px;
+}
+
+#ico-telegram-marketing .pricing-foot a {
+  border-radius: 0;
+}
+
+#ico-telegram-marketing .pricing-box .pricing-body {
+  height: 500px;
+  overflow-y: auto;
+}
+
+#ico-telegram-marketing .explanation-section .left {
+  float: left;
+  display: inline-block;
+  width: 15%;
+  padding: 20px 25px;
+  text-align: center;
+}
+
+#ico-telegram-marketing .explanation-section .left i {
+  font-size: 50px;
+}
+
+#ico-telegram-marketing .explanation-section .right {
+  float: left;
+  display: inline-block;
+  width: 80%;
+}
+
+#ico-telegram-marketing .explanation-section .right h4 {
+  margin-bottom: 0;
+}
+
+#ico-telegram-marketing .explanation-section {
+  display: inline-block;
+  width: 100%;
+}
+
+#ico-telegram-marketing .demo-details a {
+  text-align: center;
+  background: #fff;
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+  color: #47b475;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+#ico-telegram-marketing .demo-details a:hover {
+  color: #47b475 !important;
+}
+
+#ico-telegram-marketing .demo-details {
+  background: #47b475;
+  padding: 32px 0 0;
+  min-height: 260px;
+}
+
+#ico-telegram-marketing .demo-details h4 {
+  color: #fff;
+}
+
+#ico-telegram-marketing .demo-details p {
+  color: #f9fff7;
+  margin-bottom: 10px;
+}
+
+#ico-telegram-marketing .our_live_client {
+  display: inline-block;
+  width: 100%;
+  background: #292929;
+}
+
+#ico-telegram-marketing .our_live_client h4 {
+  color: #fff;
+}
+
+#ico-telegram-marketing .our_live_client h1 {
+  margin-bottom: 10px;
+}
+
+#ico-telegram-marketing .our_live_client a img {
+  width: 150px;
+}
+
+#ico-telegram-marketing .section-top {
+  display: inline-block;
+  width: 100%;
+}
+
+#ico-telegram-marketing .our_live_client a {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#ico-telegram-marketing .coinexchange-section {
+  display: inline-block;
+  width: 100%;
+  background: #f4f7fa;
+}
+
+#ico-telegram-marketing .grids .grid .feature-box-3 .icon i {
+  padding: 10px;
+}
+
+#ico-telegram-marketing svg path {
+  fill: #47b475;
+}
+
+#ico-telegram-marketing p strong {
+  color: #000;
+}
+
+#ico-telegram-marketing .padding-10 {
+  background: 0 0;
+}
+
+#ico-telegram-marketing .timeline-center::before {
+  background: #47b475 !important;
+}
+
+#ico-telegram-marketing .flip-box {
+  padding: 15px 10px;
+  min-height: auto;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  border-bottom: 2px solid #47b47566;
+}
+
+#ico-telegram-marketing .flip-tit {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+#ico-telegram-marketing .flip-icon-outer {
+  padding: 0;
+  width: 70px;
+  height: 70px;
+}
+
+#ico-telegram-marketing .order-type-box {
+  min-height: auto;
+  margin-bottom: 65px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1199px) {
+  #ico-telegram-marketing .pricing-box h4 {
+    font-size: 14px;
+  }
+  #ico-telegram-marketing .pricing-box .pricing-head h1 {
+    font-size: 35px;
+  }
+  #our_services .grids .grid .feature-box-3 {
+    min-height: 380px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #ico-telegram-marketing .pricing-box .pricing-head h1 {
+    font-size: 28px;
+  }
+  #our_services .grids .grid .feature-box-3 {
+    min-height: auto !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #ico-telegram-marketing .pricing-foot a {
+    background: #47b475;
+    color: #fff;
+  }
+  #ico-telegram-marketing .explanation-section .left {
+    width: 25%;
+    padding: 0;
+  }
+  #ico-telegram-marketing .explanation-section .right {
+    width: 70%;
+  }
+  #ico-telegram-marketing .pricing-box .pricing-body {
+    height: auto;
+    overflow: unset !important;
+    position: initial !important;
+  }
+  #ico-telegram-marketing .mCustomScrollBox {
+    overflow: unset;
+    height: unset !important;
+    max-width: 100% !important;
+  }
+  #ico-telegram-marketing .mCSB_container {
+    width: auto;
+    height: auto;
+    position: initial !important;
+  }
+  #ico-telegram-marketing .main {
+    overflow-x: hidden;
+  }
+  #ico-telegram-marketing .timeline-center::before {
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #ico-telegram-marketing .flip-tit {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  #ico-telegram-marketing .flip-box {
+    padding: 30px 10px 0;
+    min-height: 200px;
+  }
+  #ico-telegram-marketing .tm-detail.tm-det.tm-det-left,
+  #ico-telegram-marketing .tm-detail.tm-det.tm-det-right {
+    max-width: 450px;
+    margin: 0 auto 20px !important;
+    width: 100%;
+  }
+}
+
+#related_blogs .attachment-post-thumbnail {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+#ico-telegram-marketing .blog_info h3 {
+  margin: 0 10px 10px 10px;
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: left;
+}
+
+#ico-telegram-marketing .blog_info {
+  border: 1px solid #eee;
+  background: #f5f5f5;
+  -webkit-box-shadow: 0 8px 6px -6px #000;
+  -moz-box-shadow: 0 8px 6px -6px #000;
+  box-shadow: 0 8px 6px -6px #888;
+  min-height: 445px;
+  margin-bottom: 30px;
+}
+
+#ico-telegram-marketing .blog_info .except {
+  margin: 0 10px 10px 10px;
+  text-align: left;
+}
+
+#ico-telegram-marketing .pre_data {
+  margin: 0 10px 10px 10px;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+#ico-telegram-marketing .pre_data .date_dt {
+  float: left;
+  color: #000;
+}
+
+#ico-telegram-marketing .pre_data .read_mr {
+  float: right;
+}
+
+#ico-telegram-marketing .pre_data .read_mr a {
+  border-bottom: 2px solid;
+  padding-bottom: 1px;
+}
+
+#related_blogs h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#related_blogs .row {
+  text-align: center;
+}
+
+#related_blogs .col-lg-4 {
+  display: inline-block;
+  float: none;
+  width: 33%;
+}
+
+@media (max-width: 768px) {
+  #ico-telegram-marketing .blog_info {
+    min-height: auto;
+  }
+}
+
+#ico-telegram-marketing .ieoBox {
+  min-height: 210px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+#ico-telegram-marketing .ieoBox h4 {
+  position: relative;
+}
+
+#ico-telegram-marketing .ieoBox h4:before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 50px;
+  background-color: #47b475;
+  left: -15px;
+}
+
+#ico-telegram-marketing .ce-feature-box-23.service-sec i,
+#ico-telegram-marketing .flip-box i {
+  color: #47b474;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+#ico-telegram-marketing .flip-box i {
+  color: #47b474;
+  font-size: 35px;
+  line-height: 70px;
+}
+
+#ico-telegram-marketing .timeline-row i {
+  color: #47b474;
+  font-size: 30px;
+  line-height: 1;
+}
+
+body {
+  color: #000000;
+}
+
+#ico-telegram-marketing .sec-tit h2 {
+  display: inline-block;
+}
+
+#ico-telegram-marketing .common_h3.sec-tit {
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 27.46px;
+}
+
+#ico .banner_content {
+  text-align: left;
+}
+
+#ico-telegram-marketing .contentall h1 {
+  line-height: 1.3;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#ico-telegram-marketing .banner {
+  height: 600px;
+  background-image: url(./assets/images/banner-bg16.webp);
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-position: center;
+}
+
+#ico-telegram-marketing .banner_content {
+  text-align: left;
+  position: relative;
+  top: 0;
+  transform: none;
+}
+
+#ico-telegram-marketing .ban_form {
+  background: #292929;
+  box-shadow: 0 0 10px #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px 30px 10px;
+  border-radius: 5px;
+}
+
+#ico-telegram-marketing .ban_form input#phone_banner {
+  color: #000;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#ico-telegram-marketing .ban_form .form-group {
+  margin-bottom: 20px;
+}
+
+#ico-telegram-marketing .ban_form label {
+  display: none;
+  font-size: 14px;
+  margin-bottom: 7px;
+  padding-left: 0 !important;
+}
+
+#ico-telegram-marketing .submit_btn_b button.common_send_btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #000;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#ico-telegram-marketing .banner_content ul i {
+  color: #16ce90;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+#ico-telegram-marketing .banner_content .contentall {
+  margin-top: 10px;
+}
+
+#ico-telegram-marketing .banner_content h4 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h4.sec_sub {
+  font-size: 20px;
+  font-weight: 700;
+  color: #029870;
+  margin-bottom: 7px;
+}
+
+h4.sec_sub {
+  font-size: 20px;
+  font-weight: 700;
+  color: #029870;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+
+#ico-telegram-marketing .uniq_features ul {
+  padding-left: 15px;
+}
+
+#ico-telegram-marketing .uniq_features ul li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 29px;
+}
+
+#ico-telegram-marketing .uniq_features ul li:after {
+  font-family: FontAwesome;
+  top: 3px;
+  right: 0;
+  padding-right: 10px;
+  content: "\f0a9";
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  color: #03b787;
+}
+
+#ico-telegram-marketing .feat_un li:after {
+  display: none;
+}
+
+ul.feat_un li {
+  padding-left: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+ul.feat_un.feat_un_tw li {
+  width: 49%;
+  float: left;
+}
+
+ul.feat_un i {
+  width: 40px;
+  height: 40px;
+  background: #01b787;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 22px;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+#ico-telegram-marketing .uniq_features p b {
+  font-size: 18px;
+}
+
+#ico-telegram-marketing .contentall ul li img {
+  vertical-align: middle;
+  margin-right: 8px;
+  width: 20px;
+}
+
+#ico-telegram-marketing .contentall ul {
+  padding-left: 0;
+  margin-bottom: 40px;
+  margin-top: 0;
+  max-width: 510px;
+}
+
+#ico-telegram-marketing .contentall ul li {
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 1px solid #666;
+}
+
+#ico-telegram-marketing .contentall ul li a {
+  background: 0 0;
+  padding: 0;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  display: block;
+  cursor: pointer;
+}
+
+#ico-telegram-marketing .contentall ul i.hv {
+  float: right;
+  vertical-align: middle;
+  font-size: 17px;
+  position: relative;
+  top: 8px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#ico-telegram-marketing .levtrade_feat ul {
+  padding-left: 15px;
+}
+
+#ico-telegram-marketing .levtrade_feat ul li {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 29px;
+}
+
+#ico-telegram-marketing .levtrade_feat ul li:after {
+  font-family: FontAwesome;
+  top: 4px;
+  right: 0;
+  padding-right: 10px;
+  content: "\f0a9";
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  color: #03b787;
+}
+
+#ico-telegram-marketing .explanation-section {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: block;
+  background: #fff;
+  border: 2px solid #00ca996b;
+  padding: 20px 20px 10px 20px;
+}
+
+#ico-telegram-marketing .explanation-section h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#ico-telegram-marketing .contentall ul li a:hover i.hv {
+  opacity: 1;
+}
+
+#ico-telegram-marketing .serv_box {
+  background: #fff;
+  padding: 15px 15px 0 15px;
+  text-align: center;
+  border: 4px solid #eee;
+  min-height: 295px;
+  margin-bottom: 20px;
+}
+
+#ico-telegram-marketing .pricing-box .pricing-foot a {
+  display: block;
+  padding: 10px 0;
+  background: #47b475;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.4s ease-in-out;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+#ico-telegram-marketing .pricing-foot {
+  background: #eee;
+  padding: 10px 0;
+}
+
+#ico-telegram-marketing .serv_box_ic {
+  margin: 10px auto 10px;
+}
+
+#ico-telegram-marketing .serv_box_ic img {
+  height: 70px;
+}
+
+#ico-telegram-marketing .serv_box_cnt h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#ico-telegram-marketing .pr_wrp {
+  max-width: 730px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  border: 3px solid #eee;
+  background: #f5f5f5;
+  margin-bottom: 30px;
+}
+
+#ico-telegram-marketing .pr_wrp p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+#ico-telegram-marketing .pricing-box .pricing-head {
+  padding: 10px 10px 15px 10px;
+}
+
+#ico-telegram-marketing .row.lv_flow {
+  position: relative;
+}
+
+#ico-telegram-marketing .row.lv_flow .pr_c {
+  position: absolute;
+  right: -61px;
+  top: 68px;
+}
+
+#ico-telegram-marketing .lv_flow h4 {
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#ico-telegram-marketing .pr_ccc {
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+  padding-top: 7px;
+  display: inline-block;
+  padding: 0 55px 0;
+  border-left: none;
+  border-right: none;
+}
+
+#ico-telegram-marketing .pr_ccc h5 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 0;
+  line-height: 1.1;
+  color: #00c0b0;
+}
+
+#ico-telegram-marketing .pr_ccc h6 {
+  font-size: 14px;
+  line-height: 1;
+  padding-bottom: 10px;
+}
+
+#ico-telegram-marketing .col_half {
+  width: 49%;
+}
+
+#ico-telegram-marketing .col_third {
+  width: 32%;
+}
+
+#ico-telegram-marketing .col_fourth {
+  width: 23.5%;
+}
+
+#ico-telegram-marketing .col_fifth {
+  width: 18.4%;
+}
+
+#ico-telegram-marketing .col_sixth {
+  width: 15%;
+}
+
+#ico-telegram-marketing .col_three_fourth {
+  width: 74.5%;
+}
+
+#ico-telegram-marketing .col_twothird {
+  width: 66%;
+}
+
+#ico-telegram-marketing .col_fifth,
+#ico-telegram-marketing .col_fourth,
+#ico-telegram-marketing .col_half,
+#ico-telegram-marketing .col_third,
+#ico-telegram-marketing .col_three_fourth,
+#ico-telegram-marketing .col_twothird {
+  position: relative;
+  display: inline;
+  display: inline-block;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 20px;
+}
+
+#ico-telegram-marketing .end {
+  margin-right: 0 !important;
+}
+
+#ico-telegram-marketing .counters {
+  background-color: #fff;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+#ico-telegram-marketing .fa-2x {
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #4ad1e5;
+}
+
+#ico-telegram-marketing .counters h5 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #00c7a0;
+}
+
+p.count-text {
+  font-weight: 700;
+  color: #000;
+  font-size: 18px;
+}
+
+#ico-telegram-marketing .counters {
+  background-color: #fff;
+  padding: 20px 0;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#ico-telegram-marketing .pr_ccc.pr_ccc_l {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#ico-telegram-marketing .pricing-box .pricing-head .bg-icon {
+  opacity: 0.1;
+}
+
+#ico-telegram-marketing .intl-tel-input .country-list .country {
+  padding: 5px 10px;
+  background: 0 0;
+  border: none;
+  text-align: left;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#ico-telegram-marketing .contentall ul li span {
+  float: right;
+  background: #47b475;
+  padding: 3px 10px 3px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  margin-top: -3px;
+}
+
+#ico-telegram-marketing .contentall ul li span i {
+  margin: 0;
+  font-size: 13px;
+  color: #fff;
+  position: relative;
+  top: 0;
+  margin-left: 5px;
+}
+
+body .faq-content .panel-heading {
+  background: #fff !important;
+  color: #666;
+}
+
+#ico-telegram-marketing .feat_box {
+  text-align: center;
+  background: #fff;
+  padding: 34px 15px 10px;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  min-height: 300px;
+}
+
+#ico-telegram-marketing .feat_box_ic {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  line-height: 80px;
+}
+
+#ico-telegram-marketing .feat_box:hover {
+  background-image: linear-gradient(to bottom right, #07c891, #00a9e4);
+  color: #fff;
+}
+
+#ico-telegram-marketing .feat_box:hover {
+  p {
+    color: #fff;
+  }
+}
+#ico-telegram-marketing .feat_box:hover h4 {
+  color: #fff;
+}
+
+#ico-telegram-marketing .feat_box p {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+#ico-telegram-marketing .feat_box_cnt h4 {
+  line-height: 1.3;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  #ico-telegram-marketing .contentall ul li span {
+    background: #47b475;
+    padding: 3px 10px 3px 15px;
+    font-size: 14px;
+    border-radius: 2px;
+    display: block;
+    width: 125px;
+    margin: 8px auto 10px;
+    float: right;
+  }
+  #ico-telegram-marketing .feat_box {
+    min-height: 256px;
+  }
+  #ico-telegram-marketing .contentall ul li {
+    overflow: hidden;
+    line-height: 1.9;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #ico-telegram-marketing .banner {
+    padding-top: 30px;
+  }
+  #ico-telegram-marketing .pricing-box {
+    margin-bottom: 30px;
+  }
+  #ico-telegram-marketing .banner_content h4 {
+    font-size: 20px;
+  }
+  ul.feat_un.feat_un_tw li {
+    width: 100%;
+    float: none;
+  }
+  #ico-telegram-marketing .serv_box {
+    padding: 20px 15px 21px 15px;
+    min-height: auto;
+  }
+  #ico-telegram-marketing .ban_form {
+    margin-top: 30px;
+  }
+  #ico-telegram-marketing .counters {
+    padding: 0 0;
+  }
+  #ico-telegram-marketing .levtrade_feat .col-md-6.col-sm-6.mt40 {
+    margin-top: 0 !important;
+  }
+  #ico-telegram-marketing .pr_wrp br {
+    display: none;
+  }
+  #ico-telegram-marketing .demo-details {
+    background: #47b475;
+    padding: 32px 0 30px;
+    min-height: auto;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 993px) {
+  #ico-telegram-marketing .exchange-section-new .flip-box {
+    min-height: 190px;
+  }
+}
+
+#ico-telegram-marketing .lev_sec {
+  position: relative;
+  overflow: hidden;
+}
+
+#ico-telegram-marketing .pricing-head h4 {
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+#ico-telegram-marketing .view_demo_sec .text-bold {
+  font-weight: 700;
+  background: #2a2a2a;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #fff;
+  line-height: 1.3;
+}
+
+#ico-telegram-marketing .banner_form h3 {
+  color: #fff;
+  text-align: center;
+  line-height: 1.4;
+  font-weight: 700;
+  font-size: 20px;
+  background: #47b475;
+  border-radius: 4px;
+  padding: 7px 10px;
+}
+
+#ico-telegram-marketing .lev_se .why-blockchain-sec {
+  position: relative;
+  z-index: 1;
+}
+
+#ico-telegram-marketing .pr_box {
+  position: relative;
+  min-height: 80px;
+}
+
+#ico-telegram-marketing .pr_box_ic h4 {
+  font-family: arial;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 1;
+  color: #47b474;
+}
+
+#ico-telegram-marketing .pr_box_ic {
+  position: absolute;
+}
+
+#ico-telegram-marketing .pr_box_cnt p {
+  margin-bottom: 0;
+  font-size: 17px;
+  line-height: 1.3;
+  font-weight: 800;
+}
+
+#ico-telegram-marketing .pr_box_cnt {
+  padding-left: 69px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 768px) {
+  #ico-telegram-marketing .contentall h1 {
+    padding-top: 80px;
+    font-size: 22px;
+  }
+  #ico-telegram-marketing .row.pr_prr {
+    max-width: 285px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #ico-telegram-marketing .feat_box {
+    min-height: auto;
+    padding-bottom: 35px;
+    max-width: 500px;
+    margin: 0 auto 30px;
+  }
+}
+
+#ico-telegram-marketing .box_img {
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+p.les_mr {
+  margin-bottom: 10px;
+}
+
+ul.list-ico {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+#ico-telegram-marketing .row.why_chose {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#ico-telegram-marketing .list-ico li {
+  background: url(images/ico/big-tick.webp);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  background-size: 20px;
+  background-position: 0 4px;
+}
+
+#ico-telegram-marketing .whitelable-section h2.common_h3 {
+  font-size: 21px;
+}
+
+@media only screen and (min-width: 993px) {
+  #ico-telegram-marketing .bti_exc li {
+    width: 33%;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #ico-telegram-marketing .common_h3.sec-tit {
+    font-size: 23px;
+  }
+}
+
+#ico-telegram-marketing h1,
+#ico-telegram-marketing h2,
+#ico-telegram-marketing h3,
+#ico-telegram-marketing h4,
+#ico-telegram-marketing h5,
+#ico-telegram-marketing h6 {
+  font-weight: 600;
+}
+
+#ico-telegram-marketing h4.sec_sub {
+  text-transform: none;
+  line-height: 1.5;
+}
+
+#ico-telegram-marketing .md-flex {
+  display: flex;
+  align-items: center;
+}
+
+#ico-telegram-marketing .br-5 {
+  border-radius: 5px;
+}
+
+#ico-telegram-marketing .feature-box-4 {
+  border: 2px solid #47b475;
+  padding: 15px;
+  min-height: 240px;
+  text-align: center;
+}
+
+#ico-telegram-marketing .feature-box-4 .feature-title {
+  display: inline-block;
+  line-height: 32px;
+  vertical-align: inherit;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+#ico-telegram-marketing .feature-title {
+  color: #000000;
+  font-weight: 700;
+}
+
+#ico-telegram-marketing .feature-box-4 .icon {
+  height: 70px;
+  width: 60px;
+}
+
+#ico-telegram-marketing .feature-box-4 .icon img {
+  width: 80%;
+}
+
+h2.common_h2 {
+  margin-bottom: 25px;
+}
+
+#ico-telegram-marketing .ct_warp {
+  background-image: url("./assets/images/sec-bg1.webp");
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 0;
+  background-position: center center;
+  padding-bottom: 70px;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+#ico-telegram-marketing .ct_warp p {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+#ico-telegram-marketing .ct_warp a.home-talk-experts {
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: center;
+  background: #fff;
+  color: #47b475;
+}
+
+@media only screen and (max-width: 767px) {
+  #ico-telegram-marketing .banner_content .contentall {
+    margin-top: 30px;
+  }
+  #ico-telegram-marketing .banner_content p {
+    margin: 10px 0px;
+  }
+  #ico-telegram-marketing .abt-img {
+    margin-bottom: 20px;
+  }
+  #ico-telegram-marketing .md-flex {
+    display: block;
+  }
+  #ico-telegram-marketing .ct_warp p {
+    font-size: 24px;
+  }
+}
+
+#ico-telegram-marketing .feature-box-4 {
+  margin-bottom: 20px;
+}
+
+#ico-telegram-marketing .feature-box-4:hover {
+  background: #f2f2f2;
+}
+
+@media screen and (max-width: 425px) {
+  #ico-telegram-marketing .contentall {
+    padding: 20px;
+  }
+}
+
+#ico-telegram-marketing .font-wei {
+  color: #000000;
+  font-weight: 700;
+}
+
+#ico-telegram-marketing .feat_tit {
+  color: #000000;
+  font-weight: 700;
+}
+
+#ico-telegram-marketing .cta-sec:hover {
+  background: #ffffff;
+}
+
+#ico-telegram-marketing .popup-ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-radius: 7px;
+  justify-content: center;
+}
+.popup-ul li {
+  width: 26%;
+  margin-bottom: 20px;
+  justify-content: center;
+  padding: 0px;
+  text-align: center;
+}
+.popup-ul li p {
+  color: #fff;
+  margin-bottom: 0;
+}
+.popup-ul li img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  background: #fff;
+  padding: 5px;
+}
+.login-popup .box-1 .form .form-control::placeholder {
+  color: #fff;
+}
+.login-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1099;
+  background-color: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s;
+}
+.login-popup.show {
+  visibility: visible;
+  opacity: 1;
+}
+.login-popup .box-1 {
+  background-color: #000a30;
+  min-width: 870px !important;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0;
+  margin-left: 50px;
+  transition: 1s;
+}
+.login-popup.show .box-1 {
+  opacity: 1;
+  margin-left: 0;
+}
+.login-popup .box-1 .img-area {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  overflow: hidden;
+  padding: 50px 30px 0px;
+  align-items: center;
+  justify-content: center;
+}
+.login-popup .box-1 .img-area h1 {
+  font-size: 30px;
+}
+.login-popup .box-1 .img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/marketing-form-bg.webp");
+  background-size: cover;
+  background-position: center; /*animation:7s linear infinite zoomInOut;*/
+  z-index: -1;
+  opacity: 0.2;
+}
+@keyframes zoomInOut {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+.login-popup .box-1 .form {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 20px 30px 20px; /*background-color:#fff*/
+}
+.login-popup .box-1 .form h2 {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 0 30px;
+}
+.login-popup .box-1 .form .form-control {
+  height: 40px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  background: #ffffff36;
+  box-shadow: 0px 0px 7px #0000004a;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 15px;
+}
+.login-popup .box-1 .form .btn:focus,
+.login-popup .box-1 .form .form-control:focus {
+  outline: 0;
+}
+.login-popup .box-1 .form label {
+  font-size: 15px;
+  color: #555;
+}
+.login-popup .box-1 .form .btn {
+  width: auto;
+  background-color: #e91e63;
+  height: 45px;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  line-height: 0;
+}
+.login-popup .box-1 .form .close {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 30px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  color: #fff;
+  background: #ffffff91;
+  border-radius: 20px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .login-popup .box-1 {
+    width: calc(100% - 30px);
+    min-width: 90% !important;
+  }
+  .login-popup .box-1 .img-area {
+    display: none;
+  }
+  .login-popup .box-1 .form {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.social {
+  margin-top: 25px;
+}
+.social a {
+  color: #fff;
+}
+.social .fa {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  color: #fff;
+  background: #2db942;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 26px;
+  padding: 2px;
+}
+.social .fa.fa-envelope {
+  background: #0195d5 !important;
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .login-popup .box-1 {
+    min-width: 90% !important;
+  }
+}
+
+#ico-telegram-marketing .nec-btn {
+  position: relative !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  font-size: 11px;
+  text-transform: uppercase !important;
+  transform: scale(1.1, 1.1) !important;
+  transition: all 0.3s ease-out 0s !important;
+  background: #47b475 !important;
+}
+#ico-telegram-marketing .nec-btn:hover {
+  transform: scale(1, 1) !important;
+  color: #fff !important;
+  background: #00a9e2 !important;
+}
+#ico-telegram-marketing
+  a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+  margin-bottom: 15px !important;
+  display: inline-block;
+  margin-right: 26px !important;
+  text-transform: uppercase !important;
+}
+#ico-telegram-marketing .contentall a,
+a.home-talk-experts {
+  padding: 10px 20px !important;
+}
+
+#ico-telegram-marketing .Package_list img {
+  /*border:1px solid #fff;
+                border-radius: 150px;*/
+}
+#ico-telegram-marketing .Package_list {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 10px;
+  /* max-width: 280px; */
+  width: 25%;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2px;
+}
+#ico-telegram-marketing .Package_list img {
+  height: 55px;
+}
+@media screen and (max-width: 320px) {
+  #ico-telegram-marketing .Package_list {
+    width: 100%;
+  }
+}
+
+#ico-telegram-marketing #newsletter-form-sec .form-group {
+  margin-bottom: 7px;
+}
+#ico-telegram-marketing #mailForm_common .form-group label {
+  color: #fff;
+}
+#ico-telegram-marketing .contact-content {
+  padding-top: 40px;
+  padding: 30px;
+  margin-top: -40px;
+  margin-left: -40px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.22);
+  border-radius: 7px;
+}
+#ico-telegram-marketing .contact-content p {
+  font-size: 18px;
+  line-height: 30px;
+}
+#ico-telegram-marketing .contact-content a {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 20px;
+}
+#ico-telegram-marketing .contact-content a i {
+  color: #47b475;
+  font-size: 24px;
+}
+#ico-telegram-marketing .form-control {
+  background: #fff;
+}
+#ico-telegram-marketing .pad-40-20 {
+  padding: 25px 25px 0 25px;
+}
+input#phone_common {
+  background: #fff;
+}
+#mailForm_common .form-group label {
+  color: #fff;
+}
+a.home-talk-experts {
+  border-radius: 25px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #ico-telegram-marketing .contact-content {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 20px !important;
+  }
+  #ico-telegram-marketing .pad-40-20 {
+    padding: 20px;
+  }
+  #ico-telegram-marketing .contact-content a {
+    font-size: 14px;
+  }
+  #ico-telegram-marketing .sticky-form {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  #ico-telegram-marketing .contact-content {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+#ico-telegram-marketing .newsletter_videos h5 {
+  color: #fff;
+  font-size: 25px !important;
+}
+#ico-telegram-marketing h5.section-title {
+  font-size: 27.46px;
+}
+#ico-telegram-marketing .client h5 {
+  color: #444 !important;
+}
+#ico-telegram-marketing h5.common_h3 {
+  font-size: 25px !important;
+}
+
+#ico-telegram-marketing .pull-right-tow {
+  background-color: #ba3c0d;
+  padding: 3px 15px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 125px;
+  position: absolute;
+  right: 0;
+  bottom: -35px;
+}
+#ico-telegram-marketing .pull-right-tow a {
+  font-size: 12px;
+}
+
+#ico-telegram-marketing .header-nabar-icon .pull-right {
+  background-color: #47b475;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 3px 15px;
+  /*border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;*/
+  margin-right: 0px;
+  position: absolute;
+  right: 16px;
+  bottom: -30px;
+}
+
+#ico-telegram-marketing .header-nabar-icon .pull-right a:hover {
+  color: #fff !important;
+}
+#ico-telegram-marketing .header-nabar-icon .pull-right a,
+.header-nabar-icon .pull-right-tow a {
+  color: #fff;
+}
+
+#ico-telegram-marketing .sticky-form > .quick-cont-btn {
+  top: 64vh;
+  right: -60px;
+  padding: 0px 20px;
+}
+
+@media (max-width: 320px) {
+  #ico-telegram-marketing .header-nabar-icon .pull-right,
+  .pull-right-tow {
+    display: none;
+    border-radius: 0px;
+    position: relative;
+    width: 255px;
+
+    text-align: center;
+    margin: 0 15px;
+    float: left !important;
+    padding: 9px 2px;
+  }
+  #ico-telegram-marketing .sidenav a {
+    font-size: 14px;
+    padding: 4px 4px 8px 8px;
+  }
+}
+@media (max-width: 768px) {
+  #ico-telegram-marketing .header-nabar-icon .pull-right,
+  .pull-right-tow {
+    display: none;
+    border-radius: 0px;
+    position: relative;
+    width: 255px;
+
+    text-align: center;
+    margin: 0 15px;
+    float: left !important;
+    padding: 9px 2px;
+  }
+  #ico-telegram-marketing .sidenav a {
+    font-size: 14px;
+    padding: 4px 4px 8px 8px;
+  }
+}
+/*@media  (max-width: 1024px){
+   #ico-telegram-marketing .header-nabar-icon .pull-right, .pull-right-tow {
+      background-color: #47b475;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-right: 0px;
+    position: relative;
+    right: 16px;
+    bottom: -30px;
+    }
+}*/
+
+#ico-telegram-marketing .color-btn {
+  background-color: #1fd1f9 !important;
+  background-image: -o-linear-gradient(
+    135deg,
+    #b621fe 0,
+    #1fd1f9 74%
+  ) !important;
+  background-image: linear-gradient(315deg, #b621fe 0, #1fd1f9 74%) !important;
+  border-radius: 7px;
+  color: #fff;
+}
+#ico-telegram-marketing .color-btn1 {
+  border: none;
+  /*border-radius: 50px;*/
+  transition: 0.3s;
+  background: #f90cff;
+  background-image: linear-gradient(
+    to right bottom,
+    #f90cff,
+    #e027ff,
+    #c534ff,
+    #a93eff,
+    #8a44ff,
+    #6560ff,
+    #3c73ff,
+    #0081ff,
+    #009cff,
+    #00b3ff,
+    #00c6f5,
+    #0cd7e8
+  );
+  /* clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%); */
+  animation: glow 1s infinite;
+  transition: 0.5s;
+  padding: 10px 25px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 16px;
+}
+#ico-telegram-marketing .color-btn1:focus,
+.color-btn1:hover {
+  background-color: #47b475;
+  transition: 0.5s;
+}
+#ico-telegram-marketing .color-btn1 span:hover {
+  transition: 0.3s;
+  opacity: 1;
+  font-weight: 700;
+}
+@media (min-width: 320px) and (max-width: 643px) {
+  #ico-telegram-marketing .color-btn1 {
+    padding: 9px 16px !important;
+  }
+}
+/*.color-btn1:before{
+    content: "";
+    background: rgba(0,0,0,0.9);
+    border-radius: 50px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    z-index: -1;
+}*/
+@keyframes glow {
+  0% {
+    box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+  }
+
+  50% {
+    box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255);
+  }
+
+  100% {
+    box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+  }
+}
+#ico-telegram-marketing .sticky_form_bp {
+  position: fixed;
+  right: -80px !important;
+  top: 250px;
+  z-index: 10;
+  background: #47b475;
+  color: #fff;
+  padding: 0px 15px 16px !important;
+  text-transform: capitalize;
+  font-weight: 700;
+  transform: rotate(270deg) !important;
+  cursor: pointer;
+  font-size: 14px;
+}
+/*@media (max-width: 1024px){
+   #ico-telegram-marketing .sticky_form_bp {
+        display:block !important;
+}
+}
+
+@media (max-width: 320px){
+   #ico-telegram-marketing .sticky_form_bp  {
+        display: block;
+        
+}
+}*/
+
+@media (min-width: 320px) and (max-width: 768px) {
+  /*.openbtn1{width: 70px !important; top: 21% !important;}*/
+}
+
+/* The sidepanel menu */
+#ico-telegram-marketing .sidepanel4 {
+  height: auto; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 999999; /* Stay on top */
+  top: 27%;
+  left: 0;
+  background-color: transparent; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+#ico-telegram-marketing .sidepanel4 a {
+  /*padding: 8px 8px 8px 32px;*/
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+#ico-telegram-marketing .sidepanel4 a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+#ico-telegram-marketing .sidepanel4 .closebtn1 {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 44px;
+  margin-left: 50px;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  background: #eb1e2d !important;
+  line-height: 0.8em;
+  font-weight: bold;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 70%);
+}
+
+/* Style the button that is used to open the sidepanel */
+#ico-telegram-marketing .openbtn1 {
+  /*font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 0px;
+  border: none;
+  position: fixed;
+  top: 43%;
+  left: 0;
+  width: 90px;
+  z-index: 99999;*/
+  /*animation: zoom-in-zoom-out 1s ease infinite;*/
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+}
+
+#ico-telegram-marketing .openbtn1:hover {
+  background-color: transparent;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}

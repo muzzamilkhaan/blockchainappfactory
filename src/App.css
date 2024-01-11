@@ -6526,12 +6526,13 @@ html {
 
   .header .menu-item .mega-submenu.menu_desk.menu_desk_ico {
     width: 100%;
-    max-width: 350px;
-    left: 60%;
+    max-width: 850px;
+    left: 25%;
+    /* display: inline-flex !important;  */
   }
 
   .header .menu-item .mega-submenu.menu_desk.menu_desk_ico li.has-subsubmenu {
-    width: 100%;
+    width: 30%;
   }
   .header .menu-item .mega-submenu.menu_desk.menu_desk_exchange {
     width: 100%;
