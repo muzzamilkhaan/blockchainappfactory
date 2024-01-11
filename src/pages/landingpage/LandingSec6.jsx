@@ -15,7 +15,7 @@ function LandingSec6() {
               alt=""
               src="./assets/images/networking.webp"
             />
-            <h3>NFT Marketplace</h3>
+            <h3 style={{color:"#2b2c2d"}}>NFT Marketplace</h3>
             <p>
               NFTs offer surplus business opportunities by offering a unique
               business opportunity for these unique collectibles with a
@@ -44,7 +44,7 @@ function LandingSec6() {
               alt=""
               src="./assets/images/play-to-earn.webp"
             />
-            <h3>Play To Earn NFT Games</h3>
+            <h3 style={{color:"#2b2c2d"}}>Play To Earn NFT Games</h3>
             <p>
               Play To Earn NFTs games are the recent trend and they will be making
               their very own NFTs or cryptocurrencies just by playing the game.

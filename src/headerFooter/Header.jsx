@@ -6,11 +6,15 @@ import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { H3 } from "../components/index";
 
-function Header() {
+function Header({ headerBgColor, linkColor }) {
   const location = useLocation();
-  const baseUrl = location.pathname.split("/")[1];
-  // console.log("BaseURL:", baseUrl);
+  // const [headerBgColor , setHeaderBgColor] = useState(false)
 
+  // if(baseUrl === '/' || baseUrl === '/'){
+  //   setHeaderBgColor(false)
+  // }else{
+  //   setHeaderBgColor(true)
+  // }
   const [dropdown, setDropdown] = useState(0);
   const [open, setOpen] = useState(false);
   const [fixedHeader, setFixedHeader] = useState(false);
@@ -22,26 +26,18 @@ function Header() {
       let liColor = ""; // default color
 
       // Specify the scroll position and color based on the current page
-      if (baseUrl === "create-your-own-token-and-coin") {
-        triggerPosition = 0;
-        liColor = "#444";
-      }
-      if (baseUrl === "") {
-        // console.log("inside if")
-        triggerPosition = 500;
-        liColor = "#444";
-      }
-      // const triggerPosition = 500; 
+
+      // const triggerPosition = 500;
       const scrollPosition = window.scrollY;
 
       // Update the state based on the scroll position
       setFixedHeader(scrollPosition > triggerPosition);
 
-      const menuItems = document.querySelectorAll(".header .main-menu  li ");
-      menuItems.forEach((item) => {
-        // console.log("fixedHeader:,liColor:", fixedHeader,liColor);
-        item.style.color = fixedHeader ? "liColor" : "#444";
-      });
+      // const menuItems = document.querySelectorAll(".header .main-menu  li ");
+      // menuItems.forEach((item) => {
+      //   // console.log("fixedHeader:,liColor:", fixedHeader,liColor);
+      //   item.style.color = fixedHeader ? "liColor" : "#444";
+      // });
     };
 
     // Attach the scroll event listener when the component mounts
@@ -50,11 +46,12 @@ function Header() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [fixedHeader, baseUrl]);
+  }, [fixedHeader]);
   return (
     <>
       <div
         className={`header menu-style-1 ${fixedHeader ? "header-active" : ""}`}
+        style={{ backgroundColor: fixedHeader ? "" : headerBgColor }}
       >
         <div className="top-wrapper">
           <div className="container-fluid">
@@ -128,7 +125,8 @@ function Header() {
                   setDropdown(0);
                 }}
               >
-                <a className="">
+                <a className="" style={{ color: fixedHeader ? "" : linkColor }}>
+                  {" "}
                   Crypto <b className="caret" />
                 </a>
                 <ul
@@ -405,7 +403,7 @@ function Header() {
                   setDropdown(0);
                 }}
               >
-                <a className="">
+                <a className="" style={{color : fixedHeader ? '' : linkColor}}>
                   Exchange <b className="caret" />
                 </a>
                 <ul
@@ -564,8 +562,8 @@ function Header() {
                   setDropdown(0);
                 }}
               >
-                <a className="">
-                  NFT
+                <a className="" style={{color : fixedHeader ? '' : linkColor}}>
+                  NFT 
                   <b className="caret" />
                 </a>
                 <ul
@@ -1131,7 +1129,7 @@ function Header() {
                   setDropdown(0);
                 }}
               >
-                <a className="" href="">
+                <a className="" href="" style={{color : fixedHeader ? '' : linkColor}}>
                   ICO/IDO <b className="caret" />
                 </a>
                 <ul
@@ -1158,102 +1156,102 @@ function Header() {
                         </Link>
                       </li>
                       <li>
-                                                <Link to="ico-telegram-marketing">
-                                                    ICO Telegram Marketing
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to="ico-influencer-marketing">
-                                                    ICO Influencer Marketing
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to='initial-exchange-offering-services'>
-                                                    IEO Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to="equity-token-offering-services">
-                                                    ETO Development
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to="crowdfunding-platform">
-                                                    Crowdfunding Platform
-                                                </Link>
-                                            </li>
+                        <Link to="ico-telegram-marketing">
+                          ICO Telegram Marketing
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="ico-influencer-marketing">
+                          ICO Influencer Marketing
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="initial-exchange-offering-services">
+                          IEO Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="equity-token-offering-services">
+                          ETO Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="crowdfunding-platform">
+                          Crowdfunding Platform
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="has-subsubmenu">
-                                        <h4>STO</h4>
-                                        <ul className="mega-submenu1 normal-sub">
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/security-token-offering-services">
-                                                    STO Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/sto-marketing-services">
-                                                    STO Marketing
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/sto-smart-contracts-development">
-                                                    STO Smart Contracts
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-subsubmenu">
-                                        <h4>IDO/Launchpad</h4>
-                                        <ul className="mega-submenu1 normal-sub">
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/initial-dex-offering-service">
-                                                    IDO Development
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/ido-marketing-services">
-                                                    IDO Marketing
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/white-label-ido-launchpad">
-                                                    White Label IDO Launchpad
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/ido-token-launchpad-services">
-                                                    IDO Token Launchpad
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/ido-launchpad-development-on-bsc">
-                                                    IDO Launchpad On BSC
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/ido-launchpad-development-on-ethereum">
-                                                    IDO Launchpad On Ethereum
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/ido-launchpad-development-in-multichain">
-                                                    IDO Launchpad In Multichain
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/ido-launchpad-on-polygon">
-                                                    IDO Launchpad On Polygon
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blockchainappfactory.com/igo-launchpad-development">
-                                                    IGO Launchpad Development
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                    <h4>STO</h4>
+                    <ul className="mega-submenu1 normal-sub">
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/security-token-offering-services">
+                          STO Development
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/sto-marketing-services">
+                          STO Marketing
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/sto-smart-contracts-development">
+                          STO Smart Contracts
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="has-subsubmenu">
+                    <h4>IDO/Launchpad</h4>
+                    <ul className="mega-submenu1 normal-sub">
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/initial-dex-offering-service">
+                          IDO Development
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/ido-marketing-services">
+                          IDO Marketing
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/white-label-ido-launchpad">
+                          White Label IDO Launchpad
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/ido-token-launchpad-services">
+                          IDO Token Launchpad
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/ido-launchpad-development-on-bsc">
+                          IDO Launchpad On BSC
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/ido-launchpad-development-on-ethereum">
+                          IDO Launchpad On Ethereum
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/ido-launchpad-development-in-multichain">
+                          IDO Launchpad In Multichain
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/ido-launchpad-on-polygon">
+                          IDO Launchpad On Polygon
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.blockchainappfactory.com/igo-launchpad-development">
+                          IGO Launchpad Development
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
               {/* <li className="menu-item menu-dropdown-icon" onMouseEnter={() => { setDropdown(6) }} onMouseLeave={() => { setDropdown(0) }}>
@@ -1659,7 +1657,7 @@ function Header() {
                                 </ul>
                             </li> */}
               <li className="menu-item">
-                <Link to={"/contact"}>Contact Us</Link>
+                <Link to={"/contact"} style={{color : fixedHeader ? '' : linkColor}}>Contact Us</Link>
               </li>
               {/* <li className="menu-item cnt_m menu-dropdown-icon" onMouseEnter={() => { setDropdown(10) }} onMouseLeave={() => { setDropdown(0) }}>
                                 <a href="" className="hidden-xs">

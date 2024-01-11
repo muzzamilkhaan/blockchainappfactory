@@ -1,4 +1,5 @@
 import React from 'react'
+import Faq from '../../../components/shared/Faq'
 
 function Sec16() {
   const data = [

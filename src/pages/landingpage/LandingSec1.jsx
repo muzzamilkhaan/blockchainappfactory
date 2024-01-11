@@ -37,7 +37,7 @@ function LandingSec1() {
                     </a>
                   </div>
                   <div className="row">
-                    <div className="col-lg-3 col-sm-3 col-xs-6 ">
+                    <div className="col-lg-3 col-sm-6 col-xs-12 ">
                       <div className="counter-icon">
                         <img
                           className="img-fuild"
@@ -55,7 +55,7 @@ function LandingSec1() {
                         <p> Experience in Blockchain </p>
                       </div>
                     </div>
-                    <div className="col-lg-3 col-sm-3 col-xs-6 ">
+                    <div className="col-lg-3 col-sm-6  col-xs-12  ">
                       <div className="counter-icon">
                         <img
                           className="img-fuild"
@@ -73,7 +73,7 @@ function LandingSec1() {
                         <p>Employees </p>
                       </div>
                     </div>
-                    <div className="col-lg-3 col-sm-3 col-xs-6 ">
+                    <div className="col-lg-3  col-sm-6 col-xs-12  ">
                       {" "}
                       <div className="counter-icon">
                         <img
@@ -92,7 +92,7 @@ function LandingSec1() {
                         <p> Projects </p>
                       </div>
                     </div>
-                    <div className="col-lg-3 col-sm-3 col-xs-6 ">
+                    <div className="col-lg-3  col-sm-6 col-xs-12   ">
                       {" "}
                       <div className="counter-icon">
                         <img

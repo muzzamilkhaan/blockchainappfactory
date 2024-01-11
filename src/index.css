@@ -579,6 +579,7 @@ h3.common_h3, h2.common_h2 {
     box-shadow: 0 0 10px #ccc;
     padding: 10px;
     text-align: center;
+    margin-top: 0px  !important;
 }
 
 .worked_with li {

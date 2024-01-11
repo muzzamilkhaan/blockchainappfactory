@@ -9,7 +9,7 @@ function LandingSec8() {
         does not support HTML5 video.{" "}
       </video>
     </div> */}
-    <div className="container">
+    <div className="container mt-0">
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12 col-lg-offset-4 col-md-offset-4 col-sm-offset-4">
           <img

@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //IMPORT SWIPER CSS
@@ -205,18 +205,79 @@ const IcoTelegramMarketing = lazy(() =>
 const IcoInfluencerMarketing = lazy(() =>
   import("./pages/ICOIDO/icoInfluencerMarketing/icoInfluencerMarketing")
 );
+const InitialExchangeOfferingServices = lazy(() =>
+  import(
+    "./pages/ICOIDO/initialExchangeOfferingServices/initialExchangeOfferingServices"
+  )
+);
+const EquityTokenOfferingServices = lazy(() =>
+  import(
+    "./pages/ICOIDO/equityTokenOfferingServices/equityTokenOfferingServices"
+  )
+);
+const CrowdfundingPlatform = lazy(() =>
+  import("./pages/ICOIDO/crowdfundingPlatform/crowdfundingPlatform")
+);
+
 function App() {
+  const [headerBgColor, setHeaderBgColor] = useState("");
+  const [linkColor, setLinkColor] = useState("");
+  useEffect(() => {
+    // Retrieve theme from local storage
+    const storedTheme = localStorage.getItem("headerBgColor");
+    const link_color = localStorage.getItem("linkColor");
+
+    // Set the theme based on the stored value or default to 'dark'
+    const initialTheme = storedTheme || "transparent";
+    const initialLink = link_color || "#fff";
+    setHeaderBgColor(initialTheme);
+    setLinkColor(initialLink);
+
+    if (!storedTheme) {
+      localStorage.setItem("headerBgColor", "transparent");
+      localStorage.setItem("linkColor", "#fff");
+    }
+  }, []); // Run this effect only once on mount
+
+  const toggleHeaderBgColor = (color , link) => {
+    const newTheme = color;
+    const newLink = link;
+    setHeaderBgColor(newTheme);
+    setLinkColor(newLink);
+    localStorage.setItem("headerBgColor", newTheme);
+    localStorage.setItem("linkColor", newLink);
+  };
   return (
     <>
       <Router>
-        <Header />
+        <Header 
+        headerBgColor={headerBgColor}
+        linkColor={linkColor}
+        />
         <QuickContact />
         <LoginPopup />
         <Suspense fallback={null}>
           <Routes>
-            <Route path="/" exact element={<LandingPage />} />
-            <Route path="*" exact element={<LandingPage />} />
-            <Route path="/contact" element={<ContactUs />} />
+            <Route
+              path="/"
+              exact
+              element={
+                <LandingPage
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
+            />
+            <Route
+              path="*"
+              exact
+              element={<LandingPage headerBgColor={headerBgColor} />}
+            />
+            <Route
+              path="/contact"
+              element={<ContactUs headerBgColor={headerBgColor} />}
+            />
             <Route
               path="/cryptocurrency-development"
               element={<CryptocurrencyDevelopment />}
@@ -327,7 +388,13 @@ function App() {
             />
             <Route
               path="/create-your-own-token-and-coin"
-              element={<CreateYourOwnTokenAndCoin />}
+              element={<CreateYourOwnTokenAndCoin 
+                headerBgColor={headerBgColor}
+                toggleHeaderBgColor={toggleHeaderBgColor}
+                linkColor={linkColor}
+
+              
+              />}
             />
             <Route
               path="/p2p-exchange-development"
@@ -549,6 +616,18 @@ function App() {
             <Route
               path="/ico-influencer-marketing"
               element={<IcoInfluencerMarketing />}
+            />
+            <Route
+              path="/initial-exchange-offering-services"
+              element={<InitialExchangeOfferingServices />}
+            />
+            <Route
+              path="/equity-token-offering-services"
+              element={<EquityTokenOfferingServices />}
+            />
+            <Route
+              path="/crowdfunding-platform"
+              element={<CrowdfundingPlatform />}
             />
           </Routes>
         </Suspense>

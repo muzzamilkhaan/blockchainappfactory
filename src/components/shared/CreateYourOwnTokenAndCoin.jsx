@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../../headerFooter/Header";
 import Footer from "../../headerFooter/Footer";
 import "./createYourOwnTokenAndCoin.css";
@@ -6,7 +6,7 @@ import WeSpotlightedIn from "./WeSpotlightedIn";
 import UnderLine from "../UnderLine";
 // import { useLocation } from "react-router-dom";
 
-function CreateYourOwnTokenAndCoin() {
+function CreateYourOwnTokenAndCoin({headerBgColor , toggleHeaderBgColor , linkColor}) {
   // const location = useLocation();
   // const baseUrl = location.pathname.split("/")[1];
   // console.log("BaseURL:", baseUrl);
@@ -15,11 +15,15 @@ function CreateYourOwnTokenAndCoin() {
   const [tab2, setTab2] = useState(true);
   const [tab1State, setTab1State] = useState(0);
   const [tab2State, setTab2State] = useState(0);
+
+  useEffect(() =>{
+    toggleHeaderBgColor('#fff' , '#444')
+  })
   return (
     <>
       <div id="create-your-own-token-and-coin" style={{position:"relative",overflow:"hidden"}}>
         <div className="banner-overlay1"></div>
-        <Header />
+        {/* <Header headerBgColor={headerBgColor}/> */}
         <div className="main">
           <div className="banner my_banner">
             <div className="banner_content">

@@ -261,7 +261,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                   "linear-gradient(81.32deg, #2A317D 0%, #1C224F 100%)",
               }}
             >
-              <div className="col-md-5">
+              <div className="col-md-5 col-sm-12  ">
                 <div className="contact-content">
                   <p className="text-white">
                     Turn your ideas into reality with our expertise in web3
@@ -290,10 +290,10 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                   </a>
                 </div>
               </div>
-              <div className="col-md-7 pad-40-20">
+              <div className="col-md-7 pad-40-20 col-sm-12">
                 <form className="" id="mailForm_common" method="post">
                   <input type="hidden" name="page" defaultValue="contactus" />
-                  <div className="form-group col-md-6">
+                  <div className="form-group col-md-6 col-sm-12">
                     <label htmlFor="name">Full Name</label>
                     <input
                       type="text"
@@ -305,7 +305,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       style={{color:"#fff"}}
                     />
                   </div>
-                  <div className="form-group col-md-6">
+                  <div className="form-group col-md-6 col-sm-12 ">
                     <label htmlFor="email">Email</label>
                     <input
                       type="email"
@@ -317,7 +317,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       style={{color:"#fff"}}
                     />
                   </div>
-                  <div className="form-group col-md-6">
+                  <div className="form-group col-md-6 col-sm-12">
                     <label htmlFor="subject">Phone</label>
                     <div className="intl-tel-input allow-dropdown">
                       <div className="flag-container">
@@ -359,7 +359,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       name="IP"
                     />
                   </div>
-                  <div className="form-group col-md-6">
+                  <div className="form-group col-md-6 col-sm-12">
                     <label htmlFor="skype">Your Skype ID</label>
                     <input
                       type="text"
