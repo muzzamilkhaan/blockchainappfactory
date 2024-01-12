@@ -14,7 +14,7 @@ const Sec8 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/icons/diagram.svg" alt="" />{" "}
+              <img src="./assets/images/icon-174.svg" alt="" />{" "}
             </div>
             <div className="content">
               <h3>Deal Flow</h3>
@@ -28,7 +28,7 @@ const Sec8 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/icons/review.svg" alt="" />{" "}
+              <img src="./assets/images/icon-175.svg" alt="" />{" "}
             </div>
             <div className="content">
               <h3>Rates Management</h3>
@@ -42,7 +42,7 @@ const Sec8 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/icons/pay.svg" alt="" />{" "}
+              <img src="./assets/images/icon-176.svg" alt="" />{" "}
             </div>
             <div className="content">
               <h3>Settlement</h3>
@@ -56,7 +56,7 @@ const Sec8 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/icons/ledger.svg" alt="" />{" "}
+              <img src="./assets/images/icon-177.svg" alt="" />{" "}
             </div>
             <div className="content">
               <h3>General Ledger</h3>
@@ -72,7 +72,7 @@ const Sec8 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/icons/cash.svg" alt="" />{" "}
+              <img src="./assets/images/icon-178.svg" alt="" />{" "}
             </div>
             <div className="content">
               <h3>Cash Flow Forecasting</h3>
@@ -86,7 +86,7 @@ const Sec8 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/svg/blockchain.svg" alt="" />{" "}
+              <img src="./assets/images/icon-179.svg" alt="" />{" "}
             </div>
             <div className="content">
               <h3>Investor Relations </h3>
@@ -100,7 +100,7 @@ const Sec8 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/svg/green-dashboard.svg" alt="" />{" "}
+              <img src="./assets/images/icon-180.svg" alt="" />{" "}
             </div>
             <div className="content">
               <h3>Debt Scheduling </h3>

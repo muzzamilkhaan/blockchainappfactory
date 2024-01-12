@@ -14,7 +14,7 @@ const Sec9 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/svg/bank.svg" alt="" />{" "}
+              <img src="./assets/images/icon-181.svg" alt="" />{" "}
             </div>
             <div className="content">
               <h3>Centralized Management</h3>
@@ -28,7 +28,7 @@ const Sec9 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/svg/computer.svg" alt="" />{" "}
+              <img src="./assets/images/icon-182.svg" alt="" />{" "}
             </div>
             <div className="content">
               <h3>Data Collection</h3>
@@ -41,7 +41,8 @@ const Sec9 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/svg/area-chart.svg" alt="" />{" "}
+              <img src="./assets/images/icon-183.svg" alt="" />{" "}
+
             </div>
             <div className="content">
               <h3>Investor Reporting </h3>
@@ -54,7 +55,8 @@ const Sec9 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/sto/connection.svg" alt="" />{" "}
+              <img src="./assets/images/icon-184.svg" alt="" />{" "}
+
             </div>
             <div className="content">
               <h3>Pipeline Management</h3>
@@ -70,7 +72,8 @@ const Sec9 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/sto/funds.svg" alt="" />{" "}
+              <img src="./assets/images/icon-185.svg" alt="" />{" "}
+
             </div>
             <div className="content">
               <h3>Investment Management</h3>
@@ -84,7 +87,8 @@ const Sec9 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/icons/investor.webp" alt="" />{" "}
+              <img src="./assets/images/icon-186.webp" alt="" />{" "}
+
             </div>
             <div className="content">
               <h3>Investment Optimization</h3>
@@ -98,7 +102,8 @@ const Sec9 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/sto/alarm.svg" alt="" />{" "}
+              <img src="./assets/images/icon-187.svg" alt="" />{" "}
+
             </div>
             <div className="content">
               <h3>Investor Portals </h3>

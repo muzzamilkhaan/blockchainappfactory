@@ -1186,19 +1186,19 @@ function Header({ headerBgColor, linkColor }) {
                     <h4>STO</h4>
                     <ul className="mega-submenu1 normal-sub">
                       <li>
-                        <a href="https://www.blockchainappfactory.com/security-token-offering-services">
+                        <Link to="security-token-offering-services">
                           STO Development
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/sto-marketing-services">
+                        <Link to="sto-marketing-services">
                           STO Marketing
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/sto-smart-contracts-development">
+                        <Link to="sto-smart-contracts-development">
                           STO Smart Contracts
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -1206,49 +1206,49 @@ function Header({ headerBgColor, linkColor }) {
                     <h4>IDO/Launchpad</h4>
                     <ul className="mega-submenu1 normal-sub">
                       <li>
-                        <a href="https://www.blockchainappfactory.com/initial-dex-offering-service">
+                        <Link to="initial-dex-offering-service">
                           IDO Development
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/ido-marketing-services">
+                        <Link to="ido-marketing-services">
                           IDO Marketing
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/white-label-ido-launchpad">
+                        <Link to="white-label-ido-launchpad">
                           White Label IDO Launchpad
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/ido-token-launchpad-services">
+                        <Link to="ido-token-launchpad-services">
                           IDO Token Launchpad
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/ido-launchpad-development-on-bsc">
+                        <Link to="ido-launchpad-on-layer-2-blockchain">
                           IDO Launchpad On BSC
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/ido-launchpad-development-on-ethereum">
+                        <Link to="ido-launchpad-development-on-ethereum">
                           IDO Launchpad On Ethereum
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/ido-launchpad-development-in-multichain">
+                        <Link to="ido-launchpad-development-in-multichain">
                           IDO Launchpad In Multichain
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/ido-launchpad-on-polygon">
+                        <Link to="ido-launchpad-on-polygon">
                           IDO Launchpad On Polygon
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.blockchainappfactory.com/igo-launchpad-development">
+                        <Link to="igo-launchpad-development">
                           IGO Launchpad Development
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>

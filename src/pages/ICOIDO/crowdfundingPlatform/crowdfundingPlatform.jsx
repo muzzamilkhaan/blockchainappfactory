@@ -9,6 +9,7 @@ import Sec6 from "./Sec6";
 import Sec7 from "./Sec7";
 import Sec8 from "./Sec8";
 import Sec9 from "./Sec9";
+import WeSpotlightedIn from "../../../components/shared/WeSpotlightedIn";
 
 const crowdfundingPlatform = () => {
   return (
@@ -22,6 +23,7 @@ const crowdfundingPlatform = () => {
       <Sec7 />
       <Sec8 />
       <Sec9 />
+      <WeSpotlightedIn />
       {/* <Sec2 />
       <Sec3 /> */}
     </div>

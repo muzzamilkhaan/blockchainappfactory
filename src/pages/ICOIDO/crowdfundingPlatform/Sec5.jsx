@@ -13,7 +13,7 @@ const Sec5 = () => {
         <li className="feature-box-5">
           <div className="icon">
             {" "}
-            <img src="/images/svg/programmer.svg" />{" "}
+            <img src="./assets/images/icon-160.svg" />{" "}
           </div>
           <h3 className="feature-title">
             Fundraising <br />
@@ -23,7 +23,7 @@ const Sec5 = () => {
         <li className="feature-box-5">
           <div className="icon">
             {" "}
-            <img src="/images/svg/algorithm.svg" />{" "}
+            <img src="./assets/images/icon-161.svg" />{" "}
           </div>
           <h3 className="feature-title">
             Deal Flow <br />
@@ -33,7 +33,7 @@ const Sec5 = () => {
         <li className="feature-box-5">
           <div className="icon">
             {" "}
-            <img src="/images/sto/blog.svg" />{" "}
+            <img src="./assets/images/icon-162.svg" />{" "}
           </div>
           <h3 className="feature-title">
             Portfolio and Investment
@@ -43,7 +43,7 @@ const Sec5 = () => {
         <li className="feature-box-5">
           <div className="icon">
             {" "}
-            <img src="/images/sto/home.svg" />{" "}
+            <img src="./assets/images/icon-163.svg" />{" "}
           </div>
           <h3 className="feature-title">
             Alternative <br />
@@ -53,7 +53,7 @@ const Sec5 = () => {
         <li className="feature-box-5">
           <div className="icon">
             {" "}
-            <img src="/images/sto/bars.svg" />{" "}
+            <img src="./assets/images/icon-164.svg" />{" "}
           </div>
           <h3 className="feature-title">
             Crowdfunding <br />

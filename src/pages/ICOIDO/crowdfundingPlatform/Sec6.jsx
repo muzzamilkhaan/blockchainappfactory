@@ -14,10 +14,10 @@ const Sec6 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/sto/home.svg" alt="" />{" "}
+              <img src="./assets/images/icon-163.svg" alt="" />{" "}
             </div>
             <div className="content">
-              <h3>Analytical Tools</h3>
+              <h3 style={{color:"#2b2c2d"}}>Analytical Tools</h3>
               <p>
                 You can simulate the impact of investing and divesting by looking
                 at the portfolio risk/return profile.
@@ -27,10 +27,10 @@ const Sec6 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/svg/area-chart.svg" alt="" />{" "}
+              <img src="./assets/images/icon-165.svg" alt="" />{" "}
             </div>
             <div className="content">
-              <h3>Portfolio Analysis</h3>
+              <h3 style={{color:"#2b2c2d"}}>Portfolio Analysis</h3>
               <p>
                 Breakdown the property data and investment to provide a better
                 understanding for the investors to make wise investments.{" "}
@@ -40,10 +40,10 @@ const Sec6 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/icons/team.webp" alt="" />{" "}
+              <img src="./assets/images/icon-166.webp" alt="" />{" "}
             </div>
             <div className="content">
-              <h3>Investor Communications</h3>
+              <h3 style={{color:"#2b2c2d"}}>Investor Communications</h3>
               <p>
                 Automated tool for sending information to all your investors'
                 information including financial reporting in a secure data rooms
@@ -54,10 +54,10 @@ const Sec6 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/icons/payment-method.webp" alt="" />{" "}
+              <img src="./assets/images/icon-167.webp" alt="" />{" "}
             </div>
             <div className="content">
-              <h3>Fund Management</h3>
+              <h3 style={{color:"#2b2c2d"}}>Fund Management</h3>
               <p>
                 Management of funds and through dedicated workflow tools which
                 includes fund raised with accredited investor, non-accredited
@@ -68,10 +68,10 @@ const Sec6 = () => {
           <div className="real-estate">
             <div className="icon">
               {" "}
-              <img src="/images/icons/trace-user.webp" alt="" />{" "}
+              <img src="./assets/images/icon-168.webp" alt="" />{" "}
             </div>
             <div className="content">
-              <h3>Deal Flow Management</h3>
+              <h3 style={{color:"#2b2c2d"}}>Deal Flow Management</h3>
               <p>
                 Capture current &amp; prospective investors information in
                 alternative asset classes with full mobile access to your

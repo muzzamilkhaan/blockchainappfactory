@@ -218,6 +218,28 @@ const EquityTokenOfferingServices = lazy(() =>
 const CrowdfundingPlatform = lazy(() =>
   import("./pages/ICOIDO/crowdfundingPlatform/crowdfundingPlatform")
 );
+const SecurityTokenOfferingServices = lazy(() =>
+  import(
+    "./pages/ICOIDO/securityTokenOfferingServices/securityTokenOfferingServices"
+  )
+);
+const StoMarketingServices = lazy(() =>
+  import("./pages/ICOIDO/stoMarketingServices/stoMarketingServices")
+);
+const StoSmartContractsDevelopment = lazy(() =>
+  import(
+    "./pages/ICOIDO/stoSmartContractsDevelopment/stoSmartContractsDevelopment"
+  )
+);
+const InitialDexOfferingService = lazy(() =>
+  import("./pages/ICOIDO/initialDexOfferingService/initialDexOfferingService")
+);
+const IdoMarketingServices = lazy(() =>
+  import("./pages/ICOIDO/idoMarketingServices/idoMarketingServices")
+);
+const WhiteLabelIdoLaunchpad = lazy(() =>
+  import("./pages/ICOIDO/whiteLabelIdoLaunchpad/whiteLabelIdoLaunchpad")
+);
 
 function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
@@ -237,9 +259,9 @@ function App() {
       localStorage.setItem("headerBgColor", "transparent");
       localStorage.setItem("linkColor", "#fff");
     }
-  }, []); // Run this effect only once on mount
+  }, []);
 
-  const toggleHeaderBgColor = (color , link) => {
+  const toggleHeaderBgColor = (color, link) => {
     const newTheme = color;
     const newLink = link;
     setHeaderBgColor(newTheme);
@@ -250,10 +272,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header 
-        headerBgColor={headerBgColor}
-        linkColor={linkColor}
-        />
+        <Header headerBgColor={headerBgColor} linkColor={linkColor} />
         <QuickContact />
         <LoginPopup />
         <Suspense fallback={null}>
@@ -343,7 +362,13 @@ function App() {
             />
             <Route
               path="/how-to-launch-crypto-token"
-              element={<HowToLaunchCryptoToken />}
+              element={
+                <HowToLaunchCryptoToken
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
             />
             <Route
               path="/crypto-prediction-market-platform"
@@ -388,13 +413,13 @@ function App() {
             />
             <Route
               path="/create-your-own-token-and-coin"
-              element={<CreateYourOwnTokenAndCoin 
-                headerBgColor={headerBgColor}
-                toggleHeaderBgColor={toggleHeaderBgColor}
-                linkColor={linkColor}
-
-              
-              />}
+              element={
+                <CreateYourOwnTokenAndCoin
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
             />
             <Route
               path="/p2p-exchange-development"
@@ -628,6 +653,36 @@ function App() {
             <Route
               path="/crowdfunding-platform"
               element={<CrowdfundingPlatform />}
+            />
+            <Route
+              path="/security-token-offering-services"
+              element={<SecurityTokenOfferingServices />}
+            />
+            <Route
+              path="/sto-marketing-services"
+              element={<StoMarketingServices />}
+            />
+            <Route
+              path="/sto-smart-contracts-development"
+              element={<StoSmartContractsDevelopment />}
+            />
+            <Route
+              path="/initial-dex-offering-service"
+              element={<InitialDexOfferingService />}
+            />
+            <Route
+              path="/ido-marketing-services"
+              element={
+                <IdoMarketingServices
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
+            />
+            <Route
+              path="/white-label-ido-launchpad"
+              element={<WhiteLabelIdoLaunchpad />}
             />
           </Routes>
         </Suspense>

@@ -1,0 +1,1214 @@
+
+
+
+#sto-smart-contracts-development .top-header p{margin-bottom:0;color:#fff;display:inline-block;width:auto}.lc-1ip30wz{height:30px!important}.top-header{background:#378658;padding:10px}@-webkit-keyframes breathing{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1.1);transform:scale(1.1)}50%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes breathing{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1.1);transform:scale(1.1)}50%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}.top-header .breathing_effect{-webkit-animation:breathing 1s infinite ease-in-out;animation:breathing 1s infinite ease-in-out;-webkit-font-smoothing:antialiased;transition:1s;display:inline-block;width:auto}.top-header .breathing_effect a{background:#f44336;color:#fff;padding:5px 10px;border-radius:0;margin-left:15px}.top-header .breathing_effect a:hover{color:#fff!important}@media (max-width:1199px){.header .main-menu>li a{padding:0 5px}}@media (max-width:550px){.top-header p{width:60%;text-align:right;vertical-align:middle}.top-header .breathing_effect{display:inline-block;width:40%}}
+#sto-smart-contracts-development .guardian-p{
+  text-align: center;font-size: 12px;
+}
+/*-- Client section --*/
+#sto-smart-contracts-development .teck .category-grid-style-01 .category-item{padding: 10px !important;}
+#sto-smart-contracts-development .category-item.aos-item .text-center{font-size: 12px !important; margin-bottom: 0px !important;} 
+#sto-smart-contracts-development .teck .category-grid-style-01 .category-item .category-icon{margin-bottom: 0 !important;}
+#sto-smart-contracts-development .teck .category-icon img{height: 80px !important;}
+#sto-smart-contracts-development h1,#sto-smart-contracts-development h2,#sto-smart-contracts-development h3,#sto-smart-contracts-development h4,#sto-smart-contracts-development h5,#sto-smart-contracts-development h6 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0px !important;
+}
+#sto-smart-contracts-development .contentall{
+    padding: 0;
+}
+/*-- Client section --*/
+
+    
+   #sto-smart-contracts-development .banner_content {
+        text-align: left;
+    }
+    
+   #sto-smart-contracts-development .banner-overlay{
+        background: #052c4b00;
+    }
+   #sto-smart-contracts-development .strategies-items1 .icons {
+        order: 2;
+        margin-right: 15px;
+    }
+
+   #sto-smart-contracts-development .card-desc a {
+    font-size: 15px;
+    display: inline-block;
+    max-width: 200px;
+    margin: 0 auto 20px;
+    border-radius: 4px;
+    }
+   #sto-smart-contracts-development .banner {
+            background-image: url(./assets/images/banner-bg24.webp);
+        background-size: cover;
+            padding-top: 165px;
+    padding-bottom: 92px;
+        height: auto;
+        background-position: center;
+    }
+    h3.common_h3 {
+    font-size: 30px!important;
+}
+.para{
+    width: 85%;
+    margin: 0 auto;
+}
+   #sto-smart-contracts-development .bg-2{
+         background-image: linear-gradient(45deg, black, #00000052),url(images/ido/bg-3.webp);
+        background-size: cover;
+        padding-top: 65px;
+        padding-bottom: 50px;
+        height: auto;
+    }
+   #sto-smart-contracts-development .banner-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        
+        right: 0;
+        
+        opacity: 0.95;
+    }
+    #sto-smart-contracts-development .banner_content {
+        text-align: left;
+        position: relative;
+        top: 0;
+        transform: none;
+    }
+   #sto-smart-contracts-development .banner_content .contentall {
+            margin-top: 85px;
+        max-width: 1000px;
+        margin: 81px auto 40px;
+       
+    }
+    #sto-smart-contracts-development .contentall h1 {
+    color: #fff!important;}
+   #sto-smart-contracts-development .contentall p {
+    color: #fff!important;
+}
+   #sto-smart-contracts-development .contentall h1, .ban_tirt {
+        margin-bottom: 20px;
+        line-height: 1.3;
+        font-weight: 700;
+        font-size: 37px;
+        text-transform: capitalize;
+    }
+   #sto-smart-contracts-development .contentall p {
+        font-weight: normal;
+        margin-bottom: 30px;
+        line-height: 1.6;
+        font-size: 21px;
+        max-width: 800px;
+        margin: 0 auto 30px;
+        display: block;
+    }
+   #sto-smart-contracts-development .contentall a {
+        color: #fff;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+              #sto-smart-contracts-development .feal_cnt h5 {
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+   #sto-smart-contracts-development .feat_lev {
+        margin-bottom: 40px;
+        max-width: 350px;
+        margin: 0 auto 40px;
+    }
+   #sto-smart-contracts-development .sec_tit, .sec_tit h2 {
+        font-size: 25px!important;
+        font-weight: bold;
+        color: #333;
+        line-height: 1.4;
+        text-transform: capitalize;
+    }
+    h1, h2, h3, h4, h5, h6 {
+       letter-spacing: 0;
+        line-height: 1.3;
+    }
+   #sto-smart-contracts-development .add_feat  ul {
+        padding: 0;
+    }
+
+   #sto-smart-contracts-development .add_feat ul li i {
+        color: #fff;
+        width: 35px;
+        height: 35px;
+        background-image: linear-gradient(#47b475, #00b8ff);
+        text-align: center;
+        font-size: 21px;
+        border-radius: 4px;
+        line-height: 1.6;
+        margin-right: 10px;
+    }
+
+   #sto-smart-contracts-development .add_feat ul li {
+        margin-bottom: 25px;
+        width: 49%;
+        float: left;
+    }
+       #sto-smart-contracts-development .row.lv_flow.text-center {
+        max-width: 800px;
+        margin: 30px auto 0px;
+    }
+
+   #sto-smart-contracts-development .wrapper {
+        overflow: hidden;
+        width: 100%;
+        /* background: #47b475; */
+        padding: 10px 0 10px;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+   #sto-smart-contracts-development .counters:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: url(images/leverage/growth.webp);
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-size: 47%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        opacity: 0.1;
+    }
+   #sto-smart-contracts-development .counters {
+        border: 4px solid;
+        background: #47b475;
+        outline: 4px solid #ccc;
+        border-radius: 5px;
+        padding: 15px 0 10px 0;
+        position: relative;
+    }
+
+   #sto-smart-contracts-development .counters h5 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.7;
+    }
+
+    p.count-text {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+   #sto-smart-contracts-development .add_feat .col-md-8 {
+        float: none;
+        margin: 0 auto;
+    }
+
+   #sto-smart-contracts-development .add_feat.common_spacing.gray_bg.text-center {
+        margin-top: -30px;
+    }
+
+   #sto-smart-contracts-development .banner_img img {
+        max-width: 121%;
+        margin-top: -12%;
+    }
+   #sto-smart-contracts-development .adv_fet {
+        position: relative;
+        text-align: center;
+        background: #fff;
+        margin-bottom: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        border-radius: 4px;
+        box-shadow: 0 0 10px #ccc;
+    }
+
+   #sto-smart-contracts-development .feat_al_ci img {
+        width: 70px;
+    }
+
+   #sto-smart-contracts-development .adv_fet h4 {
+        line-height: 1.4;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+   #sto-smart-contracts-development .col-md-3.col-sm-6.col-xs-12.adv_lr {
+        margin-left: 13%;
+    }
+       #sto-smart-contracts-development .feat_ec {
+        position: relative;
+        padding-left: 90px;
+    }
+
+   #sto-smart-contracts-development .feat_l_ci {
+        position: absolute;
+        left: 0;
+        top: 6px;
+        background: #fff;
+        padding: 10px;
+        width: 78px;
+        height: 75px;
+        text-align: center;
+        border: 3px solid #47b4754f;
+    }
+   #sto-smart-contracts-development .feat_l_ci img {
+        height: 50px;
+    }
+   #sto-smart-contracts-development .feat_ec h4 {
+        font-weight: bold;
+        font-size: 18px;
+    }
+   #sto-smart-contracts-development .add_feat.exch_lev.common_spacing:after {
+        background-image: url(images/leverage/screen-6.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: right;
+        content: '';
+        width: 61%;
+        height: 100%;
+        position: absolute;
+        right: -10%;
+        top: 12px;
+    }
+   #sto-smart-contracts-development .add_feat.exch_lev.common_spacing {
+        position: relative;
+        overflow: hidden;
+    }
+   #sto-smart-contracts-development .cnt_box  h4.sec_tit {
+        color: #fff;
+        font-size: 30px !important;
+    }
+
+   #sto-smart-contracts-development .cnt_box p {
+        color: #fff;
+        font-size: 20px;
+        max-width: 800px;
+        margin: 20px auto 20px;
+    }
+
+   #sto-smart-contracts-development .cnt_b h5 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+       #sto-smart-contracts-development .cnt_box {
+        background-image: url(images/leverage/bg-counter.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    @media (max-width: 1000px) {
+       #sto-smart-contracts-development .di-flex {
+        display: -webkit-box!important;
+        display: -ms-flexbox!important;
+        display: inline-block!important;
+    }
+
+        }
+    @media (max-width: 1199px) {
+       #sto-smart-contracts-development .contentall h1 , .ban_tirt{
+        font-size: 30px;
+    }
+
+        }
+           @media (min-width: 992px) {
+           #sto-smart-contracts-development .banner{
+                height: auto!important;
+            }
+
+           }
+    @media (max-width: 992px) {
+       #sto-smart-contracts-development .col-md-3.col-sm-6.col-xs-12.adv_lr {
+        margin-left: 0;
+    }
+   #sto-smart-contracts-development .add_feat.exch_lev.common_spacing:after{ display: none; }
+    }
+    @media (max-width: 768px) {
+        /*.perfect-script-items1 .content{
+            width: 90%!important;
+    }*/
+   #sto-smart-contracts-development .banner_img img {
+        max-width: 100%;
+        margin-top: 0%;
+    }
+
+   #sto-smart-contracts-development .d-none{display: none;}
+
+   #sto-smart-contracts-development .card-desc p{
+            min-height: auto!important;
+    }
+   #sto-smart-contracts-development .btn-card {
+    position: relative!important;
+    bottom: 0!important;
+    left: auto!important;
+    right: auto!important;
+    text-align: center!important;
+    margin: 0 auto !important;
+    display: block!important;
+    max-width: 200px!important;
+    }
+   #sto-smart-contracts-development .banner_content .contentall {
+        margin-top: 30px;
+        text-align: center;
+    }
+    body, html {
+        font-size: calc(15px + (14 - 12) * ((100vw - 600px)/ (1140 - 600)));
+    }
+   #sto-smart-contracts-development .banner {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+   #sto-smart-contracts-development .banner-overlay {
+        background: #000000ba;
+    }
+   #sto-smart-contracts-development .ct_box {
+        margin-top: 30px;
+    }
+   #sto-smart-contracts-development .banner_content p {
+        font-size: 14px!important;
+    }
+   #sto-smart-contracts-development .contentall h1 , .ban_tirt{
+        font-size: 25px;
+        padding-top: 40px;
+        text-align: center;
+    }
+   
+   #sto-smart-contracts-development .sec_tit , .sec_tit h2{
+        font-size: 20px!important;
+    }
+   #sto-smart-contracts-development .col-md-3.col-sm-6.col-xs-12.adv_lr {
+        margin-left: 0%;
+    }
+   #sto-smart-contracts-development .counters , .adv_fet, .flip-box{
+        max-width: 450px;
+        margin: 0 auto 30px;
+    }
+   #sto-smart-contracts-development .pull-left img {
+        margin-top: 30px;
+    }
+   #sto-smart-contracts-development .sto-flip .flip-box {
+        min-height: auto;
+    }
+   #sto-smart-contracts-development .cnt_box h4.sec_tit {
+        font-size: 25px !important;
+    }
+   #sto-smart-contracts-development .cnt_box p {
+        font-size: 17px;
+        max-width: 800px;
+        margin: 20px auto 20px;
+        line-height: 1.6;
+    }
+   #sto-smart-contracts-development .eto-exchange-flip .flip-box {
+        min-height: auto;
+    }
+   #sto-smart-contracts-development .pr_arr:after, .pr_arr:before, .banner_content p br, .sec_tit br{
+        display: none !important;
+    }
+
+   #sto-smart-contracts-development .feal_cnt h5 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    }
+@media (max-width: 425px) {
+.ces-point ul li{
+        min-height: 202px!important;
+        width: 48%!important;
+}
+}
+    h3.section-title {
+        font-size: 25px !important;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+   #sto-smart-contracts-development .ban_form {
+        background:#29292999;
+        box-shadow: 0 0 10px #fff;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 30px 30px 10px;
+        border-radius: 5px;
+    }
+   #sto-smart-contracts-development .ban_form .form-group {
+        margin-bottom: 20px;
+    }
+   #sto-smart-contracts-development .banner_content h4 {
+        margin-top: 10px;
+        font-size: 24px;
+        color: #fff;
+        line-height: 40px;
+        font-weight: 700;
+        text-transform: capitalize;
+        letter-spacing: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+   #sto-smart-contracts-development .ban_form label {
+        display: none;
+        font-size: 14px;
+        margin-bottom: 7px;
+        padding-left: 0!important;
+    }
+   #sto-smart-contracts-development .ban_form input#phone_banner {
+        color: #000;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+        background: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+        box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+   #sto-smart-contracts-development .submit_btn_b button.common_send_btn {
+        display: inline-block;
+        margin-top: 10px;
+        background: #000;
+        border-radius: 4px;
+        border: 1px solid #fff;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+   #sto-smart-contracts-development .sto-flip .flip-box {
+        min-height: 300px;
+    }
+
+   #sto-smart-contracts-development .img-text-box h5 {
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+   #sto-smart-contracts-development .img-text-box p.feature-desc {
+        line-height: 1.7;
+    }
+   #sto-smart-contracts-development .img-text-box {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+    body .faq-content .panel-heading {
+        background: #eee!important;
+        color: #666;
+    }
+    div#assis_t .flip-box {
+        padding: 30px 15px 20px;
+        min-height: 280px;
+    }
+   #sto-smart-contracts-development .intro_cnt img{
+        border-radius: 10px;
+    }
+    div#assis_t .flip-box img {
+        width: 54px;
+        margin-top: 7px;
+    }
+   #sto-smart-contracts-development .ct_box {
+        background: #f5f5f5;
+        padding: 20px;
+        border: 3px solid #eee;
+    }
+   #sto-smart-contracts-development .ct_box p {
+        margin-bottom: 20px;
+        font-size: 19px;
+        color: #999 !important;
+    }
+
+   #sto-smart-contracts-development .ct_box p strong {
+        color: #444 !important;
+    }
+   #sto-smart-contracts-development .flip-box-row {
+        margin-bottom: 0;
+    }
+   #sto-smart-contracts-development .flip-box-row .flip-box:hover  {
+    .flip-txt{
+      color: #fff;
+    }
+    }
+   #sto-smart-contracts-development .flip-box {
+        margin-bottom: 30px;
+            padding: 30px 14px;
+         
+    }
+    a.home-talk-experts.w_bt {
+        background: no-repeat;
+        color: #47b475;
+        border: 2px solid #47b475;
+        padding: 8px 25px;
+    }
+    a.home-talk-experts.w_bt:hover {
+        color: #000 !important;
+    }
+   #sto-smart-contracts-development .sec_tit h2{ display: inline; }
+   #sto-smart-contracts-development .dc{
+        padding: 100px 0;
+    }
+   #sto-smart-contracts-development .details-card {
+            background: #b0b0b085;
+        }
+
+   #sto-smart-contracts-development .card-content {
+            background: #ffffff;
+        border: 4px;
+        box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+        margin-bottom: 30px;
+        border-radius: 7px;
+        position: relative;
+    }
+   #sto-smart-contracts-development .card-desc a{
+        font-size: 15px;
+    }
+   #sto-smart-contracts-development .card-img {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0;
+        z-index: 1;
+        box-shadow: -1px 5px 13px 4px #0000002e;
+        border-radius: 7px;
+    }
+
+   #sto-smart-contracts-development .card-img img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+   #sto-smart-contracts-development .card-img span {
+        position: absolute;
+        top: 15%;
+        left: 12%;
+        background: #2ecc71;
+        padding-left:20px;
+        padding:6px;
+        color: #fff;
+        font-size: 15px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        transform: translate(-50%,-50%);
+    }
+   #sto-smart-contracts-development .card-img span h4{
+            font-size: 13px;
+            margin:0;
+            padding:10px 5px;
+             line-height: 0;
+    }
+   #sto-smart-contracts-development .card-desc {
+        padding: 1.25rem;
+    }
+
+   #sto-smart-contracts-development .card-desc h3 {
+        color: #555;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.3em;
+        margin-top: 0;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+   #sto-smart-contracts-development .di-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+   #sto-smart-contracts-development .card-content:hover {
+        box-shadow: 5px 5px 20px 7px #00000030;
+        transition: all 0.5s ease-in-out;
+    }
+   #sto-smart-contracts-development .card-desc p {
+            color: #747373;
+        font-size: 14px;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 1.6;
+        margin: 0px;
+        min-height: 285px;
+        margin-bottom: 20px;
+        padding: 0;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
+    }
+   #sto-smart-contracts-development .card-content a:hover {
+        color: #fff!important;
+    }
+   #sto-smart-contracts-development .btn-card{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+   #sto-smart-contracts-development .btn-card{
+        background-color: #2ecc71;
+        color: #fff;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+        padding: .84rem 2.14rem;
+        font-size: .81rem;
+        -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+        -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+        margin: 0;
+        border: 0;
+        -webkit-border-radius: .125rem;
+        border-radius: .125rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        white-space: normal;
+        word-wrap: break-word;
+        color: #fff;
+    }
+   #sto-smart-contracts-development .btn-card:hover {
+        background: #1abc9c;
+    }
+    a.btn-card {
+        text-decoration: none;
+        color: #fff;
+    }
+   #sto-smart-contracts-development .card-img span{
+        display: none;
+    }
+   #sto-smart-contracts-development .text-white{
+        color: #fff;    
+    }
+   
+.nec-btn{
+    position: relative !important;
+    color:#fff !important;
+    border-radius:30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1,1.1) !important;
+    transition:all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+.nec-btn:hover{
+    transform: scale(1,1) !important;
+    color:#fff !important;
+    background:#00a9e2!important;
+}
+a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px!important;
+    display: inline-block;
+    margin-right: 26px!important;
+}
+.contentall a, a.home-talk-experts{
+	padding: 10px 20px !important;
+}
+
+.nec-btn{
+    position: relative !important;
+    color:#fff !important;
+    border-radius:30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1,1.1) !important;
+    transition:all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+.nec-btn:hover{
+    transform: scale(1,1) !important;
+    color:#fff !important;
+    background:#00a9e2!important;
+}
+a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px!important;
+    display: inline-block;
+    margin-right: 26px!important;
+}
+.contentall a, a.home-talk-experts{
+	padding: 10px 20px !important;
+}
+
+.service-section {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.service-section:before {
+    content: "";
+    background: url(images/lab/dot-shape.webp) #47b47599;
+    position: absolute;
+    height: 400px;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: repeat;
+}
+.service-section .box4 {
+    background: url(images/lab/shape-7.svg) #fff;
+    background-size: 180px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.pad-tb {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.box4 p{
+        margin-top: 20px;
+}
+.box4 h3{
+    font-size: 19px;
+    font-weight: 600;
+    color: #47b475;
+}
+.box4 {
+    background: #fff;
+    text-align: center;
+    background-size: 200%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 20px 10px;
+    margin: 0;
+    min-height: 385px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid #91d2ac;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%), 0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+    box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%), 0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+}
+.s-card-icon {
+    width: 80px;
+    margin: 0 auto 30px;
+}
+.font-wei{
+    font-weight: 700;
+}
+
+.uniq_features ul {
+    padding-left: 15px;
+}
+.uniq_features ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 29px;
+}
+.uniq_features ul li:after {
+    font-family: FontAwesome;
+    top: 3px;
+    right: 0;
+    padding-right: 10px;
+    content: "\f0a9";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #03b787;
+}
+.flip-box:hover {
+    transition: 0.5s all ease-in-out;
+/*    transform: scale(0.9);*/
+    background: #47b475;
+    color: #fff;
+}
+.flip-box:hover h4{
+    color: white;
+}
+@media screen and (width: 1024px){
+   #sto-smart-contracts-development .eto-exchange-flip .flip-box{
+        min-height: 367px;
+    }
+}
+.flip-box h4{
+    font-weight: 700;
+}
+.flip-tit{
+    color: #161515;
+}
+@media (max-width: 500px){
+.cta_mine {
+    width: 90%;
+    display: block;
+}
+}
+
+section.table {
+    text-align: center;
+    padding: 3% 0%;
+}
+section.table th {
+    font-size: 17px;
+}
+
+section.table th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    background: #e2e8fb;
+}
+section.table td {
+    padding: 10px;
+    border: 1px solid;
+}
+
+.nec-btn{
+     position: relative !important;
+    color:#fff !important;
+    border-radius:30px !important;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    transform: scale(1.1,1.1) !important;
+    transition:all 0.3s ease-out 0s !important;
+    background: #47b475 !important;
+}
+.nec-btn:hover{
+    transform: scale(1,1) !important;
+    color:#fff !important;
+    background:#00a9e2!important;
+}
+a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+    margin-bottom: 15px!important;
+    display: inline-block;
+    margin-right: 26px!important;
+}
+.contentall a, a.home-talk-experts{
+	padding: 10px 20px !important;
+}
+
+    #newsletter-form-sec .form-group{margin-bottom:7px;}
+    #mailForm_common .form-group label{color: #fff;}
+   #sto-smart-contracts-development .contact-content{padding-top: 40px; padding: 30px; margin-top: -40px; margin-left: -40px; background-color: #f9f9f9; box-shadow: 0 0 6px 1px rgba(0,0,0,.22); border-radius: 7px;}
+   #sto-smart-contracts-development .contact-content p{font-size: 18px; line-height: 30px;}
+   #sto-smart-contracts-development .contact-content a{font-size: 18px; display: block;margin-bottom: 20px;}
+   #sto-smart-contracts-development .contact-content a i{color: #47b475; font-size: 24px;}
+   #sto-smart-contracts-development .form-control{background: #fff;}
+   #sto-smart-contracts-development .pad-40-20{padding: 25px 25px 0 25px;}
+    input#phone_common{background: #fff;}
+    #mailForm_common .form-group label{color: #fff;}
+    a.home-talk-experts{border-radius: 25px;}
+
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+       #sto-smart-contracts-development .contact-content{margin-top: 20px; margin-left: 0;padding: 20px !important;}
+       #sto-smart-contracts-development .pad-40-20{padding: 20px;}
+       #sto-smart-contracts-development .contact-content a{font-size: 14px;}
+       #sto-smart-contracts-development .sticky-form{display: none;}
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 899px) {
+       #sto-smart-contracts-development .contact-content{margin-top: 20px; margin-left: 0;}
+    }
+   #sto-smart-contracts-development .newsletter_videos h5 {
+    color: #fff;
+        font-size: 25px!important;
+}
+h5.section-title {
+    font-size: 27.46px;
+}
+.client h5 {
+    color: #444!important;
+}
+h5.common_h3 {
+    font-size: 25px!important;
+}
+
+
+   #sto-smart-contracts-development .pull-right-tow {
+    background-color: #ba3c0d;
+    padding: 3px 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 125px;
+    position: absolute;
+    right: 0;
+    bottom: -35px;
+}
+.pull-right-tow a{
+    font-size: 12px;
+}
+
+.header-nabar-icon .pull-right {
+    background-color: #47b475;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 3px 15px;
+    /*border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;*/
+    margin-right: 0px;
+    position: absolute;
+    right: 16px;
+    bottom: -30px;
+}
+
+.header-nabar-icon .pull-right a:hover{
+    color: #fff!important;
+}
+.header-nabar-icon .pull-right a, .header-nabar-icon .pull-right-tow a{color: #fff;}
+
+.sticky-form>.quick-cont-btn {
+    top: 64vh;
+    right: -60px;
+    padding: 0px 20px;
+}
+
+@media  (max-width: 320px){
+   #sto-smart-contracts-development .header-nabar-icon .pull-right, .pull-right-tow {
+        display: none;
+        border-radius: 0px;
+        position: relative;
+      width: 255px;
+    
+        text-align: center;
+        margin: 0 15px;
+        float: left !important;
+        padding: 9px 2px;
+    }
+   #sto-smart-contracts-development .sidenav a {
+    font-size: 14px;
+    padding: 4px 4px 8px 8px;
+}
+
+}
+@media  (max-width: 768px){
+   #sto-smart-contracts-development .header-nabar-icon .pull-right, .pull-right-tow {
+        display: none;
+        border-radius: 0px;
+        position: relative;
+      width: 255px;
+    
+        text-align: center;
+        margin: 0 15px;
+        float: left !important;
+        padding: 9px 2px;
+    }
+    #sto-smart-contracts-development .sidenav a {
+    font-size: 14px;
+    padding: 4px 4px 8px 8px;
+}
+}
+/*@media  (max-width: 1024px){
+   #sto-smart-contracts-development .header-nabar-icon .pull-right, .pull-right-tow {
+      background-color: #47b475;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-right: 0px;
+    position: relative;
+    right: 16px;
+    bottom: -30px;
+    }
+}*/
+
+.color-btn {
+    background-color: #1fd1f9 !important;
+    background-image: -o-linear-gradient(135deg,#b621fe 0,#1fd1f9 74%) !important;
+    background-image: linear-gradient(315deg,#b621fe 0,#1fd1f9 74%) !important;
+    border-radius: 7px;
+    color: #fff;
+}
+.color-btn1{
+    border: none;
+    /*border-radius: 50px;*/
+    transition: 0.3s;
+    background: #f90cff;
+    background-image: 
+    linear-gradient(to right bottom,#f90cff,#e027ff,#c534ff,#a93eff,#8a44ff,#6560ff,#3c73ff,#0081ff,#009cff,#00b3ff,#00c6f5,#0cd7e8);
+    /* clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%); */
+    animation: glow 1s infinite;
+    transition: 0.5s;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.color-btn1:focus,.color-btn1:hover{
+        background-color: #47b475;
+        transition: 0.5s;
+
+}
+.color-btn1 span:hover {
+        transition: 0.3s;
+        opacity: 1;
+        font-weight: 700;
+    }
+  @media (min-width:320px) and (max-width:643px){
+       #sto-smart-contracts-development .color-btn1{
+           padding: 9px 16px!important;
+        }
+     }
+/*.color-btn1:before{
+    content: "";
+    background: rgba(0,0,0,0.9);
+    border-radius: 50px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    z-index: -1;
+}*/
+@keyframes glow {
+        0% {
+            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+        }
+        
+        50% {
+            box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255)
+        }
+        
+        100% {
+            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168)
+        }
+    }
+.sticky_form_bp {
+    position: fixed;
+    right: -80px !important;
+    top: 250px;
+    z-index: 10;
+    background: #47b475;
+    color: #fff;
+    padding: 0px 15px 16px !important;
+    text-transform: capitalize;
+    font-weight: 700;
+    transform: rotate(270deg) !important;
+    cursor: pointer;
+    font-size: 14px;
+}
+/*@media (max-width: 1024px){
+   #sto-smart-contracts-development .sticky_form_bp {
+        display:block !important;
+}
+}
+
+@media (max-width: 320px){
+   #sto-smart-contracts-development .sticky_form_bp  {
+        display: block;
+        
+}
+}*/
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+/*.openbtn1{width: 70px !important; top: 21% !important;}*/
+}  
+
+/* The sidepanel menu */
+.sidepanel4 {
+  height: auto; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 999999; /* Stay on top */
+  top: 27%;
+  left: 0;
+  background-color: transparent; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+
+}
+
+/* The sidepanel links */
+.sidepanel4 a {
+  /*padding: 8px 8px 8px 32px;*/
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; 
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel4 a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel4 .closebtn1 {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 44px;
+  margin-left: 50px;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  background: #eb1e2d !important;
+  line-height: 0.80em;
+  font-weight: bold;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 70%);
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn1 {
+  /*font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 0px;
+  border: none;
+  position: fixed;
+  top: 43%;
+  left: 0;
+  width: 90px;
+  z-index: 99999;*/
+  /*animation: zoom-in-zoom-out 1s ease infinite;*/
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+}
+
+.openbtn1:hover {
+  background-color: transparent;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
+
+.close-btn{position: fixed; left: 10px; bottom: 20px; z-index: 99; color: #fff !important; font-size: 16px; font-weight: bold; border-radius: 50%; border: 0; width: 30px; height: 30px; padding: 0; box-shadow: 1px 1px 11px -3px #999; display: none; transition: all 2s; background-color: #89002a;}
+.fixed-social {position: fixed; bottom: 42px; padding: 0px 10px; background: linear-gradient(2deg, black, #868686, black); transition: all 2s; width: 200px; height: 25px; border-radius: 20px; box-shadow: 1px 1px 11px -3px #999; /*filter: drop-shadow(0 0 0.75rem crimson);*/ display: flex !important; flex-wrap: wrap; z-index: 99; justify-content: center;}
+.hide {opacity:0; left:-100%;}
+.show1 {opacity:1; left:50px;}
+.fixed-social .items{margin: 0 auto;}
+.fixed-social .items .icons{width: 55px; height: 55px; background: linear-gradient(45deg, black, transparent); padding: 5px; border-radius: 50%; margin: -17px 0; float: left;}
+.fixed-social .items .icons i{padding: 9px; background: #00a7e7; border-radius: 50%; font-size: 26px; color: #fff;}
+.fixed-social .items .text{padding-left: 60px; font-weight: bold; font-family: arial; font-size: 14px; color: #fff !important; line-height: 2.2em;}
+.fixed-social .items a{text-decoration: none; outline: none; padding: 0; margin: 0;}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+   #sto-smart-contracts-development .show1 {left:20px;}
+   #sto-smart-contracts-development .close-btn{bottom: 60px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+   #sto-smart-contracts-development .fixed-social {bottom: 80px;}  
+   #sto-smart-contracts-development .show1 {left:50px;}
+   #sto-smart-contracts-development .close-btn{bottom:60px; z-index: 999;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+   #sto-smart-contracts-development .fixed-social .items .text{display: none;}   
+   #sto-smart-contracts-development .fixed-social {bottom: 80px; }  
+   #sto-smart-contracts-development .show1 {left:12%;} 
+   #sto-smart-contracts-development .fixed-social .items a{display: flex; justify-content: center;}
+   #sto-smart-contracts-development .close-btn{bottom:60px; z-index: 999;}
+}
+ 

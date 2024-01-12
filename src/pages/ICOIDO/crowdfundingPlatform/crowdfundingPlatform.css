@@ -86,7 +86,7 @@
         
         #crowdfunding-platform .type-list.prtlists li {
             width: 100%;
-            max-width: 208px;
+            max-width: 205px;
             padding-top: 30px;
             padding-bottom: 30px;
             box-shadow: 0 0px 10px #ccc;
@@ -126,6 +126,7 @@
         
         #crowdfunding-platform .real-estate {
             overflow: hidden;
+            margin-top: 15px;
         }
         
         #crowdfunding-platform .type-list a {

@@ -23,7 +23,7 @@ const Sec7 = () => {
             <div className="real-estate">
               <div className="icon">
                 {" "}
-                <img src="/images/icons/management.webp" alt="" />{" "}
+                <img src="./assets/images/icon-169.webp" alt="" />{" "}
               </div>
               <div className="content">
                 <h3>Performance Evaluation</h3>
@@ -36,7 +36,7 @@ const Sec7 = () => {
             <div className="real-estate">
               <div className="icon">
                 {" "}
-                <img src="/images/icons/funds.webp" alt="" />{" "}
+                <img src="./assets/images/icon-170.webp" alt="" />{" "}
               </div>
               <div className="content">
                 <h3>Fund Management and Accounting</h3>
@@ -49,7 +49,7 @@ const Sec7 = () => {
             <div className="real-estate">
               <div className="icon">
                 {" "}
-                <img src="/images/icons/valuation.webp" alt="" />{" "}
+                <img src="./assets/images/icon-171.webp" alt="" />{" "}
               </div>
               <div className="content">
                 <h3>Valuations</h3>
@@ -62,7 +62,7 @@ const Sec7 = () => {
             <div className="real-estate">
               <div className="icon">
                 {" "}
-                <img src="/images/icons/agreement.webp" alt="" />{" "}
+                <img src="./assets/images/icon-172.webp" alt="" />{" "}
               </div>
               <div className="content">
                 <h3>Deal Sourcing</h3>
@@ -76,7 +76,7 @@ const Sec7 = () => {
             <div className="real-estate">
               <div className="icon">
                 {" "}
-                <img src="/images/icons/investor.webp" alt="" />{" "}
+                <img src="./assets/images/icon-173.webp" alt="" />{" "}
               </div>
               <div className="content">
                 <h3>Investor Communications</h3>
