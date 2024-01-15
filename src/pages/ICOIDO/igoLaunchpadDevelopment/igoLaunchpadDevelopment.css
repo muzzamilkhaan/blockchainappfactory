@@ -1,0 +1,953 @@
+#igo-launchpad-development .top-header p {
+  margin-bottom: 0;
+  color: #fff;
+  display: inline-block;
+  width: auto;
+}
+.lc-1ip30wz {
+  height: 30px !important;
+}
+.top-header {
+  background: #378658;
+  padding: 10px;
+}
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.top-header .breathing_effect {
+  -webkit-animation: breathing 1s infinite ease-in-out;
+  animation: breathing 1s infinite ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  transition: 1s;
+  display: inline-block;
+  width: auto;
+}
+.top-header .breathing_effect a {
+  background: #f44336;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0;
+  margin-left: 15px;
+}
+.top-header .breathing_effect a:hover {
+  color: #fff !important;
+}
+@media (max-width: 1199px) {
+  .header .main-menu > li a {
+    padding: 0 5px;
+  }
+}
+@media (max-width: 550px) {
+  .top-header p {
+    width: 60%;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .top-header .breathing_effect {
+    display: inline-block;
+    width: 40%;
+  }
+}
+#igo-launchpad-development .guardian-p {
+  text-align: center;
+  font-size: 12px;
+}
+/*-- Client section --*/
+#igo-launchpad-development .teck .category-grid-style-01 .category-item {
+  padding: 10px !important;
+}
+#igo-launchpad-development .category-item.aos-item .text-center {
+  font-size: 12px !important;
+  margin-bottom: 0px !important;
+}
+#igo-launchpad-development
+  .teck
+  .category-grid-style-01
+  .category-item
+  .category-icon {
+  margin-bottom: 0 !important;
+}
+#igo-launchpad-development .teck .category-icon img {
+  height: 80px !important;
+}
+#igo-launchpad-development h1,
+#igo-launchpad-development h2,
+#igo-launchpad-development h3,
+#igo-launchpad-development h4,
+#igo-launchpad-development h5,
+#igo-launchpad-development h6 {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0px !important;
+}
+#igo-launchpad-development .contentall {
+  padding: 0;
+}
+
+#igo-launchpad-development .banner_content {
+  text-align: left;
+}
+
+#igo-launchpad-development .banner-overlay {
+  background-color: rgb(0 0 0 / 0%);
+}
+
+#igo-launchpad-development .strategies-items1 .icons {
+  order: 2;
+  margin-right: 15px;
+}
+
+#igo-launchpad-development .contentall a:hover {
+  background: #00acdc;
+}
+
+#igo-launchpad-development .card-desc a {
+  font-size: 15px;
+  display: inline-block;
+  max-width: 200px;
+  margin: 0 auto 20px;
+  border-radius: 4px;
+}
+
+#igo-launchpad-development .banner {
+  background-image: url(./assets/images/banner-bg33.webp);
+  background-size: cover;
+  padding-top: 110px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  height: auto;
+  background-position: center;
+}
+
+#igo-launchpad-development .banner-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to right, #00000000, #00000000);
+  opacity: 0.95;
+}
+
+#igo-launchpad-development .banner-overlay {
+  background-color: rgb(0 0 0 / 0%);
+}
+
+#igo-launchpad-development .banner_content {
+  text-align: left;
+  position: relative;
+  top: 0;
+  transform: none;
+}
+
+#igo-launchpad-development .banner_content .contentall {
+  margin-top: 85px;
+  max-width: 1000px;
+  margin: 125px auto 40px;
+}
+
+#igo-launchpad-development .ban_tirt,
+#igo-launchpad-development .contentall h1 {
+  margin-bottom: 20px;
+  line-height: 1.3;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+#igo-launchpad-development .contentall h1 {
+  color: #fff;
+}
+
+#igo-launchpad-development .contentall p {
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-size: 21px;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+#igo-launchpad-development .contentall a {
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+#igo-launchpad-development .sec_tit,
+#igo-launchpad-development .sec_tit h2 {
+  font-size: 25px !important;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.4;
+}
+
+#igo-launchpad-development h1,
+#igo-launchpad-development h2,
+#igo-launchpad-development h3,
+#igo-launchpad-development h4,
+#igo-launchpad-development h5,
+#igo-launchpad-development h6 {
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+
+#igo-launchpad-development .banner_img img {
+  max-width: 121%;
+  margin-top: -12%;
+}
+
+@media (max-width: 1199px) {
+  #igo-launchpad-development .ban_tirt,
+  #igo-launchpad-development .contentall h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  #igo-launchpad-development .banner_img img {
+    max-width: 100%;
+    margin-top: 0;
+  }
+  #igo-launchpad-development .banner_content .contentall {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  #igo-launchpad-development .banner {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  #igo-launchpad-development .banner-overlay {
+    background: #0000005c;
+  }
+  #igo-launchpad-development .banner_content p {
+    font-size: 14px !important;
+  }
+  #igo-launchpad-development .ban_tirt,
+  #igo-launchpad-development .contentall h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  #igo-launchpad-development .sec_tit,
+  #igo-launchpad-development .sec_tit h2 {
+    font-size: 20px !important;
+  }
+  #igo-launchpad-development .pull-left img {
+    margin-top: 30px;
+  }
+  #igo-launchpad-development .banner_content p br,
+  #igo-launchpad-development .pr_arr:after,
+  #igo-launchpad-development .pr_arr:before,
+  #igo-launchpad-development .sec_tit br {
+    display: none !important;
+  }
+}
+
+#igo-launchpad-development h3.section-title {
+  font-size: 25px !important;
+  font-weight: 700;
+}
+
+#igo-launchpad-development .banner_content h4 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#igo-launchpad-development .intro_cnt img {
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+#igo-launchpad-development .sec_tit h2 {
+  display: inline;
+}
+
+#igo-launchpad-development .para {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#igo-launchpad-development .s-features-icon img {
+  transform: rotateY(0);
+  transition: 0.5s;
+}
+
+#igo-launchpad-development .s-features-content {
+  padding: 0 15px;
+}
+
+#igo-launchpad-development .s-features-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 5px;
+  line-height: 1.6;
+}
+
+#igo-launchpad-development .s-features-content p {
+  color: #000;
+  margin-bottom: 0;
+}
+
+#igo-launchpad-development .s-single-features:hover .s-features-icon img {
+  transform: rotateY(180deg);
+}
+
+#igo-launchpad-development .s-single-features .s-features-icon img {
+  width: 120px;
+  height: auto;
+}
+
+#igo-launchpad-development .nec-btn {
+  position: relative !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  font-size: 11px;
+  text-transform: uppercase !important;
+  transform: scale(1.1, 1.1) !important;
+  transition: all 0.3s ease-out 0s !important;
+  background: #47b475 !important;
+}
+#igo-launchpad-development .nec-btn:hover {
+  transform: scale(1, 1) !important;
+  color: #fff !important;
+  background: #00a9e2 !important;
+}
+#igo-launchpad-development
+  a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+  margin-bottom: 15px !important;
+  display: inline-block;
+  margin-right: 26px !important;
+}
+#igo-launchpad-development .contentall a,
+a.home-talk-experts {
+  padding: 10px 20px !important;
+}
+
+#igo-launchpad-development .nec-btn {
+  position: relative !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  font-size: 11px;
+  text-transform: uppercase !important;
+  transform: scale(1.1, 1.1) !important;
+  transition: all 0.3s ease-out 0s !important;
+  background: #47b475 !important;
+}
+.nec-btn:hover {
+  transform: scale(1, 1) !important;
+  color: #fff !important;
+  background: #00a9e2 !important;
+}
+a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+  margin-bottom: 15px !important;
+  display: inline-block;
+  margin-right: 26px !important;
+}
+.contentall a,
+a.home-talk-experts {
+  padding: 10px 20px !important;
+}
+
+.nec-btn {
+  position: relative !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  font-size: 11px;
+  text-transform: uppercase !important;
+  transform: scale(1.1, 1.1) !important;
+  transition: all 0.3s ease-out 0s !important;
+  background: #47b475 !important;
+}
+#igo-launchpad-development .nec-btn:hover {
+  transform: scale(1, 1) !important;
+  color: #fff !important;
+  background: #00a9e2 !important;
+}
+#igo-launchpad-development
+  a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+  margin-bottom: 15px !important;
+  display: inline-block;
+  margin-right: 26px !important;
+}
+#igo-launchpad-development .contentall a,
+a.home-talk-experts {
+  padding: 10px 20px !important;
+}
+
+#igo-launchpad-development .nec-btn {
+  position: relative !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  font-size: 11px;
+  text-transform: uppercase !important;
+  transform: scale(1.1, 1.1) !important;
+  transition: all 0.3s ease-out 0s !important;
+  background: #47b475 !important;
+}
+#igo-launchpad-development .nec-btn:hover {
+  transform: scale(1, 1) !important;
+  color: #fff !important;
+  background: #00a9e2 !important;
+}
+#igo-launchpad-development
+  a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+  margin-bottom: 15px !important;
+  display: inline-block;
+  margin-right: 26px !important;
+}
+#igo-launchpad-development .contentall a,
+a.home-talk-experts {
+  padding: 10px 20px !important;
+}
+
+#igo-launchpad-development #newsletter-form-sec .form-group {
+  margin-bottom: 7px;
+}
+#igo-launchpad-development #mailForm_common .form-group label {
+  color: #fff;
+}
+#igo-launchpad-development .contact-content {
+  padding-top: 40px;
+  padding: 30px;
+  margin-top: -40px;
+  margin-left: -40px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.22);
+  border-radius: 7px;
+}
+#igo-launchpad-development .contact-content p {
+  font-size: 18px;
+  line-height: 30px;
+}
+#igo-launchpad-development .contact-content a {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 20px;
+}
+#igo-launchpad-development .contact-content a i {
+  color: #47b475;
+  font-size: 24px;
+}
+#igo-launchpad-development .form-control {
+  background: #fff;
+}
+#igo-launchpad-development .pad-40-20 {
+  padding: 25px 25px 0 25px;
+}
+#igo-launchpad-development input#phone_common {
+  background: #fff;
+}
+#igo-launchpad-development #mailForm_common .form-group label {
+  color: #fff;
+}
+#igo-launchpad-development a.home-talk-experts {
+  border-radius: 25px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #igo-launchpad-development .contact-content {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 20px !important;
+  }
+  #igo-launchpad-development .pad-40-20 {
+    padding: 20px;
+  }
+  #igo-launchpad-development .contact-content a {
+    font-size: 14px;
+  }
+  #igo-launchpad-development .sticky-form {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  #igo-launchpad-development .contact-content {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+#igo-launchpad-development .newsletter_videos h5 {
+  color: #fff;
+  font-size: 25px !important;
+}
+#igo-launchpad-development h5.section-title {
+  font-size: 27.46px;
+}
+#igo-launchpad-development .client h5 {
+  color: #444 !important;
+}
+#igo-launchpad-development h5.common_h3 {
+  font-size: 25px !important;
+}
+
+#igo-launchpad-development .pull-right-tow {
+  background-color: #ba3c0d;
+  padding: 3px 15px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 125px;
+  position: absolute;
+  right: 0;
+  bottom: -35px;
+}
+#igo-launchpad-development .pull-right-tow a {
+  font-size: 12px;
+}
+
+#igo-launchpad-development .header-nabar-icon .pull-right {
+  background-color: #47b475;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 3px 15px;
+  /*border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;*/
+  margin-right: 0px;
+  position: absolute;
+  right: 16px;
+  bottom: -30px;
+}
+
+#igo-launchpad-development .header-nabar-icon .pull-right a:hover {
+  color: #fff !important;
+}
+#igo-launchpad-development .header-nabar-icon .pull-right a,
+#igo-launchpad-development .header-nabar-icon .pull-right-tow a {
+  color: #fff;
+}
+
+#igo-launchpad-development .sticky-form > .quick-cont-btn {
+  top: 64vh;
+  right: -60px;
+  padding: 0px 20px;
+}
+
+@media (max-width: 320px) {
+  #igo-launchpad-development .header-nabar-icon .pull-right,
+  .pull-right-tow {
+    display: none;
+    border-radius: 0px;
+    position: relative;
+    width: 255px;
+
+    text-align: center;
+    margin: 0 15px;
+    float: left !important;
+    padding: 9px 2px;
+  }
+  #igo-launchpad-development .sidenav a {
+    font-size: 14px;
+    padding: 4px 4px 8px 8px;
+  }
+}
+@media (max-width: 768px) {
+  #igo-launchpad-development .header-nabar-icon .pull-right,
+  .pull-right-tow {
+    display: none;
+    border-radius: 0px;
+    position: relative;
+    width: 255px;
+
+    text-align: center;
+    margin: 0 15px;
+    float: left !important;
+    padding: 9px 2px;
+  }
+  #igo-launchpad-development .sidenav a {
+    font-size: 14px;
+    padding: 4px 4px 8px 8px;
+  }
+}
+/*@media  (max-width: 1024px){
+   #igo-launchpad-development .header-nabar-icon .pull-right, .pull-right-tow {
+      background-color: #47b475;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-right: 0px;
+    position: relative;
+    right: 16px;
+    bottom: -30px;
+    }
+}*/
+
+#igo-launchpad-development .color-btn {
+  background-color: #1fd1f9 !important;
+  background-image: -o-linear-gradient(
+    135deg,
+    #b621fe 0,
+    #1fd1f9 74%
+  ) !important;
+  background-image: linear-gradient(315deg, #b621fe 0, #1fd1f9 74%) !important;
+  border-radius: 7px;
+  color: #fff;
+}
+#igo-launchpad-development .color-btn1 {
+  border: none;
+  /*border-radius: 50px;*/
+  transition: 0.3s;
+  background: #f90cff;
+  background-image: linear-gradient(
+    to right bottom,
+    #f90cff,
+    #e027ff,
+    #c534ff,
+    #a93eff,
+    #8a44ff,
+    #6560ff,
+    #3c73ff,
+    #0081ff,
+    #009cff,
+    #00b3ff,
+    #00c6f5,
+    #0cd7e8
+  );
+  /* clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%); */
+  animation: glow 1s infinite;
+  transition: 0.5s;
+  padding: 10px 25px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 16px;
+}
+#igo-launchpad-development .color-btn1:focus,
+#igo-launchpad-development .color-btn1:hover {
+  background-color: #47b475;
+  transition: 0.5s;
+}
+#igo-launchpad-development .color-btn1 span:hover {
+  transition: 0.3s;
+  opacity: 1;
+  font-weight: 700;
+}
+@media (min-width: 320px) and (max-width: 643px) {
+  #igo-launchpad-development .color-btn1 {
+    padding: 9px 16px !important;
+  }
+}
+/*.color-btn1:before{
+    content: "";
+    background: rgba(0,0,0,0.9);
+    border-radius: 50px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    z-index: -1;
+}*/
+@keyframes glow {
+  0% {
+    box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+  }
+
+  50% {
+    box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255);
+  }
+
+  100% {
+    box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+  }
+}
+#igo-launchpad-development .sticky_form_bp {
+  position: fixed;
+  right: -80px !important;
+  top: 250px;
+  z-index: 10;
+  background: #47b475;
+  color: #fff;
+  padding: 0px 15px 16px !important;
+  text-transform: capitalize;
+  font-weight: 700;
+  transform: rotate(270deg) !important;
+  cursor: pointer;
+  font-size: 14px;
+}
+/*@media (max-width: 1024px){
+   #igo-launchpad-development .sticky_form_bp {
+        display:block !important;
+}
+}
+
+@media (max-width: 320px){
+   #igo-launchpad-development .sticky_form_bp  {
+        display: block;
+        
+}
+}*/
+#igo-launchpad-development .footer-wrap h6 {
+  color: #fff;
+  font-size: 23px;
+}
+#igo-launchpad-development .footer-wrap h5 {
+  margin: 10px 0;
+  position: relative;
+  text-transform: uppercase;
+  padding-left: 10px;
+  color: #fff;
+  background: -webkit-linear-gradient(77deg, #00bcd4 0%, #17cc81 100%);
+  background: -ms-linear-gradient(
+    0deg,
+    rgb(254, 66, 47) 0%,
+    rgb(254, 81, 150) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+.footer-wrap h5:after {
+  content: "";
+  width: 3px;
+  height: 90%;
+  background: #47b475;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  margin-top: 0;
+  margin-right: 6px;
+  left: 0;
+  top: 1px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  /*.openbtn1{width: 70px !important; top: 21% !important;}*/
+}
+
+/* The sidepanel menu */
+#igo-launchpad-development .sidepanel4 {
+  height: auto; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 999999; /* Stay on top */
+  top: 27%;
+  left: 0;
+  background-color: transparent; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+#igo-launchpad-development .sidepanel4 a {
+  /*padding: 8px 8px 8px 32px;*/
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+#igo-launchpad-development .sidepanel4 a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+#igo-launchpad-development .sidepanel4 .closebtn1 {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 44px;
+  margin-left: 50px;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  background: #eb1e2d !important;
+  line-height: 0.8em;
+  font-weight: bold;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 70%);
+}
+
+/* Style the button that is used to open the sidepanel */
+#igo-launchpad-development .openbtn1 {
+  /*font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 0px;
+  border: none;
+  position: fixed;
+  top: 43%;
+  left: 0;
+  width: 90px;
+  z-index: 99999;*/
+  /*animation: zoom-in-zoom-out 1s ease infinite;*/
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+}
+
+#igo-launchpad-development .openbtn1:hover {
+  background-color: transparent;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
+#igo-launchpad-development .close-btn {
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  z-index: 99;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  box-shadow: 1px 1px 11px -3px #999;
+  display: none;
+  transition: all 2s;
+  background-color: #89002a;
+}
+#igo-launchpad-development .fixed-social {
+  position: fixed;
+  bottom: 42px;
+  padding: 0px 10px;
+  background: linear-gradient(2deg, black, #868686, black);
+  transition: all 2s;
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 11px -3px #999; /*filter: drop-shadow(0 0 0.75rem crimson);*/
+  display: flex !important;
+  flex-wrap: wrap;
+  z-index: 99;
+  justify-content: center;
+}
+#igo-launchpad-development .hide {
+  opacity: 0;
+  left: -100%;
+}
+#igo-launchpad-development .show1 {
+  opacity: 1;
+  left: 50px;
+}
+#igo-launchpad-development .fixed-social .items {
+  margin: 0 auto;
+}
+#igo-launchpad-development .fixed-social .items .icons {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(45deg, black, transparent);
+  padding: 5px;
+  border-radius: 50%;
+  margin: -17px 0;
+  float: left;
+}
+#igo-launchpad-development .fixed-social .items .icons i {
+  padding: 9px;
+  background: #00a7e7;
+  border-radius: 50%;
+  font-size: 26px;
+  color: #fff;
+}
+#igo-launchpad-development .fixed-social .items .text {
+  padding-left: 60px;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 14px;
+  color: #fff !important;
+  line-height: 2.2em;
+}
+#igo-launchpad-development .fixed-social .items a {
+  text-decoration: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  #igo-launchpad-development .show1 {
+    left: 20px;
+  }
+  #igo-launchpad-development .close-btn {
+    bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  #igo-launchpad-development .fixed-social {
+    bottom: 80px;
+  }
+  #igo-launchpad-development .show1 {
+    left: 50px;
+  }
+  #igo-launchpad-development .close-btn {
+    bottom: 60px;
+    z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #igo-launchpad-development .fixed-social .items .text {
+    display: none;
+  }
+  #igo-launchpad-development .fixed-social {
+    bottom: 80px;
+  }
+  #igo-launchpad-development .show1 {
+    left: 12%;
+  }
+  #igo-launchpad-development .fixed-social .items a {
+    display: flex;
+    justify-content: center;
+  }
+  #igo-launchpad-development .close-btn {
+    bottom: 60px;
+    z-index: 999;
+  }
+}
