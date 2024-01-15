@@ -263,6 +263,9 @@ const IdoLaunchpadDevelopmentInMultichain = lazy(() =>
     "./pages/ICOIDO/idoLaunchpadDevelopmentInMultichain/idoLaunchpadDevelopmentInMultichain"
   )
 );
+const IdoLaunchpadOnPolygon = lazy(() =>
+  import("./pages/ICOIDO/idoLaunchpadOnPolygon/idoLaunchpadOnPolygon")
+);
 
 function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
@@ -732,6 +735,10 @@ function App() {
             <Route
               path="/ido-launchpad-development-in-multichain"
               element={<IdoLaunchpadDevelopmentInMultichain />}
+            />
+            <Route
+              path="/ido-launchpad-on-polygon"
+              element={<IdoLaunchpadOnPolygon />}
             />
           </Routes>
         </Suspense>

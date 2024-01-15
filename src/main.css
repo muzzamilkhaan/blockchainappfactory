@@ -7169,7 +7169,7 @@ section.client {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     background-color: #f4f4f5;
-    background: url(./images/index-sec/site-bg.svg);
+    /* background: url(./images/index-sec/site-bg.svg); */
     background-size: cover;
     background-attachment: fixed;
 }
