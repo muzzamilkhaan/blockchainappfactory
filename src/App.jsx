@@ -253,6 +253,11 @@ const IdoLaunchpadDevelopmentOnBsc = lazy(() =>
     "./pages/ICOIDO/idoLaunchpadDevelopmentOnBsc/idoLaunchpadDevelopmentOnBsc"
   )
 );
+const IdoLaunchpadDevelopmentOnEthereum = lazy(() =>
+  import(
+    "./pages/ICOIDO/idoLaunchpadDevelopmentOnEthereum/idoLaunchpadDevelopmentOnEthereum"
+  )
+);
 
 function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
@@ -714,6 +719,10 @@ function App() {
             <Route
               path="/ido-launchpad-development-on-bsc"
               element={<IdoLaunchpadDevelopmentOnBsc />}
+            />
+            <Route
+              path="/ido-launchpad-development-on-ethereum"
+              element={<IdoLaunchpadDevelopmentOnEthereum />}
             />
           </Routes>
         </Suspense>
