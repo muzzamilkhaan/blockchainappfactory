@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import "./idoMarketingServices.css";
+import React from "react";
+import "./idoTokenLaunchpadServices.css";
 import Sec1 from "./Sec1";
 import Sec2 from "./Sec2";
 import Sec3 from "./Sec3";
@@ -10,18 +10,18 @@ import Sec7 from "./Sec7";
 import Sec8 from "./Sec8";
 import Sec9 from "./Sec9";
 import Sec10 from "./Sec10";
+import Sec11 from "./Sec11";
+import Sec12 from "./Sec12";
+import Sec13 from "./Sec13";
+import Sec14 from "./Sec14";
+import Sec15 from "./Sec15";
+import Sec16 from "./Sec16";
+import Sec17 from "./Sec17";
 import WeSpotlightedIn from "../../../components/shared/WeSpotlightedIn";
 
-const idoMarketingServices = ({
-  headerBgColor,
-  toggleHeaderBgColor,
-  linkColor,
-}) => {
-  useEffect(() => {
-    toggleHeaderBgColor("#fff", "#444");
-  });
+const idoTokenLaunchpadServices = () => {
   return (
-    <div className="main" id="ido-marketing-services">
+    <div className="main" id="ido-token-launchpad-services">
       <Sec1 />
       <Sec2 />
       <Sec3 />
@@ -32,9 +32,16 @@ const idoMarketingServices = ({
       <Sec8 />
       <Sec9 />
       <Sec10 />
+      <Sec11 />
+      <Sec12 />
+      <Sec13 />
+      <Sec14 />
+      <Sec15 />
+      <Sec16 />
+      <Sec17 />
       <WeSpotlightedIn />
     </div>
   );
 };
 
-export default idoMarketingServices;
+export default idoTokenLaunchpadServices;

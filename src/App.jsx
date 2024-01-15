@@ -240,6 +240,14 @@ const IdoMarketingServices = lazy(() =>
 const WhiteLabelIdoLaunchpad = lazy(() =>
   import("./pages/ICOIDO/whiteLabelIdoLaunchpad/whiteLabelIdoLaunchpad")
 );
+const IdoTokenLaunchpadServices = lazy(() =>
+  import("./pages/ICOIDO/idoTokenLaunchpadServices/idoTokenLaunchpadServices")
+);
+const IdoLaunchpadOnLayer2Blockchain = lazy(() =>
+  import(
+    "./pages/ICOIDO/idoLaunchpadOnLayer2Blockchain/idoLaunchpadOnLayer2Blockchain"
+  )
+);
 
 function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
@@ -683,6 +691,20 @@ function App() {
             <Route
               path="/white-label-ido-launchpad"
               element={<WhiteLabelIdoLaunchpad />}
+            />
+            <Route
+              path="/ido-token-launchpad-services"
+              element={<IdoTokenLaunchpadServices />}
+            />
+            <Route
+              path="/ido-launchpad-on-layer-2-blockchain"
+              element={
+                <IdoLaunchpadOnLayer2Blockchain
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
             />
           </Routes>
         </Suspense>

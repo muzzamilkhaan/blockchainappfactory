@@ -236,6 +236,7 @@
   #white-label-ido-launchpad .ban_tirt,
   #white-label-ido-launchpad .contentall h1 {
     font-size: 20px;
+    text-align: center;
   }
   #white-label-ido-launchpad .sec_tit,
   #white-label-ido-launchpad .sec_tit h2 {
@@ -766,7 +767,7 @@
 }
 @media screen and (max-width: 768px) {
   #white-label-ido-launchpad .teck .category-grid-style-01 .category-item {
-    width: 50% !important;
+    width: 47% !important;
   }
 }
 /* AUTHOR LINK */

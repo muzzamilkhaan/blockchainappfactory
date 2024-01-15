@@ -1227,6 +1227,11 @@ function Header({ headerBgColor, linkColor }) {
                       </li>
                       <li>
                         <Link to="ido-launchpad-on-layer-2-blockchain">
+                          IDO Launchpad On Layer 2
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="ido-launchpad-development-on-bsc">
                           IDO Launchpad On BSC
                         </Link>
                       </li>
