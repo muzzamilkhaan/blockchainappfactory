@@ -16,9 +16,14 @@
     padding: 0;
 }
 /*-- Client section --*/
-
+#security-token-offering-services .accordion-body{
+    padding: 0;
+}
        
-        
+#security-token-offering-services ul.list-ico{
+    /* overflow-y: auto;
+    max-height: 200px */
+}
 #security-token-offering-services  h1,
 #security-token-offering-services h2,
 #security-token-offering-services h3,
