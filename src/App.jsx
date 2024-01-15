@@ -248,6 +248,11 @@ const IdoLaunchpadOnLayer2Blockchain = lazy(() =>
     "./pages/ICOIDO/idoLaunchpadOnLayer2Blockchain/idoLaunchpadOnLayer2Blockchain"
   )
 );
+const IdoLaunchpadDevelopmentOnBsc = lazy(() =>
+  import(
+    "./pages/ICOIDO/idoLaunchpadDevelopmentOnBsc/idoLaunchpadDevelopmentOnBsc"
+  )
+);
 
 function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
@@ -705,6 +710,10 @@ function App() {
                   linkColor={linkColor}
                 />
               }
+            />
+            <Route
+              path="/ido-launchpad-development-on-bsc"
+              element={<IdoLaunchpadDevelopmentOnBsc />}
             />
           </Routes>
         </Suspense>
