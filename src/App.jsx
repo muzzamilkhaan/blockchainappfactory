@@ -258,6 +258,11 @@ const IdoLaunchpadDevelopmentOnEthereum = lazy(() =>
     "./pages/ICOIDO/idoLaunchpadDevelopmentOnEthereum/idoLaunchpadDevelopmentOnEthereum"
   )
 );
+const IdoLaunchpadDevelopmentInMultichain = lazy(() =>
+  import(
+    "./pages/ICOIDO/idoLaunchpadDevelopmentInMultichain/idoLaunchpadDevelopmentInMultichain"
+  )
+);
 
 function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
@@ -723,6 +728,10 @@ function App() {
             <Route
               path="/ido-launchpad-development-on-ethereum"
               element={<IdoLaunchpadDevelopmentOnEthereum />}
+            />
+            <Route
+              path="/ido-launchpad-development-in-multichain"
+              element={<IdoLaunchpadDevelopmentInMultichain />}
             />
           </Routes>
         </Suspense>
