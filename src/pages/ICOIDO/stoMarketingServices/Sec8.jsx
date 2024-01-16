@@ -1,160 +1,106 @@
-import React from 'react'
+import React from "react";
 
 const Sec8 = () => {
   return (
-    <div className="col-md-12 section-header common_spacing" id="deal-strategy">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-6 col-md-6 col-sm-12">
-          <h2 className="small_h1 section-title underline font-wei">
-            Deal Marketing
-          </h2>
-          <p>
-            Marketing of any successful deal is easier when the company has a
-            track record. However, if you are a pre-revenue startup and want to
-            raise capital for your project the process of outreach becomes a
-            little more tricky. At Blockchain App Factory, we will create a
-            perfect marketing pitch and ensure you have the highest probability of
-            success with the investors. We plan for your deal marketing in four
-            phases :
-          </p>
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          {" "}
-          <img
-            src="/images/sto-marketing/deal-marketing-1.webp"
-            alt="Deal Marketing"
-            title="Deal Marketing"
-            className="img-responsive"
-          />{" "}
-        </div>
-      </div>
-    </div>
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-          <h4 className="small_h1 section-title underline">Pre Pitch</h4>
-          <ul className="ul-style-4 list_growth padding-zero">
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Understanding Customers &amp; Markets through Research
-              </p>
-            </li>
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Connections with the decision makers for investments
-              </p>
-            </li>
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Messaging honed to your target audience
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <h4 className="small_h1 section-title underline">Pitch</h4>
-          <ul className="ul-style-4 list_growth padding-zero">
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Creating a PitchBook for your project
-              </p>
-            </li>
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Alignment of your Business Plan with Project
-              </p>
-            </li>
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Offline Blockchain &amp; Crypto Event Management
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <h4 className="small_h1 section-title underline">Post-Pitch</h4>
-          <ul className="ul-style-4 list_growth padding-zero">
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Continuous Branding of your Project
-              </p>
-            </li>
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Improvising Pitch Deck and Business Plans
-              </p>
-            </li>
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Creating a database of VCs, private equity investors and fund
-                managers
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <h4 className="small_h1 section-title underline">Investor Outreach</h4>
-          <ul className="ul-style-4 list_growth padding-zero">
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Project Teaser with NDA is delivered to potential investors
-              </p>
-            </li>
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Using Marketing Funnel to ensure getting more Letter of
-                Intent(LOIs)
-              </p>
-            </li>
-            <li>
-              <p>
-                <span className="space">
-                  <i className="fa fa-check" aria-hidden="true" />
-                </span>
-                Ensuring the project receives healthy premium investors
-              </p>
-            </li>
-          </ul>
+    <div
+      className="product-features package_includes"
+      style={{ background: "#fff " }}
+    >
+      <div className="container">
+        <div className="row">
+          <div className="section-title text-center">
+            <div className="sec_tit mb20">
+              <h2
+                className="section-title underline mb20"
+                style={{ fontSize: "4rem", color: "#000" }}
+              >
+                Esteemed<span style={{ color: "#47b475" }}> Web3 Clients</span>{" "}
+                <br />
+                We Propelled to Popularity
+              </h2>{" "}
+            </div>
+            <p
+              className=""
+              style={{
+                color: "#000",
+                fontSize: "1.2rem !important",
+                textAlign: "center",
+              }}
+            >
+              As a reputed Web3 marketing agency, we strive to offer the
+              best-in-class services to promote projects
+              <br /> to the intended audience using a plethora of strategies.
+              Such an approach has led us to work with <br />
+              top Web3 businesses, and we have generated fabulous results for
+              them.
+            </p>
+          </div>
+          <div className="col-md-12 text-center">
+            <div className="Package_list" style={{ background: "#c0fcd9" }}>
+              {" "}
+              <img
+                className="lazy"
+                data-src="./assets/images/marketing-clients/sui-1.webp"
+                alt=""
+                src="./assets/images/icon-382.webp"
+              />
+              <span />{" "}
+            </div>
+            <div className="Package_list" style={{ background: "#c0fcd9" }}>
+              {" "}
+              <img
+                className="lazy"
+                data-src="images/marketing-clients/ton-1.webp"
+                alt=""
+                src="./assets/images/icon-383.webp"
+              />
+              <span />{" "}
+            </div>
+            <div className="Package_list" style={{ background: "#c0fcd9" }}>
+              {" "}
+              <img
+                className="lazy"
+                data-src="images/marketing-clients/apots-1.webp"
+                alt=""
+                src="./assets/images/icon-384.webp"
+              />
+              <span />{" "}
+            </div>
+            <div className="Package_list" style={{ background: "#c0fcd9" }}>
+              {" "}
+              <img
+                className="lazy"
+                data-src="images/marketing-clients/sandbox-1.webp"
+                alt=""
+                src="./assets/images/icon-385.webp"
+              />
+              <span />{" "}
+            </div>
+            <div className="Package_list" style={{ background: "#c0fcd9" }}>
+              {" "}
+              <img
+                className="lazy"
+                data-src="images/marketing-clients/coindcx-1.webp"
+                alt=""
+                src="./assets/images/icon-386.webp"
+              />
+              <span />{" "}
+            </div>
+            <div className="Package_list" style={{ background: "#c0fcd9" }}>
+              {" "}
+              <img
+                className="lazy"
+                data-src="images/marketing-clients/coinswitch-1.webp"
+                alt=""
+                src="./assets/images/icon-387.webp"
+              />
+              <span />{" "}
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  
-  )
-}
+  );
+};
 
-export default Sec8
+export default Sec8;

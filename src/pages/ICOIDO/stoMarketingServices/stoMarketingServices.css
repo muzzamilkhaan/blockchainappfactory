@@ -15,34 +15,50 @@
 #sto-marketing-services .contentall{
     padding: 0;
 }
-#sto-marketing-services .contentall h1{
+#sto-marketing-services h1{
     text-align: center;
-    font-size: 45px;
 }
-@media(max-width:767px){
-    #sto-marketing-services .contentall h1{
-        font-size: 25px;
+@media only screen and (max-width: 479px) {
+    #sto-marketing-services h1{
+        font-size: 24px;
     }
+}
+#sto-marketing-services .contact-us-sec{
+    background: url(./assets/images/sec-bg13.webp) no-repeat fixed center center;
+    background-size: cover;
+    position: relative;;
 }
 /*-- Client section --*/
 
-#sto-marketing-services .types-sto>div {
+        #sto-marketing-services .form-right input.submit_send {
+            width: 100% !important;
+            margin: 0 !important;
+            display: inline-block !important;
+            background: #47b475 !important;
+            color: #fff !important;
+            border: 0 !important;
+            text-transform: uppercase !important;
+            font-weight: bold !important;
+            padding: 10px 0 !important;
+        }
+       
+        #sto-marketing-services .types-sto>div {
             background: #f5f5f5 none repeat scroll 0 0 !important;
             box-shadow: none !important;
         }
 
         @media only screen and (min-width: 480px) and (max-width: 767px) {
-        #sto-marketing-services  .banner {
+            #sto-marketing-services .banner {
                 background: #1da591;
                 background-size: cover;
                 position: relative;
                 height: 500px;
                 overflow: hidden;
             }
-        #sto-marketing-services  .local_bitcoins {
+            #sto-marketing-services .local_bitcoins {
                 display: none !important;
             }
-        #sto-marketing-services  .large-header {
+            #sto-marketing-services .large-header {
                 position: relative;
                 width: 100%;
                 overflow: hidden;
@@ -55,7 +71,7 @@
 
         
         @media only screen and (max-width: 479px) {
-        #sto-marketing-services  .banner {
+            #sto-marketing-services .banner {
                 background: #1da591;
                 background-size: cover;
                 position: relative;
@@ -63,12 +79,12 @@
                 overflow: hidden;
             }
 
-        #sto-marketing-services .my_banner {
-                background: url(images/local-bitcoin/banner-security.webp) no-repeat scroll center center;
+            #sto-marketing-services .my_banner {
+                background: url(./assets/images/banner-bg34.webp) no-repeat scroll center center;
                 height: 500px;
             }
 
-        #sto-marketing-services .large-header {
+            #sto-marketing-services .large-header {
                 position: relative;
                 width: 100%;
                 overflow: hidden;
@@ -77,21 +93,21 @@
                 z-index: 1;
                 background-color: transparent;
             }
-        #sto-marketing-services .local_bitcoins {
+            #sto-marketing-services .local_bitcoins {
                 display: none !important;
             }
         }
         
-    #sto-marketing-services  .font-wei {
+        #sto-marketing-services .font-wei {
             font-weight: 700!important;
             color: #000000!important;
         }
         
-    #sto-marketing-services  .flip-icon-outer {
+        #sto-marketing-services .flip-icon-outer {
             text-align: center !important;
         }
         
-    #sto-marketing-services  .flip-box-piller1 {
+        #sto-marketing-services .flip-box-piller1 {
             text-align: center !important;
             padding: 15px;
             border: 2px solid #f2f2f2f2;
@@ -99,27 +115,29 @@
             margin-bottom: 20px;
         }
         
-    #sto-marketing-services  .flip-box-piller1:hover {
+        #sto-marketing-services .flip-box-piller1:hover {
             background: #47b475;
         }
         
-    #sto-marketing-services  .flip-box-piller1:hover .flip-tit {
+        #sto-marketing-services .flip-box-piller1:hover .flip-tit {
             color: #fff;
         }
         
-    #sto-marketing-services  .flip-box-piller1:hover .flip-txt {
+        #sto-marketing-services .flip-box-piller1:hover .flip-txt {
             color: #fff;
         }
         
-    #sto-marketing-services  .flip-box-piller1:hover .flip-icon-outer {
+        #sto-marketing-services .flip-box-piller1:hover .flip-icon-outer {
             background: #f2f2f2;
         }
         
-    #sto-marketing-services  .flip-tit {
+        #sto-marketing-services .flip-tit {
             color: #000000;
         }
-      
-        #sto-marketing-services .nec-btn{
+       
+#sto-marketing-services .popup-ul{display:flex;flex-wrap:wrap;padding:0;margin:0;width:100%;border-radius:7px; justify-content: center;}.popup-ul li{width:26%;margin-bottom: 20px;justify-content:center;padding:0px; text-align: center;}.popup-ul li p{color: #fff; margin-bottom: 0;} .popup-ul li img{width:50px;height:50px;border:2px solid #eee;border-radius:50%;background:#fff;padding:5px}.login-popup .box-1 .form .form-control::placeholder{color: #fff;} .login-popup{position:fixed;left:0;top:0;width:100%;height:100%;z-index:1099;background-color:rgba(0,0,0,.6);visibility:hidden;opacity:0;transition:1s}.login-popup.show{visibility:visible;opacity:1}.login-popup .box-1{background-color:#000a30;min-width:870px!important; position:absolute;left:50%;top:55%;transform:translate(-50%,-50%);display:flex;flex-wrap:wrap;opacity:0;margin-left:50px;transition:1s}.login-popup.show .box-1{opacity:1;margin-left:0}.login-popup .box-1 .img-area{flex:0 0 50%;max-width:50%;position:relative;overflow:hidden;padding:50px 30px 0px;align-items:center;justify-content:center}.login-popup .box-1 .img-area h1{font-size:30px}.login-popup .box-1 .img{position:absolute;left:0;top:0;width:100%;height:100%;background-image:url('images/marketing-form-bg.webp');background-size:cover;background-position:center;/*animation:7s linear infinite zoomInOut;*/z-index:-1;opacity:.2}@keyframes zoomInOut{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}.login-popup .box-1 .form{flex:0 0 50%;max-width:50%;padding:20px 30px 20px;/*background-color:#fff*/}.login-popup .box-1 .form h2{color:#fff;font-size:30px;margin:0 0 30px}.login-popup .box-1 .form .form-control{height:40px;margin-bottom:10px;width:100%;border:none; font-size:15px; background: #ffffff36; box-shadow: 0px 0px 7px #0000004a; border-radius: 5px; color: #fff;padding: 10px 15px;}.login-popup .box-1 .form .btn:focus,.login-popup .box-1 .form .form-control:focus{outline:0}.login-popup .box-1 .form label{font-size:15px;color:#555}.login-popup .box-1 .form .btn{width:auto;background-color:#e91e63;height:45px;border:none;border-radius:25px;font-size:15px;text-transform:uppercase;color:#fff;cursor:pointer;line-height:0}.login-popup .box-1 .form .close{position:absolute;right:10px;top:0;font-size:30px;cursor:pointer;width: 30px; height: 30px; opacity: 1; color: #fff; background: #ffffff91; border-radius: 20px; text-align: center;}@media(max-width:767px){.login-popup .box-1{width:calc(100% - 30px); min-width: 90%!important;}.login-popup .box-1 .img-area{display:none}.login-popup .box-1 .form{flex:0 0 100%;max-width:100%}} .social{margin-top: 25px;} .social a{color: #fff;} .social .fa{width: 30px; height: 30px; font-size: 18px; color: #fff;background: #2db942; border-radius: 50%;text-align: center; line-height: 26px; padding: 2px;} .social .fa.fa-envelope{background: #0195d5 !important;}@media screen and (min-width:768px) and (max-width:900px) {.login-popup .box-1{min-width: 90%!important;} }
+
+#sto-marketing-services .nec-btn{
     position: relative !important;
     color:#fff !important;
     border-radius:30px !important;
@@ -139,7 +157,7 @@
     display: inline-block;
     margin-right: 26px!important;
 }
-#sto-marketing-services .contentall a, #sto-marketing-services a.home-talk-experts{
+#sto-marketing-services .contentall a, a.home-talk-experts{
 	padding: 10px 20px !important;
 }
 
@@ -167,27 +185,27 @@
 	padding: 10px 20px !important;
 }
 
-#sto-marketing-services  .types-sto>div {
+    #sto-marketing-services .types-sto>div {
         padding-bottom: 0px !important;
     }
     
-#sto-marketing-services  .types-sto .technicalbox {
+    #sto-marketing-services .types-sto .technicalbox {
         background: #ffffff05;
         box-shadow: unset;
     }
     
     @media screen and (max-width: 425px) {
-    #sto-marketing-services  .types-sto {
+        #sto-marketing-services .types-sto {
             grid-row-gap: 0px !important;
         }
     }
     
-#sto-marketing-services  .technicalbox {
+    #sto-marketing-services .technicalbox {
         padding: 15px !important;
         margin-bottom: 10px !important;
     }
     
-#sto-marketing-services  .space {
+    #sto-marketing-services .space {
         padding: 5px;
     }
    
@@ -239,11 +257,11 @@
 	padding: 10px 20px !important;
 }
 
-    #sto-marketing-services  .Package_list img {
+        #sto-marketing-services .Package_list img {
                 /*border:1px solid #fff;
                 border-radius: 150px;*/
         }
-    #sto-marketing-services  .Package_list {
+        #sto-marketing-services .Package_list {
     display: inline-block;
     background: rgba(0, 0, 0, .6);
     padding: 30px 10px;
@@ -252,40 +270,42 @@
     margin-bottom: 30px;
     text-align: center;
     border-radius: 5px;
+    margin: 2px;
+    margin-bottom: 25px;
 }
-#sto-marketing-services .Package_list img {
+   #sto-marketing-services .Package_list img {
     height: 55px;
 }
 @media screen and  (max-width:320px){
-#sto-marketing-services  .Package_list {
+    #sto-marketing-services .Package_list {
         width: 100%;
     }
 }
     
     
-  #sto-marketing-services  #newsletter-form-sec .form-group{margin-bottom:7px;}
-  #sto-marketing-services  #mailForm_common .form-group label{color: #fff;}
-#sto-marketing-services  .contact-content{padding-top: 40px; padding: 30px; margin-top: -40px; margin-left: -40px; background-color: #f9f9f9; box-shadow: 0 0 6px 1px rgba(0,0,0,.22); border-radius: 7px;}
-#sto-marketing-services  .contact-content p{font-size: 18px; line-height: 30px;}
-#sto-marketing-services  .contact-content a{font-size: 18px; display: block;margin-bottom: 20px;}
-#sto-marketing-services  .contact-content a i{color: #47b475; font-size: 24px;}
-#sto-marketing-services  .form-control{background: #fff;}
-#sto-marketing-services  .pad-40-20{padding: 25px 25px 0 25px;}
-   #sto-marketing-services input#phone_common{background: #fff;}
-   #sto-marketing-services #mailForm_common .form-group label{color: #fff;}
-   #sto-marketing-services a.home-talk-experts{border-radius: 25px;}
+    #sto-marketing-services #newsletter-form-sec .form-group{margin-bottom:7px;}
+    #sto-marketing-services #mailForm_common .form-group label{color: #fff;}
+    #sto-marketing-services .contact-content{padding-top: 40px; padding: 30px; margin-top: -40px; margin-left: -40px; background-color: #f9f9f9; box-shadow: 0 0 6px 1px rgba(0,0,0,.22); border-radius: 7px;}
+    #sto-marketing-services .contact-content p{font-size: 18px; line-height: 30px;}
+    #sto-marketing-services .contact-content a{font-size: 18px; display: block;margin-bottom: 20px;}
+    #sto-marketing-services .contact-content a i{color: #47b475; font-size: 24px;}
+    #sto-marketing-services .form-control{background: #fff;}
+    #sto-marketing-services .pad-40-20{padding: 25px 25px 0 25px;}
+    #sto-marketing-services input#phone_common{background: #fff;}
+    #sto-marketing-services #mailForm_common .form-group label{color: #fff;}
+    #sto-marketing-services a.home-talk-experts{border-radius: 25px;}
 
     @media only screen and (min-width: 320px) and (max-width: 767px) {
-    #sto-marketing-services  .contact-content{margin-top: 20px; margin-left: 0;padding: 20px !important;}
-    #sto-marketing-services  .pad-40-20{padding: 20px;}
-    #sto-marketing-services  .contact-content a{font-size: 14px;}
-    #sto-marketing-services  .sticky-form{display: none;}
+        #sto-marketing-services .contact-content{margin-top: 20px; margin-left: 0;padding: 20px !important;}
+        #sto-marketing-services .pad-40-20{padding: 20px;}
+        #sto-marketing-services .contact-content a{font-size: 14px;}
+        #sto-marketing-services .sticky-form{display: none;}
     }
 
     @media only screen and (min-width: 768px) and (max-width: 899px) {
-    #sto-marketing-services  .contact-content{margin-top: 20px; margin-left: 0;}
+        #sto-marketing-services .contact-content{margin-top: 20px; margin-left: 0;}
     }
-#sto-marketing-services  .newsletter_videos h5 {
+    #sto-marketing-services .newsletter_videos h5 {
     color: #fff;
         font-size: 25px!important;
 }
@@ -299,7 +319,7 @@
     font-size: 25px!important;
 }
 
-#sto-marketing-services  .pull-right-tow {
+    #sto-marketing-services .pull-right-tow {
     background-color: #ba3c0d;
     padding: 3px 15px;
     border-bottom-right-radius: 10px;
@@ -338,7 +358,7 @@
 }
 
 @media  (max-width: 320px){
-#sto-marketing-services  .header-nabar-icon .pull-right, .pull-right-tow {
+    #sto-marketing-services .header-nabar-icon .pull-right, .pull-right-tow {
         display: none;
         border-radius: 0px;
         position: relative;
@@ -349,14 +369,14 @@
         float: left !important;
         padding: 9px 2px;
     }
-#sto-marketing-services  .sidenav a {
+    #sto-marketing-services .sidenav a {
     font-size: 14px;
     padding: 4px 4px 8px 8px;
 }
 
 }
 @media  (max-width: 768px){
-#sto-marketing-services  .header-nabar-icon .pull-right, .pull-right-tow {
+    #sto-marketing-services .header-nabar-icon .pull-right, .pull-right-tow {
         display: none;
         border-radius: 0px;
         position: relative;
@@ -367,23 +387,11 @@
         float: left !important;
         padding: 9px 2px;
     }
- #sto-marketing-services  .sidenav a {
+     #sto-marketing-services .sidenav a {
     font-size: 14px;
     padding: 4px 4px 8px 8px;
 }
 }
-/*@media  (max-width: 1024px){
-#sto-marketing-services  .header-nabar-icon .pull-right, .pull-right-tow {
-      background-color: #47b475;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 3px 15px;
-    margin-right: 0px;
-    position: relative;
-    right: 16px;
-    bottom: -30px;
-    }
-}*/
 
 #sto-marketing-services .color-btn {
     background-color: #1fd1f9 !important;
@@ -419,21 +427,10 @@
         font-weight: 700;
     }
   @media (min-width:320px) and (max-width:643px){
-    #sto-marketing-services  .color-btn1{
+        #sto-marketing-services .color-btn1{
            padding: 9px 16px!important;
         }
      }
-/*.color-btn1:before{
-    content: "";
-    background: rgba(0,0,0,0.9);
-    border-radius: 50px;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    z-index: -1;
-}*/
 @keyframes glow {
         0% {
             box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
@@ -461,18 +458,9 @@
     cursor: pointer;
     font-size: 14px;
 }
-/*@media (max-width: 1024px){
-#sto-marketing-services  .sticky_form_bp {
-        display:block !important;
-}
-}
 
-@media (max-width: 320px){
-#sto-marketing-services  .sticky_form_bp  {
-        display: block;
-        
-}
-}*/
+#sto-marketing-services .footer-wrap h6{color: #fff; font-size: 23px;} 
+#sto-marketing-services .footer-wrap h5 { margin: 10px 0; position: relative; text-transform: uppercase; padding-left: 10px; color: #fff; background: -webkit-linear-gradient( 77deg,#00bcd4 0%,#17cc81 100%); background: -ms-linear-gradient( 0deg,rgb(254,66,47) 0%,rgb(254,81,150) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800;} .footer-wrap h5:after { content: ''; width: 3px; height: 90%; background: #47b475; display: inline-block; float: left; position: absolute; margin-top: 0; margin-right: 6px; left: 0; top: 1px;}
 
 @media (min-width: 320px) and (max-width: 768px) {
 /*.openbtn1{width: 70px !important; top: 21% !important;}*/
@@ -529,18 +517,6 @@
 
 /* Style the button that is used to open the sidepanel */
 #sto-marketing-services .openbtn1 {
-  /*font-size: 20px;
-  cursor: pointer;
-  background-color: transparent;
-  color: white;
-  padding: 0px;
-  border: none;
-  position: fixed;
-  top: 43%;
-  left: 0;
-  width: 90px;
-  z-index: 99999;*/
-  /*animation: zoom-in-zoom-out 1s ease infinite;*/
   filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
 }
 
@@ -571,21 +547,21 @@
 #sto-marketing-services .fixed-social .items a{text-decoration: none; outline: none; padding: 0; margin: 0;}
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
-#sto-marketing-services  .show1 {left:20px;}
-#sto-marketing-services  .close-btn{bottom: 60px;}
+    #sto-marketing-services .show1 {left:20px;}
+    #sto-marketing-services .close-btn{bottom: 60px;}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 899px) {
-#sto-marketing-services  .fixed-social {bottom: 80px;}  
-#sto-marketing-services  .show1 {left:50px;}
-#sto-marketing-services  .close-btn{bottom:60px; z-index: 999;}
+    #sto-marketing-services .fixed-social {bottom: 80px;}  
+    #sto-marketing-services .show1 {left:50px;}
+    #sto-marketing-services .close-btn{bottom:60px; z-index: 999;}
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-#sto-marketing-services  .fixed-social .items .text{display: none;}   
-#sto-marketing-services  .fixed-social {bottom: 80px; }  
-#sto-marketing-services  .show1 {left:12%;} 
-#sto-marketing-services  .fixed-social .items a{display: flex; justify-content: center;}
-#sto-marketing-services  .close-btn{bottom:60px; z-index: 999;}
+    #sto-marketing-services .fixed-social .items .text{display: none;}   
+    #sto-marketing-services .fixed-social {bottom: 80px; }  
+    #sto-marketing-services .show1 {left:12%;} 
+    #sto-marketing-services .fixed-social .items a{display: flex; justify-content: center;}
+    #sto-marketing-services .close-btn{bottom:60px; z-index: 999;}
 }
  

@@ -2,31 +2,68 @@ import React from "react";
 
 const Sec2 = () => {
   return (
-    <div className="col-md-12 section-header common_spacing">
+    <div className="col-md-12 section-header gray_bg" id="marketing-consulting">
       <div className="container">
-        <div className="text-center">
-          <h2 className="small_h1 section-title underline text-center font-wei">
-            STO - Security Token Marketing Company
-          </h2>{" "}
+        <div className="piller-individual">
+          <div className="common_spacing">
+            <div className="text-left">
+              <h2 className="small_h1 section-title underline font-wei">
+                Our STO Marketing Foundation
+              </h2>
+              <p>
+                Our Security token consulting team is here with a difference.
+                Our marketing specialists strive with their consistent efforts
+                to communicate the vision to your investors. We have our
+                specialists in marketing working with you. Our team do not have
+                a pre-determined strategy for you.
+              </p>
+              <p>The benefits of this include:</p>
+              <ul className="ul-style-4 list_growth padding-zero">
+                <li>
+                  <p>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    Customizing as per requirements
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    Ensuring delivery through consistent and effective marketing
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    Standardizing message across all channels of communication
+                    with a uniform content
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div className="board-shapes">
+              <div className="board-bg">
+                {" "}
+                <img
+                  src="./assets/images/sec-side76.webp"
+                  alt="Our STO Marketing Foundation"
+                  title="Our STO Marketing Foundation"
+                  className="img-responsive"
+                />{" "}
+              </div>
+              <div className="board-image">
+                {" "}
+                <img
+                  src="./assets/images/sec-side76.webp"
+                  alt="Our STO Marketing Foundation"
+                  title="Our STO Marketing Foundation"
+                  className="img-responsive"
+                />{" "}
+              </div>
+            </div>
+          </div>
         </div>
-        <p className="section-subtitle mb20">
-          Security Token is the next trendsetter in the cryptocurrency market.
-          The tokenized securities market will be driven predominantly by the
-          larger vision of growth, trusting investors and the ever-changing
-          cryptocurrency landscapes. At Blockchain App Factory, our vision is to
-          create a well balanced and integrated marketing communication strategy
-          which is aimed towards the ultimate goal of raising the brand value of
-          your company in the eye of the investors.
-        </p>
-        <p className="section-subtitle mb20">
-          Security Token Marketing (STO) needs a comprehensive outlook. The
-          challenge is for the investors to find you in the first try. We will
-          guide you to get better results through precise planning and organized
-          execution in consultation with you to build investor trust and help
-          you reach your goal. Our team is well-versed in technology as well as
-          marketing of the investment opportunities through the right strategy
-          to get desired results.
-        </p>
       </div>
     </div>
   );
