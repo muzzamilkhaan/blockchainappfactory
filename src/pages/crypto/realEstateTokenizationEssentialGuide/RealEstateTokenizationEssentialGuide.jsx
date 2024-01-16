@@ -27,7 +27,7 @@ function RealEstateTokenizationEssentialGuide() {
   return (
     <>
       <div id='real-estate-tokenization-essential-guide' style={{overflow : 'hidden'}}>
-        <Header />
+        {/* <Header /> */}
         <Sec1 />
         <Sec2 />
         {/* <Sec3 />

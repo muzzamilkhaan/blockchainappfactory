@@ -6683,7 +6683,8 @@ li.menu-item.cnt_m ul.mega-submenu.normal-sub {
   right: -63px;
   top: 180px;
   z-index: 10;
-  background: #47b475;
+  /* background: #47b475; */
+  background: #30D4D1 !important;
   color: #fff;
   padding: 5px 20px;
   text-transform: capitalize;
@@ -6855,6 +6856,8 @@ li.menu-item.cnt_m ul.mega-submenu.normal-sub {
 
 .sticky-form > .quick-cont-btn {
   right: -60px;
+  background-color: #30D4D1 !important;
+  /* margin-top: 50px; */
 }
 
 .bread_wrap i.fa.fa-home {

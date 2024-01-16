@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 import { IoMdArrowRoundForward } from "react-icons/io";
-
 
 function Footer() {
   return (
     <>
-      <div id='footerID' className="footer-wrap" style={{ paddingTop: '80px' }}>
+      <div id="footerID" className="footer-wrap" style={{ paddingTop: "80px" }}>
         <div className="container">
           <div className="row">
             <div
@@ -93,7 +92,8 @@ function Footer() {
               <p>
                 Appstars Applications Pvt Ltd
                 <br /> Prestige Polygon, 8th floor,
-                <br /> No: 471, Anna Salai, Teynampet, Tamil Nadu, Chennai -600035.
+                <br /> No: 471, Anna Salai, Teynampet, Tamil Nadu, Chennai
+                -600035.
               </p>
             </div>
             <div
@@ -115,8 +115,8 @@ function Footer() {
             >
               <h5>UAE Office</h5>
               <p>
-                One Central 8th Floor - Trade Centre - Trade Centre 2 - Dubai - United
-                Arab Emirates.{" "}
+                One Central 8th Floor - Trade Centre - Trade Centre 2 - Dubai -
+                United Arab Emirates.{" "}
               </p>
               <h5>Singapore Office</h5>
               <p>60 Robinson Rd, Singapore, 68892. </p>
@@ -132,16 +132,17 @@ function Footer() {
                 <div className="row align-items-center justify-content-center">
                   <div className="col-4 col-xxs-4 col-lg-4 col-md-4 col-xs-3 mob-p-lr-6">
                     <div
-                      className="brand-logo mb-0 text-md-start mx-auto mx-md-0 aos-item aos-init"
+                      className="brand-logo mb-0 text-md-start mx-auto mx-md-0 aos-item aos-init "
                       data-aos="fade-up"
                     >
                       <img
-                        src="https://www.blockchainappfactory.com/images/home-new/logo.webp"
-                        alt="Blockchain App Factory"
+                        // src="https://www.blockchainappfactory.com/images/home-new/logo.webp"
+                        src="./assets/images/white.svg"
+                        alt="smart contract"
                         title="Blockchain App Factory"
                         className="light-version-logo"
                         width="177px"
-                        height=""
+                        height="38px"
                       />
                     </div>
                   </div>
@@ -376,10 +377,8 @@ function Footer() {
           </div>
         </div>
       </footer>
-
     </>
-
-  )
+  );
 }
 
-export default Footer
+export default Footer;

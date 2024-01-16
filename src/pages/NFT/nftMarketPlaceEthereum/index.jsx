@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Sec9 from "../../exchange/decentralizedExchangeDevelopment/Sec6";
 import {
   BannerContainer,
@@ -69,7 +69,14 @@ const Sec5Card = [
     desc: "These assist new buyers in knowing about the best NFTs and give a way to reach sellers for existing users.",
   },
 ];
-const nftMarketPlaceEthereum = () => {
+const nftMarketPlaceEthereum = ({
+  headerBgColor,
+  toggleHeaderBgColor,
+  linkColor,
+}) => {
+  useEffect(() => {
+    toggleHeaderBgColor("transparent", "#fff");
+  });
   return (
     <>
       {/* <BannerContainer>
@@ -365,8 +372,11 @@ const nftMarketPlaceEthereum = () => {
       </Sec7>
       <Sec8 backgroundColor="white">
         <div className="sec_tit underline text-center sec3-h3 py-4">
-         <H2> How can Blockchain App Factory Help You Develop an NFT Marketplace in
-          Ethereum? </H2>
+          <H2>
+            {" "}
+            How can Blockchain App Factory Help You Develop an NFT Marketplace
+            in Ethereum?{" "}
+          </H2>
         </div>
         <p className="p1-sec8">
           At Blockchain App Factory, our aim has always been to satisfy customer

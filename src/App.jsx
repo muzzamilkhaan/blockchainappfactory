@@ -20,64 +20,13 @@ import "./cryptoCurrency.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import CreateYourOwnTokenAndCoin from "./components/shared/CreateYourOwnTokenAndCoin";
 import Header from "./headerFooter/Header";
-import P2pExchangeDev from "./pages/exchange/p2pExchangeDevelopment/p2pExchangeDevComp";
+// import P2pExchangeDev from "./pages/exchange/p2pExchangeDevelopment/p2pExchangeDevComp";
 import Footer from "./headerFooter/Footer";
 
 const ContactUs = lazy(() => import("./pages/contactUs/ContactUs"));
 const QuickContact = lazy(() => import("./components/shared/QuickContact"));
 const LoginPopup = lazy(() => import("./components/shared/LoginPopup"));
-const CryptocurrencyDevelopment = lazy(() =>
-  import("./pages/crypto/cryptocurrencyDevelopment/CryptocurrencyDevelopment")
-);
-const TokenDevelopment = lazy(() =>
-  import("./pages/crypto/tokenDevelopment/TokenDevelopment")
-);
-const EthereumTokenDevelopment = lazy(() =>
-  import("./pages/crypto/ethereumTokenDevelopment/EthereumTokenDevelopment")
-);
-const TronTokenDevelopment = lazy(() =>
-  import("./pages/crypto/tronTokenDevelopment/TronTokenDevelopment")
-);
-const BRC20TokenDevelopment = lazy(() =>
-  import("./pages/crypto/BRC20TokenDevelopment/BRC20TokenDevelopment")
-);
-const SRC20TokenDevelopment = lazy(() =>
-  import("./pages/crypto/SRC20TokenDevelopment/SRC20TokenDevelopment")
-);
-const BEP20TokenDevelopment = lazy(() =>
-  import("./pages/crypto/BEP20TokenDevelopment/BEP20TokenDevelopment")
-);
-const StableCoinDevelopment = lazy(() =>
-  import("./pages/crypto/stableCoinDevelopment/StableCoinDevelopment")
-);
-const WhitePaperDevelopment = lazy(() =>
-  import("./pages/crypto/whitePaperDevelopment/WhitePaperDevelopment")
-);
-const CryptocurrencyMLMSoftware = lazy(() =>
-  import("./pages/crypto/cryptocurrencyMLMSoftware/CryptocurrencyMLMSoftware")
-);
-const ArtTokenization = lazy(() =>
-  import("./pages/crypto/artTokenization/ArtTokenization")
-);
-const AssetTokenization = lazy(() =>
-  import("./pages/crypto/assetTokenization/AssetTokenization")
-);
-const RealEstateTokenization = lazy(() =>
-  import("./pages/crypto/realEstateTokenization/RealEstateTokenization")
-);
-const TokenizationPlatformDevelopment = lazy(() =>
-  import(
-    "./pages/crypto/tokenizationPlatformDevelopment/TokenizationPlatformDevelopment"
-  )
-);
-const RealEstateTokenizationEssentialGuide = lazy(() =>
-  import(
-    "./pages/crypto/realEstateTokenizationEssentialGuide/RealEstateTokenizationEssentialGuide"
-  )
-);
-const CryptoETFDevelopment = lazy(() =>
-  import("./pages/crypto/cryptoETFDevelopment/CryptoETFDevelopment")
-);
+
 const BitcoinOrdinalsTokenDevelopment = lazy(() =>
   import(
     "./pages/crypto/bitcoinOrdinalsTokenDevelopment/BitcoinOrdinalsTokenDevelopment"
@@ -88,19 +37,7 @@ const BitcoinOrdinalsTokenMarketing = lazy(() =>
     "./pages/crypto/bitcoinOrdinalsTokenMarketing/BitcoinOrdinalsTokenMarketing"
   )
 );
-const HowToLaunchCryptoToken = lazy(() =>
-  import("./pages/crypto/howToLaunchCryptoToken/HowToLaunchCryptoToken")
-);
-const CryptoPredictionMarketPlatform = lazy(() =>
-  import(
-    "./pages/crypto/cryptoPredictionMarketPlatform/CryptoPredictionMarketPlatform"
-  )
-);
-const DecentralizedSportsBettingPlatform = lazy(() =>
-  import(
-    "./pages/crypto/decentralizedSportsBettingPlatform/DecentralizedSportsBettingPlatform"
-  )
-);
+
 const CryptocurrencyExchangeSoftware = lazy(() =>
   import(
     "./pages/exchange/cryptocurrencyExchangeSoftware/CryptocurrencyExchangeSoftware"
@@ -125,19 +62,14 @@ const IcoDevelopment = lazy(() =>
 const IcoCommunityMarketing = lazy(() =>
   import("./pages/ICOIDO/icoCommunityMarketing/IcoCommunityMarketing")
 );
-const WhiteLabelNftMarketplace = lazy(() =>
-  import("./pages/NFT/whiteLabelNftMarketplace/WhiteLabelNftMarketplace")
-);
-const NftMarketplaceDevelopment = lazy(() =>
-  import("./pages/NFT/nftMarketplaceDevelopment/NftMarketplaceDevelopment")
-);
+
 const BitcoinOrdinalsMarketplaceDevelopment = lazy(() =>
   import(
     "./pages/NFT/bitcoinOrdinalsMarketplaceDevelopment/BitcoinOrdinalsMarketplaceDevelopment"
   )
 );
-const p2pExchangeDevelopment = lazy(() =>
-  import("./pages/exchange/p2pExchangeDevelopment")
+const P2pExchangeDevComp = lazy(() =>
+  import("./pages/exchange/p2pExchangeDevelopment/p2pExchangeDevComp")
 );
 
 // NFT PAGE
@@ -197,6 +129,12 @@ import MycryptoheroesLikeNftGameDevelopment from "./pages/NFT/mycryptoheroesLike
 import NftMarketplaceLikeZedrun from "./pages/NFT/nftMarketplaceLikeZedrun/nftMarketplaceLikeZedrun";
 import DecentralandLikeNftDevelopment from "./pages/NFT/decentralandLikeNftDevelopment/decentralandLikeNftDevelopment";
 import NftGameDevelopmentLikeRevvRacing from "./pages/NFT/nftGameDevelopmentLikeRevvRacing/nftGameDevelopmentLikeRevvRacing";
+import SideSocialBar from "./sideSocialBar";
+
+//IMPORT ALL ROUTES
+import LandingRoutes from "./Routes/LandingRoutes";
+import CryptoRoutes from "./Routes/CryptoRoutes";
+import NftRoutes from "./Routes/NftRoutes";
 
 // ICO / IDO
 const IcoTelegramMarketing = lazy(() =>
@@ -273,6 +211,7 @@ const IgoLaunchpadDevelopment = lazy(() =>
 function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
   const [linkColor, setLinkColor] = useState("");
+
   useEffect(() => {
     // Retrieve theme from local storage
     const storedTheme = localStorage.getItem("headerBgColor");
@@ -307,80 +246,25 @@ function App() {
         <Suspense fallback={null}>
           <Routes>
             <Route
-              path="/"
-              exact
-              element={
-                <LandingPage
-                  headerBgColor={headerBgColor}
-                  toggleHeaderBgColor={toggleHeaderBgColor}
-                  linkColor={linkColor}
-                />
-              }
-            />
-            <Route
-              path="*"
-              exact
-              element={<LandingPage headerBgColor={headerBgColor} />}
-            />
-            <Route
               path="/contact"
               element={<ContactUs headerBgColor={headerBgColor} />}
             />
-            <Route
-              path="/cryptocurrency-development"
-              element={<CryptocurrencyDevelopment />}
-            />
-            <Route path="/token-development" element={<TokenDevelopment />} />
-            <Route
-              path="/ethereum-token-development"
-              element={<EthereumTokenDevelopment />}
-            />
-            <Route
-              path="/tron-token-development"
-              element={<TronTokenDevelopment />}
-            />
-            <Route
-              path="/brc-20-token-development"
-              element={<BRC20TokenDevelopment />}
-            />
-            <Route
-              path="/src-20-token-development"
-              element={<SRC20TokenDevelopment />}
-            />
-            <Route
-              path="/binance-smart-chain-bep20-like-token-development"
-              element={<BEP20TokenDevelopment />}
-            />
-            <Route
-              path="/stable-coin-development"
-              element={<StableCoinDevelopment />}
-            />
-            <Route
-              path="/white-paper-development"
-              element={<WhitePaperDevelopment />}
-            />
-            <Route
-              path="/cryptocurrency-mlm-software-development"
-              element={<CryptocurrencyMLMSoftware />}
-            />
-            <Route path="/art-tokenization" element={<ArtTokenization />} />
-            <Route path="/asset-tokenization" element={<AssetTokenization />} />
-            <Route
-              path="/real-estate-tokenization"
-              element={<RealEstateTokenization />}
-            />
-            <Route
-              path="/tokenization-platform-development"
-              element={<TokenizationPlatformDevelopment />}
-            />
-            <Route
-              path="/real-estate-tokenization-essential-guide"
-              element={<RealEstateTokenizationEssentialGuide />}
-            />
-            <Route
-              path="/crypto-etf-development"
-              element={<CryptoETFDevelopment />}
-            />
+            {LandingRoutes(headerBgColor, toggleHeaderBgColor, linkColor).map(
+              (route) => (
+                <Route key={route.path} {...route} />
+              )
+            )}
+            {CryptoRoutes(headerBgColor, toggleHeaderBgColor, linkColor).map(
+              (route) => (
+                <Route key={route.path} {...route} />
+              )
+            )}
+            {NftRoutes(headerBgColor, toggleHeaderBgColor, linkColor).map(
+              (route) => (
+                <Route key={route.path} {...route} />
+              )
+            )}
+
             <Route
               path="/bitcoin-ordinals-token-development"
               element={<BitcoinOrdinalsTokenDevelopment />}
@@ -389,24 +273,7 @@ function App() {
               path="/bitcoin-ordinals-token-marketing"
               element={<BitcoinOrdinalsTokenMarketing />}
             />
-            <Route
-              path="/how-to-launch-crypto-token"
-              element={
-                <HowToLaunchCryptoToken
-                  headerBgColor={headerBgColor}
-                  toggleHeaderBgColor={toggleHeaderBgColor}
-                  linkColor={linkColor}
-                />
-              }
-            />
-            <Route
-              path="/crypto-prediction-market-platform"
-              element={<CryptoPredictionMarketPlatform />}
-            />
-            <Route
-              path="/decentralized-sports-betting-platform"
-              element={<DecentralizedSportsBettingPlatform />}
-            />
+
             <Route
               path="/cryptocurrency-exchange-software"
               element={<CryptocurrencyExchangeSoftware />}
@@ -428,18 +295,15 @@ function App() {
               path="/ico-community-marketing"
               element={<IcoCommunityMarketing />}
             />
-            <Route
-              path="/white-label-nft-marketplace"
-              element={<WhiteLabelNftMarketplace />}
-            />
+
             <Route
               path="/bitcoin-ordinals-marketplace-development"
               element={<BitcoinOrdinalsMarketplaceDevelopment />}
             />
-            <Route
+            {/* <Route
               path="/nft-marketplace-development"
               element={<NftMarketplaceDevelopment />}
-            />
+            /> */}
             <Route
               path="/create-your-own-token-and-coin"
               element={
@@ -452,23 +316,47 @@ function App() {
             />
             <Route
               path="/p2p-exchange-development"
-              element={<P2pExchangeDev />}
+              element={<P2pExchangeDevComp />}
             />
             <Route
               path="/nft-marketplace-on-ethereum"
-              element={<NftMarketPlaceEthereum />}
+              element={
+                <NftMarketPlaceEthereum
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
             />
             <Route
               path="/nft-marketplace-in-matic"
-              element={<NftMarketPlaceMatic />}
+              element={
+                <NftMarketPlaceMatic
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
             />
             <Route
               path="/nft-marketplace-on-binance-smart-chain"
-              element={<NftMarketPlaceBSC />}
+              element={
+                <NftMarketPlaceBSC
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
             />
             <Route
               path="/nft-marketplace-development-on-astar"
-              element={<NftMarketPaceAstar />}
+              element={
+                <NftMarketPaceAstar
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
             />
             <Route
               path="/nft-marketplace-on-avalanche"
@@ -484,7 +372,13 @@ function App() {
             />
             <Route
               path="/zksync2-integration-in-nft-platform"
-              element={<ZksyncIntegrationService />}
+              element={
+                <ZksyncIntegrationService
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
             />
             <Route
               path="/nft-marketplace-on-harmony"
@@ -750,6 +644,7 @@ function App() {
           </Routes>
         </Suspense>
       </Router>
+      <SideSocialBar />
       <Footer />
     </>
   );

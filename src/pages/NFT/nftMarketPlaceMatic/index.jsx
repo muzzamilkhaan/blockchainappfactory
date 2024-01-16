@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Banner from "../../../components/Banner";
 import {
   Sec1,
@@ -22,7 +22,14 @@ import {
 import { H2, P1, H3 } from "../../../components/Typography";
 import Button from "../../../components/Button";
 import Sec8 from "../../exchange/decentralizedExchangeDevelopment/Sec6";
-const nftMarketPlaceMatic = () => {
+const nftMarketPlaceMatic = ({
+  headerBgColor,
+  toggleHeaderBgColor,
+  linkColor,
+}) => {
+  useEffect(() => {
+    toggleHeaderBgColor("transparent", "#444");
+  });
   return (
     <div style={{ paddingTop: "100px" }}>
       <Banner

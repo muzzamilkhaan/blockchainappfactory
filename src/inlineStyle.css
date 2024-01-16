@@ -286,7 +286,7 @@ h5.common_h3 {
   right: -80px !important;
   top: 250px;
   z-index: 10;
-  background: #47b475;
+  /* background: #47b475; */
   color: #fff;
   padding: 0px 15px 16px !important;
   text-transform: capitalize;

@@ -40,7 +40,7 @@ const Sec1 = () => {
                   </div>{" "}
                   <a
                     href="#demo"
-                    className="nec-btn"
+                    className="nec-btn demo"
                     id="cyz"
                     style={{ borderRadius: "30px !important" }}
                   >

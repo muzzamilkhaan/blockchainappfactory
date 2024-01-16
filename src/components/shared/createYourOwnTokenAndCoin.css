@@ -580,7 +580,7 @@
 
  #accordion .panel-title a {
     display: block;
-    padding: 5px 15px 5px 50px;
+    padding: 10px 12px 5px 50px;
     border: 1px solid #c3c3c3;
     border-radius: 3px;
     font-size: 16px;
@@ -607,7 +607,9 @@
     top: 10px;
     left: 18px;
 }
-
+#accordion .panel-title a:hover:before {
+    background-color: #30D4D1 !important;
+} 
  #accordion .panel-title a.collapsed:before {
     content: "\f067";
     background-color: #333;

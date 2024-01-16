@@ -7,14 +7,6 @@ import { Link } from "react-router-dom";
 import { H3 } from "../components/index";
 
 function Header({ headerBgColor, linkColor }) {
-  const location = useLocation();
-  // const [headerBgColor , setHeaderBgColor] = useState(false)
-
-  // if(baseUrl === '/' || baseUrl === '/'){
-  //   setHeaderBgColor(false)
-  // }else{
-  //   setHeaderBgColor(true)
-  // }
   const [dropdown, setDropdown] = useState(0);
   const [open, setOpen] = useState(false);
   const [fixedHeader, setFixedHeader] = useState(false);
@@ -23,23 +15,13 @@ function Header({ headerBgColor, linkColor }) {
   useEffect(() => {
     const handleScroll = () => {
       let triggerPosition = 500; // default trigger position
-      let liColor = ""; // default color
-
-      // Specify the scroll position and color based on the current page
 
       // const triggerPosition = 500;
       const scrollPosition = window.scrollY;
 
       // Update the state based on the scroll position
       setFixedHeader(scrollPosition > triggerPosition);
-
-      // const menuItems = document.querySelectorAll(".header .main-menu  li ");
-      // menuItems.forEach((item) => {
-      //   // console.log("fixedHeader:,liColor:", fixedHeader,liColor);
-      //   item.style.color = fixedHeader ? "liColor" : "#444";
-      // });
     };
-
     // Attach the scroll event listener when the component mounts
     window.addEventListener("scroll", handleScroll);
 
@@ -47,6 +29,15 @@ function Header({ headerBgColor, linkColor }) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [fixedHeader]);
+
+  const darkLogo = <img src="./assets/images/dark-logo.jpg" alt="Dark Logo" />;
+  const whiteLogo = <img src="./assets/images/white.svg" alt="White Logo" />;
+  const logoToRender =
+  fixedHeader ? 
+  darkLogo: headerBgColor === "transparent"
+      ? whiteLogo : darkLogo;
+  // console.log("headerBgColor:", headerBgColor);
+  
   return (
     <>
       <div
@@ -80,14 +71,16 @@ function Header({ headerBgColor, linkColor }) {
         </div>
         <div className="container-fluid">
           <Link className="logo" to={"/"}>
-            <img
+            {logoToRender}
+            {/* <img
               src="./assets/images/logo-green.webp"
+              // src="./assets/images/white-logo.jpg"
               alt=" Blockchain Development Company"
               title="Enterprise Blockchain Technology Solution & Services Provider"
-              width="177px"
-              height="35px"
+              width="172px"
+              height="38px"
               className="logo-img"
-            />
+            /> */}
           </Link>
           <span
             className="mob_nav_ic"
@@ -403,7 +396,7 @@ function Header({ headerBgColor, linkColor }) {
                   setDropdown(0);
                 }}
               >
-                <a className="" style={{color : fixedHeader ? '' : linkColor}}>
+                <a className="" style={{ color: fixedHeader ? "" : linkColor }}>
                   Exchange <b className="caret" />
                 </a>
                 <ul
@@ -562,8 +555,8 @@ function Header({ headerBgColor, linkColor }) {
                   setDropdown(0);
                 }}
               >
-                <a className="" style={{color : fixedHeader ? '' : linkColor}}>
-                  NFT 
+                <a className="" style={{ color: fixedHeader ? "" : linkColor }}>
+                  NFT
                   <b className="caret" />
                 </a>
                 <ul
@@ -1129,7 +1122,11 @@ function Header({ headerBgColor, linkColor }) {
                   setDropdown(0);
                 }}
               >
-                <a className="" href="" style={{color : fixedHeader ? '' : linkColor}}>
+                <a
+                  className=""
+                  href=""
+                  style={{ color: fixedHeader ? "" : linkColor }}
+                >
                   ICO/IDO <b className="caret" />
                 </a>
                 <ul
@@ -1191,9 +1188,7 @@ function Header({ headerBgColor, linkColor }) {
                         </Link>
                       </li>
                       <li>
-                        <Link to="sto-marketing-services">
-                          STO Marketing
-                        </Link>
+                        <Link to="sto-marketing-services">STO Marketing</Link>
                       </li>
                       <li>
                         <Link to="sto-smart-contracts-development">
@@ -1211,9 +1206,7 @@ function Header({ headerBgColor, linkColor }) {
                         </Link>
                       </li>
                       <li>
-                        <Link to="ido-marketing-services">
-                          IDO Marketing
-                        </Link>
+                        <Link to="ido-marketing-services">IDO Marketing</Link>
                       </li>
                       <li>
                         <Link to="white-label-ido-launchpad">
@@ -1662,7 +1655,12 @@ function Header({ headerBgColor, linkColor }) {
                                 </ul>
                             </li> */}
               <li className="menu-item">
-                <Link to={"/contact"} style={{color : fixedHeader ? '' : linkColor}}>Contact Us</Link>
+                <Link
+                  to={"/contact"}
+                  style={{ color: fixedHeader ? "" : linkColor }}
+                >
+                  Contact Us
+                </Link>
               </li>
               {/* <li className="menu-item cnt_m menu-dropdown-icon" onMouseEnter={() => { setDropdown(10) }} onMouseLeave={() => { setDropdown(0) }}>
                                 <a href="" className="hidden-xs">

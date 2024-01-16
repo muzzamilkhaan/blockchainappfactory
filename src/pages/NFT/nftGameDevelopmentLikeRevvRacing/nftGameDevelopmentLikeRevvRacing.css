@@ -1064,7 +1064,7 @@ h5.common_h3 {
   padding: 0px 10px;
   background: linear-gradient(2deg, black, #868686, black);
   transition: all 2s;
-  width: 250px;
+  width: 200px;
   height: 25px;
   border-radius: 20px;
   box-shadow: 1px 1px 11px -3px #999; /*filter: drop-shadow(0 0 0.75rem crimson);*/

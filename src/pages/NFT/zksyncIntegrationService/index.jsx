@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Sec1 from "./Sec1";
 import Sec2 from "./Sec2";
 import Sec3 from "./Sec3";
@@ -13,7 +13,14 @@ import Sec11 from "./Sec11";
 import Sec12 from "./Sec12";
 import WeSpotlightedIn from "../../../components/shared/WeSpotlightedIn";
 
-const ZksyncIntegrationService = () => {
+const ZksyncIntegrationService = ({
+  headerBgColor,
+  toggleHeaderBgColor,
+  linkColor,
+}) => {
+  useEffect(() => {
+    toggleHeaderBgColor("transparent", "#444");
+  });
   return (
     <div style={{ paddingTop: "100px" }}>
       <Sec1 />

@@ -6076,7 +6076,7 @@ li.menu-item.cnt_m ul.mega-submenu.normal-sub {
     right: -63px;
     top: 180px;
     z-index: 10;
-    background: #47b475;
+    /* background: #47b475; */
     color: #fff;
     padding: 5px 20px;
     text-transform: capitalize;
