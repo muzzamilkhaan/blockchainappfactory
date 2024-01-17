@@ -179,7 +179,7 @@ function Sec1() {
             <div className="col-md-6 equalize">
               <div className="icon-text-1">
                 <div className="icon-text-icon">
-                <i class="fa-solid fa-star-half-stroke"></i>
+                <i className="fa-solid fa-star-half-stroke"></i>
                 </div>
                 <div className="icon_content">
                   <h3>NFT Staking Platform</h3>
@@ -208,7 +208,7 @@ function Sec1() {
             <div className="col-md-6 equalize">
               <div className="icon-text-1">
                 <div className="icon-text-icon">
-                <i class="fa-regular fa-money-bill-1"></i>
+                <i className="fa-regular fa-money-bill-1"></i>
                 </div>
                 <div className="icon_content">
                   <h3>NFT Wallet Development</h3>

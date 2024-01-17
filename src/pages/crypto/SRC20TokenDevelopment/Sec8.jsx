@@ -46,7 +46,7 @@ function Sec8() {
           <div className="awesome-features-wrapper text-center mb-30">
             <div className="awesome-features-icon-img">
               {" "}
-              <i class="fa-regular fa-lightbulb"></i>
+              <i className="fa-regular fa-lightbulb"></i>
             </div>
             <div className="awesome-features-text">
               <p>

@@ -283,7 +283,7 @@ function Sec1() {
             <div className="col-md-4">
               <div className="prom-box text-center">
                 <div className="prom-icon">
-                <i class="fa-regular fa-money-bill-1"></i>
+                <i className="fa-regular fa-money-bill-1"></i>
                 </div>
                 <div className="prom-desp">
                   <h4>

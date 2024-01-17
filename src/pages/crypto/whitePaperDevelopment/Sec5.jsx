@@ -19,7 +19,7 @@ function Sec5() {
           <p className="text-left" />
           <ul>
             <li>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i className="fa-solid fa-circle-arrow-right"></i>
               <strong>Concept: What is Your Startup About?</strong>
               <br />
               We address what your venture is about by introducing the project
@@ -27,7 +27,7 @@ function Sec5() {
               problems you aim to answer.
             </li>
             <li>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i className="fa-solid fa-circle-arrow-right"></i>
               <strong>Operations: How Does Your Venture Work?</strong>
               <br />
               Our White paper development company answers the functional flow of
@@ -35,7 +35,7 @@ function Sec5() {
               how you aim to achieve them.
             </li>
             <li>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i className="fa-solid fa-circle-arrow-right"></i>
               <strong>
                 Validation: Why Does the Web3 Community Need Your Business?
               </strong>
@@ -45,7 +45,7 @@ function Sec5() {
               your project and taking action.
             </li>
             <li>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i className="fa-solid fa-circle-arrow-right"></i>
               <strong>Technology: Why Does Your Project Use Web3?</strong>
               <br />
               We ensure to offer necessary information to make your readers
@@ -53,7 +53,7 @@ function Sec5() {
               Web3 helps you address a prevailing problem.
             </li>
             <li>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i className="fa-solid fa-circle-arrow-right"></i>
               <strong>
                 Tokenomics: How is Your Token Relevant to the Community?
               </strong>
@@ -63,7 +63,7 @@ function Sec5() {
               mechanisms to regulate supply and demand are also mentioned.
             </li>
             <li>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i className="fa-solid fa-circle-arrow-right"></i>
               <strong>Team: Who Runs the Business?</strong>
               <br />
               Web3 community is always keen to know the people behind a project.

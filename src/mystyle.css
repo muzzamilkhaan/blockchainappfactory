@@ -178,7 +178,8 @@ a.readmore:hover {
 
 .header .main-menu>li a {
     line-height: 50px;
-    color: #787878;
+    /* color: #787878; */
+    color: #fff;
     font-size: 12px;
 }
 

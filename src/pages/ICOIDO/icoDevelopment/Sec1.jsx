@@ -760,7 +760,7 @@ function Sec1() {
               <div className="feature-box-3">
                 <div className="icon">
                   {" "}
-                  <i class="fa-regular fa-paste"></i>
+                  <i className="fa-regular fa-paste"></i>
                 </div>
                 <h4 className="feature-title common_h4">Whitepaper Drafting</h4>
                 <p className="feature-desc mb0">
@@ -799,7 +799,7 @@ function Sec1() {
               <div className="feature-box-3">
                 <div className="icon">
                   {" "}
-                  <i class="fa-solid fa-bitcoin-sign"></i>
+                  <i className="fa-solid fa-bitcoin-sign"></i>
                 </div>
                 <h4 className="feature-title common_h4">Coin Development</h4>
                 <p className="feature-desc mb0">
@@ -863,7 +863,7 @@ function Sec1() {
               <div className="technicalbox text-center">
                 <div className="technical-icon">
                   <span>
-                    <i class="fa-regular fa-paste"></i>
+                    <i classNames="fa-regular fa-paste"></i>
                   </span>
                 </div>
                 <h4>Whitepaper</h4>
@@ -878,7 +878,7 @@ function Sec1() {
               <div className="technicalbox text-center">
                 <div className="technical-icon">
                   <span>
-                    <i class="fa-regular fa-calendar-days"></i>
+                    <i className="fa-regular fa-calendar-days"></i>
                   </span>
                 </div>
                 <h4>Prospectus</h4>
@@ -893,7 +893,7 @@ function Sec1() {
               <div className="technicalbox text-center">
                 <div className="technical-icon">
                   <span>
-                  <i class="fa-solid fa-mobile-screen-button"></i>
+                  <i className="fa-solid fa-mobile-screen-button"></i>
                   </span>
                 </div>
                 <h4>Technology Setup</h4>
@@ -953,7 +953,7 @@ function Sec1() {
               <div className="technicalbox text-center">
                 <div className="technical-icon">
                   <span>
-                  <i class="fa-regular fa-newspaper"></i>
+                  <i className="fa-regular fa-newspaper"></i>
                   </span>
                 </div>
                 <h4>Blockexplorer Addon</h4>
@@ -1019,7 +1019,7 @@ function Sec1() {
               <div className="technicalbox text-center">
                 <div className="technical-icon">
                   <span>
-                  <i class="fa-regular fa-money-bill-1"></i>
+                  <i className="fa-regular fa-money-bill-1"></i>
                   </span>
                 </div>
                 <h4>price volatility hedging service</h4>

@@ -39,7 +39,7 @@ function Sec5() {
           <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 my-auto">
             <div className="perfect-script-items1">
               <div className="icon">
-              <i class="fa-regular fa-money-bill-1"></i>
+              <i className="fa-regular fa-money-bill-1"></i>
               </div>
               <div className="content">
                 <h4>Potential for Increased ROI</h4>

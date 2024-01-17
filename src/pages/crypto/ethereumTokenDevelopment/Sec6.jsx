@@ -59,7 +59,7 @@ function Sec6() {
             </div>
             <div className="tm-icon roadmap-icon-outer">
               {" "}
-              <i class="fa-regular fa-lightbulb"></i>
+              <i className="fa-regular fa-lightbulb"></i>
             </div>
           </div>
           <div className="timeline-row row m-0">
@@ -104,7 +104,7 @@ function Sec6() {
             </div>
             <div className="tm-icon roadmap-icon-outer">
               {" "}
-              <i class="fa-regular fa-file-pdf"></i>
+              <i className="fa-regular fa-file-pdf"></i>
             </div>
           </div>
           <div className="timeline-row row m-0">

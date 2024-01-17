@@ -19,7 +19,7 @@ const Sec8 = () => {
                   <div className="main-timeline2 pt40">
                     <div className="col-md-2 col-sm-4 timeline2">
                       <span className="timeline2-icon">
-                        <i class="NaclassName">01</i>
+                        <i className="NaclassName">01</i>
                       </span>
                       <div className="border"></div>
                       <div className="timeline2-content">
@@ -34,12 +34,12 @@ const Sec8 = () => {
                       </div>
                       <div className="border"></div>
                       <span className="timeline2-icon">
-                        <i class="NaclassName">02</i>
+                        <i className="NaclassName">02</i>
                       </span>
                     </div>
                     <div className="col-md-2 col-sm-4 timeline2">
                       <span className="timeline2-icon">
-                        <i class="NaclassName">03</i>
+                        <i className="NaclassName">03</i>
                       </span>
                       <div className="border"></div>
                       <div className="timeline2-content">
@@ -52,12 +52,12 @@ const Sec8 = () => {
                       </div>
                       <div className="border"></div>
                       <span className="timeline2-icon">
-                        <i class="NaclassName">04</i>
+                        <i className="NaclassName">04</i>
                       </span>
                     </div>
                     <div className="col-md-2 col-sm-4 timeline2">
                       <span className="timeline2-icon">
-                        <i class="NaclassName">05</i>
+                        <i className="NaclassName">05</i>
                       </span>
                       <div className="border"></div>
                       <div className="timeline2-content">
@@ -72,7 +72,7 @@ const Sec8 = () => {
                       </div>
                       <div className="border"></div>
                       <span className="timeline2-icon">
-                        <i class="NaclassName">06</i>
+                        <i className="NaclassName">06</i>
                       </span>
                     </div>
                   </div>

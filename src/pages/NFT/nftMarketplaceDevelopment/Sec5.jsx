@@ -20,7 +20,7 @@ function Sec5() {
         <div className="col-md-12">
           <ul className="workflow">
             <li>
-            <i class="fa-regular fa-lightbulb"></i>
+            <i className="fa-regular fa-lightbulb"></i>
               <p>Project Ideation</p>
             </li>
             <li>

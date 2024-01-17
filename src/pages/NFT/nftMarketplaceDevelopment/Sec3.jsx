@@ -115,7 +115,7 @@ function Sec3() {
             <li>
               {" "}
               <span>
-                <i class="fa-brands fa-google-wallet" style={{fontSize : 30}}></i>
+                <i className="fa-brands fa-google-wallet" style={{fontSize : 30}}></i>
               </span>
               <div className="step-points-content">
                 <h4>In-built Wallets </h4>

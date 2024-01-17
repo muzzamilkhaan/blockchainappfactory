@@ -717,7 +717,7 @@ function Sec1() {
               <div className="feature-box-3">
                 <div className="icon">
                   {" "}
-                  <i class="fa-regular fa-money-bill-1"></i>
+                  <i className="fa-regular fa-money-bill-1"></i>
                 </div>
                 <h5 className="feature-title">Multiple Payment Integration</h5>
                 <p className="feature-desc mb0">

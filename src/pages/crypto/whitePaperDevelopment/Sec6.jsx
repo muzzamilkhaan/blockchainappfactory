@@ -32,7 +32,7 @@ function Sec6() {
           </p>
           <ul className="workflow">
             <li>
-            <i class="fa-regular fa-lightbulb"></i>
+            <i className="fa-regular fa-lightbulb"></i>
               <p>Concept</p>
             </li>
             <li>

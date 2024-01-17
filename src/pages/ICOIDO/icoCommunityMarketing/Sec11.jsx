@@ -100,7 +100,7 @@ function Sec11() {
           <div className="technical-icon">
             {" "}
             <span>
-            <i class="fa-regular fa-clock"></i>
+            <i className="fa-regular fa-clock"></i>
             </span>{" "}
           </div>
           <h3 className="font-wei">24*7 Support</h3>

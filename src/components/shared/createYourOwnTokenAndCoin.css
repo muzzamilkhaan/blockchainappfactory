@@ -154,7 +154,12 @@
 }
 
 #create-your-own-token-and-coin .contentall h1 {
-    color: #47b475 !important;
+    color: #30D4D1 !important;
+}
+@media (max-width:767px){
+    #create-your-own-token-and-coin .contentall h1 {
+       font-size: 25px !important;
+    }
 }
 
 #create-your-own-token-and-coin .contentall p {
@@ -225,14 +230,16 @@
     padding: 30px;
     text-align: center;
     width: 25% !important;
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    /* border-right: 1px solid #eee; */
+    /* border-bottom: 1px solid #eee; */
     border-top: 0px solid #eee;
     border-left: 0px solid #eee;
     position: relative;
     cursor: pointer;
     margin: 0;
     box-shadow: none !important;
+    border: none;
+
 }
 
 #create-your-own-token-and-coin .teck .category-grid-style-01 .category-item:before {
@@ -597,7 +604,7 @@
     height: 20px;
     line-height: 20px;
     border-radius: 50%;
-    background: #47b475;
+    background: #30D4D1;
     font-size: 12px;
     font-weight: 900;
     color: #fdfbfb;

@@ -85,7 +85,7 @@ function App() {
         <Header headerBgColor={headerBgColor} linkColor={linkColor} />
         <QuickContact />
         <LoginPopup />
-        <Suspense fallback={"loading..."}>
+        <Suspense fallback={""}>
           
           <Routes>
             {LandingRoutes(headerBgColor, toggleHeaderBgColor, linkColor).map(

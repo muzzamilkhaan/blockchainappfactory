@@ -377,9 +377,9 @@ const nftMarketPlaceMatic = ({
 
       {/* ------------------------SEC7-------------------------------------------- */}
       <Sec7 backgroundColor="#fff">
-        <div class="section-title underline text-center mt20">
-          <div class="sec_tit">
-            <h3 class="font-wei">
+        <div className="section-title underline text-center mt20">
+          <div className="sec_tit">
+            <h3 className="font-wei">
               Our Expertise In NFT Marketplace Development In Polygon
             </h3>{" "}
           </div>

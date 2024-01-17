@@ -125,7 +125,7 @@ function Sec4() {
           <div className="awesome-features-wrapper text-center mb-30">
             <div className="awesome-features-icon-img">
               {" "}
-              <i class="fa-solid fa-shield-halved"></i>
+              <i className="fa-solid fa-shield-halved"></i>
             </div>
             <div className="awesome-features-text">
               <p>
@@ -150,7 +150,7 @@ function Sec4() {
           <div className="awesome-features-wrapper text-center mb-30">
             <div className="awesome-features-icon-img">
               {" "}
-              <i class="fa-regular fa-pen-to-square"></i>
+              <i className="fa-regular fa-pen-to-square"></i>
             </div>
             <div className="awesome-features-text">
               <p>
@@ -176,7 +176,7 @@ function Sec4() {
           <div className="awesome-features-wrapper text-center mb-30">
             <div className="awesome-features-icon-img">
               {" "}
-              <i class="fa-brands fa-btc"></i>
+              <i className="fa-brands fa-btc"></i>
             </div>
             <div className="awesome-features-text">
               <p>
@@ -202,7 +202,7 @@ function Sec4() {
           <div className="awesome-features-wrapper text-center mb-30">
             <div className="awesome-features-icon-img">
               {" "}
-              <i class="fa-regular fa-file-pdf"></i>
+              <i className="fa-regular fa-file-pdf"></i>
             </div>
             <div className="awesome-features-text">
               <p>

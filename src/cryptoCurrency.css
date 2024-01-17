@@ -41,7 +41,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: url(images/crypto/crypto-development-banner.webp) top 150px left -50px no-repeat #0195d5 ;
+    /* background: url(images/crypto/crypto-development-banner.webp) top 150px left -50px no-repeat #0195d5 ; */
     /* animation: 7s linear infinite zoomInOut; */
     z-index: -1;
     opacity: .2;
@@ -1379,7 +1379,7 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    background: url('images/crypto/crypto-development-banner.webp') top 150px left -50px no-repeat #0195d5;
+    /* background: url('images/crypto/crypto-development-banner.webp') top 150px left -50px no-repeat #0195d5; */
     /*animation:7s linear infinite zoomInOut;*/
     z-index: -1;
     opacity: .2
@@ -2040,6 +2040,7 @@ section#counter-stats {
     height: 60px !important;
     margin-bottom: 5px;
     border-radius: 10px;
+    object-fit: contain;
 }
 
 .tech-padding {

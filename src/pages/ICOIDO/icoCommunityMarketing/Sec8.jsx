@@ -22,7 +22,7 @@ function Sec8() {
       <div className="col-md-6 col-sm-6 col-xs-12 section-header mt30">
         <ul>
           <li>
-          <i class="fa-regular fa-lightbulb"></i>
+          <i className="fa-regular fa-lightbulb"></i>
             Our ICO community marketing solutions will systematically ensure a
             positive outlook among the public and build a strong network for
             your users.{" "}
@@ -34,7 +34,7 @@ function Sec8() {
             value of the cryptocurrency.{" "}
           </li>
           <li>
-          <i class="fa-regular fa-circle-question"></i>
+          <i className="fa-regular fa-circle-question"></i>
             They will help companies to build trust on the project and its token
             sale by answering queries and questions related to the project on
             different forums, communities, and platforms.

@@ -5,15 +5,15 @@ import { H2, Button } from "../../../components";
 const Sec2 = () => {
   return (
     <SecTwo>
-      <section class="common_spacing">
-        <div class="container">
-          <div class="text-center">
-            <div class="sec_tit underline">
+      <section className="common_spacing">
+        <div className="container">
+          <div className="text-center">
+            <div className="sec_tit underline">
               <H2> Semi Fungible Token Development Platform </H2>
             </div>
           </div>
-          <div class="col-lg-12">
-            <p class="mt10 mb10 text-center">
+          <div className="col-lg-12">
+            <p className="mt10 mb10 text-center">
               Non-fungible tokens (NFTs) have played a dominant role in deciding
               the crypto space’s position today, and they have changed the way
               how things are owned in the digital world. But, the process of

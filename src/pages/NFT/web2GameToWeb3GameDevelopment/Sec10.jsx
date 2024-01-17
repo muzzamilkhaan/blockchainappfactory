@@ -5,22 +5,22 @@ import { H2, Button } from "../../../components";
 const Sec10 = () => {
   return (
     <SecTen>
-      <div class="common_spacing uniq_features ">
-        <div class="why-blockchain-sec">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12 col-md-12 text-center">
+      <div className="common_spacing uniq_features ">
+        <div className="why-blockchain-sec">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-12 col-md-12 text-center">
                 <img
-                  class=""
+                  className=""
                   data-src="/images/web2-game-to-web3-game-development/img1.webp"
                   alt=" "
                   title=" "
                   src="https://www.blockchainappfactory.com/images/web2-game-to-web3-game-development/img1.webp"
                 />
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 col-md-12">
+              <div className="col-lg-6 col-md-6 col-sm-12 col-md-12">
                 <div
-                  class="common_h3 sec-tit underline text-left"
+                  className="common_h3 sec-tit underline text-left"
                   //   style="padding: 20px 0;"
                 >
                   <H2> Why Prefer Us? </H2>
@@ -74,7 +74,7 @@ const Sec10 = () => {
                     On-Time Delivery
                   </li>
                 </ul>
-                <div class="txt">
+                <div className="txt">
                   {" "}
                   <div className="d-flex justify-content-start flex-wrap gap-3 ">
                     <Button
