@@ -2,29 +2,22 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { FaMobileAlt, FaEnvelope } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
-import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { H3 } from "../components/index";
 
 function Header({ headerBgColor, linkColor }) {
   const [dropdown, setDropdown] = useState(0);
   const [open, setOpen] = useState(false);
   const [fixedHeader, setFixedHeader] = useState(false);
   const [showMobileNav, setShowMobileNav] = useState(false);
+  const [logoToRender, setLogoToRender] = useState(null);
 
   useEffect(() => {
     const handleScroll = () => {
-      let triggerPosition = 500; // default trigger position
-
-      // const triggerPosition = 500;
+      let triggerPosition = 500;
       const scrollPosition = window.scrollY;
-
-      // Update the state based on the scroll position
       setFixedHeader(scrollPosition > triggerPosition);
     };
-    // Attach the scroll event listener when the component mounts
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -32,12 +25,35 @@ function Header({ headerBgColor, linkColor }) {
 
   const darkLogo = <img src="./assets/images/dark-logo.jpg" alt="Dark Logo" />;
   const whiteLogo = <img src="./assets/images/white.svg" alt="White Logo" />;
-  const logoToRender =
-  fixedHeader ? 
-  darkLogo: headerBgColor === "transparent"
-      ? whiteLogo : darkLogo;
+  // let logoToRender;
+  useEffect(() => {
+    const changeLogo = () => {
+      // console.log(
+      //   "call: headerBgColor:, fixedHeader: ",
+      //   headerBgColor,
+      //   fixedHeader
+      // );
+      if (headerBgColor === "transparent" && fixedHeader === false) {
+        setLogoToRender(whiteLogo);
+      } else if (fixedHeader) {
+        setLogoToRender(darkLogo);
+      } else if (headerBgColor == undefined) {
+        setLogoToRender(whiteLogo);
+      } else {
+        setLogoToRender(darkLogo);
+      }
+      // const logoToRender = fixedHeader
+      //   ? darkLogo
+      //   : headerBgColor === "transparent"
+      //   ? whiteLogo
+      //   : darkLogo;
+    };
+    changeLogo();
+    // console.log("logoToRender", logoToRender);
+  }, [headerBgColor, linkColor, fixedHeader]);
+
   // console.log("headerBgColor:", headerBgColor);
-  
+
   return (
     <>
       <div

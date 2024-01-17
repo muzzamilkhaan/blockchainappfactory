@@ -22,7 +22,7 @@ const LandingPage = ({headerBgColor , toggleHeaderBgColor , linkColor}) => {
 useEffect(() =>{
   toggleHeaderBgColor('transparent' , '#fff')
 })
-  // console.log(headerBgColor);
+  // console.log("headerBgColor:",headerBgColor);
   const data = [
     {
       title: "What Does Blockchain App Factory Do?",

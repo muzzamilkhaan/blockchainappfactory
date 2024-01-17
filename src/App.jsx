@@ -44,6 +44,7 @@ import NftRoutes from "./Routes/NftRoutes";
 import IcoIdoRoutes from "./Routes/IcoIdoRoutes";
 import ExchangeRoutes from "./Routes/ExchangeRoutes";
 import ScrollToTop from "./components/shared/ScrollToTop";
+import NotFound from "./components/shared/notFound/notFound";
 
 function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
@@ -66,10 +67,6 @@ function App() {
     }
   }, []);
 
-  // useEffect(() => {
-  //   console.log("Scrolling to top...");
-  //   window.scrollTo(0, 0);
-  // }, []);
   const toggleHeaderBgColor = (color, link) => {
     const newTheme = color;
     const newLink = link;
@@ -86,7 +83,6 @@ function App() {
         <QuickContact />
         <LoginPopup />
         <Suspense fallback={""}>
-          
           <Routes>
             {LandingRoutes(headerBgColor, toggleHeaderBgColor, linkColor).map(
               (route) => {
@@ -127,6 +123,17 @@ function App() {
             <Route
               path="/contact"
               element={<ContactUs headerBgColor={headerBgColor} />}
+            />
+            {/* PAGE NOT FOUND */}
+            <Route
+              path="*"
+              element={
+                <NotFound
+                  headerBgColor={headerBgColor}
+                  toggleHeaderBgColor={toggleHeaderBgColor}
+                  linkColor={linkColor}
+                />
+              }
             />
           </Routes>
         </Suspense>

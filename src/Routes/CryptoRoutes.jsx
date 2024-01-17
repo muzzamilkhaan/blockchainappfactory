@@ -96,7 +96,13 @@ const CryptoRoutes = (headerBgColor, toggleHeaderBgColor, linkColor) => [
   },
   {
     path: "/tron-token-development",
-    element: <TronTokenDevelopment />,
+    element: (
+      <TronTokenDevelopment
+        headerBgColor={headerBgColor}
+        toggleHeaderBgColor={toggleHeaderBgColor}
+        linkColor={linkColor}
+      />
+    ),
   },
   {
     path: "/brc-20-token-development",

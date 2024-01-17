@@ -141,8 +141,8 @@ function Footer() {
                         alt="smart contract"
                         title="Blockchain App Factory"
                         className="light-version-logo"
-                        width="177px"
-                        height="38px"
+                        width="130px"
+                        height="30px"
                       />
                     </div>
                   </div>

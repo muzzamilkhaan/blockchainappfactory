@@ -8,7 +8,7 @@ function LandingSec1() {
           className="ci"
           style={{
             zIndex: "4",
-            backgroundImage: "url(./assets/images/banner_new.web)",
+            // backgroundImage: "url(./assets/images/banner_new.web)",
             backgroundSize: "cover",
             backgroundPosition: "center center",
           }}

@@ -7412,6 +7412,7 @@ a.home-talk-experts {
 
 .text-md-start {
   text-align: left !important;
+  cursor: pointer;
 }
 
 .text-md-end {

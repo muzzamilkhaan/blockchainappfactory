@@ -1,36 +1,43 @@
-import React from 'react'
-import Header from '../../../headerFooter/Header'
-import Footer from '../../../headerFooter/Footer'
-import Sec1 from './Sec1'
-import Sec2 from './Sec2'
-import Sec3 from './Sec3'
-import Sec4 from './Sec4'
-import Sec5 from './Sec5'
-import Sec6 from './Sec6'
-import Sec7 from './Sec7'
-import Sec8 from './Sec8'
-import Sec9 from './Sec9'
-import Sec10 from './Sec10'
-import Sec11 from './Sec11'
-import Sec12 from './Sec12'
-import Sec13 from './Sec13'
-import Sec14 from './Sec14'
-import Sec15 from './Sec15'
-import Sec17 from './Sec17'
-import Sec16 from './Sec16'
-import Sec18 from './Sec18'
-import Sec19 from './Sec19'
-import Sec20 from './Sec20'
-import './tronTokenDevelopment.css'
+import React, { useEffect } from "react";
+import Header from "../../../headerFooter/Header";
+import Footer from "../../../headerFooter/Footer";
+import Sec1 from "./Sec1";
+import Sec2 from "./Sec2";
+import Sec3 from "./Sec3";
+import Sec4 from "./Sec4";
+import Sec5 from "./Sec5";
+import Sec6 from "./Sec6";
+import Sec7 from "./Sec7";
+import Sec8 from "./Sec8";
+import Sec9 from "./Sec9";
+import Sec10 from "./Sec10";
+import Sec11 from "./Sec11";
+import Sec12 from "./Sec12";
+import Sec13 from "./Sec13";
+import Sec14 from "./Sec14";
+import Sec15 from "./Sec15";
+import Sec17 from "./Sec17";
+import Sec16 from "./Sec16";
+import Sec18 from "./Sec18";
+import Sec19 from "./Sec19";
+import Sec20 from "./Sec20";
+import "./tronTokenDevelopment.css";
 
-function TronTokenDevelopment() {
+function TronTokenDevelopment({
+  headerBgColor,
+  toggleHeaderBgColor,
+  linkColor,
+}) {
+  // useEffect(() => {
+  //   toggleHeaderBgColor("transparent", "#fff");
+  // },[]);
   return (
     <>
-    <div id='tron-token-development' style={{overflow : 'hidden'}}>
-    <Header />
-            <Sec1/>
-            <Sec2/>
-            {/* <Sec3/>
+      <div id="tron-token-development" style={{ overflow: "hidden" }}>
+        <Header />
+        <Sec1 />
+        <Sec2 />
+        {/* <Sec3/>
             <Sec4/>
             <Sec5/>
             <Sec6/>
@@ -48,10 +55,10 @@ function TronTokenDevelopment() {
             <Sec18/>
             <Sec19/>
             <Sec20/> */}
-            <Footer />
-    </div>
+        <Footer />
+      </div>
     </>
-  )
+  );
 }
 
-export default TronTokenDevelopment
+export default TronTokenDevelopment;
