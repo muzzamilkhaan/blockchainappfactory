@@ -8,7 +8,7 @@ const Sec3 = () => {
     dots: true,
     infinite: true,
     slidesToShow: 6,
-    slidesToScroll: 3 ,
+    slidesToScroll: 3,
     autoplay: true,
     speed: 1500,
     autoplaySpeed: 2500,
@@ -36,7 +36,7 @@ const Sec3 = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          slidesToScroll: 3,
+          // slidesToScroll: 3,
         },
       },
     ],
@@ -64,7 +64,7 @@ const Sec3 = () => {
             </p>
           </div>
           <div className="row m-0 px-2">
-            <Slider {...settings} arrows={false} >
+            <Slider {...settings} arrows={false}>
               <div>
                 {/* <div
               className="owl-item1"

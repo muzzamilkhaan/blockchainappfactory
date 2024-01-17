@@ -64,11 +64,27 @@ const DecentralizedSportsBettingPlatform = lazy(() =>
     "../pages/crypto/decentralizedSportsBettingPlatform/DecentralizedSportsBettingPlatform"
   )
 );
+const BitcoinOrdinalsTokenDevelopment = lazy(() =>
+  import(
+    "../pages/crypto/bitcoinOrdinalsTokenDevelopment/BitcoinOrdinalsTokenDevelopment"
+  )
+);
+const BitcoinOrdinalsTokenMarketing = lazy(() =>
+  import(
+    "../pages/crypto/bitcoinOrdinalsTokenMarketing/BitcoinOrdinalsTokenMarketing"
+  )
+);
 
 const CryptoRoutes = (headerBgColor, toggleHeaderBgColor, linkColor) => [
   {
     path: "/cryptocurrency-development",
-    element: <CryptocurrencyDevelopment />,
+    element: (
+      <CryptocurrencyDevelopment
+        headerBgColor={headerBgColor}
+        toggleHeaderBgColor={toggleHeaderBgColor}
+        linkColor={linkColor}
+      />
+    ),
   },
   {
     path: "/token-development",
@@ -147,6 +163,14 @@ const CryptoRoutes = (headerBgColor, toggleHeaderBgColor, linkColor) => [
   {
     path: "/decentralized-sports-betting-platform",
     element: <DecentralizedSportsBettingPlatform />,
+  },
+  {
+    path: "/bitcoin-ordinals-token-development",
+    element: <BitcoinOrdinalsTokenDevelopment />,
+  },
+  {
+    path: "/bitcoin-ordinals-token-marketing",
+    element: <BitcoinOrdinalsTokenMarketing />,
   },
 ];
 

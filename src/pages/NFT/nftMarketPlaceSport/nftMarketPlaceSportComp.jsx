@@ -29,12 +29,17 @@ export const SecOne = styled.div`
     font-family: "Lato", sans-serif;
     color: #fff;
     font-size: 32px;
-    @media (max-width: 1001px) {
+  }
+
+  @media (max-width: 1001px) {
+    .ban_tirt h1 {
       padding-top: 250px;
       text-align: center !important;
       font-size: 30px;
     }
-    @media (max-width: 768px) {
+  }
+  @media (max-width: 768px) {
+    .ban_tirt h1 {
       padding-top: 0;
       font-size: 25px;
     }

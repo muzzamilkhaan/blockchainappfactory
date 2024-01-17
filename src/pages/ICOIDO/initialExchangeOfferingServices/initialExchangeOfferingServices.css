@@ -315,11 +315,9 @@
     color:#fff;
     text-align: start;
 }
-#initial-exchange-offering-services .main-timeline .timeline-content:hover  {
-    .title{
+#initial-exchange-offering-services .main-timeline .timeline-content:hover .title{
     color: #fff !important;
     }
-}
 #initial-exchange-offering-services .main-timeline .description{
     font-size: 14px;
     margin: 0;

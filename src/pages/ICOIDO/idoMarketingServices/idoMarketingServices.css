@@ -1,778 +1,968 @@
-
-#ido-marketing-services .top-header p{margin-bottom:0;color:#fff;display:inline-block;width:auto}.lc-1ip30wz{height:30px!important}.top-header{background:#378658;padding:10px}@-webkit-keyframes breathing{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1.1);transform:scale(1.1)}50%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes breathing{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1.1);transform:scale(1.1)}50%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}.top-header .breathing_effect{-webkit-animation:breathing 1s infinite ease-in-out;animation:breathing 1s infinite ease-in-out;-webkit-font-smoothing:antialiased;transition:1s;display:inline-block;width:auto}.top-header .breathing_effect a{background:#f44336;color:#fff;padding:5px 10px;border-radius:0;margin-left:15px}.top-header .breathing_effect a:hover{color:#fff!important}@media (max-width:1199px){.header .main-menu>li a{padding:0 5px}}@media (max-width:550px){.top-header p{width:60%;text-align:right;vertical-align:middle}.top-header .breathing_effect{display:inline-block;width:40%}}
-#ido-marketing-services .guardian-p{
-  text-align: center;font-size: 12px;
+#ido-marketing-services .top-header p {
+  margin-bottom: 0;
+  color: #fff;
+  display: inline-block;
+  width: auto;
+}
+.lc-1ip30wz {
+  height: 30px !important;
+}
+.top-header {
+  background: #378658;
+  padding: 10px;
+}
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.top-header .breathing_effect {
+  -webkit-animation: breathing 1s infinite ease-in-out;
+  animation: breathing 1s infinite ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  transition: 1s;
+  display: inline-block;
+  width: auto;
+}
+.top-header .breathing_effect a {
+  background: #f44336;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0;
+  margin-left: 15px;
+}
+.top-header .breathing_effect a:hover {
+  color: #fff !important;
+}
+@media (max-width: 1199px) {
+  .header .main-menu > li a {
+    padding: 0 5px;
+  }
+}
+@media (max-width: 550px) {
+  .top-header p {
+    width: 60%;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .top-header .breathing_effect {
+    display: inline-block;
+    width: 40%;
+  }
+}
+#ido-marketing-services .guardian-p {
+  text-align: center;
+  font-size: 12px;
 }
 /*-- Client section --*/
-#ido-marketing-services .teck .category-grid-style-01 .category-item{padding: 10px !important;}
-#ido-marketing-services .category-item.aos-item .text-center{font-size: 12px !important; margin-bottom: 0px !important;} 
-#ido-marketing-services .teck .category-grid-style-01 .category-item .category-icon{margin-bottom: 0 !important;}
-#ido-marketing-services .teck .category-icon img{height: 80px !important;}
-
-#ido-marketing-services h1,#ido-marketing-services h2,#ido-marketing-services h3,#ido-marketing-services h4,#ido-marketing-services h5,#ido-marketing-services h6 {
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 0px !important;
+#ido-marketing-services .teck .category-grid-style-01 .category-item {
+  padding: 10px !important;
 }
-#ido-marketing-services .contentall{
-    padding: 0;
+#ido-marketing-services .category-item.aos-item .text-center {
+  font-size: 12px !important;
+  margin-bottom: 0px !important;
+}
+#ido-marketing-services
+  .teck
+  .category-grid-style-01
+  .category-item
+  .category-icon {
+  margin-bottom: 0 !important;
+}
+#ido-marketing-services .teck .category-icon img {
+  height: 80px !important;
+}
+
+#ido-marketing-services h1,
+#ido-marketing-services h2,
+#ido-marketing-services h3,
+#ido-marketing-services h4,
+#ido-marketing-services h5,
+#ido-marketing-services h6 {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0px !important;
+}
+#ido-marketing-services .contentall {
+  padding: 0;
 }
 /*-- Client section --*/
 
- 
-       #ido-marketing-services .banner_content {
-            text-align: left;
-        }
-        
-       #ido-marketing-services .banner-overlay {
-            background-color: rgb(124 166 254 / 25%);
-        }
-
-       #ido-marketing-services .banner {
-            background-image: url(images/ido/bg.webp);
-            background-size: cover;
-            padding-top: 138px;
-            padding-bottom: 50px;
-            height: 650px;
-        }
-        
-       #ido-marketing-services .bg-2 {
-            background-image: linear-gradient(45deg, #0000007a, #000000ed), url(./assets/images/sec-bg4.webp);
-            background-size: cover;
-            padding-top: 65px;
-            padding-bottom: 50px;
-            height: auto;
-        }
-       
-       #ido-marketing-services .banner-overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background-image: linear-gradient(to right, #00000000, #00000000);
-            opacity: 0.95;
-        }
-        
-        #ido-marketing-services .banner_content {
-            text-align: left;
-            position: relative;
-            top: 0;
-            transform: none;
-        }
-        
-       #ido-marketing-services .banner_content .contentall {
-            margin-top: 120px;
-        }
-
-       #ido-marketing-services .banner_content img{
-            padding-top: 40px;
-        }
-        
-       #ido-marketing-services .contentall h1 {
-            color: #000 !important;
-        }
-        
-       #ido-marketing-services .contentall p {
-            color: #000 !important;
-        }
-        
-       #ido-marketing-services .contentall h1,
-       #ido-marketing-services .ban_tirt {
-            margin-bottom: 20px;
-            line-height: 1.3;
-            font-weight: 700;
-            font-size: 35px;
-            text-transform: capitalize;
-        }
-        
-       #ido-marketing-services .contentall p {
-            font-weight: normal;
-            margin-bottom: 30px;
-            line-height: 1.6;
-            font-size: 19px;
-            max-width: 800px;
-            margin: 0 auto 30px;
-            display: block;
-        }
-        
-       #ido-marketing-services .contentall a {
-            color: #fff;
-            cursor: pointer;
-            margin-bottom: 15px;
-            text-transform: uppercase !important;
-        }
-       #ido-marketing-services .sec_tit,
-       #ido-marketing-services .sec_tit h2 {
-            font-size: 25px!important;
-            font-weight: 700;
-            color: #000000;
-            line-height: 1.4;
-            text-transform: capitalize;
-        }
-        
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            letter-spacing: 0;
-            line-height: 1.3;
-        }
-        
-        @media (max-width: 1199px) {
-           #ido-marketing-services .contentall h1,
-           #ido-marketing-services .ban_tirt {
-                font-size: 24px !important;
-                margin-top: 60px;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            
-           #ido-marketing-services .banner_content .contentall {
-                margin-top: 30px;
-                text-align: center;
-            }
-            body,
-            html {
-                font-size: calc(15px + (14 - 12) * ((100vw - 600px)/ (1140 - 600)));
-            }
-           #ido-marketing-services .banner {
-                padding-top: 80px;
-                padding-bottom: 50px;
-            }
-           #ido-marketing-services .banner-overlay {
-                background: #023c5100;
-            }
-           #ido-marketing-services .banner_content p {
-                font-size: 14px!important;
-            }
-           #ido-marketing-services .contentall h1,
-           #ido-marketing-services .ban_tirt {
-                font-size: 25px;
-                text-align: center;
-            }
-           #ido-marketing-services .sec_tit,
-           #ido-marketing-services .sec_tit h2 {
-                font-size: 20px!important;
-            }
-            
-           #ido-marketing-services .flip-box {
-                max-width: 450px;
-                margin: 0 auto 30px;
-            }
-           #ido-marketing-services .pull-left img {
-                margin-top: 30px;
-            }
-           
-           #ido-marketing-services .pr_arr:after,
-           #ido-marketing-services .pr_arr:before,
-           #ido-marketing-services .banner_content p br,
-           #ido-marketing-services .sec_tit br {
-                display: none !important;
-            }
-        }
-    
-       #ido-marketing-services .intro_cnt img {
-            border-radius: 10px;
-        }
-    
-        a.home-talk-experts.w_bt {
-            background: no-repeat;
-            color: #47b475;
-            border: 2px solid #47b475;
-            padding: 8px 25px;
-        }
-        
-        a.home-talk-experts.w_bt:hover {
-            color: #000 !important;
-        }
-        
-       #ido-marketing-services .sec_tit h2 {
-            display: inline;
-            font-size: 4rem !important;
-        }
-        
-       #ido-marketing-services .text-white {
-            color: #fff;
-        }
-
-       #ido-marketing-services .uniq_features ul {
-            padding-left: 15px;
-        }
-        
-       #ido-marketing-services .uniq_features ul li {
-            margin-bottom: 15px;
-            position: relative;
-            padding-left: 29px;
-        }
-        
-       #ido-marketing-services .uniq_features ul li:after {
-            font-family: FontAwesome;
-            top: 3px;
-            right: 0;
-            padding-right: 10px;
-            content: "\f0a9";
-            position: absolute;
-            left: 0;
-            font-size: 20px;
-            color: #03b787;
-        }
-
-       #ido-marketing-services .pro-timeline {
-            position: relative;
-        }
-        
-       #ido-marketing-services .pro-timeline:after {
-            content: '';
-            display: block;
-            clear: both;
-        }
-        
-       #ido-marketing-services .pro-timeline:before {
-            content: '';
-            height: 90%;
-            width: 2px;
-            border: 2px solid #a3a3ad;
-            transform: translateX(-50%);
-            position: absolute;
-            left: 50%;
-            top: 30px;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline {
-            width: 50%;
-            padding: 0 35px 0 27px;
-            margin: 0 10px 20px 0;
-            float: left;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline-content {
-            background: #fff;
-            text-align: center;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.6);
-            display: block;
-            position: relative;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline-content:hover {
-            text-decoration: none;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline-content:before,
-       #ido-marketing-services .pro-timeline .timeline-content:after {
-            content: "";
-            background: linear-gradient(to bottom, #00d28a, #78b0fa);
-            width: 45px;
-            height: 45px;
-            transform: rotate(-45deg);
-            position: absolute;
-            top: 13px;
-            right: -58px;
-            z-index: 1;
-            border-radius: 25%;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline-content:after {
-            background: #f2f2f2;
-            transform: rotate(-45deg) scale(0.6);
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline-icon {
-            color: #fff;
-            background: linear-gradient(to right, #617de0, #78b1f8);
-            font-size: 23px;
-            text-align: center;
-            line-height: 40px;
-            height: 40px;
-            width: 40px;
-            transform: translateY(-50%) rotate(-45deg);
-            position: absolute;
-            top: 50%;
-            left: -20px;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline-icon i {
-            transform: rotate(45deg);
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline-year {
-            color: #fff;
-            font-size: 32px;
-            text-align: center;
-            line-height: 100px;
-            height: 100%;
-            width: 100px;
-            border-radius: 0 0 5px 0;
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline-year:after {
-            content: '';
-            background: linear-gradient(to right bottom, #4fbbd3b0 49%, transparent 50%)!important;
-            height: 33px;
-            width: 33px;
-            position: absolute;
-            right: -33px;
-            top: 0;
-        }
-        
-       #ido-marketing-services .pro-timeline .title {
-            color: #000000;
-            font-size: 20px;
-            letter-spacing: 1px;
-            margin: 0 0 7px 0;
-        }
-        
-       #ido-marketing-services .pro-timeline .description {
-            color: #000000;
-            font-size: 15px;
-            letter-spacing: 1px;
-            margin: 0;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline:nth-child(even) {
-            padding: 0 27px 0 35px;
-            margin: 0 0 20px 10px;
-            float: right;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-content {
-            padding: 15px;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-content:before,
-       #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-content:after {
-            right: auto;
-            left: -58px;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-icon {
-            left: auto;
-            right: -20px;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-year {
-            right: auto;
-            left: 0;
-            border-radius: 0 0 0 5px;
-        }
-        
-       #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-year:after {
-            transform: rotateY(180deg);
-            right: auto;
-            left: -33px;
-        }
-        
-        @media screen and (max-width:767px) {
-           #ido-marketing-services .pro-timeline:before {
-                left: 17px;
-                transform: translateX(0);
-            }
-           #ido-marketing-services .pro-timeline .timeline,
-           #ido-marketing-services .pro-timeline .timeline:nth-child(even) {
-                width: 100%;
-                padding: 0 0 27px 40px;
-                margin: 0 0 30px 0;
-            }
-           #ido-marketing-services .pro-timeline .timeline-content,
-           #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-content {
-                padding: 70px 15px 35px 15px;
-            }
-           #ido-marketing-services .pro-timeline .timeline-content:before,
-           #ido-marketing-services .pro-timeline .timeline-content:after,
-           #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-content:before,
-           #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-content:after {
-                height: 25px;
-                width: 25px;
-                top: 10px;
-                right: auto;
-                left: -34px;
-            }
-           #ido-marketing-services .pro-timeline .timeline-icon,
-           #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-icon {
-                transform: translateY(0) translateX(50%) rotate(-45deg);
-                left: auto;
-                right: 50%;
-                top: auto;
-                bottom: -20px;
-            }
-           #ido-marketing-services .pro-timeline .timeline-year,
-           #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-year {
-                width: 100%;
-                height: 50px;
-                line-height: 50px;
-                border-radius: 0 5px 5px 5px;
-                right: auto;
-                left: 0;
-            }
-           #ido-marketing-services .pro-timeline .timeline-year:after,
-           #ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-year:after {
-                height: 20px;
-                width: 20px;
-                transform: rotateY(180deg);
-                right: auto;
-                left: -20px;
-            }
-        }
-        
-        @media screen and (max-width:576px) {
-           #ido-marketing-services .pro-timeline .title {
-                font-size: 18px;
-            }
-        }
-
-       #ido-marketing-services .timeline-center::before {
-            background: #47b475!important;
-        }
-        
-       #ido-marketing-services .tm-detail p {
-            font-size: 15px;
-            color: #333;
-        }
-        
-       #ido-marketing-services .title-th {
-            font-weight: 700;
-        }
-        
-       #ido-marketing-services .title {
-            font-weight: 700;
-        }
-
-       #ido-marketing-services .partner-sec {
-            background: #fff;
-            padding: 15px;
-            max-width: 450px;
-            margin: 0 auto 30px;
-            min-height: 290px;
-            border-radius: 4px;
-        }
-        
-       #ido-marketing-services .partner-sec:hover {
-            background: #f2f2f2;
-            color: #000000;
-        }
-        
-       #ido-marketing-services .partner-sec img {
-            margin-bottom: 10px;
-        }
-        
-       #ido-marketing-services .partner-sec h4 {
-            line-height: 1.3;
-            font-size: 18px;
-            margin-bottom: 10px;
-            color: #000000;
-            letter-spacing: 0px;
-            font-weight: 600;
-            text-transform: capitalize;
-            margin-top: 6px;
-        }
-        
-       #ido-marketing-services .partner-sec:hover h4 {
-            color: #000000;
-        }
-
-       #ido-marketing-services .point-icon {
-            margin-bottom: 10px;
-        }
-    
-       #ido-marketing-services .faq-content #accordion a[data-toggle=collapse]::before {
-            content: "&#8722;";
-            float: left;
-            font-family: 'Glyphicons Halflings';
-            margin-right: 1em;
-            margin-left: 10px;
-            color: #fff;
-            font-size: 13px;
-            font-weight: 300;
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            line-height: 20px;
-            margin-top: 6px;
-            border-radius: 50%;
-            text-align: center;
-            font-size: 10px;
-            background: #47b475;
-        }
-        
-       #ido-marketing-services .faq-content #accordion a.collapsed[data-toggle=collapse]::before {
-            content: "+";
-            color: #fff;
-            font-size: 10px;
-            font-weight: 300;
-            background: #000000;
-            padding-left: 1px;
-        }
-        
-       #ido-marketing-services .faq-content h4.panel-title {
-            letter-spacing: 0;
-            color: #000000;
-            font-weight: 700;
-        }
-        
-       #ido-marketing-services .faq-content {
-            float: left;
-            width: 100%;
-        }
-        
-       #ido-marketing-services .faq-content .panel-heading {
-            padding-left: 0;
-            border-radius: 0!important;
-        }
-        
-       #ido-marketing-services .faq-content .panel-heading a {
-            text-decoration: none;
-        }
-        
-       #ido-marketing-services .faq-content .panel {
-            border-radius: 0!important;
-        }
-        
-        #faq-def .faq-content .panel-heading {
-            background: #f2f2f2!important;
-            color: #000000;
-        }
-        
-       #ido-marketing-services .faq-content .panel-body {
-            font-size: 14px;
-            color: #000000;
-            font-weight: normal;
-        }
-        
-       #ido-marketing-services .faq-content .panel {
-            border-top: none!important;
-            border-right: none!important;
-            border-left: none!important;
-            margin-bottom: 15px;
-        }
-        
-       #ido-marketing-services .faq-content .panel-body {
-            border: 1px solid #f3f3f3;
-            color: #000000;
-        }
-        
-       #ido-marketing-services .faq-content .panel-heading {
-            background: #fff!important;
-            color: #000000;
-            border: 1px solid #d6d6d6;
-        }
-        
-       #ido-marketing-services .aty {
-            margin-bottom: 0px !important;
-        }
-       
-.nec-btn{
-    position: relative !important;
-    color:#fff !important;
-    border-radius:30px !important;
-    font-size: 11px;
-    text-transform: uppercase !important;
-    transform: scale(1.1,1.1) !important;
-    transition:all 0.3s ease-out 0s !important;
-    background: #47b475 !important;
-}
-.nec-btn:hover{
-    transform: scale(1,1) !important;
-    color:#fff !important;
-    background:#00a9e2!important;
-}
-a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
-    margin-bottom: 15px!important;
-    display: inline-block;
-    margin-right: 26px!important;
-}
-.contentall a, a.home-talk-experts{
-	padding: 10px 20px !important;
+#ido-marketing-services .banner_content {
+  text-align: left;
 }
 
-.nec-btn{
-    position: relative !important;
-    color:#fff !important;
-    border-radius:30px !important;
-    font-size: 11px;
-    text-transform: uppercase !important;
-    transform: scale(1.1,1.1) !important;
-    transition:all 0.3s ease-out 0s !important;
-    background: #47b475 !important;
-}
-.nec-btn:hover{
-    transform: scale(1,1) !important;
-    color:#fff !important;
-    background:#00a9e2!important;
-}
-a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
-    margin-bottom: 15px!important;
-    display: inline-block;
-    margin-right: 26px!important;
-}
-.contentall a, a.home-talk-experts{
-	padding: 10px 20px !important;
+#ido-marketing-services .banner-overlay {
+  background-color: rgb(124 166 254 / 25%);
 }
 
-       #ido-marketing-services .Package_list img {
-                /*border:1px solid #fff;
-                border-radius: 150px;*/
-        }
-       #ido-marketing-services .Package_list {
-    display: inline-block;
-    background: rgba(0, 0, 0, .6);
-    padding: 30px 10px;
-    /* max-width: 280px; */
-    width: 25%;
-    margin-bottom: 30px;
+#ido-marketing-services .banner {
+  background-image: url(images/ido/bg.webp);
+  background-size: cover;
+  padding-top: 138px;
+  padding-bottom: 50px;
+  height: 650px;
+}
+
+#ido-marketing-services .bg-2 {
+  background-image: linear-gradient(45deg, #0000007a, #000000ed),
+    url(./assets/images/sec-bg4.webp);
+  background-size: cover;
+  padding-top: 65px;
+  padding-bottom: 50px;
+  height: auto;
+}
+
+#ido-marketing-services .banner-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to right, #00000000, #00000000);
+  opacity: 0.95;
+}
+
+#ido-marketing-services .banner_content {
+  text-align: left;
+  position: relative;
+  top: 0;
+  transform: none;
+}
+
+#ido-marketing-services .banner_content .contentall {
+  margin-top: 120px;
+}
+
+#ido-marketing-services .banner_content img {
+  padding-top: 40px;
+}
+
+#ido-marketing-services .contentall h1 {
+  color: #000 !important;
+}
+
+#ido-marketing-services .contentall p {
+  color: #000 !important;
+}
+
+#ido-marketing-services .contentall h1,
+#ido-marketing-services .ban_tirt {
+  margin-bottom: 20px;
+  line-height: 1.3;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+#ido-marketing-services .contentall p {
+  font-weight: normal;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-size: 19px;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+#ido-marketing-services .contentall a {
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 15px;
+  text-transform: uppercase !important;
+}
+#ido-marketing-services .sec_tit,
+#ido-marketing-services .sec_tit h2 {
+  font-size: 25px !important;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.4;
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+
+@media (max-width: 1199px) {
+  #ido-marketing-services .contentall h1,
+  #ido-marketing-services .ban_tirt {
+    font-size: 24px !important;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  #ido-marketing-services .banner_content .contentall {
+    margin-top: 30px;
     text-align: center;
-    border-radius: 5px;
-    margin: 2px ;
-    margin-bottom: 20px;
+  }
+  body,
+  html {
+    font-size: calc(15px + (14 - 12) * ((100vw - 600px) / (1140 - 600)));
+  }
+  #ido-marketing-services .banner {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  #ido-marketing-services .banner-overlay {
+    background: #023c5100;
+  }
+  #ido-marketing-services .banner_content p {
+    font-size: 14px !important;
+  }
+  #ido-marketing-services .contentall h1,
+  #ido-marketing-services .ban_tirt {
+    font-size: 25px;
+    text-align: center;
+  }
+  #ido-marketing-services .sec_tit,
+  #ido-marketing-services .sec_tit h2 {
+    font-size: 20px !important;
+  }
+
+  #ido-marketing-services .flip-box {
+    max-width: 450px;
+    margin: 0 auto 30px;
+  }
+  #ido-marketing-services .pull-left img {
+    margin-top: 30px;
+  }
+
+  #ido-marketing-services .pr_arr:after,
+  #ido-marketing-services .pr_arr:before,
+  #ido-marketing-services .banner_content p br,
+  #ido-marketing-services .sec_tit br {
+    display: none !important;
+  }
 }
-   .Package_list img {
-    height: 55px;
+
+#ido-marketing-services .intro_cnt img {
+  border-radius: 10px;
 }
-@media screen and  (max-width:320px){
-   #ido-marketing-services .Package_list {
-        width: 100%;
-    }
+
+a.home-talk-experts.w_bt {
+  background: no-repeat;
+  color: #47b475;
+  border: 2px solid #47b475;
+  padding: 8px 25px;
 }
-    
-    
-.nec-btn{
-     position: relative !important;
-    color:#fff !important;
-    border-radius:30px !important;
-    font-size: 11px;
-    text-transform: uppercase !important;
-    transform: scale(1.1,1.1) !important;
-    transition:all 0.3s ease-out 0s !important;
-    background: #47b475 !important;
+
+a.home-talk-experts.w_bt:hover {
+  color: #000 !important;
 }
-.nec-btn:hover{
-    transform: scale(1,1) !important;
-    color:#fff !important;
-    background:#00a9e2!important;
+
+#ido-marketing-services .sec_tit h2 {
+  display: inline;
+  font-size: 4rem !important;
+}
+
+#ido-marketing-services .text-white {
+  color: #fff;
+}
+
+#ido-marketing-services .uniq_features ul {
+  padding-left: 15px;
+}
+
+#ido-marketing-services .uniq_features ul li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 29px;
+}
+
+#ido-marketing-services .uniq_features ul li:after {
+  font-family: FontAwesome;
+  top: 3px;
+  right: 0;
+  padding-right: 10px;
+  content: "\f0a9";
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  color: #03b787;
+}
+
+#ido-marketing-services .pro-timeline {
+  position: relative;
+}
+
+#ido-marketing-services .pro-timeline:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#ido-marketing-services .pro-timeline:before {
+  content: "";
+  height: 90%;
+  width: 2px;
+  border: 2px solid #a3a3ad;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  top: 30px;
+}
+
+#ido-marketing-services .pro-timeline .timeline {
+  width: 50%;
+  padding: 0 35px 0 27px;
+  margin: 0 10px 20px 0;
+  float: left;
+}
+
+#ido-marketing-services .pro-timeline .timeline-content {
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.6);
+  display: block;
+  position: relative;
+}
+
+#ido-marketing-services .pro-timeline .timeline-content:hover {
+  text-decoration: none;
+}
+
+#ido-marketing-services .pro-timeline .timeline-content:before,
+#ido-marketing-services .pro-timeline .timeline-content:after {
+  content: "";
+  background: linear-gradient(to bottom, #00d28a, #78b0fa);
+  width: 45px;
+  height: 45px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 13px;
+  right: -58px;
+  z-index: 1;
+  border-radius: 25%;
+}
+
+#ido-marketing-services .pro-timeline .timeline-content:after {
+  background: #f2f2f2;
+  transform: rotate(-45deg) scale(0.6);
+}
+
+#ido-marketing-services .pro-timeline .timeline-icon {
+  color: #fff;
+  background: linear-gradient(to right, #617de0, #78b1f8);
+  font-size: 23px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  transform: translateY(-50%) rotate(-45deg);
+  position: absolute;
+  top: 50%;
+  left: -20px;
+}
+
+#ido-marketing-services .pro-timeline .timeline-icon i {
+  transform: rotate(45deg);
+}
+
+#ido-marketing-services .pro-timeline .timeline-year {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  line-height: 100px;
+  height: 100%;
+  width: 100px;
+  border-radius: 0 0 5px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#ido-marketing-services .pro-timeline .timeline-year:after {
+  content: "";
+  background: linear-gradient(
+    to right bottom,
+    #4fbbd3b0 49%,
+    transparent 50%
+  ) !important;
+  height: 33px;
+  width: 33px;
+  position: absolute;
+  right: -33px;
+  top: 0;
+}
+
+#ido-marketing-services .pro-timeline .title {
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 0 0 7px 0;
+}
+
+#ido-marketing-services .pro-timeline .description {
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+#ido-marketing-services .pro-timeline .timeline:nth-child(even) {
+  padding: 0 27px 0 35px;
+  margin: 0 0 20px 10px;
+  float: right;
+}
+
+#ido-marketing-services
+  .pro-timeline
+  .timeline:nth-child(even)
+  .timeline-content {
+  padding: 15px;
+}
+
+#ido-marketing-services
+  .pro-timeline
+  .timeline:nth-child(even)
+  .timeline-content:before,
+#ido-marketing-services
+  .pro-timeline
+  .timeline:nth-child(even)
+  .timeline-content:after {
+  right: auto;
+  left: -58px;
+}
+
+#ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-icon {
+  left: auto;
+  right: -20px;
+}
+
+#ido-marketing-services .pro-timeline .timeline:nth-child(even) .timeline-year {
+  right: auto;
+  left: 0;
+  border-radius: 0 0 0 5px;
+}
+
+#ido-marketing-services
+  .pro-timeline
+  .timeline:nth-child(even)
+  .timeline-year:after {
+  transform: rotateY(180deg);
+  right: auto;
+  left: -33px;
+}
+
+@media screen and (max-width: 767px) {
+  #ido-marketing-services .pro-timeline:before {
+    left: 17px;
+    transform: translateX(0);
+  }
+  #ido-marketing-services .pro-timeline .timeline,
+  #ido-marketing-services .pro-timeline .timeline:nth-child(even) {
+    width: 100%;
+    padding: 0 0 27px 40px;
+    margin: 0 0 30px 0;
+  }
+  #ido-marketing-services .pro-timeline .timeline-content,
+  #ido-marketing-services
+    .pro-timeline
+    .timeline:nth-child(even)
+    .timeline-content {
+    padding: 70px 15px 35px 15px;
+  }
+  #ido-marketing-services .pro-timeline .timeline-content:before,
+  #ido-marketing-services .pro-timeline .timeline-content:after,
+  #ido-marketing-services
+    .pro-timeline
+    .timeline:nth-child(even)
+    .timeline-content:before,
+  #ido-marketing-services
+    .pro-timeline
+    .timeline:nth-child(even)
+    .timeline-content:after {
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    right: auto;
+    left: -34px;
+  }
+  #ido-marketing-services .pro-timeline .timeline-icon,
+  #ido-marketing-services
+    .pro-timeline
+    .timeline:nth-child(even)
+    .timeline-icon {
+    transform: translateY(0) translateX(50%) rotate(-45deg);
+    left: auto;
+    right: 50%;
+    top: auto;
+    bottom: -20px;
+  }
+  #ido-marketing-services .pro-timeline .timeline-year,
+  #ido-marketing-services
+    .pro-timeline
+    .timeline:nth-child(even)
+    .timeline-year {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0 5px 5px 5px;
+    right: auto;
+    left: 0;
+  }
+  #ido-marketing-services .pro-timeline .timeline-year:after,
+  #ido-marketing-services
+    .pro-timeline
+    .timeline:nth-child(even)
+    .timeline-year:after {
+    height: 20px;
+    width: 20px;
+    transform: rotateY(180deg);
+    right: auto;
+    left: -20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #ido-marketing-services .pro-timeline .title {
+    font-size: 18px;
+  }
+}
+
+#ido-marketing-services .timeline-center::before {
+  background: #47b475 !important;
+}
+
+#ido-marketing-services .tm-detail p {
+  font-size: 15px;
+  color: #333;
+}
+
+#ido-marketing-services .title-th {
+  font-weight: 700;
+}
+
+#ido-marketing-services .title {
+  font-weight: 700;
+}
+
+#ido-marketing-services .partner-sec {
+  background: #fff;
+  padding: 15px;
+  max-width: 450px;
+  margin: 0 auto 30px;
+  min-height: 290px;
+  border-radius: 4px;
+}
+
+#ido-marketing-services .partner-sec:hover {
+  background: #f2f2f2;
+  color: #000000;
+}
+
+#ido-marketing-services .partner-sec img {
+  margin-bottom: 10px;
+}
+
+#ido-marketing-services .partner-sec h4 {
+  line-height: 1.3;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000000;
+  letter-spacing: 0px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 6px;
+}
+
+#ido-marketing-services .partner-sec:hover h4 {
+  color: #000000;
+}
+
+#ido-marketing-services .point-icon {
+  margin-bottom: 10px;
+}
+
+#ido-marketing-services
+  .faq-content
+  #accordion
+  a[data-toggle="collapse"]::before {
+  content: "&#8722;";
+  float: left;
+  font-family: "Glyphicons Halflings";
+  margin-right: 1em;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 6px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  background: #47b475;
+}
+
+#ido-marketing-services
+  .faq-content
+  #accordion
+  a.collapsed[data-toggle="collapse"]::before {
+  content: "+";
+  color: #fff;
+  font-size: 10px;
+  font-weight: 300;
+  background: #000000;
+  padding-left: 1px;
+}
+
+#ido-marketing-services .faq-content h4.panel-title {
+  letter-spacing: 0;
+  color: #000000;
+  font-weight: 700;
+}
+
+#ido-marketing-services .faq-content {
+  float: left;
+  width: 100%;
+}
+
+#ido-marketing-services .faq-content .panel-heading {
+  padding-left: 0;
+  border-radius: 0 !important;
+}
+
+#ido-marketing-services .faq-content .panel-heading a {
+  text-decoration: none;
+}
+
+#ido-marketing-services .faq-content .panel {
+  border-radius: 0 !important;
+}
+
+#faq-def .faq-content .panel-heading {
+  background: #f2f2f2 !important;
+  color: #000000;
+}
+
+#ido-marketing-services .faq-content .panel-body {
+  font-size: 14px;
+  color: #000000;
+  font-weight: normal;
+}
+
+#ido-marketing-services .faq-content .panel {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  margin-bottom: 15px;
+}
+
+#ido-marketing-services .faq-content .panel-body {
+  border: 1px solid #f3f3f3;
+  color: #000000;
+}
+
+#ido-marketing-services .faq-content .panel-heading {
+  background: #fff !important;
+  color: #000000;
+  border: 1px solid #d6d6d6;
+}
+
+#ido-marketing-services .aty {
+  margin-bottom: 0px !important;
+}
+
+.nec-btn {
+  position: relative !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  font-size: 11px;
+  text-transform: uppercase !important;
+  transform: scale(1.1, 1.1) !important;
+  transition: all 0.3s ease-out 0s !important;
+  background: #47b475 !important;
+}
+.nec-btn:hover {
+  transform: scale(1, 1) !important;
+  color: #fff !important;
+  background: #00a9e2 !important;
 }
 a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
-    margin-bottom: 15px!important;
-    display: inline-block;
-    margin-right: 26px!important;
+  margin-bottom: 15px !important;
+  display: inline-block;
+  margin-right: 26px !important;
 }
-.contentall a, a.home-talk-experts{
-	padding: 10px 20px !important;
+.contentall a,
+a.home-talk-experts {
+  padding: 10px 20px !important;
 }
 
-    #newsletter-form-sec .form-group{margin-bottom:7px;}
-    #mailForm_common .form-group label{color: #fff;}
-   #ido-marketing-services .contact-content{padding-top: 40px; padding: 30px; margin-top: -40px; margin-left: -40px; background-color: #f9f9f9; box-shadow: 0 0 6px 1px rgba(0,0,0,.22); border-radius: 7px;}
-   #ido-marketing-services .contact-content p{font-size: 18px; line-height: 30px;}
-   #ido-marketing-services .contact-content a{font-size: 18px; display: block;margin-bottom: 20px;}
-   #ido-marketing-services .contact-content a i{color: #47b475; font-size: 24px;}
-   #ido-marketing-services .form-control{background: #fff;}
-   #ido-marketing-services .pad-40-20{padding: 25px 25px 0 25px;}
-    input#phone_common{background: #fff;}
-    #mailForm_common .form-group label{color: #fff;}
-    a.home-talk-experts{border-radius: 25px;}
+.nec-btn {
+  position: relative !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  font-size: 11px;
+  text-transform: uppercase !important;
+  transform: scale(1.1, 1.1) !important;
+  transition: all 0.3s ease-out 0s !important;
+  background: #47b475 !important;
+}
+.nec-btn:hover {
+  transform: scale(1, 1) !important;
+  color: #fff !important;
+  background: #00a9e2 !important;
+}
+a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+  margin-bottom: 15px !important;
+  display: inline-block;
+  margin-right: 26px !important;
+}
+.contentall a,
+a.home-talk-experts {
+  padding: 10px 20px !important;
+}
 
-    @media only screen and (min-width: 320px) and (max-width: 767px) {
-       #ido-marketing-services .contact-content{margin-top: 20px; margin-left: 0;padding: 20px !important;}
-       #ido-marketing-services .pad-40-20{padding: 20px;}
-       #ido-marketing-services .contact-content a{font-size: 14px;}
-       #ido-marketing-services .sticky-form{display: none;}
-    }
+#ido-marketing-services .Package_list img {
+  /*border:1px solid #fff;
+                border-radius: 150px;*/
+}
+#ido-marketing-services .Package_list {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 10px;
+  /* max-width: 280px; */
+  width: 25%;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2px;
+  margin-bottom: 20px;
+}
+.Package_list img {
+  height: 55px;
+}
+@media screen and (max-width: 320px) {
+  #ido-marketing-services .Package_list {
+    width: 100%;
+  }
+}
 
-    @media only screen and (min-width: 768px) and (max-width: 899px) {
-       #ido-marketing-services .contact-content{margin-top: 20px; margin-left: 0;}
-    }
-   #ido-marketing-services .newsletter_videos h5 {
-    color: #fff;
-        font-size: 25px!important;
+.nec-btn {
+  position: relative !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  font-size: 11px;
+  text-transform: uppercase !important;
+  transform: scale(1.1, 1.1) !important;
+  transition: all 0.3s ease-out 0s !important;
+  background: #47b475 !important;
+}
+.nec-btn:hover {
+  transform: scale(1, 1) !important;
+  color: #fff !important;
+  background: #00a9e2 !important;
+}
+a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+  margin-bottom: 15px !important;
+  display: inline-block;
+  margin-right: 26px !important;
+}
+.contentall a,
+a.home-talk-experts {
+  padding: 10px 20px !important;
+}
+
+#newsletter-form-sec .form-group {
+  margin-bottom: 7px;
+}
+#mailForm_common .form-group label {
+  color: #fff;
+}
+#ido-marketing-services .contact-content {
+  padding-top: 40px;
+  padding: 30px;
+  margin-top: -40px;
+  margin-left: -40px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.22);
+  border-radius: 7px;
+}
+#ido-marketing-services .contact-content p {
+  font-size: 18px;
+  line-height: 30px;
+}
+#ido-marketing-services .contact-content a {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 20px;
+}
+#ido-marketing-services .contact-content a i {
+  color: #47b475;
+  font-size: 24px;
+}
+#ido-marketing-services .form-control {
+  background: #fff;
+}
+#ido-marketing-services .pad-40-20 {
+  padding: 25px 25px 0 25px;
+}
+input#phone_common {
+  background: #fff;
+}
+#mailForm_common .form-group label {
+  color: #fff;
+}
+a.home-talk-experts {
+  border-radius: 25px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #ido-marketing-services .contact-content {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 20px !important;
+  }
+  #ido-marketing-services .pad-40-20 {
+    padding: 20px;
+  }
+  #ido-marketing-services .contact-content a {
+    font-size: 14px;
+  }
+  #ido-marketing-services .sticky-form {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  #ido-marketing-services .contact-content {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+#ido-marketing-services .newsletter_videos h5 {
+  color: #fff;
+  font-size: 25px !important;
 }
 h5.section-title {
-    font-size: 27.46px;
+  font-size: 27.46px;
 }
 .client h5 {
-    color: #444!important;
+  color: #444 !important;
 }
 h5.common_h3 {
-    font-size: 25px!important;
+  font-size: 25px !important;
 }
-      
-   #ido-marketing-services .pull-right-tow {
-    background-color: #ba3c0d;
-    padding: 3px 15px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    margin-right: 125px;
-    position: absolute;
-    right: 0;
-    bottom: -35px;
+
+#ido-marketing-services .pull-right-tow {
+  background-color: #ba3c0d;
+  padding: 3px 15px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 125px;
+  position: absolute;
+  right: 0;
+  bottom: -35px;
 }
-.pull-right-tow a{
-    font-size: 12px;
+.pull-right-tow a {
+  font-size: 12px;
 }
 
 .header-nabar-icon .pull-right {
-    background-color: #47b475;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 3px 15px;
-    /*border-bottom-right-radius: 10px;
+  background-color: #47b475;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 3px 15px;
+  /*border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;*/
-    margin-right: 0px;
-    position: absolute;
-    right: 16px;
-    bottom: -30px;
+  margin-right: 0px;
+  position: absolute;
+  right: 16px;
+  bottom: -30px;
 }
 
-.header-nabar-icon .pull-right a:hover{
-    color: #fff!important;
+.header-nabar-icon .pull-right a:hover {
+  color: #fff !important;
 }
-.header-nabar-icon .pull-right a, .header-nabar-icon .pull-right-tow a{color: #fff;}
-
-.sticky-form>.quick-cont-btn {
-    top: 64vh;
-    right: -60px;
-    padding: 0px 20px;
+.header-nabar-icon .pull-right a,
+.header-nabar-icon .pull-right-tow a {
+  color: #fff;
 }
 
-@media  (max-width: 320px){
-   #ido-marketing-services .header-nabar-icon .pull-right, .pull-right-tow {
-        display: none;
-        border-radius: 0px;
-        position: relative;
-      width: 255px;
-    
-        text-align: center;
-        margin: 0 15px;
-        float: left !important;
-        padding: 9px 2px;
-    }
-   #ido-marketing-services .sidenav a {
+.sticky-form > .quick-cont-btn {
+  top: 64vh;
+  right: -60px;
+  padding: 0px 20px;
+}
+
+@media (max-width: 320px) {
+  #ido-marketing-services .header-nabar-icon .pull-right,
+  .pull-right-tow {
+    display: none;
+    border-radius: 0px;
+    position: relative;
+    width: 255px;
+
+    text-align: center;
+    margin: 0 15px;
+    float: left !important;
+    padding: 9px 2px;
+  }
+  #ido-marketing-services .sidenav a {
     font-size: 14px;
     padding: 4px 4px 8px 8px;
+  }
 }
+@media (max-width: 768px) {
+  #ido-marketing-services .header-nabar-icon .pull-right,
+  .pull-right-tow {
+    display: none;
+    border-radius: 0px;
+    position: relative;
+    width: 255px;
 
-}
-@media  (max-width: 768px){
-   #ido-marketing-services .header-nabar-icon .pull-right, .pull-right-tow {
-        display: none;
-        border-radius: 0px;
-        position: relative;
-      width: 255px;
-    
-        text-align: center;
-        margin: 0 15px;
-        float: left !important;
-        padding: 9px 2px;
-    }
-    #ido-marketing-services .sidenav a {
+    text-align: center;
+    margin: 0 15px;
+    float: left !important;
+    padding: 9px 2px;
+  }
+  #ido-marketing-services .sidenav a {
     font-size: 14px;
     padding: 4px 4px 8px 8px;
-}
+  }
 }
 /*@media  (max-width: 1024px){
    #ido-marketing-services .header-nabar-icon .pull-right, .pull-right-tow {
@@ -788,43 +978,60 @@ h5.common_h3 {
 }*/
 
 .color-btn {
-    background-color: #1fd1f9 !important;
-    background-image: -o-linear-gradient(135deg,#b621fe 0,#1fd1f9 74%) !important;
-    background-image: linear-gradient(315deg,#b621fe 0,#1fd1f9 74%) !important;
-    border-radius: 7px;
-    color: #fff;
+  background-color: #1fd1f9 !important;
+  background-image: -o-linear-gradient(
+    135deg,
+    #b621fe 0,
+    #1fd1f9 74%
+  ) !important;
+  background-image: linear-gradient(315deg, #b621fe 0, #1fd1f9 74%) !important;
+  border-radius: 7px;
+  color: #fff;
 }
-.color-btn1{
-    border: none;
-    /*border-radius: 50px;*/
-    transition: 0.3s;
-    background: #f90cff;
-    background-image: 
-    linear-gradient(to right bottom,#f90cff,#e027ff,#c534ff,#a93eff,#8a44ff,#6560ff,#3c73ff,#0081ff,#009cff,#00b3ff,#00c6f5,#0cd7e8);
-    /* clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%); */
-    animation: glow 1s infinite;
-    transition: 0.5s;
-    padding: 10px 25px;
-    color: #fff;
-    font-weight: 700;
-    margin: 0 auto;
-    font-size: 16px;
+.color-btn1 {
+  border: none;
+  /*border-radius: 50px;*/
+  transition: 0.3s;
+  background: #f90cff;
+  background-image: linear-gradient(
+    to right bottom,
+    #f90cff,
+    #e027ff,
+    #c534ff,
+    #a93eff,
+    #8a44ff,
+    #6560ff,
+    #3c73ff,
+    #0081ff,
+    #009cff,
+    #00b3ff,
+    #00c6f5,
+    #0cd7e8
+  );
+  /* clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%); */
+  animation: glow 1s infinite;
+  transition: 0.5s;
+  padding: 10px 25px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 16px;
 }
-.color-btn1:focus,.color-btn1:hover{
-        background-color: #47b475;
-        transition: 0.5s;
-
+.color-btn1:focus,
+.color-btn1:hover {
+  background-color: #47b475;
+  transition: 0.5s;
 }
 .color-btn1 span:hover {
-        transition: 0.3s;
-        opacity: 1;
-        font-weight: 700;
-    }
-  @media (min-width:320px) and (max-width:643px){
-       #ido-marketing-services .color-btn1{
-           padding: 9px 16px!important;
-        }
-     }
+  transition: 0.3s;
+  opacity: 1;
+  font-weight: 700;
+}
+@media (min-width: 320px) and (max-width: 643px) {
+  #ido-marketing-services .color-btn1 {
+    padding: 9px 16px !important;
+  }
+}
 /*.color-btn1:before{
     content: "";
     background: rgba(0,0,0,0.9);
@@ -837,31 +1044,31 @@ h5.common_h3 {
     z-index: -1;
 }*/
 @keyframes glow {
-        0% {
-            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
-        }
-        
-        50% {
-            box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255)
-        }
-        
-        100% {
-            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168)
-        }
-    }
+  0% {
+    box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+  }
+
+  50% {
+    box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255);
+  }
+
+  100% {
+    box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+  }
+}
 .sticky_form_bp {
-    position: fixed;
-    right: -80px !important;
-    top: 250px;
-    z-index: 10;
-    background: #47b475;
-    color: #fff;
-    padding: 0px 15px 16px !important;
-    text-transform: capitalize;
-    font-weight: 700;
-    transform: rotate(270deg) !important;
-    cursor: pointer;
-    font-size: 14px;
+  position: fixed;
+  right: -80px !important;
+  top: 250px;
+  z-index: 10;
+  background: #47b475;
+  color: #fff;
+  padding: 0px 15px 16px !important;
+  text-transform: capitalize;
+  font-weight: 700;
+  transform: rotate(270deg) !important;
+  cursor: pointer;
+  font-size: 14px;
 }
 /*@media (max-width: 1024px){
    #ido-marketing-services .sticky_form_bp {
@@ -877,8 +1084,8 @@ h5.common_h3 {
 }*/
 
 @media (min-width: 320px) and (max-width: 768px) {
-/*.openbtn1{width: 70px !important; top: 21% !important;}*/
-}  
+  /*.openbtn1{width: 70px !important; top: 21% !important;}*/
+}
 
 /* The sidepanel menu */
 .sidepanel4 {
@@ -892,7 +1099,6 @@ h5.common_h3 {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 0px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-
 }
 
 /* The sidepanel links */
@@ -902,7 +1108,7 @@ h5.common_h3 {
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s; 
+  transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -923,7 +1129,7 @@ h5.common_h3 {
   border-radius: 50%;
   text-align: center;
   background: #eb1e2d !important;
-  line-height: 0.80em;
+  line-height: 0.8em;
   font-weight: bold;
   border: 2px solid #fff;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 70%);
@@ -943,7 +1149,7 @@ h5.common_h3 {
   width: 90px;
   z-index: 99999;*/
   /*animation: zoom-in-zoom-out 1s ease infinite;*/
-  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
 }
 
 .openbtn1:hover {
@@ -962,32 +1168,119 @@ h5.common_h3 {
   }
 }
 
-.close-btn{position: fixed; left: 10px; bottom: 20px; z-index: 99; color: #fff !important; font-size: 16px; font-weight: bold; border-radius: 50%; border: 0; width: 30px; height: 30px; padding: 0; box-shadow: 1px 1px 11px -3px #999; display: none; transition: all 2s; background-color: #89002a;}
-.fixed-social {position: fixed; bottom: 42px; padding: 0px 10px; background: linear-gradient(2deg, black, #868686, black); transition: all 2s; width: 200px; height: 25px; border-radius: 20px; box-shadow: 1px 1px 11px -3px #999; /*filter: drop-shadow(0 0 0.75rem crimson);*/ display: flex !important; flex-wrap: wrap; z-index: 99; justify-content: center;}
-.hide {opacity:0; left:-100%;}
-.show1 {opacity:1; left:50px;}
-.fixed-social .items{margin: 0 auto;}
-.fixed-social .items .icons{width: 55px; height: 55px; background: linear-gradient(45deg, black, transparent); padding: 5px; border-radius: 50%; margin: -17px 0; float: left;}
-.fixed-social .items .icons i{padding: 9px; background: #00a7e7; border-radius: 50%; font-size: 26px; color: #fff;}
-.fixed-social .items .text{padding-left: 60px; font-weight: bold; font-family: arial; font-size: 14px; color: #fff !important; line-height: 2.2em;}
-.fixed-social .items a{text-decoration: none; outline: none; padding: 0; margin: 0;}
+.close-btn {
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  z-index: 99;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  box-shadow: 1px 1px 11px -3px #999;
+  display: none;
+  transition: all 2s;
+  background-color: #89002a;
+}
+.fixed-social {
+  position: fixed;
+  bottom: 42px;
+  padding: 0px 10px;
+  background: linear-gradient(2deg, black, #868686, black);
+  transition: all 2s;
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 11px -3px #999; /*filter: drop-shadow(0 0 0.75rem crimson);*/
+  display: flex !important;
+  flex-wrap: wrap;
+  z-index: 99;
+  justify-content: center;
+}
+.hide {
+  opacity: 0;
+  left: -100%;
+}
+.show1 {
+  opacity: 1;
+  left: 50px;
+}
+.fixed-social .items {
+  margin: 0 auto;
+}
+.fixed-social .items .icons {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(45deg, black, transparent);
+  padding: 5px;
+  border-radius: 50%;
+  margin: -17px 0;
+  float: left;
+}
+.fixed-social .items .icons i {
+  padding: 9px;
+  background: #00a7e7;
+  border-radius: 50%;
+  font-size: 26px;
+  color: #fff;
+}
+.fixed-social .items .text {
+  padding-left: 60px;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 14px;
+  color: #fff !important;
+  line-height: 2.2em;
+}
+.fixed-social .items a {
+  text-decoration: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
-   #ido-marketing-services .show1 {left:20px;}
-   #ido-marketing-services .close-btn{bottom: 60px;}
+  #ido-marketing-services .show1 {
+    left: 20px;
+  }
+  #ido-marketing-services .close-btn {
+    bottom: 60px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 899px) {
-   #ido-marketing-services .fixed-social {bottom: 80px;}  
-   #ido-marketing-services .show1 {left:50px;}
-   #ido-marketing-services .close-btn{bottom:60px; z-index: 999;}
+  #ido-marketing-services .fixed-social {
+    bottom: 80px;
+  }
+  #ido-marketing-services .show1 {
+    left: 50px;
+  }
+  #ido-marketing-services .close-btn {
+    bottom: 60px;
+    z-index: 999;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-   #ido-marketing-services .fixed-social .items .text{display: none;}   
-   #ido-marketing-services .fixed-social {bottom: 80px; }  
-   #ido-marketing-services .show1 {left:12%;} 
-   #ido-marketing-services .fixed-social .items a{display: flex; justify-content: center;}
-   #ido-marketing-services .close-btn{bottom:60px; z-index: 999;}
+  #ido-marketing-services .fixed-social .items .text {
+    display: none;
+  }
+  #ido-marketing-services .fixed-social {
+    bottom: 80px;
+  }
+  #ido-marketing-services .show1 {
+    left: 12%;
+  }
+  #ido-marketing-services .fixed-social .items a {
+    display: flex;
+    justify-content: center;
+  }
+  #ido-marketing-services .close-btn {
+    bottom: 60px;
+    z-index: 999;
+  }
 }
- 

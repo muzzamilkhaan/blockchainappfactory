@@ -4,10 +4,10 @@
   display: inline-block;
   width: auto;
 }
-.lc-1ip30wz {
+#ido-launchpad-on-polygon .lc-1ip30wz {
   height: 30px !important;
 }
-.top-header {
+#ido-launchpad-on-polygon .top-header {
   background: #378658;
   padding: 10px;
 }
@@ -47,7 +47,7 @@
     transform: scale(1);
   }
 }
-.top-header .breathing_effect {
+#ido-launchpad-on-polygon .top-header .breathing_effect {
   -webkit-animation: breathing 1s infinite ease-in-out;
   animation: breathing 1s infinite ease-in-out;
   -webkit-font-smoothing: antialiased;
@@ -55,28 +55,28 @@
   display: inline-block;
   width: auto;
 }
-.top-header .breathing_effect a {
+#ido-launchpad-on-polygon .top-header .breathing_effect a {
   background: #f44336;
   color: #fff;
   padding: 5px 10px;
   border-radius: 0;
   margin-left: 15px;
 }
-.top-header .breathing_effect a:hover {
+#ido-launchpad-on-polygon .top-header .breathing_effect a:hover {
   color: #fff !important;
 }
 @media (max-width: 1199px) {
-  .header .main-menu > li a {
+  #ido-launchpad-on-polygon .header .main-menu > li a {
     padding: 0 5px;
   }
 }
 @media (max-width: 550px) {
-  .top-header p {
+  #ido-launchpad-on-polygon .top-header p {
     width: 60%;
     text-align: right;
     vertical-align: middle;
   }
-  .top-header .breathing_effect {
+  #ido-launchpad-on-polygon .top-header .breathing_effect {
     display: inline-block;
     width: 40%;
   }

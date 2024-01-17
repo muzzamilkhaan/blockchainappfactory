@@ -324,9 +324,11 @@
 #swiper .blog-slider__content {
   padding-right: 25px;
   text-align: start;
-  @media (max-width: 1001px) {
-    max-width: 320px;
-    /* width: 300px; */
+
+}
+@media (max-width: 1001px) {
+  #swiper .blog-slider__content {
+  max-width: 320px;
   }
 }
 @media screen and (max-width: 768px) {

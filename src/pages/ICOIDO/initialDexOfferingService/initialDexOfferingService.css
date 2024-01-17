@@ -451,10 +451,8 @@ body {
 #initial-dex-offering-service .eto-exchange-flip .flip-box {
   min-height: 364px;
 }
-#initial-dex-offering-service .eto-exchange-flip .flip-box:hover{
-  .flip-txt{
+#initial-dex-offering-service .eto-exchange-flip .flip-box:hover .flip-txt{
     color: #fff;
-  }
 }
 #initial-dex-offering-service .flip-tit {
   font-weight: 700;

@@ -220,6 +220,16 @@ function Header({ headerBgColor, linkColor }) {
                           Crypto ETF Development
                         </Link>
                       </li>
+                      <li>
+                        <Link to={"/bitcoin-ordinals-token-development"}>
+                          Bitcoin Ordinals Token Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/bitcoin-ordinals-token-marketing"}>
+                          Bitcoin Ordinals Token Marketing
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="has-subsubmenu">

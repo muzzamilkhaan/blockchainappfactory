@@ -1,683 +1,830 @@
-
-#ido-token-launchpad-services .top-header p{margin-bottom:0;color:#fff;display:inline-block;width:auto}.lc-1ip30wz{height:30px!important}.top-header{background:#378658;padding:10px}@-webkit-keyframes breathing{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1.1);transform:scale(1.1)}50%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes breathing{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1.1);transform:scale(1.1)}50%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}.top-header .breathing_effect{-webkit-animation:breathing 1s infinite ease-in-out;animation:breathing 1s infinite ease-in-out;-webkit-font-smoothing:antialiased;transition:1s;display:inline-block;width:auto}.top-header .breathing_effect a{background:#f44336;color:#fff;padding:5px 10px;border-radius:0;margin-left:15px}.top-header .breathing_effect a:hover{color:#fff!important}@media (max-width:1199px){.header .main-menu>li a{padding:0 5px}}@media (max-width:550px){.top-header p{width:60%;text-align:right;vertical-align:middle}.top-header .breathing_effect{display:inline-block;width:40%}}
-#ido-token-launchpad-services .guardian-p{
-  text-align: center;font-size: 12px;
+#ido-token-launchpad-services .top-header p {
+  margin-bottom: 0;
+  color: #fff;
+  display: inline-block;
+  width: auto;
 }
-/*-- Client section --*/
-#ido-token-launchpad-services .teck .category-grid-style-01 .category-item{padding: 10px !important;}
-#ido-token-launchpad-services .category-item.aos-item .text-center{font-size: 12px !important; margin-bottom: 0px !important;} 
-#ido-token-launchpad-services .teck .category-grid-style-01 .category-item .category-icon{margin-bottom: 0 !important;}
-#ido-token-launchpad-services .teck .category-icon img{height: 80px !important;}
-
-#ido-token-launchpad-services h1,#ido-token-launchpad-services h2,#ido-token-launchpad-services h3,#ido-token-launchpad-services h4,#ido-token-launchpad-services h5,#ido-token-launchpad-services h6 {
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 0px !important;
+.lc-1ip30wz {
+  height: 30px !important;
 }
-#ido-token-launchpad-services .contentall{
-    padding: 0;
+.top-header {
+  background: #378658;
+  padding: 10px;
 }
-/*-- Client section --*/
-
-       #ido-token-launchpad-services h1,
-       #ido-token-launchpad-services h2,
-       #ido-token-launchpad-services h3,
-       #ido-token-launchpad-services h4,
-       #ido-token-launchpad-services h5,
-       #ido-token-launchpad-services h6 {
-            letter-spacing: 0;
-            line-height: 1.3
-        }
-        
-       #ido-token-launchpad-services .common-tit {
-            font-size: 14px;
-            color: #000
-        }
-        
-       #ido-token-launchpad-services .banner {
-            background-image: url(./assets/images/banner-bg28.webp);
-            background-size: cover;
-            padding-top: 150px;
-            padding-bottom: 50px;
-            height: 625px;
-            /* background-position: center; */
-            background-repeat: no-repeat
-        }
-        
-       #ido-token-launchpad-services .banner-overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background-color: rgb(0 0 0 / 0%);
-            opacity: .95
-        }
-        
-        #ido-token-launchpad-services .banner_content {
-            text-align: left;
-            position: relative;
-            top: 0;
-            transform: none
-        }
-        
-       #ido-token-launchpad-services .banner_content .contentall {
-            margin-top: 80px;
-            text-align: left
-        }
-        
-       #ido-token-launchpad-services .ban_tirt,
-       #ido-token-launchpad-services .contentall h1 {
-            margin-bottom: 20px;
-            line-height: 1.3;
-            font-weight: 700;
-            font-size: 35px;
-            text-transform: capitalize;
-            color:#000 !important;
-        }
-        
-       #ido-token-launchpad-services .contentall p {
-            font-weight: 400;
-            margin-bottom: 30px;
-            line-height: 1.6;
-            font-size: 19px;
-            max-width: 800px;
-            margin: 0 auto 30px;
-            display: block;
-            color:#000 !important;
-        } 
-        
-       #ido-token-launchpad-services .contentall a {
-            color: #fff;
-            cursor: pointer;
-            margin-bottom: 15px
-        }
-        
-       #ido-token-launchpad-services .sec_tit,
-       #ido-token-launchpad-services .sec_tit h2 {
-            font-size: 25px!important;
-            font-weight: 700;
-            color: #000;
-            line-height: 1.4;
-        }
-        
-        @media (max-width:1199px) {
-           #ido-token-launchpad-services .ban_tirt,
-           #ido-token-launchpad-services .contentall h1 {
-                font-size: 30px
-            }
-        }
-        
-        @media (max-width:768px) {
-           #ido-token-launchpad-services .banner_content .contentall {
-                margin-top: 30px;
-                text-align: center
-            }
-            body,
-            html {
-                font-size: calc(15px + (14 - 12) * ((100vw - 600px)/ (1140 - 600)))
-            }
-           #ido-token-launchpad-services .banner {
-                padding-top: 120px;
-                padding-bottom: 80px;
-                height: auto
-            }
-           #ido-token-launchpad-services .banner_content p {
-                font-size: 14px!important;
-                color: #fff !important
-            }
-           #ido-token-launchpad-services .ban_tirt,
-           #ido-token-launchpad-services .contentall h1 {
-                font-size: 25px;
-                text-align: center;
-                color: #fff !important;
-            }
-           #ido-token-launchpad-services .sec_tit,
-           #ido-token-launchpad-services .sec_tit h2 {
-                font-size: 20px!important
-            }
-           #ido-token-launchpad-services .pull-left img {
-                margin-top: 30px
-            }
-        }
-        
-        #ido-token-launchpad-services h3.section-title {
-            font-size: 25px!important;
-            font-weight: 700;
-            text-transform: capitalize;
-            color: #000
-        }
-        
-       #ido-token-launchpad-services .banner_content h4 {
-            margin-top: 10px;
-            font-size: 24px;
-            color: #fff;
-            line-height: 40px;
-            font-weight: 700;
-            text-transform: capitalize;
-            letter-spacing: 0;
-            text-align: center;
-            margin-bottom: 10px
-        }
-        
-       #ido-token-launchpad-services .intro_cnt img {
-            border-radius: 10px
-        }
-        
-        #ido-token-launchpad-services a.home-talk-experts.w_bt {
-            background: no-repeat;
-            color: #47b475;
-            border: 2px solid #47b475;
-            padding: 8px 25px
-        }
-        
-        #ido-token-launchpad-services a.home-talk-experts.w_bt:hover {
-            color: #000!important
-        }
-        
-       #ido-token-launchpad-services .sec_tit h2 {
-            display: inline
-        }
-        
-       #ido-token-launchpad-services .text-white {
-            color: #fff
-        }
-        
-       #ido-token-launchpad-services .font-wei {
-            color: #000;
-            font-weight: 700
-        }
-
-       #ido-token-launchpad-services .cta_01 {
-            padding: 40px 0px;
-            background-image: linear-gradient(234deg, #0618594d,#000000e0),url(./assets/images/sec-bg8.webp);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size:cover;
-        }
-        #ido-token-launchpad-services #demo .container{
-            padding: 0;
-            border: none;
-        }
-       #ido-token-launchpad-services .cta_01 h2{padding:20px 0;}
-       #ido-token-launchpad-services .cta_01 h2, .cta_01 p{
-            color: #ffffff;
-        }
-        @media (max-width:500px) {
-           #ido-token-launchpad-services .cta_01 h2, .cta_01 p{text-align:center;}
-        }
-       #ido-token-launchpad-services .partner-sec {
-            background: #fff;
-            padding: 40px 15px 10px;
-            max-width: 450px;
-            margin: 0 auto 30px;
-            min-height: 350px;
-            border-radius: 10px;
-            box-shadow: 0 0 17px 5px #0000001a
-        }
-        
-       #ido-token-launchpad-services .partner-sec img {
-            margin-bottom: 10px;
-            width: 60px
-        }
-        
-       #ido-token-launchpad-services .partner-sec h4 {
-            margin-bottom: 10px
-        }
-        
-       #ido-token-launchpad-services .partner-sec h3 {
-            font-weight: 700;
-            margin-bottom: 20px;
-            color: #000
-        }
-        
-       #ido-token-launchpad-services .partner-sec:hover {
-            background: #47b475;
-            color: #fff
-        }
-        
-       #ido-token-launchpad-services .partner-sec:hover h3 {
-            color: #fff
-        }
-        
-       #ido-token-launchpad-services .partner-sec:hover p {
-            color: #fff
-        }
-        
-       #ido-token-launchpad-services .benifits-area.style-two .benifits-item {
-            border-width: 1px 0 1px 1px;
-            border-style: solid;
-            border-color: #f1f4f6;
-            margin: 15px;
-        }
-        
-       #ido-token-launchpad-services .benifits-item .feature-icon {
-            -webkit-transition: all .7s ease 0s;
-            transition: all .7s ease 0s
-        }
-        
-       #ido-token-launchpad-services .benifits-content .col-12:last-child .benifits-item {
-            border-right: 1px solid #f1f4f6
-        }
-        
-       #ido-token-launchpad-services .benifits-area.style-two .benifits-item:hover {
-            -webkit-box-shadow: rgb(70 4 37 / 10%) 0 15px 30px;
-            box-shadow: rgb(70 4 37 / 10%) 0 15px 30px;
-            z-index: 1;
-            background: #47b475;
-            border-radius: 12px;
-            transition: .5s all ease-in-out;
-            color: #fff
-        }
-        
-       #ido-token-launchpad-services .benifits-area.style-two .benifits-item:hover .txt {
-            color: #fff
-        }
-        
-       #ido-token-launchpad-services .benifits-area.style-two .benifits-item:hover {
-            -webkit-transform: inherit;
-            transform: inherit
-        }
-        
-       #ido-token-launchpad-services .benifits-area.style-two .benifits-item:hover p {
-           color: #fff;
-        }
-        
-       #ido-token-launchpad-services .benifits-item:hover .feature-icon {
-            -webkit-transform: rotateY(360deg);
-            transform: rotateY(360deg)
-        }
-        
-       #ido-token-launchpad-services .benifits-item:after {
-            position: absolute;
-            content: '';
-            height: 2px;
-            width: 100%;
-            bottom: 0;
-            left: 0;
-            opacity: 0
-        }
-        
-       #ido-token-launchpad-services .benifits-item {
-            height: auto;
-            margin-top: 20px;
-            padding: 30px 20px;
-            min-height: 362px;
-            background: #fff;
-            margin-bottom: 11px
-        }
-        
-       #ido-token-launchpad-services .mb-2,
-       #ido-token-launchpad-services .my-2 {
-            margin-bottom: .5rem!important
-        }
-        
-       #ido-token-launchpad-services .benifits-text .txt {
-            font-size: 18px;
-            margin-top: 15px;
-            font-weight: 700;
-            color: #000
-        }
-        
-       #ido-token-launchpad-services .contentall a,
-        a.home-talk-experts {
-            padding: 10px 20px!important
-        }
-        
-       #ido-token-launchpad-services .tab .nav-tabs {
-            border: none;
-            padding: 0 0 1px
-        }
-        
-       #ido-token-launchpad-services .tab .nav-tabs li a {
-            padding: 15px 30px;
-            background: #fff;
-            color: #000;
-            text-transform: capitalize;
-            position: relative;
-            border: 1px solid #c5c3c3;
-            z-index: 1;
-            transition: all .3s ease 0s
-        }
-        
-       #ido-token-launchpad-services .nav-tabs li a:hover {
-            color: #47b475!important
-        }
-        
-       #ido-token-launchpad-services .tab .nav-tabs li a:before {
-            content: "";
-            width: 100%;
-            height: 100%;
-            border-radius: 4px 4px 0 0;
-            position: absolute;
-            top: 0;
-            left: 0;
-            opacity: 0;
-            z-index: -1;
-            transform: scale(0, 0);
-            transition: all .5s ease 0s
-        }
-        
-       #ido-token-launchpad-services .tab .nav-tabs li a:hover:before {
-            background: #19a393;
-            opacity: 1
-        }
-        
-       #ido-token-launchpad-services .tab .nav-tabs li a i {
-            display: block;
-            font-size: 15px;
-            text-align: center;
-            margin-bottom: 5px
-        }
-        
-       #ido-token-launchpad-services .nav-tabs li.active a,
-       #ido-token-launchpad-services .nav-tabs li.active a:focus,
-       #ido-token-launchpad-services .nav-tabs li.active a:hover {
-            color: #fff;
-            background: #383634;
-            border-bottom: 1px solid #fff
-        }
-        
-       #ido-token-launchpad-services .nav-tabs li.active a:hover:before {
-            background: 0 0
-        }
-        
-       #ido-token-launchpad-services .tab .tab-content {
-            padding: 30px 20px;
-            background: #19a393
-        }
-        
-       #ido-token-launchpad-services .tab .tab-content h3 {
-            margin: 0 0 10px 0;
-            color: #fff;
-            font-weight: 700;
-            text-transform: capitalize;
-            text-align: center
-        }
-        
-       #ido-token-launchpad-services .tab .tab-content p {
-            text-transform: capitalize;
-            color: #fff;
-            font-size: 14px;
-            text-align: center
-        }
-        
-        @media only screen and (max-width:600px) {
-           #ido-token-launchpad-services .tab .nav-tabs li {
-                width: 100%;
-                margin-bottom: 0;
-                text-align: center
-            }
-        }
-        
-       #ido-token-launchpad-services .pro-feature {
-            position: relative;
-            padding: 4px;
-        }
-        
-       #ido-token-launchpad-services .pro-feature:after {
-            content: '';
-            display: block;
-            clear: both
-        }
-        
-       #ido-token-launchpad-services .pro-feature .feature {
-            width: 50.2%;
-            margin: 0 0 30px;
-            float: right;
-            position: relative
-        }
-        
-       #ido-token-launchpad-services .pro-feature .feature-content {
-            color: #000;
-            min-height: 130px;
-            padding: 0 0 0 85px;
-            display: block;
-            position: relative
-        }
-        
-       #ido-token-launchpad-services .pro-feature .feature-content:hover {
-            text-decoration: none
-        }
-        
-       #ido-token-launchpad-services .pro-feature .feature-icon {
-            color: #fff;
-            background: #fff;
-            font-size: 45px;
-            text-align: center;
-            line-height: 120px;
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            transform: translateY(-50%);
-            position: absolute;
-            top: 50%;
-            left: -60px;
-            z-index: 1
-        }
-        
-       #ido-token-launchpad-services .pro-feature .feature-icon:after,
-       #ido-token-launchpad-services .pro-feature .feature-icon:before {
-            content: '';
-            border-radius: 5px;
-            border: 2px solid #47b47559;
-            transform: rotate(45deg);
-            position: absolute;
-            left: 12px;
-            right: 12px;
-            top: 12px;
-            bottom: 12px;
-            z-index: -1
-        }
-        
-       #ido-token-launchpad-services .pro-feature .feature-icon:after {
-            border-radius: 50%;
-            border: none;
-            left: 18px;
-            right: 18px;
-            top: 18px;
-            bottom: 18px
-        }
-        
-       #ido-token-launchpad-services .pro-feature .title {
-            color: #000;
-            font-size: 20px;
-            font-weight: 700;
-            text-transform: capitalize;
-            margin: 0 0 5px
-        }
-        
-       #ido-token-launchpad-services .pro-feature .description {
-            font-size: 14px;
-            letter-spacing: 1px;
-            margin: 0
-        }
-        
-       #ido-token-launchpad-services .pro-feature .feature:nth-child(even) {
-            float: left
-        }
-        
-       #ido-token-launchpad-services .pro-feature .feature:nth-child(even) .feature-content {
-            padding: 0 85px 0 0
-        }
-        
-       #ido-token-launchpad-services .pro-feature .feature:nth-child(even) .feature-icon {
-            transform: translateY(-50%);
-            left: auto;
-            right: -60px
-        }
-       #ido-token-launchpad-services .primary-list li {
-            margin-bottom: 20px;
-            font-weight: 400;
-        }
-        
-       #ido-token-launchpad-services .primary-list li {
-            color: #222;
-        }
-        
-       #ido-token-launchpad-services .primary-list li h4 {
-            font-weight: 600;
-        }
-        
-       #ido-token-launchpad-services .primary-list li i {
-            color: #47b475;
-            padding-right: 10px;
-        }
-        
-       #ido-token-launchpad-services .port-txt {
-            font-weight: 400;
-            font-size: 14px!important;
-        }
-        
-        
-        @media screen and (max-width:767px) {
-           #ido-token-launchpad-services .pro-feature .feature {
-                width: 100%
-            }
-           #ido-token-launchpad-services .pro-feature .feature-content {
-                padding: 0 0 0 150px
-            }
-           #ido-token-launchpad-services .pro-feature .feature:nth-child(even) .feature-content {
-                padding: 0 150px 0 0
-            }
-           #ido-token-launchpad-services .pro-feature .feature-icon {
-                left: 0
-            }
-           #ido-token-launchpad-services .pro-feature .feature:nth-child(even) .feature-icon {
-                right: 0
-            }
-        }
-        
-        @media screen and (max-width:576px) {
-           #ido-token-launchpad-services .pro-feature .feature-content,
-           #ido-token-launchpad-services .pro-feature .feature:nth-child(even) .feature-content {
-                text-align: center;
-                padding: 140px 0 0
-            }
-           #ido-token-launchpad-services .pro-feature .feature-icon,
-           #ido-token-launchpad-services .pro-feature .feature:nth-child(even) .feature-icon {
-                transform: translateX(-50%) translateY(0);
-                left: 50%;
-                top: 4px
-            }
-           #ido-token-launchpad-services .pro-feature .feature:nth-child(even) .feature-icon {
-                transform: translateX(-50%) translateY(0)
-            }
-        }
-        
-        @media screen and (max-width: 500px) {
-           #ido-token-launchpad-services .banner{background-position: right !important;}
-           #ido-token-launchpad-services .banner-overlay {
-                background: rgb(0 0 0 / 75%);
-            }
-           #ido-token-launchpad-services .ban_tirt, .contentall h1,.contentall p{color:#fff;}
-        }
-       #ido-token-launchpad-services .bg-dark-half-md {
-    background: #368b5a;
-    width: 100%;
-    display: inline-block;
-    padding: 100px 0;
-}
- #ido-token-launchpad-services .category-grid-style-01 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    background: #fff;
-    -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
-    box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
-    border-radius: 5px;
-}
- #ido-token-launchpad-services .teck .category-grid-style-01 .category-item {
-    padding: 30px;
-    text-align: center;
-    width: 24% !important;
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    position: relative;
-    cursor: pointer;
-}
- #ido-token-launchpad-services .teck .category-grid-style-01 .category-item:before {
-    content: "";
-    background: #fff;
-    width: 110%;
-    height: 110%;
-    display: inline-block;
-    position: absolute;
-    left: -5%;
-    top: -5%;
-    z-index: 1;
-    opacity: 0;
-    -webkit-transform: scale(.96);
-    transform: scale(.96);
-    transition: all .3s ease-in-out;
-}
- #ido-token-launchpad-services .teck .category-grid-style-01 .category-item .category-icon {
-    color: #333;
-    font-size: 44px;
-    line-height: 1;
-    margin-bottom: 10px;
-    position: relative;
-    z-index: 2;
-}
- #ido-token-launchpad-services .category-grid-style-01 .category-item:hover:before {
-    -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
-    box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
-    opacity: 1;
+@-webkit-keyframes breathing {
+  0% {
     -webkit-transform: scale(1);
     transform: scale(1);
-    transition: all .3s ease-in-out;
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
- #ido-token-launchpad-services .projectFactsWrap{
-    display: flex;
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.top-header .breathing_effect {
+  -webkit-animation: breathing 1s infinite ease-in-out;
+  animation: breathing 1s infinite ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  transition: 1s;
+  display: inline-block;
+  width: auto;
+}
+.top-header .breathing_effect a {
+  background: #f44336;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0;
+  margin-left: 15px;
+}
+.top-header .breathing_effect a:hover {
+  color: #fff !important;
+}
+@media (max-width: 1199px) {
+  .header .main-menu > li a {
+    padding: 0 5px;
+  }
+}
+@media (max-width: 550px) {
+  .top-header p {
+    width: 60%;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .top-header .breathing_effect {
+    display: inline-block;
+    width: 40%;
+  }
+}
+#ido-token-launchpad-services .guardian-p {
+  text-align: center;
+  font-size: 12px;
+}
+/*-- Client section --*/
+#ido-token-launchpad-services .teck .category-grid-style-01 .category-item {
+  padding: 10px !important;
+}
+#ido-token-launchpad-services .category-item.aos-item .text-center {
+  font-size: 12px !important;
+  margin-bottom: 0px !important;
+}
+#ido-token-launchpad-services
+  .teck
+  .category-grid-style-01
+  .category-item
+  .category-icon {
+  margin-bottom: 0 !important;
+}
+#ido-token-launchpad-services .teck .category-icon img {
+  height: 80px !important;
+}
+
+#ido-token-launchpad-services h1,
+#ido-token-launchpad-services h2,
+#ido-token-launchpad-services h3,
+#ido-token-launchpad-services h4,
+#ido-token-launchpad-services h5,
+#ido-token-launchpad-services h6 {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0px !important;
+}
+#ido-token-launchpad-services .contentall {
+  padding: 0;
+}
+/*-- Client section --*/
+
+#ido-token-launchpad-services h1,
+#ido-token-launchpad-services h2,
+#ido-token-launchpad-services h3,
+#ido-token-launchpad-services h4,
+#ido-token-launchpad-services h5,
+#ido-token-launchpad-services h6 {
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+
+#ido-token-launchpad-services .common-tit {
+  font-size: 14px;
+  color: #000;
+}
+
+#ido-token-launchpad-services .banner {
+  background-image: url(./assets/images/banner-bg28.webp);
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  height: 625px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+
+#ido-token-launchpad-services .banner-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0 0 0 / 0%);
+  opacity: 0.95;
+}
+
+#ido-token-launchpad-services .banner_content {
+  text-align: left;
+  position: relative;
+  top: 0;
+  transform: none;
+}
+
+#ido-token-launchpad-services .banner_content .contentall {
+  margin-top: 80px;
+  text-align: left;
+}
+
+#ido-token-launchpad-services .ban_tirt,
+#ido-token-launchpad-services .contentall h1 {
+  margin-bottom: 20px;
+  line-height: 1.3;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #000 !important;
+}
+
+#ido-token-launchpad-services .contentall p {
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-size: 19px;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  display: block;
+  color: #000 !important;
+}
+
+#ido-token-launchpad-services .contentall a {
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+#ido-token-launchpad-services .sec_tit,
+#ido-token-launchpad-services .sec_tit h2 {
+  font-size: 25px !important;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.4;
+}
+
+@media (max-width: 1199px) {
+  #ido-token-launchpad-services .ban_tirt,
+  #ido-token-launchpad-services .contentall h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  #ido-token-launchpad-services .banner_content .contentall {
+    margin-top: 30px;
+    text-align: center;
+  }
+  body,
+  html {
+    font-size: calc(15px + (14 - 12) * ((100vw - 600px) / (1140 - 600)));
+  }
+  #ido-token-launchpad-services .banner {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    height: auto;
+  }
+  #ido-token-launchpad-services .banner_content p {
+    font-size: 14px !important;
+    color: #fff !important;
+  }
+  #ido-token-launchpad-services .ban_tirt,
+  #ido-token-launchpad-services .contentall h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #fff !important;
+  }
+  #ido-token-launchpad-services .sec_tit,
+  #ido-token-launchpad-services .sec_tit h2 {
+    font-size: 20px !important;
+  }
+  #ido-token-launchpad-services .pull-left img {
+    margin-top: 30px;
+  }
+}
+
+#ido-token-launchpad-services h3.section-title {
+  font-size: 25px !important;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000;
+}
+
+#ido-token-launchpad-services .banner_content h4 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#ido-token-launchpad-services .intro_cnt img {
+  border-radius: 10px;
+}
+
+#ido-token-launchpad-services a.home-talk-experts.w_bt {
+  background: no-repeat;
+  color: #47b475;
+  border: 2px solid #47b475;
+  padding: 8px 25px;
+}
+
+#ido-token-launchpad-services a.home-talk-experts.w_bt:hover {
+  color: #000 !important;
+}
+
+#ido-token-launchpad-services .sec_tit h2 {
+  display: inline;
+}
+
+#ido-token-launchpad-services .text-white {
+  color: #fff;
+}
+
+#ido-token-launchpad-services .font-wei {
+  color: #000;
+  font-weight: 700;
+}
+
+#ido-token-launchpad-services .cta_01 {
+  padding: 40px 0px;
+  background-image: linear-gradient(234deg, #0618594d, #000000e0),
+    url(./assets/images/sec-bg8.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ido-token-launchpad-services #demo .container {
+  padding: 0;
+  border: none;
+}
+#ido-token-launchpad-services .cta_01 h2 {
+  padding: 20px 0;
+}
+#ido-token-launchpad-services .cta_01 h2,
+.cta_01 p {
+  color: #ffffff;
+}
+@media (max-width: 500px) {
+  #ido-token-launchpad-services .cta_01 h2,
+  .cta_01 p {
+    text-align: center;
+  }
+}
+#ido-token-launchpad-services .partner-sec {
+  background: #fff;
+  padding: 40px 15px 10px;
+  max-width: 450px;
+  margin: 0 auto 30px;
+  min-height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 17px 5px #0000001a;
+}
+
+#ido-token-launchpad-services .partner-sec img {
+  margin-bottom: 10px;
+  width: 60px;
+}
+
+#ido-token-launchpad-services .partner-sec h4 {
+  margin-bottom: 10px;
+}
+
+#ido-token-launchpad-services .partner-sec h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+#ido-token-launchpad-services .partner-sec:hover {
+  background: #47b475;
+  color: #fff;
+}
+
+#ido-token-launchpad-services .partner-sec:hover h3 {
+  color: #fff;
+}
+
+#ido-token-launchpad-services .partner-sec:hover p {
+  color: #fff;
+}
+
+#ido-token-launchpad-services .benifits-area.style-two .benifits-item {
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  border-color: #f1f4f6;
+  margin: 15px;
+}
+
+#ido-token-launchpad-services .benifits-item .feature-icon {
+  -webkit-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
+
+#ido-token-launchpad-services
+  .benifits-content
+  .col-12:last-child
+  .benifits-item {
+  border-right: 1px solid #f1f4f6;
+}
+
+#ido-token-launchpad-services .benifits-area.style-two .benifits-item:hover {
+  -webkit-box-shadow: rgb(70 4 37 / 10%) 0 15px 30px;
+  box-shadow: rgb(70 4 37 / 10%) 0 15px 30px;
+  z-index: 1;
+  background: #47b475;
+  border-radius: 12px;
+  transition: 0.5s all ease-in-out;
+  color: #fff;
+}
+
+#ido-token-launchpad-services
+  .benifits-area.style-two
+  .benifits-item:hover
+  .txt {
+  color: #fff;
+}
+
+#ido-token-launchpad-services .benifits-area.style-two .benifits-item:hover {
+  -webkit-transform: inherit;
+  transform: inherit;
+}
+
+#ido-token-launchpad-services .benifits-area.style-two .benifits-item:hover p {
+  color: #fff;
+}
+
+#ido-token-launchpad-services .benifits-item:hover .feature-icon {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+#ido-token-launchpad-services .benifits-item:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+
+#ido-token-launchpad-services .benifits-item {
+  height: auto;
+  margin-top: 20px;
+  padding: 30px 20px;
+  min-height: 362px;
+  background: #fff;
+  margin-bottom: 11px;
+}
+
+#ido-token-launchpad-services .mb-2,
+#ido-token-launchpad-services .my-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+#ido-token-launchpad-services .benifits-text .txt {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 700;
+  color: #000;
+}
+
+#ido-token-launchpad-services .contentall a,
+a.home-talk-experts {
+  padding: 10px 20px !important;
+}
+
+#ido-token-launchpad-services .tab .nav-tabs {
+  border: none;
+  padding: 0 0 1px;
+}
+
+#ido-token-launchpad-services .tab .nav-tabs li a {
+  padding: 15px 30px;
+  background: #fff;
+  color: #000;
+  text-transform: capitalize;
+  position: relative;
+  border: 1px solid #c5c3c3;
+  z-index: 1;
+  transition: all 0.3s ease 0s;
+}
+
+#ido-token-launchpad-services .nav-tabs li a:hover {
+  color: #47b475 !important;
+}
+
+#ido-token-launchpad-services .tab .nav-tabs li a:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 4px 4px 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+  transform: scale(0, 0);
+  transition: all 0.5s ease 0s;
+}
+
+#ido-token-launchpad-services .tab .nav-tabs li a:hover:before {
+  background: #19a393;
+  opacity: 1;
+}
+
+#ido-token-launchpad-services .tab .nav-tabs li a i {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#ido-token-launchpad-services .nav-tabs li.active a,
+#ido-token-launchpad-services .nav-tabs li.active a:focus,
+#ido-token-launchpad-services .nav-tabs li.active a:hover {
+  color: #fff;
+  background: #383634;
+  border-bottom: 1px solid #fff;
+}
+
+#ido-token-launchpad-services .nav-tabs li.active a:hover:before {
+  background: 0 0;
+}
+
+#ido-token-launchpad-services .tab .tab-content {
+  padding: 30px 20px;
+  background: #19a393;
+}
+
+#ido-token-launchpad-services .tab .tab-content h3 {
+  margin: 0 0 10px 0;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#ido-token-launchpad-services .tab .tab-content p {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #ido-token-launchpad-services .tab .nav-tabs li {
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+#ido-token-launchpad-services .pro-feature {
+  position: relative;
+  padding: 4px;
+}
+
+#ido-token-launchpad-services .pro-feature:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#ido-token-launchpad-services .pro-feature .feature {
+  width: 50.2%;
+  margin: 0 0 30px;
+  float: right;
+  position: relative;
+}
+
+#ido-token-launchpad-services .pro-feature .feature-content {
+  color: #000;
+  min-height: 130px;
+  padding: 0 0 0 85px;
+  display: block;
+  position: relative;
+}
+
+#ido-token-launchpad-services .pro-feature .feature-content:hover {
+  text-decoration: none;
+}
+
+#ido-token-launchpad-services .pro-feature .feature-icon {
+  color: #fff;
+  background: #fff;
+  font-size: 45px;
+  text-align: center;
+  line-height: 120px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  z-index: 1;
+}
+
+#ido-token-launchpad-services .pro-feature .feature-icon:after,
+#ido-token-launchpad-services .pro-feature .feature-icon:before {
+  content: "";
+  border-radius: 5px;
+  border: 2px solid #47b47559;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  top: 12px;
+  bottom: 12px;
+  z-index: -1;
+}
+
+#ido-token-launchpad-services .pro-feature .feature-icon:after {
+  border-radius: 50%;
+  border: none;
+  left: 18px;
+  right: 18px;
+  top: 18px;
+  bottom: 18px;
+}
+
+#ido-token-launchpad-services .pro-feature .title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 0 5px;
+}
+
+#ido-token-launchpad-services .pro-feature .description {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+#ido-token-launchpad-services .pro-feature .feature:nth-child(even) {
+  float: left;
+}
+
+#ido-token-launchpad-services
+  .pro-feature
+  .feature:nth-child(even)
+  .feature-content {
+  padding: 0 85px 0 0;
+}
+
+#ido-token-launchpad-services
+  .pro-feature
+  .feature:nth-child(even)
+  .feature-icon {
+  transform: translateY(-50%);
+  left: auto;
+  right: -60px;
+}
+#ido-token-launchpad-services .primary-list li {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+#ido-token-launchpad-services .primary-list li {
+  color: #222;
+}
+
+#ido-token-launchpad-services .primary-list li h4 {
+  font-weight: 600;
+}
+
+#ido-token-launchpad-services .primary-list li i {
+  color: #47b475;
+  padding-right: 10px;
+}
+
+#ido-token-launchpad-services .port-txt {
+  font-weight: 400;
+  font-size: 14px !important;
+}
+
+@media screen and (max-width: 767px) {
+  #ido-token-launchpad-services .pro-feature .feature {
+    width: 100%;
+  }
+  #ido-token-launchpad-services .pro-feature .feature-content {
+    padding: 0 0 0 150px;
+  }
+  #ido-token-launchpad-services
+    .pro-feature
+    .feature:nth-child(even)
+    .feature-content {
+    padding: 0 150px 0 0;
+  }
+  #ido-token-launchpad-services .pro-feature .feature-icon {
+    left: 0;
+  }
+  #ido-token-launchpad-services
+    .pro-feature
+    .feature:nth-child(even)
+    .feature-icon {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #ido-token-launchpad-services .pro-feature .feature-content,
+  #ido-token-launchpad-services
+    .pro-feature
+    .feature:nth-child(even)
+    .feature-content {
+    text-align: center;
+    padding: 140px 0 0;
+  }
+  #ido-token-launchpad-services .pro-feature .feature-icon,
+  #ido-token-launchpad-services
+    .pro-feature
+    .feature:nth-child(even)
+    .feature-icon {
+    transform: translateX(-50%) translateY(0);
+    left: 50%;
+    top: 4px;
+  }
+  #ido-token-launchpad-services
+    .pro-feature
+    .feature:nth-child(even)
+    .feature-icon {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #ido-token-launchpad-services .banner {
+    background-position: right !important;
+  }
+  #ido-token-launchpad-services .banner-overlay {
+    background: rgb(0 0 0 / 75%);
+  }
+  #ido-token-launchpad-services .ban_tirt,
+  .contentall h1,
+  .contentall p {
+    color: #fff;
+  }
+}
+#ido-token-launchpad-services .bg-dark-half-md {
+  background: #368b5a;
+  width: 100%;
+  display: inline-block;
+  padding: 100px 0;
+}
+#ido-token-launchpad-services .category-grid-style-01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background: #fff;
+  -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+  box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+  border-radius: 5px;
+}
+#ido-token-launchpad-services .teck .category-grid-style-01 .category-item {
+  padding: 30px;
+  text-align: center;
+  width: 24% !important;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  cursor: pointer;
+}
+#ido-token-launchpad-services
+  .teck
+  .category-grid-style-01
+  .category-item:before {
+  content: "";
+  background: #fff;
+  width: 110%;
+  height: 110%;
+  display: inline-block;
+  position: absolute;
+  left: -5%;
+  top: -5%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: scale(0.96);
+  transform: scale(0.96);
+  transition: all 0.3s ease-in-out;
+}
+#ido-token-launchpad-services
+  .teck
+  .category-grid-style-01
+  .category-item
+  .category-icon {
+  color: #333;
+  font-size: 44px;
+  line-height: 1;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}
+#ido-token-launchpad-services
+  .category-grid-style-01
+  .category-item:hover:before {
+  -webkit-box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+  box-shadow: 5px 5px 24px 0 rgb(2 45 98 / 10%);
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+#ido-token-launchpad-services .projectFactsWrap {
+  display: flex;
   margin-top: 0px;
   flex-direction: row;
   flex-wrap: wrap;
 }
- #ido-token-launchpad-services #projectFacts .fullWidth{
+#ido-token-launchpad-services #projectFacts .fullWidth {
   padding: 0;
 }
 
- #ido-token-launchpad-services .projectFactsWrap .item{
+#ido-token-launchpad-services .projectFactsWrap .item {
   width: 33.3%;
   height: 100%;
   padding: 30px 0px;
   text-align: center;
 }
 
- #ido-token-launchpad-services .projectFactsWrap .item:nth-child(1){
+#ido-token-launchpad-services .projectFactsWrap .item:nth-child(1) {
   background: #47b475;
 }
 
- #ido-token-launchpad-services .projectFactsWrap .item:nth-child(2){
+#ido-token-launchpad-services .projectFactsWrap .item:nth-child(2) {
   background: #3a9d64;
 }
 
- #ido-token-launchpad-services .projectFactsWrap .item:nth-child(3){
+#ido-token-launchpad-services .projectFactsWrap .item:nth-child(3) {
   background: #478f65;
 }
 
- #ido-token-launchpad-services .projectFactsWrap .item:nth-child(4){
+#ido-token-launchpad-services .projectFactsWrap .item:nth-child(4) {
   background: rgb(23, 44, 66);
 }
 
- #ido-token-launchpad-services .projectFactsWrap .item p.number{
+#ido-token-launchpad-services .projectFactsWrap .item p.number {
   font-size: 30px;
   padding: 0;
   font-weight: bold;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
 }
 
- #ido-token-launchpad-services .projectFactsWrap .item p{
+#ido-token-launchpad-services .projectFactsWrap .item p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
   margin: 0;
   padding: 10px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
-
- #ido-token-launchpad-services .projectFactsWrap .item span{
+#ido-token-launchpad-services .projectFactsWrap .item span {
   width: 60px;
   background: rgba(255, 255, 255, 0.8);
   height: 2px;
@@ -685,228 +832,292 @@
   margin: 0 auto;
 }
 
-
- #ido-token-launchpad-services .projectFactsWrap .item i{
+#ido-token-launchpad-services .projectFactsWrap .item i {
   vertical-align: middle;
   font-size: 50px;
   color: rgba(255, 255, 255, 0.8);
 }
 
-
- #ido-token-launchpad-services .projectFactsWrap .item:hover i, .projectFactsWrap .item:hover p{
+#ido-token-launchpad-services .projectFactsWrap .item:hover i,
+.projectFactsWrap .item:hover p {
   color: white;
 }
 
- #ido-token-launchpad-services.projectFactsWrap .item:hover span{
+#ido-token-launchpad-services.projectFactsWrap .item:hover span {
   background: white;
 }
 
-@media (max-width: 786px){
+@media (max-width: 786px) {
   #ido-token-launchpad-services .projectFactsWrap .item {
-     flex: 0 0 50%;
+    flex: 0 0 50%;
   }
 }
-@media screen and (max-width:768px) {
-           #ido-token-launchpad-services .teck .category-grid-style-01 .category-item {
-                width: 47%!important
-            }
-        }
+@media screen and (max-width: 768px) {
+  #ido-token-launchpad-services .teck .category-grid-style-01 .category-item {
+    width: 47% !important;
+  }
+}
 /* AUTHOR LINK */
 
-/*-- Technology --*/               
- #ido-token-launchpad-services .technologies {background:#140050; padding: 50px 0;}
- #ido-token-launchpad-services .technologies ul {display: flex; flex-wrap: wrap; justify-content: center;}
- #ido-token-launchpad-services .technologies ul li {width:26%; text-align: center; font-size: 16px; padding: 15px; margin: -1px; border: 1px solid #fff; background-image: none; }
+/*-- Technology --*/
+#ido-token-launchpad-services .technologies {
+  background: #140050;
+  padding: 50px 0;
+}
+#ido-token-launchpad-services .technologies ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#ido-token-launchpad-services .technologies ul li {
+  width: 26%;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px;
+  margin: -1px;
+  border: 1px solid #fff;
+  background-image: none;
+}
 /*.technologies ul li img {height: 60px;}*/
- #ido-token-launchpad-services .technologies ul li p{margin-bottom: 0 !important;}
+#ido-token-launchpad-services .technologies ul li p {
+  margin-bottom: 0 !important;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
- #ido-token-launchpad-services .technologies ul li {width: 49%;}
- #ido-token-launchpad-services .technologies ul li img {width: 60px;}
- #ido-token-launchpad-services .technologies ul li{margin:0px;}
+  #ido-token-launchpad-services .technologies ul li {
+    width: 49%;
+  }
+  #ido-token-launchpad-services .technologies ul li img {
+    width: 60px;
+  }
+  #ido-token-launchpad-services .technologies ul li {
+    margin: 0px;
+  }
 }
 
-
-      
-#ido-token-launchpad-services  section#counter-stats {
-    /* display: flex; */
-    justify-content: center;
-    margin-top: 0;
-    padding: 0!important;
-    background: rgb(26 26 26);
-    color: #fff;
+#ido-token-launchpad-services section#counter-stats {
+  /* display: flex; */
+  justify-content: center;
+  margin-top: 0;
+  padding: 0 !important;
+  background: rgb(26 26 26);
+  color: #fff;
 }
 
-
- #ido-token-launchpad-services .stats {
-    text-align: center;
-    font-size: 28px;
-    font-weight: 700;
-    padding: 1rem 0;
-
+#ido-token-launchpad-services .stats {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 1rem 0;
 }
 
- #ido-token-launchpad-services .stats .fa {
+#ido-token-launchpad-services .stats .fa {
   color: #008080;
   font-size: 60px;
 }
- #ido-token-launchpad-services .stats p {
-    font-size: 14px;
-    margin-bottom:0;
+#ido-token-launchpad-services .stats p {
+  font-size: 14px;
+  margin-bottom: 0;
 }
- #ido-token-launchpad-services #counter-stats .stats:nth-child(1){
-    background:#00cbd7;
+#ido-token-launchpad-services #counter-stats .stats:nth-child(1) {
+  background: #00cbd7;
 }
- #ido-token-launchpad-services #counter-stats .stats:nth-child(2){
-    background:#14e5f1;
+#ido-token-launchpad-services #counter-stats .stats:nth-child(2) {
+  background: #14e5f1;
 }
- #ido-token-launchpad-services #counter-stats .stats:nth-child(3){
-    background:#00cbd7;
+#ido-token-launchpad-services #counter-stats .stats:nth-child(3) {
+  background: #00cbd7;
 }
- #ido-token-launchpad-services #counter-stats .stats:nth-child(4){
-    background:#14e5f1;
+#ido-token-launchpad-services #counter-stats .stats:nth-child(4) {
+  background: #14e5f1;
 }
-
 
 /* AUTHOR LINK */
 
-
-
- #ido-token-launchpad-services .nec-btn{
-    position: relative !important;
-    color:#fff !important;
-    border-radius:30px !important;
-    font-size: 11px;
-    text-transform: uppercase !important;
-    transform: scale(1.1,1.1) !important;
-    transition:all 0.3s ease-out 0s !important;
-    background: #47b475 !important;
+#ido-token-launchpad-services .nec-btn {
+  position: relative !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  font-size: 11px;
+  text-transform: uppercase !important;
+  transform: scale(1.1, 1.1) !important;
+  transition: all 0.3s ease-out 0s !important;
+  background: #47b475 !important;
 }
- #ido-token-launchpad-services .nec-btn:hover{
-    transform: scale(1,1) !important;
-    color:#fff !important;
-    background:#00a9e2!important;
+#ido-token-launchpad-services .nec-btn:hover {
+  transform: scale(1, 1) !important;
+  color: #fff !important;
+  background: #00a9e2 !important;
 }
- #ido-token-launchpad-services a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
-    margin-bottom: 15px!important;
-    display: inline-block;
-    margin-right: 26px!important;
-    text-transform: uppercase !important;
+#ido-token-launchpad-services
+  a.nectar-button.medium.regular.accent-color.regular-button.nec-btn {
+  margin-bottom: 15px !important;
+  display: inline-block;
+  margin-right: 26px !important;
+  text-transform: uppercase !important;
 }
- #ido-token-launchpad-services .contentall a, a.home-talk-experts{
-	padding: 10px 20px !important;
-}
-
-    #ido-token-launchpad-services #newsletter-form-sec .form-group{margin-bottom:7px;}
-    #ido-token-launchpad-services #mailForm_common .form-group label{color: #fff;}
-   #ido-token-launchpad-services .contact-content{padding-top: 40px; padding: 30px; margin-top: -40px; margin-left: -40px; background-color: #f9f9f9; box-shadow: 0 0 6px 1px rgba(0,0,0,.22); border-radius: 7px;}
-   #ido-token-launchpad-services .contact-content p{font-size: 18px; line-height: 30px;}
-   #ido-token-launchpad-services .contact-content a{font-size: 18px; display: block;margin-bottom: 20px;}
-   #ido-token-launchpad-services .contact-content a i{color: #47b475; font-size: 24px;}
-   #ido-token-launchpad-services .form-control{background: #fff !important;}
-   #ido-token-launchpad-services .pad-40-20{padding: 25px 25px 0 25px;}
-    #ido-token-launchpad-services input#phone_common{background: #fff;}
-    #ido-token-launchpad-services #mailForm_common .form-group label{color: #fff;}
-    #ido-token-launchpad-services a.home-talk-experts{border-radius: 25px;}
-
-    @media only screen and (min-width: 320px) and (max-width: 767px) {
-       #ido-token-launchpad-services .contact-content{margin-top: 20px; margin-left: 0;padding: 20px !important;}
-       #ido-token-launchpad-services .pad-40-20{padding: 20px;}
-       #ido-token-launchpad-services .contact-content a{font-size: 14px;}
-       #ido-token-launchpad-services .sticky-form{display: none;}
-    }
-
-    @media only screen and (min-width: 768px) and (max-width: 899px) {
-       #ido-token-launchpad-services .contact-content{margin-top: 20px; margin-left: 0;}
-    }
-   #ido-token-launchpad-services .newsletter_videos h5 {
-    color: #fff;
-        font-size: 25px!important;
-}
- #ido-token-launchpad-services h5.section-title {
-    font-size: 27.46px;
-}
- #ido-token-launchpad-services .client h5 {
-    color: #444!important;
-}
- #ido-token-launchpad-services h5.common_h3 {
-    font-size: 25px!important;
+#ido-token-launchpad-services .contentall a,
+a.home-talk-experts {
+  padding: 10px 20px !important;
 }
 
-
-
-   #ido-token-launchpad-services .pull-right-tow {
-    background-color: #ba3c0d;
-    padding: 3px 15px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    margin-right: 125px;
-    position: absolute;
-    right: 0;
-    bottom: -35px;
+#ido-token-launchpad-services #newsletter-form-sec .form-group {
+  margin-bottom: 7px;
 }
- #ido-token-launchpad-services .pull-right-tow a{
-    font-size: 12px;
+#ido-token-launchpad-services #mailForm_common .form-group label {
+  color: #fff;
+}
+#ido-token-launchpad-services .contact-content {
+  padding-top: 40px;
+  padding: 30px;
+  margin-top: -40px;
+  margin-left: -40px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.22);
+  border-radius: 7px;
+}
+#ido-token-launchpad-services .contact-content p {
+  font-size: 18px;
+  line-height: 30px;
+}
+#ido-token-launchpad-services .contact-content a {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 20px;
+}
+#ido-token-launchpad-services .contact-content a i {
+  color: #47b475;
+  font-size: 24px;
+}
+#ido-token-launchpad-services .form-control {
+  background: #fff !important;
+}
+#ido-token-launchpad-services .pad-40-20 {
+  padding: 25px 25px 0 25px;
+}
+#ido-token-launchpad-services input#phone_common {
+  background: #fff;
+}
+#ido-token-launchpad-services #mailForm_common .form-group label {
+  color: #fff;
+}
+#ido-token-launchpad-services a.home-talk-experts {
+  border-radius: 25px;
 }
 
- #ido-token-launchpad-services .header-nabar-icon .pull-right {
-    background-color: #47b475;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 3px 15px;
-    /*border-bottom-right-radius: 10px;
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #ido-token-launchpad-services .contact-content {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 20px !important;
+  }
+  #ido-token-launchpad-services .pad-40-20 {
+    padding: 20px;
+  }
+  #ido-token-launchpad-services .contact-content a {
+    font-size: 14px;
+  }
+  #ido-token-launchpad-services .sticky-form {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  #ido-token-launchpad-services .contact-content {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+#ido-token-launchpad-services .newsletter_videos h5 {
+  color: #fff;
+  font-size: 25px !important;
+}
+#ido-token-launchpad-services h5.section-title {
+  font-size: 27.46px;
+}
+#ido-token-launchpad-services .client h5 {
+  color: #444 !important;
+}
+#ido-token-launchpad-services h5.common_h3 {
+  font-size: 25px !important;
+}
+
+#ido-token-launchpad-services .pull-right-tow {
+  background-color: #ba3c0d;
+  padding: 3px 15px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 125px;
+  position: absolute;
+  right: 0;
+  bottom: -35px;
+}
+#ido-token-launchpad-services .pull-right-tow a {
+  font-size: 12px;
+}
+
+#ido-token-launchpad-services .header-nabar-icon .pull-right {
+  background-color: #47b475;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 3px 15px;
+  /*border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;*/
-    margin-right: 0px;
-    position: absolute;
-    right: 16px;
-    bottom: -30px;
+  margin-right: 0px;
+  position: absolute;
+  right: 16px;
+  bottom: -30px;
 }
 
- #ido-token-launchpad-services .header-nabar-icon .pull-right a:hover{
-    color: #fff!important;
+#ido-token-launchpad-services .header-nabar-icon .pull-right a:hover {
+  color: #fff !important;
 }
- #ido-token-launchpad-services .header-nabar-icon .pull-right a, #ido-token-launchpad-services  .header-nabar-icon .pull-right-tow a{color: #fff;}
-
-.sticky-form>.quick-cont-btn {
-    top: 64vh;
-    right: -60px;
-    padding: 0px 20px;
+#ido-token-launchpad-services .header-nabar-icon .pull-right a,
+#ido-token-launchpad-services .header-nabar-icon .pull-right-tow a {
+  color: #fff;
 }
 
-@media  (max-width: 320px){
-   #ido-token-launchpad-services .header-nabar-icon .pull-right, .pull-right-tow {
-        display: none;
-        border-radius: 0px;
-        position: relative;
-      width: 255px;
-    
-        text-align: center;
-        margin: 0 15px;
-        float: left !important;
-        padding: 9px 2px;
-    }
-   #ido-token-launchpad-services .sidenav a {
+.sticky-form > .quick-cont-btn {
+  top: 64vh;
+  right: -60px;
+  padding: 0px 20px;
+}
+
+@media (max-width: 320px) {
+  #ido-token-launchpad-services .header-nabar-icon .pull-right,
+  .pull-right-tow {
+    display: none;
+    border-radius: 0px;
+    position: relative;
+    width: 255px;
+
+    text-align: center;
+    margin: 0 15px;
+    float: left !important;
+    padding: 9px 2px;
+  }
+  #ido-token-launchpad-services .sidenav a {
     font-size: 14px;
     padding: 4px 4px 8px 8px;
+  }
 }
+@media (max-width: 768px) {
+  #ido-token-launchpad-services .header-nabar-icon .pull-right,
+  .pull-right-tow {
+    display: none;
+    border-radius: 0px;
+    position: relative;
+    width: 255px;
 
-}
-@media  (max-width: 768px){
-   #ido-token-launchpad-services .header-nabar-icon .pull-right, .pull-right-tow {
-        display: none;
-        border-radius: 0px;
-        position: relative;
-      width: 255px;
-    
-        text-align: center;
-        margin: 0 15px;
-        float: left !important;
-        padding: 9px 2px;
-    }
-    #ido-token-launchpad-services .sidenav a {
+    text-align: center;
+    margin: 0 15px;
+    float: left !important;
+    padding: 9px 2px;
+  }
+  #ido-token-launchpad-services .sidenav a {
     font-size: 14px;
     padding: 4px 4px 8px 8px;
-}
+  }
 }
 /*@media  (max-width: 1024px){
    #ido-token-launchpad-services .header-nabar-icon .pull-right, .pull-right-tow {
@@ -921,44 +1132,61 @@
     }
 }*/
 
- #ido-token-launchpad-services .color-btn {
-    background-color: #1fd1f9 !important;
-    background-image: -o-linear-gradient(135deg,#b621fe 0,#1fd1f9 74%) !important;
-    background-image: linear-gradient(315deg,#b621fe 0,#1fd1f9 74%) !important;
-    border-radius: 7px;
-    color: #fff;
+#ido-token-launchpad-services .color-btn {
+  background-color: #1fd1f9 !important;
+  background-image: -o-linear-gradient(
+    135deg,
+    #b621fe 0,
+    #1fd1f9 74%
+  ) !important;
+  background-image: linear-gradient(315deg, #b621fe 0, #1fd1f9 74%) !important;
+  border-radius: 7px;
+  color: #fff;
 }
- #ido-token-launchpad-services .color-btn1{
-    border: none;
-    /*border-radius: 50px;*/
-    transition: 0.3s;
-    background: #f90cff;
-    background-image: 
-    linear-gradient(to right bottom,#f90cff,#e027ff,#c534ff,#a93eff,#8a44ff,#6560ff,#3c73ff,#0081ff,#009cff,#00b3ff,#00c6f5,#0cd7e8);
-    /* clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%); */
-    animation: glow 1s infinite;
-    transition: 0.5s;
-    padding: 10px 25px;
-    color: #fff;
-    font-weight: 700;
-    margin: 0 auto;
-    font-size: 16px;
+#ido-token-launchpad-services .color-btn1 {
+  border: none;
+  /*border-radius: 50px;*/
+  transition: 0.3s;
+  background: #f90cff;
+  background-image: linear-gradient(
+    to right bottom,
+    #f90cff,
+    #e027ff,
+    #c534ff,
+    #a93eff,
+    #8a44ff,
+    #6560ff,
+    #3c73ff,
+    #0081ff,
+    #009cff,
+    #00b3ff,
+    #00c6f5,
+    #0cd7e8
+  );
+  /* clip-path: polygon(0% 0%,90% 0,100% 30%,100% 100%,0 100%); */
+  animation: glow 1s infinite;
+  transition: 0.5s;
+  padding: 10px 25px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 16px;
 }
- #ido-token-launchpad-services .color-btn1:focus,.color-btn1:hover{
-        background-color: #47b475;
-        transition: 0.5s;
-
+#ido-token-launchpad-services .color-btn1:focus,
+.color-btn1:hover {
+  background-color: #47b475;
+  transition: 0.5s;
 }
 #ido-token-launchpad-services .color-btn1 span:hover {
-        transition: 0.3s;
-        opacity: 1;
-        font-weight: 700;
-    }
-  @media (min-width:320px) and (max-width:643px){
-       #ido-token-launchpad-services .color-btn1{
-           padding: 9px 16px!important;
-        }
-     }
+  transition: 0.3s;
+  opacity: 1;
+  font-weight: 700;
+}
+@media (min-width: 320px) and (max-width: 643px) {
+  #ido-token-launchpad-services .color-btn1 {
+    padding: 9px 16px !important;
+  }
+}
 /*.color-btn1:before{
     content: "";
     background: rgba(0,0,0,0.9);
@@ -971,31 +1199,31 @@
     z-index: -1;
 }*/
 @keyframes glow {
-        0% {
-            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
-        }
-        
-        50% {
-            box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255)
-        }
-        
-        100% {
-            box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168)
-        }
-    }
- #ido-token-launchpad-services .sticky_form_bp {
-    position: fixed;
-    right: -80px !important;
-    top: 250px;
-    z-index: 10;
-    background: #47b475;
-    color: #fff;
-    padding: 0px 15px 16px !important;
-    text-transform: capitalize;
-    font-weight: 700;
-    transform: rotate(270deg) !important;
-    cursor: pointer;
-    font-size: 14px;
+  0% {
+    box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+  }
+
+  50% {
+    box-shadow: 5px 5px 20px rgb(220, 41, 255), -5px -5px 20px rgb(220, 41, 255);
+  }
+
+  100% {
+    box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+  }
+}
+#ido-token-launchpad-services .sticky_form_bp {
+  position: fixed;
+  right: -80px !important;
+  top: 250px;
+  z-index: 10;
+  background: #47b475;
+  color: #fff;
+  padding: 0px 15px 16px !important;
+  text-transform: capitalize;
+  font-weight: 700;
+  transform: rotate(270deg) !important;
+  cursor: pointer;
+  font-size: 14px;
 }
 /*@media (max-width: 1024px){
    #ido-token-launchpad-services .sticky_form_bp {
@@ -1011,11 +1239,11 @@
 }*/
 
 @media (min-width: 320px) and (max-width: 768px) {
-/*.openbtn1{width: 70px !important; top: 21% !important;}*/
-}  
+  /*.openbtn1{width: 70px !important; top: 21% !important;}*/
+}
 
 /* The sidepanel menu */
- #ido-token-launchpad-services .sidepanel4 {
+#ido-token-launchpad-services .sidepanel4 {
   height: auto; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -1026,26 +1254,25 @@
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 0px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-
 }
 
 /* The sidepanel links */
- #ido-token-launchpad-services .sidepanel4 a {
+#ido-token-launchpad-services .sidepanel4 a {
   /*padding: 8px 8px 8px 32px;*/
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s; 
+  transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
- #ido-token-launchpad-services .sidepanel4 a:hover {
+#ido-token-launchpad-services .sidepanel4 a:hover {
   color: #f1f1f1;
 }
 
 /* Position and style the close button (top right corner) */
- #ido-token-launchpad-services .sidepanel4 .closebtn1 {
+#ido-token-launchpad-services .sidepanel4 .closebtn1 {
   position: absolute;
   top: 7px;
   right: 7px;
@@ -1057,7 +1284,7 @@
   border-radius: 50%;
   text-align: center;
   background: #eb1e2d !important;
-  line-height: 0.80em;
+  line-height: 0.8em;
   font-weight: bold;
   border: 2px solid #fff;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 70%);
@@ -1077,7 +1304,7 @@
   width: 90px;
   z-index: 99999;*/
   /*animation: zoom-in-zoom-out 1s ease infinite;*/
-  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
 }
 
 #ido-token-launchpad-services .openbtn1:hover {
@@ -1096,32 +1323,119 @@
   }
 }
 
- #ido-token-launchpad-services .close-btn{position: fixed; left: 10px; bottom: 20px; z-index: 99; color: #fff !important; font-size: 16px; font-weight: bold; border-radius: 50%; border: 0; width: 30px; height: 30px; padding: 0; box-shadow: 1px 1px 11px -3px #999; display: none; transition: all 2s; background-color: #89002a;}
- #ido-token-launchpad-services .fixed-social {position: fixed; bottom: 42px; padding: 0px 10px; background: linear-gradient(2deg, black, #868686, black); transition: all 2s; width: 200px; height: 25px; border-radius: 20px; box-shadow: 1px 1px 11px -3px #999; /*filter: drop-shadow(0 0 0.75rem crimson);*/ display: flex !important; flex-wrap: wrap; z-index: 99; justify-content: center;}
- #ido-token-launchpad-services .hide {opacity:0; left:-100%;}
- #ido-token-launchpad-services .show1 {opacity:1; left:50px;}
- #ido-token-launchpad-services .fixed-social .items{margin: 0 auto;}
- #ido-token-launchpad-services .fixed-social .items .icons{width: 55px; height: 55px; background: linear-gradient(45deg, black, transparent); padding: 5px; border-radius: 50%; margin: -17px 0; float: left;}
- #ido-token-launchpad-services .fixed-social .items .icons i{padding: 9px; background: #00a7e7; border-radius: 50%; font-size: 26px; color: #fff;}
- #ido-token-launchpad-services .fixed-social .items .text{padding-left: 60px; font-weight: bold; font-family: arial; font-size: 14px; color: #fff !important; line-height: 2.2em;}
- #ido-token-launchpad-services .fixed-social .items a{text-decoration: none; outline: none; padding: 0; margin: 0;}
+#ido-token-launchpad-services .close-btn {
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  z-index: 99;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  box-shadow: 1px 1px 11px -3px #999;
+  display: none;
+  transition: all 2s;
+  background-color: #89002a;
+}
+#ido-token-launchpad-services .fixed-social {
+  position: fixed;
+  bottom: 42px;
+  padding: 0px 10px;
+  background: linear-gradient(2deg, black, #868686, black);
+  transition: all 2s;
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 11px -3px #999; /*filter: drop-shadow(0 0 0.75rem crimson);*/
+  display: flex !important;
+  flex-wrap: wrap;
+  z-index: 99;
+  justify-content: center;
+}
+#ido-token-launchpad-services .hide {
+  opacity: 0;
+  left: -100%;
+}
+#ido-token-launchpad-services .show1 {
+  opacity: 1;
+  left: 50px;
+}
+#ido-token-launchpad-services .fixed-social .items {
+  margin: 0 auto;
+}
+#ido-token-launchpad-services .fixed-social .items .icons {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(45deg, black, transparent);
+  padding: 5px;
+  border-radius: 50%;
+  margin: -17px 0;
+  float: left;
+}
+#ido-token-launchpad-services .fixed-social .items .icons i {
+  padding: 9px;
+  background: #00a7e7;
+  border-radius: 50%;
+  font-size: 26px;
+  color: #fff;
+}
+#ido-token-launchpad-services .fixed-social .items .text {
+  padding-left: 60px;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 14px;
+  color: #fff !important;
+  line-height: 2.2em;
+}
+#ido-token-launchpad-services .fixed-social .items a {
+  text-decoration: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
-   #ido-token-launchpad-services .show1 {left:20px;}
-   #ido-token-launchpad-services .close-btn{bottom: 60px;}
+  #ido-token-launchpad-services .show1 {
+    left: 20px;
+  }
+  #ido-token-launchpad-services .close-btn {
+    bottom: 60px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 899px) {
-   #ido-token-launchpad-services .fixed-social {bottom: 80px;}  
-   #ido-token-launchpad-services .show1 {left:50px;}
-   #ido-token-launchpad-services .close-btn{bottom:60px; z-index: 999;}
+  #ido-token-launchpad-services .fixed-social {
+    bottom: 80px;
+  }
+  #ido-token-launchpad-services .show1 {
+    left: 50px;
+  }
+  #ido-token-launchpad-services .close-btn {
+    bottom: 60px;
+    z-index: 999;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-   #ido-token-launchpad-services .fixed-social .items .text{display: none;}   
-   #ido-token-launchpad-services .fixed-social {bottom: 80px; }  
-   #ido-token-launchpad-services .show1 {left:12%;} 
-   #ido-token-launchpad-services .fixed-social .items a{display: flex; justify-content: center;}
-   #ido-token-launchpad-services .close-btn{bottom:60px; z-index: 999;}
+  #ido-token-launchpad-services .fixed-social .items .text {
+    display: none;
+  }
+  #ido-token-launchpad-services .fixed-social {
+    bottom: 80px;
+  }
+  #ido-token-launchpad-services .show1 {
+    left: 12%;
+  }
+  #ido-token-launchpad-services .fixed-social .items a {
+    display: flex;
+    justify-content: center;
+  }
+  #ido-token-launchpad-services .close-btn {
+    bottom: 60px;
+    z-index: 999;
+  }
 }
- 

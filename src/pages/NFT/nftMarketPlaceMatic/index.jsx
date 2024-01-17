@@ -29,7 +29,7 @@ const nftMarketPlaceMatic = ({
 }) => {
   useEffect(() => {
     toggleHeaderBgColor("transparent", "#444");
-  });
+  },[]);
   return (
     <div style={{ paddingTop: "100px" }}>
       <Banner

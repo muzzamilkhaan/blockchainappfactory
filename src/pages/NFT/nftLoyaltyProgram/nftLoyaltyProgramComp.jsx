@@ -108,15 +108,10 @@ export const SecFour = styled.div`
     width: 50%;
     margin: auto;
     @media (max-width: 1001px) {
-      /* width: 100%; */
       img {
         margin: auto;
-        /* width: 100%; */
       }
-      /* margin: auto; */
     }
-    /* display: flex;
-    align-items: center; */
   }
   .right {
     width: 50%;

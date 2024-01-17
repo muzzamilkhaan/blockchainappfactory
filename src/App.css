@@ -502,7 +502,7 @@ a:hover {
 }
 
 a:hover {
-  color: #30D4D1 !important;
+  color: #30d4d1 !important;
 }
 
 p a {
@@ -6280,7 +6280,7 @@ span.mob_nav_ic {
   .header .main-menu > li a {
     font-size: 14px;
     text-align: left;
-    color: #fff;
+    /* color: #fff; */
     font-weight: 700;
     line-height: 35px;
     position: relative;
@@ -6684,7 +6684,7 @@ li.menu-item.cnt_m ul.mega-submenu.normal-sub {
   top: 180px;
   z-index: 10;
   /* background: #47b475; */
-  background: #30D4D1 !important;
+  background: #30d4d1 !important;
   color: #fff;
   padding: 5px 20px;
   text-transform: capitalize;
@@ -6856,7 +6856,7 @@ li.menu-item.cnt_m ul.mega-submenu.normal-sub {
 
 .sticky-form > .quick-cont-btn {
   right: -60px;
-  background-color: #30D4D1 !important;
+  background-color: #30d4d1 !important;
   /* margin-top: 50px; */
 }
 
@@ -8112,21 +8112,17 @@ p.guardian-p a {
 @keyframes animationStyle {
   from {
     height: 0px;
-
   }
   to {
     height: 79px;
-
   }
 }
 @keyframes animationStyle1 {
   from {
     height: 79px;
-
   }
   to {
     height: 0px;
-
   }
 }
 
@@ -8142,29 +8138,166 @@ p.guardian-p a {
 .faq-2.active {
   animation: animationStyle 0.5s ease-in;
   height: 79px;
-  @media (max-width:767px){
-    /* Might change in keyframe */
-    height: 95px;  
+}
+@media (max-width: 767px) {
+  .faq-2.active {
+    height: 95px;
   }
-  /* padding: 10px; */
 }
 
-.header-active{
-  background-color: #fff ;
+.header-active {
+  background-color: #fff;
   box-shadow: 0 2px 30px -11px rgba(0, 0, 0, 0.3);
-
 }
-.header-active .main-menu > li a{
+.header-active .main-menu > li a {
   color: #444 !important;
 }
-@media (max-width:767px){
-  .header-active .main-menu > li a{
+@media (max-width: 767px) {
+  .header-active .main-menu > li a {
     color: #fff !important;
   }
-  .header{
+  .header {
     background-color: #fff !important;
   }
-  .menu-item a{
-    color: #fff  !important;
+  .menu-item a {
+    color: #fff !important;
+  }
+}
+
+/* SIDE BAR SOCIAL CSS */
+.openbtn1 {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+}
+
+.openbtn1:hover {
+  background-color: transparent;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
+
+.close-btn {
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  z-index: 99;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  box-shadow: 1px 1px 11px -3px #999;
+  display: none;
+  transition: all 2s;
+  background-color: #89002a;
+}
+.fixed-social {
+  position: fixed;
+  bottom: 42px;
+  padding: 0px 10px;
+  background: linear-gradient(2deg, black, #868686, black);
+  transition: all 2s;
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 11px -3px #999; /*filter: drop-shadow(0 0 0.75rem crimson);*/
+  display: flex !important;
+  flex-wrap: wrap;
+  z-index: 99;
+  justify-content: center;
+}
+.hide {
+  opacity: 0;
+  left: -100%;
+}
+.show1 {
+  opacity: 1;
+  left: 50px;
+}
+.fixed-social .items {
+  margin: 0 auto;
+}
+.fixed-social .items .icons {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(45deg, black, transparent);
+  padding: 5px;
+  border-radius: 50%;
+  margin: -17px 0;
+  float: left;
+}
+.fixed-social .items .icons i {
+  padding: 9px;
+  background: #00a7e7;
+  border-radius: 50%;
+  font-size: 26px;
+  color: #fff;
+}
+.fixed-social .items .text {
+  padding-left: 60px;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 14px;
+  color: #fff !important;
+  line-height: 2.2em;
+}
+.fixed-social .items a {
+  text-decoration: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .show1 {
+    left: 20px;
+  }
+  .close-btn {
+    bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .fixed-social {
+    bottom: 80px;
+  }
+  .show1 {
+    left: 50px;
+  }
+  .close-btn {
+    bottom: 60px;
+    z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .fixed-social .items .text {
+    display: none;
+  }
+  .fixed-social {
+    bottom: 80px;
+  }
+  .show1 {
+    left: 12%;
+  }
+  .fixed-social .items a {
+    display: flex;
+    justify-content: center;
+  }
+  .close-btn {
+    bottom: 60px;
+    z-index: 999;
   }
 }
