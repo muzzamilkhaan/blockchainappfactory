@@ -29,6 +29,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import CreateYourOwnTokenAndCoin from "./components/shared/CreateYourOwnTokenAndCoin";
 import Header from "./headerFooter/Header";
 import Footer from "./headerFooter/Footer";
+import BottomFooter from "./components/shared/bottomFooter/bottomFooter.jsx";
 const ContactUs = lazy(() => import("./pages/contactUs/ContactUs"));
 const QuickContact = lazy(() => import("./components/shared/QuickContact"));
 const LoginPopup = lazy(() => import("./components/shared/LoginPopup"));
@@ -45,6 +46,8 @@ import IcoIdoRoutes from "./Routes/IcoIdoRoutes";
 import ExchangeRoutes from "./Routes/ExchangeRoutes";
 import ScrollToTop from "./components/shared/ScrollToTop";
 import NotFound from "./components/shared/notFound/notFound";
+import LandingPage from "./pages/landingpage/LandingPage";
+import SideBar from "./components/shared/sideBar/SideBar.jsx";
 
 function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
@@ -128,7 +131,7 @@ function App() {
             <Route
               path="*"
               element={
-                <NotFound
+                <LandingPage
                   headerBgColor={headerBgColor}
                   toggleHeaderBgColor={toggleHeaderBgColor}
                   linkColor={linkColor}
@@ -138,7 +141,9 @@ function App() {
           </Routes>
         </Suspense>
       </Router>
-      <SideSocialBar />
+      {/* <SideSocialBar /> */}
+      <SideBar />
+      <BottomFooter />
       <Footer />
     </>
   );

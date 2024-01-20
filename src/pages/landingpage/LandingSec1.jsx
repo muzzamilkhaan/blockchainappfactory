@@ -201,7 +201,11 @@ function LandingSec1() {
                   </div> */}
                 </div>
                 <div className="right" >
-                  <img src="./assets/images/home-sec-1.PNG" alt="" />{" "}
+                  <img src="./assets/images/left-banner.png" alt="" className="one" />{" "}
+                  <img src="./assets/images/right-banner.png" alt="" className="two"/>{" "}
+                  <img src="./assets/images/left-img-banner.png" alt="" className="three"/>{" "}
+                  <img src="./assets/images/right-img-banner.png" alt="" className="four"/>{" "}
+                  <img src="./assets/images/coin-banner.png" alt="" className="five"/>{" "}
                 </div>
               </div>
             </div>

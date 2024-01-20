@@ -1,13 +1,11 @@
 import React from "react";
 
-
 function LandingSec2() {
-
   return (
     <div id="why_blockchainappfactory">
       <div className="container">
         <div className="main-sections row home-sec-2">
-          <div className="col-lg-12 text-center">
+          <div className="col-lg-7 text-center sec-left">
             <div className="section-header underline">
               <h2 className="common_h2">
                 Blockchain Development Company Offering Futuristic Web3 Services
@@ -51,6 +49,12 @@ function LandingSec2() {
                 Talk With Our Experts
               </a>
             </div>
+          </div>
+          <div className="col-lg-5 text-center sec-right">
+            <img src="./assets/images/left-sec-img.png" alt="" className="one"/>
+            <img src="./assets/images/right-sec-img.png" alt="" className="two"/>
+            <img src="./assets/images/center-sec-img.png" alt="" className="three"/>
+            
           </div>
         </div>
       </div>
