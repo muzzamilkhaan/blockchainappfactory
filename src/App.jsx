@@ -52,37 +52,48 @@ import SideBar from "./components/shared/sideBar/SideBar.jsx";
 function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
   const [linkColor, setLinkColor] = useState("");
-
+  const [colorLogo, setColorLogo] = useState("");
+  
   useEffect(() => {
     // Retrieve theme from local storage
     const storedTheme = localStorage.getItem("headerBgColor");
     const link_color = localStorage.getItem("linkColor");
+    const color_logo = localStorage.getItem("logoColor");
 
     // Set the theme based on the stored value or default to 'dark'
     const initialTheme = storedTheme || "transparent";
     const initialLink = link_color || "#fff";
+    const initialLogo = color_logo || "#fff";
     setHeaderBgColor(initialTheme);
     setLinkColor(initialLink);
+    setColorLogo(initialLogo);
 
     if (!storedTheme) {
       localStorage.setItem("headerBgColor", "transparent");
       localStorage.setItem("linkColor", "#fff");
+      localStorage.setItem("logoColor", "#fff");
     }
   }, []);
 
-  const toggleHeaderBgColor = (color, link) => {
+  const toggleHeaderBgColor = (color, link, logoColor) => {
     const newTheme = color;
     const newLink = link;
+    const colorLogo = logoColor;
     setHeaderBgColor(newTheme);
     setLinkColor(newLink);
     localStorage.setItem("headerBgColor", newTheme);
     localStorage.setItem("linkColor", newLink);
+    localStorage.setItem("logoColor", colorLogo);
   };
   return (
     <>
       <Router>
         <LocationAwareScrollToTop />
-        <Header headerBgColor={headerBgColor} linkColor={linkColor} />
+        <Header
+          headerBgColor={headerBgColor}
+          linkColor={linkColor}
+          colorLogo={colorLogo}
+        />
         <QuickContact />
         <LoginPopup />
         <Suspense fallback={""}>

@@ -5408,7 +5408,7 @@ form.gsc-search-box {
 }
 
 .top-wrapper {
-    background: #00b7c2;
+    /* background: #00b7c2; */
     color: #fff;
     padding: 5px 0;
     transition: 1s
@@ -6845,7 +6845,7 @@ a.home-talk-experts {
 
 .copyright-block--l3 {
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 85px;
 }
 
 .copyright-text--l3 {

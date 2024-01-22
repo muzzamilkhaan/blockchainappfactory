@@ -18,10 +18,10 @@ import LandingSec13 from "./LandingSec13";
 import LandingSec14 from "./LandingSec14";
 import LandingSec15 from "./LandingSec15";
 
-const LandingPage = ({headerBgColor , toggleHeaderBgColor , linkColor}) => {
-useEffect(() =>{
-  toggleHeaderBgColor('transparent' , '#fff')
-})
+const LandingPage = ({ headerBgColor, toggleHeaderBgColor, linkColor }) => {
+  useEffect(() => {
+    toggleHeaderBgColor("transparent", "#fff", "#fff");
+  });
   // console.log("headerBgColor:",headerBgColor);
   const data = [
     {
@@ -47,7 +47,11 @@ useEffect(() =>{
   ];
   return (
     <>
-      <Header headerBgColor={headerBgColor} linkColor={linkColor}/>
+      <Header
+        headerBgColor={headerBgColor}
+        linkColor={linkColor}
+        colorLogo={"#fff"}
+      />
       <div className="header-shadow" id="home">
         <LandingSec1 />
         <LandingSec2 />

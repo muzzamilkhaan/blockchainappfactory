@@ -8,21 +8,21 @@ const bottomFooter = () => {
       <div className="bottom-footer-wrap">
         <div className="one">
           <img src="./assets/images/telegram.png" alt="" />
-          <p>Telegram</p>
+          <a href="https://telegram.org/" target="_blank">Telegram</a>
         </div>
 
         <div className="two">
           <img src="./assets/images/whatsapp.png" alt="" />
 
-          <p>WhatsApp</p>
+          <a href="https://www.whatsapp.com/" target="_blank">WhatsApp</a>
         </div>
         <div className="three">
           <img src="./assets/images/bitcoin.png" alt="" />
-          <p>Telegram</p>
+          <a href="#" target="_blank">Create Token</a>
         </div>
         <div className="four">
           <img src="./assets/images/dollar.png" alt="" />
-          <p>Telegram</p>
+          <a href="#" target="_blank">GET QUOTE</a>
         </div>
       </div>
     </div>

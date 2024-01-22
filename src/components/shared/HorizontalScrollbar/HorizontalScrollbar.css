@@ -1,0 +1,14 @@
+.horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* Enables momentum scrolling on iOS devices */
+  width: 100%;
+  touch-action: pan-y;
+  cursor: grab;
+  white-space: nowrap;
+}
+
+.horizontal-scroll-container:active {
+  cursor: grabbing;
+}
