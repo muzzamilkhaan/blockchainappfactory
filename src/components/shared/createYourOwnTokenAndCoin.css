@@ -136,6 +136,12 @@
 
 #create-your-own-token-and-coin h3.common_h3 {
   font-size: 30px !important;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 1.5px;
+  text-align: center;
 }
 
 #create-your-own-token-and-coin .para {
@@ -206,8 +212,8 @@
   font-weight: 700;
   font-size: 32px;
 }
-@media (max-width:768px){
-  #create-your-own-token-and-coin .ban_tirt{
+@media (max-width: 768px) {
+  #create-your-own-token-and-coin .ban_tirt {
     padding-top: 65px;
   }
 }
@@ -242,7 +248,7 @@
 #create-your-own-token-and-coin .bg-dark-half-md {
   /* background: #368b5a;
      */
-  background: linear-gradient(81.32deg, #2a317d 0%, #1c224f 100%);
+  background: linear-gradient(81.32deg, #4418ad 0%, #1c1039 100%);
   width: 100%;
   display: inline-block;
   padding: 100px 0;
@@ -330,7 +336,7 @@
 
 #create-your-own-token-and-coin .bg-dark-half-md {
   /* background: #368b5a; */
-  background: linear-gradient(81.32deg, #2a317d 0%, #1c224f 100%);
+  background: linear-gradient(81.32deg, #4418ad 0%, #1c1039 100%);
 
   width: 100%;
   display: inline-block;
@@ -689,14 +695,14 @@
   border: 2px solid #ddd;
 }
 
-@media (max-width:767px){
-    #create-your-own-token-and-coin  .main{
-        margin-top: 0px;
-    }
-    #create-your-own-token-and-coin .coin-fill-form .free-consult h2{
-        font-size: 25px;
-    }
-    #create-your-own-token-and-coin .sec-side-right h2{
-        font-size: 25px;
-    }
+@media (max-width: 767px) {
+  #create-your-own-token-and-coin .main {
+    margin-top: 0px;
+  }
+  #create-your-own-token-and-coin .coin-fill-form .free-consult h2 {
+    font-size: 25px;
+  }
+  #create-your-own-token-and-coin .sec-side-right h2 {
+    font-size: 25px;
+  }
 }

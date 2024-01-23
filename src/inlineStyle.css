@@ -12,8 +12,7 @@
   margin-top: -40px;
   margin-left: -40px;
   /* background-color: #f9f9f9; */
-  background: linear-gradient(81.32deg, #2a317d 0%, #1c224f 100%);
-
+  background: #2c126b;
   box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.22);
   border-radius: 7px;
 }
@@ -31,13 +30,13 @@
 
 .contact-content a svg {
   /* color: #47b475; */
-  color: #30D4D1;
+  color: #30d4d1;
   font-size: 24px;
 }
 
 .form-control {
   background: #00000059 !important;
-border: none !important;
+  border: none !important;
 }
 
 .pad-40-20 {

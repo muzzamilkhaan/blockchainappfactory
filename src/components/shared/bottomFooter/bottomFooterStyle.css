@@ -6,6 +6,21 @@
   bottom: 0;
   z-index: 999;
   cursor: pointer;
+  background-color: #fff;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0.8;
+    box-shadow: 0 0 10px 5px #1d93d2; /* Adjust the glow effect */
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 20px 10px #1d93d2; /* Adjust the glow effect */
+  }
+  100% {
+    opacity: 0.8;
+    box-shadow: 0 0 10px 5px #1d93d2; /* Adjust the glow effect */
+  }
 }
 .bottom-footer-wrap .one {
   flex: 1;
@@ -15,6 +30,7 @@
   align-items: center;
   gap: 13px;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
+  animation: fadeInOut 2s infinite; 
 }
 .bottom-footer-wrap a {
   font-family: Open Sans;
@@ -36,6 +52,20 @@
   box-shadow: 0px 0px 35px 3px #2a317d;
   transform: scale(1);
 }
+@keyframes glowTwo {
+  0% {
+    opacity: 0.8;
+    box-shadow: 0 0 20px 5px #25d366;
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 20px 10px #25d366;
+  }
+  100% {
+    opacity: 0.8;
+    box-shadow: 0 0 10px 5px #25d366;
+  }
+}
 .bottom-footer-wrap .two {
   flex: 1;
   background: linear-gradient(90deg, #25d366 0%, #199748 100%);
@@ -43,11 +73,28 @@
   justify-content: center;
   align-items: center;
   gap: 13px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  animation: glowTwo 2s infinite; /* Adjust the duration as needed */
 }
 /*  */
 .bottom-footer-wrap .two:hover {
   box-shadow: 0px 0px 35px 3px #2a317d;
   transform: scale(1);
+}
+
+@keyframes glowThree {
+  0% {
+    opacity: 0.8;
+    box-shadow: 0 0 5px 3px #4418ad; /* Adjust the glow effect */
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 10px 5px #4418ad; /* Adjust the glow effect */
+  }
+  100% {
+    opacity: 0.8;
+    box-shadow: 0 0 5px 3px #4418ad; /* Adjust the glow effect */
+  }
 }
 .bottom-footer-wrap .three {
   flex: 1;
@@ -56,11 +103,27 @@
   justify-content: center;
   align-items: center;
   gap: 13px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  animation: glowThree 2s infinite;
 }
 
 .bottom-footer-wrap .three:hover {
   box-shadow: 0px 0px 35px 3px #2a317d;
   transform: scale(1);
+}
+@keyframes glowFour {
+  0% {
+    opacity: 0.8;
+    box-shadow: 0 0 5px 3px #f9c627; /* Adjust the glow effect */
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 10px 5px #f9c627; /* Adjust the glow effect */
+  }
+  100% {
+    opacity: 0.8;
+    box-shadow: 0 0 5px 3px #f9c627; /* Adjust the glow effect */
+  }
 }
 .bottom-footer-wrap .four {
   flex: 1;
@@ -69,6 +132,8 @@
   justify-content: center;
   align-items: center;
   gap: 13px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  animation: glowFour 2s infinite;
 }
 
 .bottom-footer-wrap .four:hover {

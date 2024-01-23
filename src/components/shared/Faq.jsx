@@ -41,8 +41,12 @@ function Faq({ data, className }) {
                             className={`${
                               activeTab !== index ? "collapsed" : ""
                             }`}
-                            style={{ fontFamily: "Lato,sans-serif" }}
+                            style={{
+                              fontFamily: "Lato,sans-serif",
+                            }}
                           >
+                            {/* {activeTab === index ? "−" : "+"} */}
+
                             {item.title}
                           </a>
                         </h4>
@@ -58,9 +62,7 @@ function Faq({ data, className }) {
                           className="panel-body"
                           style={{ whiteSpace: "pre-line" }}
                           dangerouslySetInnerHTML={{ __html: item.desc }}
-                        >
-                          {/* {item.desc} */}
-                        </div>
+                        ></div>
                       </div>
                     </div>
                   );

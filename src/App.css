@@ -1031,12 +1031,21 @@ ul {
   background: none;
   padding: 0 7px;
 }
+@keyframes borderAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .menu-item .create-token-button {
+  position: relative;
   margin-bottom: 0;
-  border: none; /* box-shadow: 0px 0px 50px 3px #282F77; */
+  border: none; 
   color: #282f77;
   font-weight: 700;
-  /* box-shadow: 0px 4px 4px 0px #00000040; */
+  box-shadow: 1px 0.5px 11px 1px #00000021;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 700;
@@ -1044,7 +1053,45 @@ ul {
   letter-spacing: 0em;
   text-align: center;
   background-color: #fff;
+  overflow: hidden;
+  offset: 5px;
+  /* width: 180px;
+  height: 35px; */
+  /* border-radius: 18px; */
 }
+.create-token-button ::after {
+  -webkit-animation: clippath 3s infinite -1.5s linear;
+  animation: clippath 3s infinite -1.5s linear;
+}
+
+/* 
+.menu-item .create-token-button::before {
+  content: "";
+  position: absolute;
+  width: 380px;
+  height: 10%;
+  background: linear-gradient(#00ccff, #d500f9);
+  animation: borderAnimation 4s linear infinite;
+}
+.menu-item .create-token-button::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 16px;
+} */
+
+@media (max-width: 767px) {
+  .menu-mobile .main-menu .create-token-style {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    gap: 5px !important;
+    justify-content: start !important;
+  }
+  .menu-item .anchor::after {
+    display: none !important;
+  }
+}
+
 .header .menu-item a {
   color: #fff;
   text-transform: uppercase;
@@ -6507,6 +6554,25 @@ html {
   color: #666;
   font-weight: normal;
 }
+.faq-content #accordion a[data-toggle=collapse]::before {
+  content: "+";
+  float: left;
+  font-family: 'Glyphicons Halflings';
+  margin-right: 1em;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 6px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  background: #333;
+}
 
 .faq-saelect {
   background: #f3f3f3;
@@ -8214,6 +8280,9 @@ p.guardian-p a {
 }
 .header-active .main-menu > li a {
   color: #444 !important;
+}
+.humburger-active{
+  color: #000 !important;
 }
 @media (max-width: 767px) {
   .header-active .main-menu > li a {

@@ -198,6 +198,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                   </span>{" "}
                   Projects in progress <strong>50+</strong>
                 </li>
+                {/* <div style={{}} className="d-flex justify-content-center"> */}
                 <li>
                   <span>
                     <FaUsers />
@@ -210,6 +211,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                   </span>{" "}
                   Blockchain Experts <strong>150+</strong>
                 </li>
+                {/* </div> */}
               </ul>
             </div>
           </div>
@@ -258,7 +260,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
               style={{
                 borderRadius: 7,
                 background:
-                  "linear-gradient(81.32deg, #2A317D 0%, #1C224F 100%)",
+                  "linear-gradient(81.32deg, #4418AD 0%, #1C1039 100%)",
               }}
             >
               <div className="col-md-5 col-sm-12  ">
@@ -302,7 +304,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       name="name"
                       placeholder="Full Name"
                       required=""
-                      style={{color:"#fff"}}
+                      style={{ color: "#fff" }}
                     />
                   </div>
                   <div className="form-group col-md-6 col-sm-12 ">
@@ -314,7 +316,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       name="email"
                       placeholder="Email address"
                       required=""
-                      style={{color:"#fff"}}
+                      style={{ color: "#fff" }}
                     />
                   </div>
                   <div className="form-group col-md-6 col-sm-12">
@@ -337,7 +339,11 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                         required=""
                         autoComplete="off"
                         placeholder="(201) 555-0123"
-                        style={{background:"#00000059",border:"none",color:"#fff" }}
+                        style={{
+                          background: "#00000059",
+                          border: "none",
+                          color: "#fff",
+                        }}
                         // className="form-control"
                       />
                     </div>
@@ -368,7 +374,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       name="skype"
                       placeholder="Skype ID"
                       required=""
-                      style={{color:"#fff"}}
+                      style={{ color: "#fff" }}
                     />
                   </div>
                   <div className="form-group newsletter-btns text-left col-md-12 mb10">
@@ -377,11 +383,14 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       href="https://join.skype.com/invite/c0fHGB5VrAXm"
                       target="_blank"
                       className="home-talk-experts space-right"
-                      style={{ borderRadius: 30,background:"#30D4D1" }}
+                      style={{ borderRadius: 30, background: "#30D4D1" }}
                     >
                       Connect with Skype
                     </a>{" "}
-                    <span className="or" style={{ color: "#fff",padding:"0px 4px" }}>
+                    <span
+                      className="or"
+                      style={{ color: "#fff", padding: "0px 4px" }}
+                    >
                       (OR)
                     </span>
                     <a
@@ -389,7 +398,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       rel="nofollow"
                       href="https://api.whatsapp.com/send?l=en&text=Hi!%20I%27m%20interested%20in%20one%20of%20your%20products%20at%20BLOCKCHAIN%20APP%20FACTORY&phone=916382665366"
                       className="home-talk-experts space-right"
-                      style={{ borderRadius: 30,background:"#30D4D1"  }}
+                      style={{ borderRadius: 30, background: "#30D4D1" }}
                     >
                       Connect with Whatsapp
                     </a>
@@ -404,7 +413,7 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       required=""
                       rows={3}
                       defaultValue={""}
-                      style={{color:"#fff"}}
+                      style={{ color: "#fff" }}
                     />
                   </div>
                   <div className="form-group col-md-12">
@@ -445,7 +454,11 @@ function WeSpotlightedIn({ backgroundImage, backgroundColor }) {
                       <iframe style={{ display: "none" }} />
                     </div>
                     <br />
-                    <button type="button" className="common_send_btn" style={{background:"#30D4D1" }}>
+                    <button
+                      type="button"
+                      className="common_send_btn"
+                      style={{ background: "#30D4D1" }}
+                    >
                       Submit
                     </button>
                   </div>

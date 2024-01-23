@@ -6,7 +6,7 @@ function LandingSec11() {
     <section
       className="space-pt bg-dark-half-md tech-padding teck"
       style={{
-        background: "linear-gradient(81.32deg, #2A317D 0%, #1C224F 100%)",
+        background: "linear-gradient((81.32deg, #4418AD 0%, #1C1039 100%)",
       }}
     >
       <div className="container">

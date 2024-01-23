@@ -26,7 +26,11 @@ import "./cryptoCurrency.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 
 // IMPORT COMPONENT
-import CreateYourOwnTokenAndCoin from "./components/shared/CreateYourOwnTokenAndCoin";
+// import CreateYourOwnTokenAndCoin from "./components/shared/CreateYourOwnTokenAndCoin";
+const CreateYourOwnTokenAndCoin = lazy(() =>
+  import("./components/shared/CreateYourOwnTokenAndCoin")
+);
+
 import Header from "./headerFooter/Header";
 import Footer from "./headerFooter/Footer";
 import BottomFooter from "./components/shared/bottomFooter/bottomFooter.jsx";
@@ -53,7 +57,7 @@ function App() {
   const [headerBgColor, setHeaderBgColor] = useState("");
   const [linkColor, setLinkColor] = useState("");
   const [colorLogo, setColorLogo] = useState("");
-  
+
   useEffect(() => {
     // Retrieve theme from local storage
     const storedTheme = localStorage.getItem("headerBgColor");
@@ -94,7 +98,7 @@ function App() {
           linkColor={linkColor}
           colorLogo={colorLogo}
         />
-        <QuickContact />
+        {/* <QuickContact /> */}
         <LoginPopup />
         <Suspense fallback={""}>
           <Routes>
@@ -134,10 +138,10 @@ function App() {
                 />
               }
             />
-            <Route
+            {/* <Route
               path="/contact"
               element={<ContactUs headerBgColor={headerBgColor} />}
-            />
+            /> */}
             {/* PAGE NOT FOUND */}
             <Route
               path="*"

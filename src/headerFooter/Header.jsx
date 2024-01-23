@@ -48,8 +48,6 @@ function Header({ headerBgColor, linkColor, colorLogo }) {
     // console.log("logoToRender", logoToRender);
   }, [headerBgColor, linkColor, fixedHeader]);
 
-  // console.log("headerBgColor:", headerBgColor);
-
   return (
     <>
       <div
@@ -62,11 +60,11 @@ function Header({ headerBgColor, linkColor, colorLogo }) {
               <div className="col-xs-12 d-flex flex-wrap-wrap justify-content-between">
                 <div className="cont-det">
                   <a href="tel:+916382665366">
-                    <FaMobileAlt />
+                    <FaMobileAlt color="#30D4D1" />
                     +91 63826 65366
                   </a>
                   <a href="mailto:info@blockchainappfactory.com">
-                    <FaEnvelope />
+                    <FaEnvelope color="#30D4D1" />
                     info@blockchainappfactory.com
                   </a>
                 </div>
@@ -87,8 +85,8 @@ function Header({ headerBgColor, linkColor, colorLogo }) {
             <LogoSVG logoColor={colorLogo} fixedHeader={fixedHeader} />
           </Link>
           <span
-            className="mob_nav_ic"
-            style={{ fontSize: 30, cursor: "pointer" }}
+            className={`mob_nav_ic ${fixedHeader ? "humburger-active" : ""}`}
+            style={{ fontSize: 30, cursor: "pointer", color: "#fff" }}
             // onClick="if (!window.__cfRLUnblockHandlers) return false; openNav()"
             onClick={() => {
               setOpen(true);
@@ -114,8 +112,11 @@ function Header({ headerBgColor, linkColor, colorLogo }) {
             {/* <button>CREATE TOKEN</button> */}
             <a href="#" className="menu-mobile" />
             <ul className="main-menu">
-              <li className="menu-item menu-dropdown-icon">
-                <Link to="/create-your-own-token-and-coin">
+              <li
+                className="menu-item menu-dropdown-icon create-token-style"
+                style={{}}
+              >
+                <Link to="/create-your-own-token-and-coin " className="anchor">
                   <button className="create-token-button">CREATE TOKEN </button>
                 </Link>
               </li>

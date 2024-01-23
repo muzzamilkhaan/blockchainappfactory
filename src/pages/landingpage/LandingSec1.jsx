@@ -36,7 +36,10 @@ function LandingSec1() {
                       Talk With Our Experts
                     </a>
                   </div>
-                  <div className="row">
+                  <div
+                    className=""
+                    style={{ display: "flex", flexWrap: "wrap" }}
+                  >
                     <div className="col-lg-3 col-sm-6 col-xs-6 padding-b-class">
                       <div className="counter-icon">
                         <img
@@ -112,7 +115,7 @@ function LandingSec1() {
                       </div>
                     </div>
                   </div>
-                
+
                   {/*  */}
                   {/* <div
                     className="counter-section set-as-background background-fixed section-text-whilte"
@@ -200,12 +203,32 @@ function LandingSec1() {
                     </div>
                   </div> */}
                 </div>
-                <div className="right" >
-                  <img src="./assets/images/left-banner.png" alt="" className="one" />{" "}
-                  <img src="./assets/images/right-banner.png" alt="" className="two"/>{" "}
-                  <img src="./assets/images/left-img-banner.png" alt="" className="three"/>{" "}
-                  <img src="./assets/images/right-img-banner.png" alt="" className="four"/>{" "}
-                  <img src="./assets/images/coin-banner.png" alt="" className="five"/>{" "}
+                <div className="right">
+                  <img
+                    src="./assets/images/left-banner.png"
+                    alt=""
+                    className="one"
+                  />{" "}
+                  <img
+                    src="./assets/images/right-banner.png"
+                    alt=""
+                    className="two"
+                  />{" "}
+                  <img
+                    src="./assets/images/left-img-banner.png"
+                    alt=""
+                    className="three"
+                  />{" "}
+                  <img
+                    src="./assets/images/right-img-banner.png"
+                    alt=""
+                    className="four"
+                  />{" "}
+                  <img
+                    src="./assets/images/coin-banner.png"
+                    alt=""
+                    className="five"
+                  />{" "}
                 </div>
               </div>
             </div>

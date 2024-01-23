@@ -57,7 +57,7 @@ const LandingPage = ({ headerBgColor, toggleHeaderBgColor, linkColor }) => {
         <LandingSec2 />
         <LandingSec3 />
         {/* <LandingSec4 /> */}
-        <LandingSec5 />
+        {/* <LandingSec5 /> */}
         <LandingSec6 />
         <LandingSec7 />
         <LandingSec8 />

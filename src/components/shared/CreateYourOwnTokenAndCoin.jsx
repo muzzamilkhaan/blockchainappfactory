@@ -4,6 +4,7 @@ import Footer from "../../headerFooter/Footer";
 import "./createYourOwnTokenAndCoin.css";
 import WeSpotlightedIn from "./WeSpotlightedIn";
 import UnderLine from "../UnderLine";
+import CustomImgSlider from "./customImgSlider/customImgSlider";
 // import { useLocation } from "react-router-dom";
 
 function CreateYourOwnTokenAndCoin({
@@ -32,7 +33,7 @@ function CreateYourOwnTokenAndCoin({
         {/* <Header headerBgColor={headerBgColor}/> */}
         <div className="main">
           <div className="banner my_banner">
-          <div className="banner-overlay1"></div> 
+            <div className="banner-overlay1"></div>
             <div className="banner_content">
               <div className="container">
                 <div className="row">
@@ -313,7 +314,8 @@ function CreateYourOwnTokenAndCoin({
                   <UnderLine height="2px" background="#fff" />
                 </div>
               </div>
-              <div className="row mt50">
+              <CustomImgSlider />
+              {/* <div className="row mt50">
                 <div className="col-sm-12 ">
                   <div
                     className="category category-grid-style-01 aos-item aos-init"
@@ -416,7 +418,7 @@ function CreateYourOwnTokenAndCoin({
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </section>
           <WeSpotlightedIn />
